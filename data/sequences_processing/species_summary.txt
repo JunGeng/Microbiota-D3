@@ -1,0 +1,122 @@
+Index_initial	Name_initial	Name_trimmed	Note	seq_number	species_taxid
+1.0	Bacteroides_dorei_vulgatus	Bacteroides dorei		51.0	357276
+1.1		Bacteroides vulgatus		92.0	821
+2.0	Bacteroides_uniformis	Bacteroides uniformis		151.0	820
+3.0	Faecalibacterium_prausnitzii	Faecalibacterium prausnitzii		79.0	853
+4.0	Parabacteroides_distasonis	Parabacteroides distasonis		79.0	823
+5.0	Eubacterium_rectale	[Eubacterium] rectale		53.0	39491
+6.0	Alistipes_putredinis	Alistipes putredinis		2.0	28117
+7.0	Odoribacter_splanchnicus	Odoribacter splanchnicus		14.0	28118
+8.0	Ruminococcus_bromii	Ruminococcus bromii		18.0	40518
+9.0	Parabacteroides_merdae	Parabacteroides merdae		36.0	46503
+10.0	Bacteroides_thetaiotaomicron	Bacteroides thetaiotaomicron		41.0	818
+11.0	Bacteroides_xylanisolvens	Bacteroides xylanisolvens		90.0	371601
+12.0	Ruminococcus_sp__5_1_39BFAA	Ruminococcus sp. 5_1_39BFAA		1.0	457412
+13.0	Bacteroides_ovatus	Bacteroides ovatus		53.0	28116
+14.0	Roseburia_inulinivorans	Roseburia inulinivorans		12.0	360807
+15.0	X_Ruminococcus__torques	[Ruminococcus] torques		16.0	33039
+16.0	Escherichia_coli	Escherichia coli		18327.0	{2560450, 2560449, 562}
+17.0	Eubacterium_eligens	[Eubacterium] eligens		18.0	39485
+18.0	Bilophila_wadsworthia	Bilophila wadsworthia		3.0	35833
+19.0	Collinsella_aerofaciens	Collinsella aerofaciens		25.0	74426
+20.0	Bacteroides_caccae	Bacteroides caccae		47.0	47678
+21.0	Alistipes_shahii	Alistipes shahii		4.0	328814
+22.0	Alistipes_sp__HGB5	Alistipes sp. HGB5		1.0	908612
+23.0	Coprococcus_comes	Coprococcus comes		11.0	410072
+24.0	Dorea_longicatena	Dorea longicatena		16.0	88431
+25.0	Roseburia_intestinalis	Roseburia intestinalis		11.0	166486
+26.0	butyrate_producing_bacterium_SS3_4	butyrate-producing bacterium SS3/4		1.0	245014
+27.0	Ruminococcus_sp__SR1_5	Ruminococcus sp. SR1/5		1.0	657323
+28.0	butyrate_producing_bacterium	butyrate-producing bacterium		2.0	{245012, 245014}
+29.0	Eubacterium_hallii	Anaerobutyricum hallii	?	10.0	39488
+30.0	Dorea_formicigenerans	Dorea formicigenerans		28.0	39486
+31.0	Roseburia_hominis	Roseburia hominis		4.0	301301
+32.0	X_Ruminococcus__obeum	Blautia obeum	?	38.0	40520
+33.0	Coprococcus_catus	Coprococcus catus		2.0	116085
+34.0	Prevotella_copri	Prevotella copri		106.0	165179
+35.0	Clostridium_bolteae	[Clostridium] bolteae		16.0	208479
+36.0	Bacteroides_fragilis	Bacteroides fragilis		165.0	817
+37.0	Bifidobacterium_longum	Bifidobacterium longum		325.0	216816
+38.0	Bifidobacterium_adolescentis	Bifidobacterium adolescentis		51.0	1680
+39.0	Streptococcus_thermophilus	Streptococcus thermophilus		60.0	1308
+40.0	Akkermansia_muciniphila	Akkermansia muciniphila		128.0	239935
+41.0	Pseudoflavonifractor_capillosus	Pseudoflavonifractor capillosus		1.0	106588
+42.0	Holdemania_filiformis	Holdemania filiformis		3.0	61171
+43.0	Ruminococcaceae_bacterium_D16	Ruminococcaceae bacterium D16		1.0	552398
+44.0	Streptococcus_salivarius	Streptococcus salivarius		98.0	1304
+45.0	Clostridium_leptum	[Clostridium] leptum		5.0	1535
+46.0	Eubacterium_siraeum	[Eubacterium] siraeum		3.0	39492
+47.0	Eubacterium_ventriosum	Eubacterium ventriosum		9.0	39496
+48.0	Parasutterella_excrementihominis	Parasutterella excrementihominis		15.0	487175
+49.0	Eggerthella_lenta	Eggerthella lenta		39.0	84112
+50.0	Streptococcus_parasanguinis	Streptococcus parasanguinis		59.0	1318
+51.0	Ruminococcus_lactaris	Ruminococcus lactaris		6.0	46228
+52.0	Haemophilus_parainfluenzae	Haemophilus parainfluenzae		40.0	729
+53.0	Bifidobacterium_catenulatum_Bifidobacterium_pseudocatenulatum_complex	Bifidobacterium catenulatum		15.0	1686
+53.1		Bifidobacterium pseudocatenulatum		72.0	28026
+54.0	X_Clostridium__bartlettii	Intestinibacter bartlettii	?	5.0	261299
+55.0	Veillonella_parvula	Veillonella parvula		14.0	29466
+56.0	Acidaminococcus_fermentans	Acidaminococcus fermentans		5.0	905
+57.0	Acidaminococcus_intestini	Acidaminococcus intestini		4.0	187327
+58.0	Anaerostipes_caccae	Anaerostipes caccae		4.0	105841
+59.0	Atopobium_rimae	Atopobium rimae		2.0	1383
+60.0	Bacteroides_plebeius	Bacteroides plebeius		21.0	310297
+61.0	Blautia_hansenii	Blautia hansenii		3.0	1322
+62.0	Brevibacterium_linens	Brevibacterium linens		7.0	1703
+63.0	Butyrivibrio_crossotus	Butyrivibrio crossotus		2.0	45851
+64.0	Citrobacter_sp__30_2	Citrobacter portucalensis	? Strain	21.0	1639133
+65.0	Citrobacter_youngae	Citrobacter youngae		7.0	133448
+66.0	Clostridiales_bacterium_1_7_47FAA	Clostridiales bacterium 1_7_47FAA		1.0	457421
+67.0	Clostridium_ramosum	Erysipelatoclostridium ramosum	?	11.0	1547
+68.0	Clostridium_scindens	[Clostridium] scindens		6.0	29347
+69.0	Clostridium_sp__HGF2	Clostridium sp. HGF2		1.0	908340
+70.0	Clostridium_sp__L2_50	Clostridium sp. L2-50		1.0	411489
+71.0	Clostridium_spiroforme	[Clostridium] spiroforme		6.0	29348
+72.0	Clostridium_symbiosum	[Clostridium] symbiosum		12.0	1512
+73.0	Coprobacillus_sp__29_1	Coprobacillus cateniformis	? strain	6.0	100884
+74.0	Coprococcus_eutactus	Coprococcus eutactus		8.0	33043
+75.0	Edwardsiella_ictaluri_tarda	Edwardsiella ictaluri		9.0	67780
+75.1		Edwardsiella tarda		23.0	636
+76.0	Enterococcus_faecalis	Enterococcus faecalis		1449.0	1351
+77.0	Escherichia_albertii	Escherichia albertii		91.0	208962
+78.0	Eubacterium_dolichum	Absiella dolichum	?	3.0	31971
+79.0	Eubacterium_limosum	Eubacterium limosum		6.0	1736
+80.0	Fusobacterium_mortiferum	Fusobacterium mortiferum		6.0	850
+81.0	Fusobacterium_periodonticum	Fusobacterium periodonticum		8.0	860
+82.0	Granulicatella_elegans	Granulicatella elegans		1.0	137732
+83.0	Haemophilus_haemolyticus	Haemophilus haemolyticus		58.0	726
+84.0	Klebsiella_oxytoca	Klebsiella oxytoca		280.0	571
+85.0	Klebsiella_variicola_pneumoniae	Klebsiella variicola		282.0	244366
+85.1		Klebsiella pneumoniae		8727.0	573
+86.0	Lachnospiraceae_bacterium_1_4_56FAA	Lachnospiraceae bacterium 1_4_56FAA		1.0	658655
+87.0	Lachnospiraceae_bacterium_3_1_57FAA_CT1	Lachnospiraceae bacterium 3_1_57FAA_CT1		1.0	658086
+88.0	Lactobacillus_fermentum	Lactobacillus fermentum		66.0	1613
+89.0	Lactobacillus_gasseri	Lactobacillus gasseri		43.0	1596
+90.0	Lactobacillus_johnsonii	Lactobacillus johnsonii		39.0	33959
+91.0	Lactobacillus_sakei	Lactobacillus sakei		50.0	1599
+92.0	Lactobacillus_salivarius	Lactobacillus salivarius		88.0	1624
+93.0	Lactobacillus_ultunensis	Lactobacillus ultunensis		3.0	227945
+94.0	Lactobacillus_vaginalis	Lactobacillus vaginalis		4.0	1633
+95.0	Megasphaera_elsdenii	Megasphaera elsdenii		11.0	907
+96.0	Methanobrevibacter_smithii	Methanobrevibacter smithii		29.0	2173
+97.0	Methanosphaera_stadtmanae	Methanosphaera stadtmanae		3.0	2317
+98.0	Mitsuokella_multacida	Mitsuokella multacida		3.0	52226
+99.0	Oribacterium_sinus	Oribacterium sinus		1.0	237576
+100.0	Prevotella_buccalis	Prevotella buccalis		4.0	28127
+101.0	Pyramidobacter_piscolens	Pyramidobacter piscolens		1.0	638849
+102.0	Ruminococcus_champanellensis	Ruminococcus champanellensis		3.0	1161942
+103.0	Streptococcus_anginosus	Streptococcus anginosus		68.0	1328
+104.0	Streptococcus_constellatus	Streptococcus constellatus		18.0	76860
+105.0	Streptococcus_equinus	Streptococcus equinus		44.0	1335
+106.0	Streptococcus_gallolyticus	Streptococcus gallolyticus		26.0	315405
+107.0	Streptococcus_gordonii	Streptococcus gordonii		53.0	1302
+108.0	Streptococcus_mutans	Streptococcus mutans		200.0	1309
+109.0	Streptococcus_sp__C150	Streptococcus sp. C150		1.0	435842
+110.0	Streptococcus_sp__M143	Streptococcus sp. M143		1.0	563037
+111.0	Streptococcus_sp__oral_taxon_071	Streptococcus sp. oral taxon 071 str. 73H25AP		1.0	712630
+112.0	Streptococcus_vestibularis	Streptococcus vestibularis		8.0	1343
+113.0	Turicibacter_sanguinis	Turicibacter sanguinis		8.0	154288
+114.0	Veillonella_sp__oral_taxon_158	Veillonella sp. oral taxon 158 str. F0412		1.0	671228
+115.0	X_Bacteroides__pectinophilus	[Bacteroides] pectinophilus		2.0	384638
+116.0	X_Ruminococcus__gnavus	[Ruminococcus] gnavus		41.0	33038
+117.0	unclassified_Lachnospiraceae	unclassified Lachnospiraceae		0.0	set()
