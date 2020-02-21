@@ -1,4 +1,4 @@
-Index_initial	Name_initial	Name_trimmed	Note	seq_number	species_taxid
+Index_initial	Name_initial	Name_trimmed	Note	seq_counts	species_taxid
 1.0	Bacteroides_dorei_vulgatus	Bacteroides dorei		51.0	357276
 1.1		Bacteroides vulgatus		92.0	821
 2.0	Bacteroides_uniformis	Bacteroides uniformis		151.0	820
@@ -119,4 +119,4 @@ Index_initial	Name_initial	Name_trimmed	Note	seq_number	species_taxid
 114.0	Veillonella_sp__oral_taxon_158	Veillonella sp. oral taxon 158 str. F0412		1.0	671228
 115.0	X_Bacteroides__pectinophilus	[Bacteroides] pectinophilus		2.0	384638
 116.0	X_Ruminococcus__gnavus	[Ruminococcus] gnavus		41.0	33038
-117.0	unclassified_Lachnospiraceae	unclassified Lachnospiraceae		0.0	set()
+117.0	unclassified_Lachnospiraceae	unclassified Lachnospiraceae		0.0	

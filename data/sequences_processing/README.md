@@ -16,3 +16,4 @@ download  sequences
 - species_name_list.csv: manualy curated species name list
 - species_info.txt: information
 - species_summary:
+- species_final: the final list (selected strain list)

@@ -45,11 +45,21 @@ for index in name_list_df.index:
     if len(species_taxid) == 1:
         species_taxid = species_taxid.pop()
 
+    name_list_df.loc[index, 'seq_counts'] = int(n_match)
+
+    if n_match == 0:
+        continue
+
+    refseq_info_i_df = refseq_info_i_df.copy()
+    refseq_info_i_df.loc[:, 'Index_initial'] = name_list_df.loc[index, 'Index_initial']
+    refseq_info_i_df.loc[:, 'Name_trimmed'] = name_list_df.loc[index, 'Name_trimmed']
+    refseq_info_i_df.loc[:, 'Name_initial'] = name_list_df.loc[index, 'Name_initial']
+    refseq_info_i_df.loc[:, 'Note'] = name_list_df.loc[index, 'Note']
+    refseq_info_i_df.loc[:, 'seq_counts'] = int(n_match)
     refseq_info_df = pd.concat([refseq_info_df, refseq_info_i_df])
-    name_list_df.loc[index, 'seq_number'] = int(n_match)
     name_list_df.loc[index, 'species_taxid'] = str(species_taxid)
 
-    #  check match and contains
+    # check match and contains
     # refseq_info_i_df = refseq_database[refseq_database.organism_name.str.contains(name_i)]
     # n_contains = refseq_info_i_df.shape[0]
     # if n_contains!=n_match:
@@ -57,7 +67,15 @@ for index in name_list_df.index:
 
 # %% output file
 refseq_info_df = refseq_info_df.drop_duplicates()
+refseq_info_df = refseq_info_df[['Index_initial', 'Name_initial', 'Name_trimmed',
+                                'Note', 'seq_counts',
+                                '# assembly_accession', 'bioproject', 'biosample', 'wgs_master',
+                                'refseq_category', 'taxid', 'species_taxid', 'organism_name',
+                                'infraspecific_name', 'isolate', 'version_status', 'assembly_level',
+                                'release_type', 'genome_rep', 'seq_rel_date', 'asm_name', 'submitter',
+                                'gbrs_paired_asm', 'paired_asm_comp', 'ftp_path',
+                                'excluded_from_refseq', 'relation_to_type_material']]
 refseq_info_df.to_csv('species_info.txt', sep='\t', index=False)
 name_list_df.to_csv('species_summary.txt', sep='\t', index=False)
-
+print('Done')
 # %% download:
