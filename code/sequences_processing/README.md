@@ -8,6 +8,7 @@ download  sequences
 
 - step2_download_seq.py
   - download seqs
+  - not necessary! replaced by step3_select_stran
 
 - step3_select_stran.py
   - sort by: 'refseq_category' > 'relation_to_type_material' > 'assembly_level' > 'seq_rel_date'
