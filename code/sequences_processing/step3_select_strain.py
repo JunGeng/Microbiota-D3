@@ -42,6 +42,7 @@ refseq_info_df = refseq_info_df.sort_values(
     ascending=[True, True, True, True, False])
 
 # remove duplicates, only keep the first one
+refseq_info_df = refseq_info_df[refseq_info_df.ftp_path != 'na' ]
 refseq_info_df = refseq_info_df.drop_duplicates('Index_initial')
 
 # output file and resort column
@@ -98,23 +99,26 @@ all_seq_list = set(os.listdir('sequences/'))
 
 for index in range(0, final_df_copy.shape[0]):
     seq_path = final_df_copy.iloc[index]['ftp_path']
-
+    if seq_path == 'na':
+        continue
     faa_name = seq_path.split('/')[-1] + '_protein.faa.gz'
     fna_name = seq_path.split('/')[-1] + '_genomic.fna.gz'
+    gbff_name = seq_path.split('/')[-1] + '_genomic.gbff.gz'
     organism_name = final_df_copy.iloc[index]['organism_name']
-    organism_name_list = organism_name.split(' ')
+    # name error
+    organism_name = organism_name.replace(' ','_')
+    organism_name = organism_name.replace('/','_')
+    # organism_name_list = organism_name.split(' ')
     # infraspecific_name_list = final_df_copy.iloc[index]['infraspecific_name'].split('=')
     # short_name = organism_name_list[0][re.search('[A-Z,a-z]', organism_name_list[0]).start()] + '_' + '_'.join(
     #     organism_name_list[1:])
 
-    if faa_name not in all_seq_list:
-        file_url_faa = seq_path + '/' + faa_name
-        wget.download(file_url_faa, 'sequences/')
+    for file_name in [gbff_name,faa_name,fna_name] :
+        if file_name not in all_seq_list:
+            file_url = seq_path + '/' + file_name
+            wget.download(file_url, 'sequences/')
 
-    if fna_name not in all_seq_list:
-        file_url_faa = seq_path + '/' + fna_name
-        wget.download(file_url_faa, 'sequences/')
     os.system('cp sequences/' + fna_name + ' genomic_sequences/' + organism_name + '_genomic.fna.gz')
     os.system('cp sequences/' + faa_name + ' protein_sequences/' + organism_name + '_protein.faa.gz')
-
+    print(index)
 print('Done')
