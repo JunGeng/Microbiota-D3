@@ -17,3 +17,4 @@ download  sequences
     - 'seq_rel_date': ascendingbool = False
 
   - after select the 'refseq_category' and 'relation_to_type_material', 115 species 'type' strain were selected
+  - organize seq files. copy selected files to genomic_sequences/ and protein_sequences/
