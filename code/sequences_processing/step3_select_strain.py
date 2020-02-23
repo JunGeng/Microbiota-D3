@@ -3,14 +3,15 @@
 # Created by Hao Luo at 2/21/20
 
 """step3_select_strain.py
-:description : script
-:param : 
-:returns: 
+:description : script to choose the type strain
+:param : input: species_info.txt
+:returns: output: species_final.txt
 :rtype: 
 """
 
 import os
-
+import re
+import wget
 import pandas as pd
 
 os.chdir('../../data/sequences_processing/')
@@ -19,7 +20,9 @@ os.chdir('../../data/sequences_processing/')
 refseq_info_df_initial = pd.read_csv('species_info.txt', sep='\t')
 refseq_info_df = refseq_info_df_initial.copy()
 
-# sort:
+# %% < sort >
+pass
+# make category sorter for sort
 category_sorter = ['reference genome', 'representative genome']
 type_sorter = ['assembly from type material']
 assembly_level_sorter = ['Complete Genome', 'Chromosome', 'Scaffold', 'Contig']
@@ -33,13 +36,15 @@ refseq_info_df.relation_to_type_material.cat.set_categories(type_sorter, inplace
 refseq_info_df.assembly_level = refseq_info_df.assembly_level.astype("category")
 refseq_info_df.assembly_level.cat.set_categories(assembly_level_sorter, inplace=True)
 
+# sort: : category_sorter > type_sorter > assembly_level_sorter
 refseq_info_df = refseq_info_df.sort_values(
     ['Index_initial', 'refseq_category', 'relation_to_type_material', 'assembly_level', 'seq_rel_date'],
     ascending=[True, True, True, True, False])
 
-# remove duplicates, only keep the fiest one
+# remove duplicates, only keep the first one
 refseq_info_df = refseq_info_df.drop_duplicates('Index_initial')
 
+# output file and resort column
 final_df = pd.DataFrame()
 final_df[['# assembly_accession','Index_initial']] = refseq_info_df[['# assembly_accession','Index_initial']]
 final_df = final_df.merge(refseq_info_df_initial,'inner', left_on=['# assembly_accession','Index_initial'],
@@ -57,6 +62,7 @@ final_df.to_csv('species_final.txt', sep='\t', index=False)
 print('Done')
 
 # %% <dataframe of different selections part>
+# # detail data for each selection part
 # all_set = set(refseq_info_df['Index_initial'])
 # # select unique:
 # unique_df = refseq_info_df[(refseq_info_df['seq_counts']==1)]
@@ -84,3 +90,31 @@ print('Done')
 # rest2_set = rest_set - complete_set
 # rest2_df =rest_df[rest_df['Index_initial'].isin(rest2_set)]
 # ##
+
+# %% < select seqs and copy them to new dir >
+# os.chdir('data/sequences_processing/')
+final_df_copy = pd.read_csv('species_final.txt', sep='\t')
+all_seq_list = set(os.listdir('sequences/'))
+
+for index in range(0, final_df_copy.shape[0]):
+    seq_path = final_df_copy.iloc[index]['ftp_path']
+
+    faa_name = seq_path.split('/')[-1] + '_protein.faa.gz'
+    fna_name = seq_path.split('/')[-1] + '_genomic.fna.gz'
+    organism_name = final_df_copy.iloc[index]['organism_name']
+    organism_name_list = organism_name.split(' ')
+    # infraspecific_name_list = final_df_copy.iloc[index]['infraspecific_name'].split('=')
+    # short_name = organism_name_list[0][re.search('[A-Z,a-z]', organism_name_list[0]).start()] + '_' + '_'.join(
+    #     organism_name_list[1:])
+
+    if faa_name not in all_seq_list:
+        file_url_faa = seq_path + '/' + faa_name
+        wget.download(file_url_faa, 'sequences/')
+
+    if fna_name not in all_seq_list:
+        file_url_faa = seq_path + '/' + fna_name
+        wget.download(file_url_faa, 'sequences/')
+    os.system('cp sequences/' + fna_name + ' genomic_sequences/' + organism_name + '_genomic.fna.gz')
+    os.system('cp sequences/' + faa_name + ' protein_sequences/' + organism_name + '_protein.faa.gz')
+
+print('Done')
