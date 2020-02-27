@@ -14,6 +14,9 @@ download  sequences
   - From Jun (Box)
 - data_from_database/assembly_summary_refseq.txt and assembly_summary_refseq_historical.txt
   - From NCBI FTP [ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/](ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/)
+- data_from_database/MetaCyc_23.5
+  - [MetaCyc](https://metacyc.org/) database: http://bioinformatics.ai.sri.com/ecocyc/dist/flatfiles-52983746/
+  - MetaCyc_cobra.xml modifed by Cobra toolbox
 
 ### genomic sequences/
 - genomic sequences files
@@ -26,4 +29,11 @@ download  sequences
 - .faa and .fna files from NCBI
 
 ## draft GEMs/
-- 
+
+### ./
+- draft models from RAVEN
+### blast
+- diamond blast db(.dmnd) and results
+
+### python
+- draft models from python scrips
