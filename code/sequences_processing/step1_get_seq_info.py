@@ -16,8 +16,8 @@ import pandas as pd
 os.chdir('../../data/sequences_processing/')
 
 # load database summery
-refseq_database = pd.read_csv('initial_data/data_from_database/assembly_summary_refseq.txt', sep='\t', header=1)
-refseq_database_2 = pd.read_csv('initial_data/data_from_database/assembly_summary_refseq_historical.txt', sep='\t',
+refseq_database = pd.read_csv('../initial_data/data_from_database/assembly_summary_refseq.txt', sep='\t', header=1)
+refseq_database_2 = pd.read_csv('../initial_data/data_from_database/assembly_summary_refseq_historical.txt', sep='\t',
                                 header=1)
 name_list_df = pd.read_csv('species_name_list.csv', sep=',', header=0)
 
