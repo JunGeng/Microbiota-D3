@@ -9,7 +9,7 @@ download  sequences
 - species_summary:
 - species_final: the final list (selected strain list)
 
-### initial data/
+## initial data/
 - MostAbundant_SignificantSpecies.txt
   - From Jun (Box)
 - data_from_database/assembly_summary_refseq.txt and assembly_summary_refseq_historical.txt
