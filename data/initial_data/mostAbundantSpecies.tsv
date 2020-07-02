@@ -1,118 +1,118 @@
-id	Species
-1	Bacteroides_dorei_vulgatus
-2	Bacteroides_uniformis
-3	Faecalibacterium_prausnitzii
-4	Parabacteroides_distasonis
-5	Eubacterium_rectale
-6	Alistipes_putredinis
-7	Odoribacter_splanchnicus
-8	Ruminococcus_bromii
-9	Parabacteroides_merdae
-10	Bacteroides_thetaiotaomicron
-11	Bacteroides_xylanisolvens
-12	Ruminococcus_sp__5_1_39BFAA
-13	Bacteroides_ovatus
-14	Roseburia_inulinivorans
-15	X_Ruminococcus__torques
-16	Escherichia_coli
-17	Eubacterium_eligens
-18	Bilophila_wadsworthia
-19	Collinsella_aerofaciens
-20	Bacteroides_caccae
-21	Alistipes_shahii
-22	Alistipes_sp__HGB5
-23	Coprococcus_comes
-24	Dorea_longicatena
-25	Roseburia_intestinalis
-26	butyrate_producing_bacterium_SS3_4
-27	Ruminococcus_sp__SR1_5
-28	butyrate_producing_bacterium
-29	Eubacterium_hallii
-30	Dorea_formicigenerans
-31	Roseburia_hominis
-32	X_Ruminococcus__obeum
-33	Coprococcus_catus
-34	Prevotella_copri
-35	Clostridium_bolteae
-36	Bacteroides_fragilis
-37	Bifidobacterium_longum
-38	Bifidobacterium_adolescentis
-39	Streptococcus_thermophilus
-40	Akkermansia_muciniphila
-41	Pseudoflavonifractor_capillosus
-42	Holdemania_filiformis
-43	Ruminococcaceae_bacterium_D16
-44	Streptococcus_salivarius
-45	Clostridium_leptum
-46	Eubacterium_siraeum
-47	Eubacterium_ventriosum
-48	Parasutterella_excrementihominis
-49	Eggerthella_lenta
-50	Streptococcus_parasanguinis
-51	Ruminococcus_lactaris
-52	Haemophilus_parainfluenzae
-53	Bifidobacterium_catenulatum_Bifidobacterium_pseudocatenulatum_complex
-54	X_Clostridium__bartlettii
-55	Veillonella_parvula
-56	Acidaminococcus_fermentans
-57	Acidaminococcus_intestini
-58	Anaerostipes_caccae
-59	Atopobium_rimae
-60	Bacteroides_plebeius
-61	Blautia_hansenii
-62	Brevibacterium_linens
-63	Butyrivibrio_crossotus
-64	Citrobacter_sp__30_2
-65	Citrobacter_youngae
-66	Clostridiales_bacterium_1_7_47FAA
-67	Clostridium_ramosum
-68	Clostridium_scindens
-69	Clostridium_sp__HGF2
-70	Clostridium_sp__L2_50
-71	Clostridium_spiroforme
-72	Clostridium_symbiosum
-73	Coprobacillus_sp__29_1
-74	Coprococcus_eutactus
-75	Edwardsiella_ictaluri_tarda
-76	Enterococcus_faecalis
-77	Escherichia_albertii
-78	Eubacterium_dolichum
-79	Eubacterium_limosum
-80	Fusobacterium_mortiferum
-81	Fusobacterium_periodonticum
-82	Granulicatella_elegans
-83	Haemophilus_haemolyticus
-84	Klebsiella_oxytoca
-85	Klebsiella_variicola_pneumoniae
-86	Lachnospiraceae_bacterium_1_4_56FAA
-87	Lachnospiraceae_bacterium_3_1_57FAA_CT1
-88	Lactobacillus_fermentum
-89	Lactobacillus_gasseri
-90	Lactobacillus_johnsonii
-91	Lactobacillus_sakei
-92	Lactobacillus_salivarius
-93	Lactobacillus_ultunensis
-94	Lactobacillus_vaginalis
-95	Megasphaera_elsdenii
-96	Methanobrevibacter_smithii
-97	Methanosphaera_stadtmanae
-98	Mitsuokella_multacida
-99	Oribacterium_sinus
-100	Prevotella_buccalis
-101	Pyramidobacter_piscolens
-102	Ruminococcus_champanellensis
-103	Streptococcus_anginosus
-104	Streptococcus_constellatus
-105	Streptococcus_equinus
-106	Streptococcus_gallolyticus
-107	Streptococcus_gordonii
-108	Streptococcus_mutans
-109	Streptococcus_sp__C150
-110	Streptococcus_sp__M143
-111	Streptococcus_sp__oral_taxon_071
-112	Streptococcus_vestibularis
-113	Turicibacter_sanguinis
-114	Veillonella_sp__oral_taxon_158
-115	X_Bacteroides__pectinophilus
-116	X_Ruminococcus__gnavus
-117	unclassified_Lachnospiraceae
+id	Species	bofTemplateType
+1	Bacteroides_dorei_vulgatus	GramNegative
+2	Bacteroides_uniformis	GramNegative
+3	Faecalibacterium_prausnitzii	
+4	Parabacteroides_distasonis	GramNegative
+5	Eubacterium_rectale	
+6	Alistipes_putredinis	
+7	Odoribacter_splanchnicus	
+8	Ruminococcus_bromii	GramPositive
+9	Parabacteroides_merdae	GramNegative
+10	Bacteroides_thetaiotaomicron	GramNegative
+11	Bacteroides_xylanisolvens	GramNegative
+12	Ruminococcus_sp__5_1_39BFAA	GramPositive
+13	Bacteroides_ovatus	GramNegative
+14	Roseburia_inulinivorans	
+15	X_Ruminococcus__torques	GramPositive
+16	Escherichia_coli	GramNegative
+17	Eubacterium_eligens	
+18	Bilophila_wadsworthia	
+19	Collinsella_aerofaciens	
+20	Bacteroides_caccae	GramNegative
+21	Alistipes_shahii	
+22	Alistipes_sp__HGB5	
+23	Coprococcus_comes	
+24	Dorea_longicatena	
+25	Roseburia_intestinalis	
+26	butyrate_producing_bacterium_SS3_4	
+27	Ruminococcus_sp__SR1_5	GramPositive
+28	butyrate_producing_bacterium	
+29	Eubacterium_hallii	
+30	Dorea_formicigenerans	
+31	Roseburia_hominis	
+32	X_Ruminococcus__obeum	GramPositive
+33	Coprococcus_catus	
+34	Prevotella_copri	
+35	Clostridium_bolteae	
+36	Bacteroides_fragilis	GramNegative
+37	Bifidobacterium_longum	
+38	Bifidobacterium_adolescentis	
+39	Streptococcus_thermophilus	GramPositive
+40	Akkermansia_muciniphila	
+41	Pseudoflavonifractor_capillosus	
+42	Holdemania_filiformis	
+43	Ruminococcaceae_bacterium_D16	
+44	Streptococcus_salivarius	GramPositive
+45	Clostridium_leptum	
+46	Eubacterium_siraeum	
+47	Eubacterium_ventriosum	
+48	Parasutterella_excrementihominis	
+49	Eggerthella_lenta	
+50	Streptococcus_parasanguinis	GramPositive
+51	Ruminococcus_lactaris	GramPositive
+52	Haemophilus_parainfluenzae	
+53	Bifidobacterium_catenulatum_Bifidobacterium_pseudocatenulatum_complex	
+54	X_Clostridium__bartlettii	
+55	Veillonella_parvula	
+56	Acidaminococcus_fermentans	
+57	Acidaminococcus_intestini	
+58	Anaerostipes_caccae	
+59	Atopobium_rimae	
+60	Bacteroides_plebeius	GramNegative
+61	Blautia_hansenii	
+62	Brevibacterium_linens	
+63	Butyrivibrio_crossotus	
+64	Citrobacter_sp__30_2	
+65	Citrobacter_youngae	
+66	Clostridiales_bacterium_1_7_47FAA	
+67	Clostridium_ramosum	
+68	Clostridium_scindens	
+69	Clostridium_sp__HGF2	
+70	Clostridium_sp__L2_50	
+71	Clostridium_spiroforme	
+72	Clostridium_symbiosum	
+73	Coprobacillus_sp__29_1	
+74	Coprococcus_eutactus	
+75	Edwardsiella_ictaluri_tarda	
+76	Enterococcus_faecalis	
+77	Escherichia_albertii	GramNegative
+78	Eubacterium_dolichum	
+79	Eubacterium_limosum	
+80	Fusobacterium_mortiferum	
+81	Fusobacterium_periodonticum	
+82	Granulicatella_elegans	
+83	Haemophilus_haemolyticus	
+84	Klebsiella_oxytoca	
+85	Klebsiella_variicola_pneumoniae	
+86	Lachnospiraceae_bacterium_1_4_56FAA	
+87	Lachnospiraceae_bacterium_3_1_57FAA_CT1	
+88	Lactobacillus_fermentum	GramPositive
+89	Lactobacillus_gasseri	GramPositive
+90	Lactobacillus_johnsonii	GramPositive
+91	Lactobacillus_sakei	GramPositive
+92	Lactobacillus_salivarius	GramPositive
+93	Lactobacillus_ultunensis	GramPositive
+94	Lactobacillus_vaginalis	GramPositive
+95	Megasphaera_elsdenii	
+96	Methanobrevibacter_smithii	
+97	Methanosphaera_stadtmanae	
+98	Mitsuokella_multacida	
+99	Oribacterium_sinus	
+100	Prevotella_buccalis	
+101	Pyramidobacter_piscolens	
+102	Ruminococcus_champanellensis	GramPositive
+103	Streptococcus_anginosus	GramPositive
+104	Streptococcus_constellatus	GramPositive
+105	Streptococcus_equinus	GramPositive
+106	Streptococcus_gallolyticus	GramPositive
+107	Streptococcus_gordonii	GramPositive
+108	Streptococcus_mutans	GramPositive
+109	Streptococcus_sp__C150	GramPositive
+110	Streptococcus_sp__M143	GramPositive
+111	Streptococcus_sp__oral_taxon_071	GramPositive
+112	Streptococcus_vestibularis	GramPositive
+113	Turicibacter_sanguinis	
+114	Veillonella_sp__oral_taxon_158	
+115	X_Bacteroides__pectinophilus	GramNegative
+116	X_Ruminococcus__gnavus	GramPositive
+117	unclassified_Lachnospiraceae	
