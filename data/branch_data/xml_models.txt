@@ -1,0 +1,47 @@
+	id_x	name	iBif452.V01.00.xml	iBif452.V01.00.xmlnotes	iBif452.V01.00.xmlannotation	id_y	iEre400 v1.00.xml	iEre400 v1.00.xmlnotes	iEre400 v1.00.xmlannotation	id_x	iMsi385.xml	iMsi385.xmlnotes	iMsi385.xmlannotation	id_y	iBth801 v1.00.xml	iBth801 v1.00.xmlnotes	iBth801 v1.00.xmlannotation	id	iFap484.V01.00.xml	iFap484.V01.00.xmlnotes	iFap484.V01.00.xmlannotation
+0	m6	ATP	-45.0	{}	{}	m102	-39.94	{'FORMULA': 'C10H12N5O13P3'}	{'sbo': 'SBO:0000299'}	m176	-50.2	{'FORMULA': 'C10H12N5O13P3'}	{'sbo': 'SBO:0000299'}	m192	-25.0	{'FORMULA': 'C10H12N5O13P3'}	{'sbo': 'SBO:0000299'}	m6	-40.0	{}	{}
+1	m8	H2O	-45.0	{}	{}					m326	-50.2	{'FORMULA': 'H2O'}	{'sbo': 'SBO:0000299'}	m388	-54.462	{'FORMULA': 'H2O'}	{'sbo': 'SBO:0000299'}	m8	-40.0	{}	{}
+2	m12	Ammonium	-0.011843	{}	{}									m506	-0.011843	{'FORMULA': 'H4N'}	{'sbo': 'SBO:0000299'}	m12	-0.011843	{}	{}
+3	m45	L-Methionine	-0.1537	{}	{}	m218	-0.202	{'FORMULA': 'C5H11NO2S'}	{'sbo': 'SBO:0000299'}	m380	-0.1682	{'FORMULA': 'C5H11NO2S'}	{'sbo': 'SBO:0000299'}	m468	-0.1537	{'FORMULA': 'C5H11NO2S'}	{'sbo': 'SBO:0000299'}	m45	-0.1537	{}	{}
+4	m48	L-Valine	-0.4232	{}	{}	m318	-0.514	{'FORMULA': 'C5H11NO2'}	{'sbo': 'SBO:0000299'}	m512	-0.4631	{'FORMULA': 'C5H11NO2'}	{'sbo': 'SBO:0000299'}	m754	-0.4232	{'FORMULA': 'C5H11NO2'}	{'sbo': 'SBO:0000299'}	m48	-0.4232	{}	{}
+5	m51	L-Isoleucine	-0.2905	{}	{}	m200	-0.658	{'FORMULA': 'C6H13NO2'}	{'sbo': 'SBO:0000299'}	m354	-0.3179	{'FORMULA': 'C6H13NO2'}	{'sbo': 'SBO:0000299'}	m418	-0.2905	{'FORMULA': 'C6H13NO2'}	{'sbo': 'SBO:0000299'}	m51	-0.2905	{}	{}
+6	m54	L-Leucine	-0.404	{}	{}	m207	-0.699	{'FORMULA': 'C6H13NO2'}	{'sbo': 'SBO:0000299'}	m367	-0.493	{'FORMULA': 'C6H13NO2'}	{'sbo': 'SBO:0000299'}	m441	-0.4505	{'FORMULA': 'C6H13NO2'}	{'sbo': 'SBO:0000299'}	m54	-0.404	{}	{}
+7	m57	L-Lysine	-0.3432	{}	{}	m208	-0.576	{'FORMULA': 'C6H15N2O2'}	{'sbo': 'SBO:0000299'}	m370	-0.3755	{'FORMULA': 'C6H15N2O2'}	{'sbo': 'SBO:0000299'}	m450	-0.3432	{'FORMULA': 'C6H15N2O2'}	{'sbo': 'SBO:0000299'}	m217	-0.3432	{}	{}
+8	m60	L-Arginine	-0.2958	{}	{}	m94	-0.268	{'FORMULA': 'C6H15N4O2'}	{'sbo': 'SBO:0000299'}	m169	-0.3237	{'FORMULA': 'C6H15N4O2'}	{'sbo': 'SBO:0000299'}	m178	-0.2958	{'FORMULA': 'C6H15N4O2'}	{'sbo': 'SBO:0000299'}	m188	-0.2958	{}	{}
+9	m65	L-Threonine	-0.2537	{}	{}	m279	-0.443	{'FORMULA': 'C4H9NO3'}	{'sbo': 'SBO:0000299'}	m470	-0.2776	{'FORMULA': 'C4H9NO3'}	{'sbo': 'SBO:0000299'}	m683	-0.2537	{'FORMULA': 'C4H9NO3'}	{'sbo': 'SBO:0000299'}	m63	-0.2537	{}	{}
+10	m71	L-Proline	-0.2211	{}	{}	m249	-0.246	{'FORMULA': 'C5H9NO2'}	{'sbo': 'SBO:0000299'}	m437	-0.2419	{'FORMULA': 'C5H9NO2'}	{'sbo': 'SBO:0000299'}	m621	-0.2211	{'FORMULA': 'C5H9NO2'}	{'sbo': 'SBO:0000299'}	m69	-0.2211	{}	{}
+11	m76	L-Serine	-0.2158	{}	{}	m263	-0.469	{'FORMULA': 'C3H7NO3'}	{'sbo': 'SBO:0000299'}	m454	-0.2361	{'FORMULA': 'C3H7NO3'}	{'sbo': 'SBO:0000299'}	m649	-0.2158	{'FORMULA': 'C3H7NO3'}	{'sbo': 'SBO:0000299'}	m75	-0.2158	{}	{}
+12	m83	L-Asparagine	-0.2411	{}	{}	m97	-0.433	{'FORMULA': 'C4H8N2O3'}	{'sbo': 'SBO:0000299'}	m172	-0.2638	{'FORMULA': 'C4H8N2O3'}	{'sbo': 'SBO:0000299'}	m184	-0.2411	{'FORMULA': 'C4H8N2O3'}	{'sbo': 'SBO:0000299'}	m82	-0.2411	{}	{}
+13	m100	NAD+	-0.001831	{}	{}													m106	-0.001831	{}	{}
+14	m114	NADP+	-0.000447	{}	{}													m115	-0.000447	{}	{}
+15	m154	L-Alanine	-0.5137	{}	{}	m85	-0.492	{'FORMULA': 'C3H7NO2'}	{'sbo': 'SBO:0000299'}	m161	-0.5621	{'FORMULA': 'C3H7NO2'}	{'sbo': 'SBO:0000299'}	m151	-0.5137	{'FORMULA': 'C3H7NO2'}	{'sbo': 'SBO:0000299'}	m72	-0.5137	{}	{}
+16	m155	L-Glutamate	-0.2632	{}	{}	m174	-0.497	{'FORMULA': 'C5H8NO4'}	{'sbo': 'SBO:0000299'}	m307	-0.288	{'FORMULA': 'C5H8NO4'}	{'sbo': 'SBO:0000299'}	m364	-0.2632	{'FORMULA': 'C5H8NO4'}	{'sbo': 'SBO:0000299'}	m156	-0.2632	{}	{}
+17	m158	L-Aspartate	-0.2411	{}	{}	m99	-0.446	{'FORMULA': 'C4H6NO4'}	{'sbo': 'SBO:0000299'}	m173	-0.2638	{'FORMULA': 'C4H6NO4'}	{'sbo': 'SBO:0000299'}	m187	-0.2411	{'FORMULA': 'C4H6NO4'}	{'sbo': 'SBO:0000299'}	m155	-0.2411	{}	{}
+18	m159	L-Glutamine	-0.2632	{}	{}	m171	-0.318	{'FORMULA': 'C5H10N2O3'}	{'sbo': 'SBO:0000299'}	m305	-0.288	{'FORMULA': 'C5H10N2O3'}	{'sbo': 'SBO:0000299'}	m358	-0.2632	{'FORMULA': 'C5H10N2O3'}	{'sbo': 'SBO:0000299'}	m158	-0.2632	{}	{}
+19	m163	5,10-Methylenetetrahydrofolate	-0.000223	{}	{}									m476	-0.000223	{'FORMULA': 'C20H21N7O6'}	{'sbo': 'SBO:0000299'}	m288	-0.000223	{}	{}
+20	m165	Glycine	-0.6126	{}	{}	m177	-0.462	{'FORMULA': 'C2H5NO2'}	{'sbo': 'SBO:0000299'}	m311	-0.6704	{'FORMULA': 'C2H5NO2'}	{'sbo': 'SBO:0000299'}	m368	-0.6126	{'FORMULA': 'C2H5NO2'}	{'sbo': 'SBO:0000299'}	m94	-0.6126	{}	{}
+21	m178	L-Tryptophan	-0.05684	{}	{}	m296	-0.057	{'FORMULA': 'C11H12N2O2'}	{'sbo': 'SBO:0000299'}	m496	-0.0622	{'FORMULA': 'C11H12N2O2'}	{'sbo': 'SBO:0000299'}	m714	-0.05684	{'FORMULA': 'C11H12N2O2'}	{'sbo': 'SBO:0000299'}	m546	-0.05684	{}	{}
+22	m216	L-Histidine	-0.09474	{}	{}	m195	-0.178	{'FORMULA': 'C6H9N3O2'}	{'sbo': 'SBO:0000299'}	m339	-0.25	{'FORMULA': 'C6H9N3O2'}	{'sbo': 'SBO:0000299'}	m404	-0.09474	{'FORMULA': 'C6H9N3O2'}	{'sbo': 'SBO:0000299'}	m526	-0.09474	{}	{}
+23	m232	L-Phenylalanine	-0.1759	{}	{}	m237	-0.343	{'FORMULA': 'C9H11NO2'}	{'sbo': 'SBO:0000299'}	m417	-0.2027	{'FORMULA': 'C9H11NO2'}	{'sbo': 'SBO:0000299'}	m598	-0.1759	{'FORMULA': 'C9H11NO2'}	{'sbo': 'SBO:0000299'}	m231	-0.1759	{}	{}
+24	m239	L-Tyrosine	-0.1379	{}	{}	m297	-0.298	{'FORMULA': 'C9H11NO3'}	{'sbo': 'SBO:0000299'}	m500	-0.1509	{'FORMULA': 'C9H11NO3'}	{'sbo': 'SBO:0000299'}	m720	-0.1379	{'FORMULA': 'C9H11NO3'}	{'sbo': 'SBO:0000299'}	m235	-0.1379	{}	{}
+25	m250	L-Cysteine	-0.09158	{}	{}	m117	-0.048	{'FORMULA': 'C3H7NO2S'}	{'sbo': 'SBO:0000299'}	m218	-0.1002	{'FORMULA': 'C3H7NO2S'}	{'sbo': 'SBO:0000299'}	m241	-0.09158	{'FORMULA': 'C3H7NO2S'}	{'sbo': 'SBO:0000299'}	m93	-0.09158	{}	{}
+26	m256	10-Formyltetrahydrofolate	-0.000223	{}	{}									m1	-0.000223	{'FORMULA': 'C20H21N7O7'}	{'sbo': 'SBO:0000299'}	m256	-0.000223	{}	{}
+27	m273	UTP	-0.1441	{}	{}					m511	-0.1489	{'FORMULA': 'C9H11N2O15P3'}	{'sbo': 'SBO:0000299'}	m753	-0.1441	{'FORMULA': 'C9H11N2O15P3'}	{'sbo': 'SBO:0000299'}	m283	-0.1441	{}	{}
+28	m274	CTP	-0.1335	{}	{}					m215	-0.1379	{'FORMULA': 'C9H12N3O14P3'}	{'sbo': 'SBO:0000299'}	m236	-0.1335	{'FORMULA': 'C9H12N3O14P3'}	{'sbo': 'SBO:0000299'}	m284	-0.1335	{}	{}
+29	m275	dCTP	-0.02702	{}	{}					m226	-0.0215	{'FORMULA': 'C9H12N3O13P3'}	{'sbo': 'SBO:0000299'}	m259	-0.02702	{'FORMULA': 'C9H12N3O13P3'}	{'sbo': 'SBO:0000299'}	m285	-0.02702	{}	{}
+30	m292	GTP	-0.2151	{}	{}					m321	-0.2222	{'FORMULA': 'C10H12N5O14P3'}	{'sbo': 'SBO:0000299'}	m382	-0.2151	{'FORMULA': 'C10H12N5O14P3'}	{'sbo': 'SBO:0000299'}	m301	-0.2151	{}	{}
+31	m295	dGTP	-0.02702	{}	{}					m232	-0.0215	{'FORMULA': 'C10H12N5O13P3'}	{'sbo': 'SBO:0000299'}	m268	-0.02702	{'FORMULA': 'C10H12N5O13P3'}	{'sbo': 'SBO:0000299'}	m304	-0.02702	{}	{}
+32	m305	dATP	-0.02617	{}	{}					m221	-0.0331	{'FORMULA': 'C10H12N5O12P3'}	{'sbo': 'SBO:0000299'}	m250	-0.02617	{'FORMULA': 'C10H12N5O12P3'}	{'sbo': 'SBO:0000299'}	m311	-0.02617	{}	{}
+33	m350	Crosslinked peptideglycan	-0.124	{}	{}													m358	-0.124	{}	{}
+34	m527	dTTP	-0.02617	{}	{}					m257	-0.0331	{'FORMULA': 'C10H13N2O14P3'}	{'sbo': 'SBO:0000299'}	m295	-0.02617	{'FORMULA': 'C10H13N2O14P3'}	{'sbo': 'SBO:0000299'}	m510	-0.02617	{}	{}
+35	m788	capsular polysaccharide linkage unit, LPL specific	-0.1294	{}	{}													m806	-0.1294	{}	{}
+36	m4	Biomass	1.0	{}	{}					m531	1.0	{}	{'sbo': 'SBO:0000299'}					m4	1.0	{}	{}
+37	m5	ADP	45.0	{}	{}	m73	39.94	{'FORMULA': 'C10H12N5O10P2'}	{'sbo': 'SBO:0000299'}	m151	50.2	{'FORMULA': 'C10H12N5O10P2'}	{'sbo': 'SBO:0000299'}	m140	25.0	{'FORMULA': 'C10H12N5O10P2'}	{'sbo': 'SBO:0000299'}	m5	40.0	{}	{}
+38	m7	H+	45.0	{}	{}									m391	59.81	{'FORMULA': 'H'}	{'sbo': 'SBO:0000299'}	m7	40.0	{}	{}
+39	m9	Phosphate	45.0	{}	{}	m239	39.94	{'FORMULA': 'HO4P'}	{'sbo': 'SBO:0000299'}	m421	50.2	{'FORMULA': 'HO4P'}	{'sbo': 'SBO:0000299'}	m603	25.0	{'FORMULA': 'HO4P'}	{'sbo': 'SBO:0000299'}	m9	40.0	{}	{}
+40	m110	Diphosphate	0.7739	{}	{}									m613	0.7739	{'FORMULA': 'HO7P2'}	{'sbo': 'SBO:0000299'}	m114	0.7739	{}	{}
+41		Protein				m340	1.0	{'FORMULA': 'C2H4NO2RC2H2NORn'}	{'sbo': 'SBO:0000299'}												
+42		Glycogen								m535	-0.0154	{}	{'sbo': 'SBO:0000299'}								
+43		S-Adenosyl-L-methionine												m160	-0.000223	{'FORMULA': 'C15H23N6O5S'}	{'sbo': 'SBO:0000299'}				
+44		two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm-D-ala) (middle of chain)												m494	-0.01389	{'FORMULA': 'C77H117N15O40'}	{'sbo': 'SBO:0000299'}				
+45		biomass												m865	1.0	{}	{'sbo': 'SBO:0000299'}				

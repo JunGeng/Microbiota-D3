@@ -12,8 +12,12 @@ for seq_index = 1:length(seqs_list)
     
     MetaCycDraftModel_i=getMetaCycModelForOrganism(model_name,strcat(...
              'data/sequences_processing/protein_sequences/',seq_name),1);
-         
-    exportModel(MetaCycDraftModel_i,strcat(...
-        'data/draft_GEMs/',model_name),true,false);
+    
+    file_name = strcat('data/draft_GEMs/',model_name)
+    exportModel(MetaCycDraftModel_i,file_name,true,false);
+    
+    writeYaml(MetaCycDraftModel_i,file_name)
+    
+    save(file_name,'MetaCycDraftModel_i')
         
 end

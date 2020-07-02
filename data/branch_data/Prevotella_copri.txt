@@ -1,0 +1,925 @@
+rxn12008	cpd00113[c0] + cpd02590[c0] --> cpd00012[c0] + cpd02557[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3575 or kb|g.2146.peg.5125 or kb|g.2146.peg.2907 or kb|g.2146.peg.4394)))	{}
+rxn00541	cpd00161[c0] <=> cpd00033[c0] + cpd00071[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3798 or kb|g.2146.peg.529)))	{}
+rxn00225	cpd00002[c0] + cpd00029[c0] + cpd00067[c0] <=> cpd00008[c0] + cpd00196[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1363 or kb|g.2146.peg.3175)))	{}
+rxn01199	cpd00002[c0] + cpd00259[c0] <=> cpd00008[c0] + cpd00198[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4365 or kb|g.2146.peg.1064)))	{}
+rxn10215	cpd11434[c0] + cpd15672[c0] --> cpd00010[c0] + cpd15678[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn02483	cpd00067[c0] + cpd00938[c0] --> cpd00011[c0] + cpd02255[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1678 or kb|g.2146.peg.2614)))	{}
+rxn00802	cpd02152[c0] <=> cpd00051[c0] + cpd00106[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3894 or kb|g.2146.peg.1702)))	{}
+rxn06078	cpd00268[c0] + cpd00790[c0] + cpd11421[c0] --> cpd00029[c0] + cpd00081[c0] + cpd00135[c0] + cpd11420[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3756 or kb|g.2146.peg.483 or kb|g.2146.peg.4553 or kb|g.2146.peg.1622 or kb|g.2146.peg.2042 or kb|g.2146.peg.492)))	{}
+rxn01675	cpd00089[c0] + cpd00357[c0] <=> cpd00012[c0] + cpd00626[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.620 or kb|g.2146.peg.2883)))	{}
+rxn12636	cpd00001[c0] + cpd00067[c0] + cpd11590[c0] <=> cpd00035[c0] + cpd00060[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)) or ((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)))	{}
+rxn12644	cpd00001[c0] + cpd11582[c0] <=> cpd00035[c0] + cpd00161[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn06729	cpd00037[c0] + cpd11484[c0] --> cpd02886[c0] + cpd11493[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2669 or kb|g.2146.peg.4506 or kb|g.2146.peg.4568 or kb|g.2146.peg.2578)))	{}
+rxn01387	cpd00006[c0] + cpd00260[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd03187[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4706 or kb|g.2146.peg.698)))	{}
+rxn00124	cpd00002[c0] + cpd00215[c0] <=> cpd00008[c0] + cpd00016[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4978 or kb|g.2146.peg.1070)))	{}
+rxn01737	cpd00001[c0] + cpd00382[c0] --> cpd00082[c0] + cpd03198[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4977 or kb|g.2146.peg.4364 or kb|g.2146.peg.4286 or kb|g.2146.peg.4488)))	{}
+rxn03910	cpd08288[c0] <=> cpd00046[c0] + cpd08301[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3932 or kb|g.2146.peg.865)))	{}
+rxn00816	cpd00001[c0] + cpd00208[c0] <=> cpd00027[c0] + cpd00108[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5176 or kb|g.2146.peg.3229 or kb|g.2146.peg.1 or kb|g.2146.peg.1566 or kb|g.2146.peg.1445 or kb|g.2146.peg.3046 or kb|g.2146.peg.4751 or kb|g.2146.peg.1716 or kb|g.2146.peg.3356 or kb|g.2146.peg.4327 or kb|g.2146.peg.4014 or kb|g.2146.peg.3875)))	{}
+rxn08527	cpd00106[c0] + cpd15499[c0] <=> cpd00036[c0] + cpd15500[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4540 or kb|g.2146.peg.5140) and (kb|g.2146.peg.5209 or kb|g.2146.peg.4078)) or ((kb|g.2146.peg.5209 or kb|g.2146.peg.4078)))	{}
+rxn00369	cpd00038[c0] + cpd00367[c0] <=> cpd00031[c0] + cpd00046[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3873 or kb|g.2146.peg.5279 or kb|g.2146.peg.1842 or kb|g.2146.peg.2181)))	{}
+rxn02212	cpd02857[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00699[c0]	0	0.0	1000.0	(((kb|g.2146.peg.771 or kb|g.2146.peg.2882)))	{}
+rxn03419	cpd00001[c0] + cpd03518[c0] <=> cpd00047[c0] + cpd00067[c0] + cpd03519[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4991 or kb|g.2146.peg.2051)))	{}
+rxn05408	cpd00481[c0] + cpd11493[c0] <=> cpd00010[c0] + cpd11545[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn02160	cpd00001[c0] + cpd00807[c0] <=> cpd00009[c0] + cpd00067[c0] + cpd00641[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5011 or kb|g.2146.peg.4769)))	{}
+rxn00248	cpd00003[c0] + cpd00130[c0] <=> cpd00004[c0] + cpd00032[c0] + cpd00067[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4485 or kb|g.2146.peg.582)))	{}
+rxn01302	cpd00006[c0] + cpd00227[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd00346[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.183 or kb|g.2146.peg.4528)))	{}
+rxn05422	cpd00005[c0] + cpd00067[c0] + cpd11558[c0] <=> cpd00006[c0] + cpd11559[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn05448	cpd00004[c0] + cpd00067[c0] + cpd11560[c0] --> cpd00003[c0] + cpd11561[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn00048	2.0 cpd02656[c0] --> cpd00220[c0] + cpd02882[c0]	0	0.0	1000.0	(((kb|g.2146.peg.325 or kb|g.2146.peg.2440)))	{}
+rxn03164	cpd00002[c0] + cpd00731[c0] + cpd02964[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd02968[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3243 or kb|g.2146.peg.2307 or kb|g.2146.peg.3696)))	{}
+rxn05298	cpd00023[e0] + cpd00971[e0] <=> cpd00023[c0] + cpd00971[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5401 or kb|g.2146.peg.3861)))	{}
+rxn01258	cpd00216[c0] <=> cpd00658[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2019 or kb|g.2146.peg.3568)) or ((kb|g.2146.peg.2019 or kb|g.2146.peg.3568)))	{}
+rxn05229	cpd00002[c0] + cpd00242[c0] + cpd02140[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd02893[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3008 or kb|g.2146.peg.5475)))	{}
+rxn12637	cpd00001[c0] + cpd11589[c0] <=> cpd00033[c0] + cpd00041[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn05646	cpd00067[e0] + cpd00396[e0] <=> cpd00067[c0] + cpd00396[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5305 or kb|g.2146.peg.3239)))	{}
+rxn09104	cpd00001[c0] + cpd15545[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15538[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn00902	cpd00001[c0] + cpd00022[c0] + cpd00123[c0] --> cpd00010[c0] + cpd00067[c0] + cpd01646[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1342 or kb|g.2146.peg.2956)))	{}
+rxn03852	cpd00861[c0] + cpd00946[c0] <=> cpd00014[c0] + cpd02967[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5333 or kb|g.2146.peg.4690)))	{}
+rxn00952	cpd00239[c0] + cpd00790[c0] --> cpd00029[c0] + cpd00067[c0] + cpd00135[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3756 or kb|g.2146.peg.483 or kb|g.2146.peg.4553 or kb|g.2146.peg.1622 or kb|g.2146.peg.2042 or kb|g.2146.peg.492)))	{}
+rxn10266	cpd00001[c0] + cpd15717[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15723[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn03962	cpd00006[c0] + cpd00272[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd00900[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2045 or kb|g.2146.peg.2325)))	{}
+rxn03909	cpd00020[c0] + cpd00067[c0] + cpd00102[c0] --> cpd00011[c0] + cpd08289[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2583 or kb|g.2146.peg.1893 or kb|g.2146.peg.4268 or kb|g.2146.peg.2318)))	{}
+rxn05187	cpd00001[c0] + cpd00002[c0] + cpd03424[e0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd03424[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4232 or kb|g.2146.peg.570) and (kb|g.2146.peg.4017 or kb|g.2146.peg.553)))	{}
+rxn05328	cpd00004[c0] + cpd00067[c0] + cpd11477[c0] --> cpd00003[c0] + cpd11476[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn10230	cpd00054[c0] + cpd15687[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15693[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn05372	cpd00005[c0] + cpd00067[c0] + cpd11508[c0] <=> cpd00006[c0] + cpd11509[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn00405	cpd00051[c0] + cpd00067[c0] --> cpd00011[c0] + cpd00152[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5222 or kb|g.2146.peg.4187)))	{}
+rxn10225	cpd00052[c0] + cpd15682[c0] <=> cpd00012[c0] + cpd15688[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn10259	cpd00080[c0] + cpd15683[c0] <=> cpd00046[c0] + cpd15716[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn00929	cpd00003[c0] + cpd00129[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd02431[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1080 or kb|g.2146.peg.3752)))	{}
+rxn05316	cpd00067[e0] + cpd00246[e0] <=> cpd00067[c0] + cpd00246[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.385 or kb|g.2146.peg.2372)))	{}
+rxn08311	cpd00052[c0] + cpd15526[c0] <=> cpd00012[c0] + cpd15421[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn01101	cpd00003[c0] + cpd00169[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd02069[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.844 or kb|g.2146.peg.4640 or kb|g.2146.peg.1294 or kb|g.2146.peg.4295)))	{}
+rxn00302	cpd00001[c0] + cpd00038[c0] --> cpd03518[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4991 or kb|g.2146.peg.2051)))	{}
+rxn05341	cpd00006[c0] + cpd11483[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd11490[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn02331	cpd00001[c0] + cpd00061[c0] + cpd00817[c0] --> cpd00009[c0] + cpd00067[c0] + cpd02730[c0]	0	0.0	1000.0	(((kb|g.2146.peg.515 or kb|g.2146.peg.2106)))	{}
+rxn02988	cpd00095[c0] + cpd03470[c0] --> 2.0 cpd00001[c0] + cpd00009[c0] + cpd00067[c0] + cpd02333[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3020 or kb|g.2146.peg.5314)))	{}
+rxn05460	cpd00067[c0] + cpd11476[c0] + cpd11492[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11570[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn10199	cpd03495[c0] + cpd15666[c0] <=> cpd02229[c0] + cpd15665[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5246 or kb|g.2146.peg.2099)))	{}
+rxn09200	2.0 cpd00067[c0] + cpd15555[c0] <=> cpd00011[c0] + cpd15531[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn02937	cpd00002[c0] + cpd02826[c0] <=> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd02140[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2067 or kb|g.2146.peg.5192)))	{}
+rxn00640	cpd00031[c0] + cpd00485[c0] <=> cpd00009[c0] + cpd00067[c0] + cpd00083[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.504 or kb|g.2146.peg.3822 or kb|g.2146.peg.4090 or kb|g.2146.peg.3567 or kb|g.2146.peg.127 or kb|g.2146.peg.1517)))	{}
+rxn00649	cpd00239[c0] + cpd00722[c0] --> cpd00029[c0] + cpd00067[c0] + cpd00084[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4890 or kb|g.2146.peg.1610)))	{}
+rxn10806	0.5 cpd00007[c0] + 2.0 cpd00067[c0] + cpd15499[c0] --> cpd00001[c0] + 2.0 cpd00067[e0] + cpd15500[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2890 or kb|g.2146.peg.2320)) or ((kb|g.2146.peg.4459 or kb|g.2146.peg.5212)) or ((kb|g.2146.peg.2216 or kb|g.2146.peg.1626)))	{}
+rxn01763	cpd00002[c0] + cpd00397[c0] <=> cpd00008[c0] + cpd00808[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1962 or kb|g.2146.peg.2125)))	{}
+rxn01446	cpd00009[c0] + cpd00067[c0] + cpd00277[c0] <=> cpd00207[c0] + cpd00509[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1577 or kb|g.2146.peg.1963 or kb|g.2146.peg.2046 or kb|g.2146.peg.3301)))	{}
+rxn05346	cpd00067[c0] + cpd11464[c0] + cpd11492[c0] --> cpd00011[c0] + cpd11486[c0] + cpd11493[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn00558	cpd00079[c0] <=> cpd00072[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3019 or kb|g.2146.peg.2424)))	{}
+rxn10340	2.0 cpd15725[c0] <=> cpd00100[c0] + cpd15797[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2397 or kb|g.2146.peg.174 or kb|g.2146.peg.937 or kb|g.2146.peg.2798)))	{}
+rxn10122	cpd00004[c0] + 4.5 cpd00067[c0] + cpd15560[c0] <=> cpd00003[c0] + 3.5 cpd00067[e0] + cpd15561[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.181 or kb|g.2146.peg.2420) and (kb|g.2146.peg.2064 or kb|g.2146.peg.671) and (kb|g.2146.peg.72 or kb|g.2146.peg.2235) and (kb|g.2146.peg.2896 or kb|g.2146.peg.969) and (kb|g.2146.peg.755 or kb|g.2146.peg.2944) and (kb|g.2146.peg.2610 or kb|g.2146.peg.539) and (kb|g.2146.peg.2638 or kb|g.2146.peg.892) and (kb|g.2146.peg.2462 or kb|g.2146.peg.292) and (kb|g.2146.peg.2707 or kb|g.2146.peg.309) and (kb|g.2146.peg.2412 or kb|g.2146.peg.50) and (kb|g.2146.peg.2707 or kb|g.2146.peg.309)))	{}
+rxn00143	cpd00001[c0] + cpd00019[c0] <=> cpd00128[c0] + cpd02227[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4786 or kb|g.2146.peg.2922) and (kb|g.2146.peg.4786 or kb|g.2146.peg.2922)))	{}
+rxn00187	cpd00002[c0] + cpd00013[c0] + cpd00023[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00053[c0] + cpd00067[c0]	0	0.0	1000.0	(((kb|g.2146.peg.690 or kb|g.2146.peg.933 or kb|g.2146.peg.3287 or kb|g.2146.peg.4572)))	{}
+rxn05305	cpd00039[c0] + cpd00067[e0] <=> cpd00039[e0] + cpd00067[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3744 or kb|g.2146.peg.1357)))	{}
+rxn02875	cpd00001[c0] + cpd01923[c0] <=> cpd00035[c0] + cpd03485[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4117)))	{}
+rxn00737	cpd00161[c0] --> cpd00013[c0] + cpd00094[c0]	0	0.0	1000.0	(((kb|g.2146.peg.924 or kb|g.2146.peg.3070)))	{}
+rxn01200	cpd00102[c0] + cpd00238[c0] <=> cpd00101[c0] + cpd00198[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2228 or kb|g.2146.peg.1243)))	{}
+rxn05232	cpd00002[c0] + cpd11421[c0] --> cpd00001[c0] + cpd00115[c0] + cpd11420[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4263 or kb|g.2146.peg.105)))	{}
+rxn03841	cpd08210[c0] --> cpd00020[c0] + cpd00067[c0] + cpd00443[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2866 or kb|g.2146.peg.1170)))	{}
+rxn00193	cpd00023[c0] <=> cpd00186[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1979 or kb|g.2146.peg.3595)))	{}
+rxn05958	cpd02227[c0] --> cpd00135[c0] + cpd08636[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2593 or kb|g.2146.peg.4006)))	{}
+rxn12844	cpd00001[c0] + cpd15603[c0] <=> cpd00033[c0] + cpd00084[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn01332	cpd00001[c0] + cpd00061[c0] + cpd00236[c0] --> cpd00009[c0] + cpd00067[c0] + cpd02857[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2926)))	{}
+rxn01457	cpd00280[c0] <=> cpd00437[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2057 or kb|g.2146.peg.1631)))	{}
+rxn09103	cpd00001[c0] + cpd15544[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15537[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn09208	cpd00054[c0] + cpd15419[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15555[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn05567	cpd00061[c0] + cpd01171[e0] <=> cpd00020[c0] + cpd03752[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2458 or kb|g.2146.peg.3763)))	{}
+rxn01807	cpd00002[c0] + cpd00419[c0] <=> cpd00008[c0] + cpd00493[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4978 or kb|g.2146.peg.1070)))	{}
+rxn10060	cpd00003[c0] + cpd00357[c0] <=> cpd00006[c0] + cpd00297[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.926 or kb|g.2146.peg.3182)))	{}
+rxn00100	cpd00002[c0] + cpd00655[c0] --> cpd00008[c0] + cpd00010[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2715 or kb|g.2146.peg.291)))	{}
+rxn01018	cpd00041[c0] + cpd00146[c0] --> cpd00009[c0] + 2.0 cpd00067[c0] + cpd00343[c0]	0	0.0	1000.0	(((kb|g.2146.peg.581 or kb|g.2146.peg.2511)) or ((kb|g.2146.peg.2891 or kb|g.2146.peg.998)))	{}
+rxn05204	cpd00067[e0] + cpd00311[e0] <=> cpd00067[c0] + cpd00311[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.385 or kb|g.2146.peg.2372)))	{}
+rxn00806	cpd00024[c0] + cpd00107[c0] <=> cpd00023[c0] + cpd00200[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4393 or kb|g.2146.peg.4842)))	{}
+rxn02834	cpd00001[c0] + cpd01775[c0] <=> cpd00012[c0] + cpd01777[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1193 or kb|g.2146.peg.2270) and (kb|g.2146.peg.1193 or kb|g.2146.peg.2270)))	{}
+rxn02341	cpd00067[c0] + cpd02666[c0] --> cpd00011[c0] + cpd00834[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1809 or kb|g.2146.peg.2487) and (kb|g.2146.peg.1809 or kb|g.2146.peg.2487)))	{}
+rxn09310	cpd00002[c0] + cpd00069[c0] + cpd00084[c0] + cpd08289[c0] --> cpd00001[c0] + cpd00011[c0] + cpd00012[c0] + cpd00018[c0] + cpd00035[c0] + cpd02654[c0] + cpd15378[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2333 or kb|g.2146.peg.1231 or kb|g.2146.peg.2815 or kb|g.2146.peg.1262) and (kb|g.2146.peg.326 or kb|g.2146.peg.4296) and (kb|g.2146.peg.499 or kb|g.2146.peg.4721)))	{}
+rxn03175	cpd02979[c0] <=> cpd02991[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2055 or kb|g.2146.peg.1456)))	{}
+rxn00157	cpd00022[c0] + cpd00047[c0] <=> cpd00010[c0] + cpd00020[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.744 or kb|g.2146.peg.2884)) or ((kb|g.2146.peg.2202 or kb|g.2146.peg.739)))	{}
+rxn01518	cpd00002[c0] + cpd00412[c0] <=> cpd00008[c0] + cpd00299[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5359 or kb|g.2146.peg.3394)))	{}
+rxn10219	cpd11441[c0] + cpd15676[c0] --> cpd00010[c0] + cpd15682[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn00786	cpd00290[c0] <=> cpd00095[c0] + cpd00102[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.370 or kb|g.2146.peg.4632 or kb|g.2146.peg.23)))	{}
+rxn01637	cpd00024[c0] + cpd00342[c0] <=> cpd00023[c0] + cpd00918[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3063 or kb|g.2146.peg.1921)))	{}
+rxn00689	cpd00002[c0] + cpd00023[c0] + cpd00087[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd06227[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1186 or kb|g.2146.peg.2040) and (kb|g.2146.peg.1186 or kb|g.2146.peg.2040)))	{}
+rxn12640	cpd00001[c0] + cpd11586[c0] <=> cpd00023[c0] + cpd00035[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn05376	cpd00005[c0] + cpd00067[c0] + cpd11512[c0] <=> cpd00006[c0] + cpd11513[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn05342	cpd00006[c0] + cpd11484[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd11491[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn05596	cpd00067[e0] + cpd00205[c0] <=> cpd00067[c0] + cpd00205[e0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1290 or kb|g.2146.peg.4740)) or ((kb|g.2146.peg.4522 or kb|g.2146.peg.1693)))	{}
+rxn05733	cpd00268[c0] + cpd00722[c0] + cpd11421[c0] --> cpd00029[c0] + cpd00081[c0] + cpd00084[c0] + cpd11420[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4890 or kb|g.2146.peg.1610)))	{}
+rxn05350	cpd00067[c0] + cpd11472[c0] + cpd11492[c0] --> cpd00011[c0] + cpd11490[c0] + cpd11493[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn00262	cpd00001[c0] + cpd00007[c0] + cpd00041[c0] --> cpd00013[c0] + cpd00025[c0] + cpd00032[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4564 or kb|g.2146.peg.1286)))	{}
+rxn02404	cpd00001[c0] + cpd02730[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00875[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1185 or kb|g.2146.peg.4975)))	{}
+rxn02166	cpd00001[c0] + cpd02135[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00646[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5267 or kb|g.2146.peg.4493)))	{}
+rxn00704	cpd00089[c0] <=> cpd00079[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1155 or kb|g.2146.peg.2999)))	{}
+rxn00710	cpd00067[c0] + cpd00810[c0] --> cpd00011[c0] + cpd00091[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5026 or kb|g.2146.peg.2236)))	{}
+rxn02762	cpd00001[c0] + cpd01571[c0] --> cpd03454[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1711 or kb|g.2146.peg.2514)))	{}
+rxn05437	cpd00004[c0] + cpd00067[c0] + cpd11514[c0] --> cpd00003[c0] + cpd11515[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn00545	cpd00002[c0] + cpd00072[c0] <=> cpd00008[c0] + cpd00290[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2753 or kb|g.2146.peg.1187)))	{}
+rxn01991	cpd00001[c0] + cpd00006[c0] + cpd00516[c0] <=> cpd00005[c0] + cpd00013[c0] + cpd00067[c0] + cpd02414[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4359 or kb|g.2146.peg.1993)))	{}
+rxn10308	24.0 cpd00037[c0] + cpd15747[c0] <=> 24.0 cpd00014[c0] + cpd15765[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2545 or kb|g.2146.peg.1799)))	{}
+rxn05249	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd11436[c0] --> cpd00012[c0] + cpd00018[c0] + cpd11437[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2233 or kb|g.2146.peg.1287 or kb|g.2146.peg.2968 or kb|g.2146.peg.746 or kb|g.2146.peg.3560 or kb|g.2146.peg.996)))	{}
+rxn01649	cpd00009[c0] + cpd00067[c0] + cpd01217[c0] <=> cpd00309[c0] + cpd00475[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1577 or kb|g.2146.peg.1963 or kb|g.2146.peg.2046 or kb|g.2146.peg.3301)))	{}
+rxn09107	cpd00001[c0] + cpd15548[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15541[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn01301	cpd00003[c0] + cpd00227[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd00346[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.183 or kb|g.2146.peg.4528)))	{}
+rxn05396	cpd00067[c0] + cpd11492[c0] + cpd11532[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11533[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn13782	 --> cpd17041[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2292 or kb|g.2146.peg.3370) and (kb|g.2146.peg.734 or kb|g.2146.peg.4183) and (kb|g.2146.peg.621 or kb|g.2146.peg.4036) and (kb|g.2146.peg.416 or kb|g.2146.peg.4435) and (kb|g.2146.peg.4410 or kb|g.2146.peg.156) and (kb|g.2146.peg.2924 or kb|g.2146.peg.271) and (kb|g.2146.peg.5260 or kb|g.2146.peg.4662) and (kb|g.2146.peg.910 or kb|g.2146.peg.4539) and (kb|g.2146.peg.4510 or kb|g.2146.peg.310) and (kb|g.2146.peg.194 or kb|g.2146.peg.4104) and (kb|g.2146.peg.2871 or kb|g.2146.peg.5451) and (kb|g.2146.peg.5281 or kb|g.2146.peg.3388) and (kb|g.2146.peg.1293 or kb|g.2146.peg.2976) and (kb|g.2146.peg.5398 or kb|g.2146.peg.3781) and (kb|g.2146.peg.2621 or kb|g.2146.peg.61) and (kb|g.2146.peg.4374 or kb|g.2146.peg.545) and (kb|g.2146.peg.4735 or kb|g.2146.peg.392) and (kb|g.2146.peg.4460 or kb|g.2146.peg.656) and (kb|g.2146.peg.5285 or kb|g.2146.peg.3681) and (kb|g.2146.peg.3285 or kb|g.2146.peg.476) and (kb|g.2146.peg.653 or kb|g.2146.peg.4926) and (kb|g.2146.peg.967 or kb|g.2146.peg.4665) and (kb|g.2146.peg.1743 or kb|g.2146.peg.2783) and (kb|g.2146.peg.3708 or kb|g.2146.peg.1782) and (kb|g.2146.peg.4923 or kb|g.2146.peg.893) and (kb|g.2146.peg.3563 or kb|g.2146.peg.1618) and (kb|g.2146.peg.1043 or kb|g.2146.peg.4527) and (kb|g.2146.peg.3620 or kb|g.2146.peg.628) and (kb|g.2146.peg.4918 or kb|g.2146.peg.458) and (kb|g.2146.peg.3126 or kb|g.2146.peg.1311) and (kb|g.2146.peg.238 or kb|g.2146.peg.3169) and (kb|g.2146.peg.342 or kb|g.2146.peg.4281) and (kb|g.2146.peg.4267 or kb|g.2146.peg.1999) and (kb|g.2146.peg.2180 or kb|g.2146.peg.1930) and (kb|g.2146.peg.2938 or kb|g.2146.peg.1820) and (kb|g.2146.peg.3194 or kb|g.2146.peg.5242) and (kb|g.2146.peg.710 or kb|g.2146.peg.4282) and (kb|g.2146.peg.657 or kb|g.2146.peg.4717) and (kb|g.2146.peg.4686 or kb|g.2146.peg.662) and (kb|g.2146.peg.122 or kb|g.2146.peg.2098) and (kb|g.2146.peg.885 or kb|g.2146.peg.4442) and (kb|g.2146.peg.4108 or kb|g.2146.peg.850) and (kb|g.2146.peg.2000 or kb|g.2146.peg.1667) and (kb|g.2146.peg.139 or kb|g.2146.peg.4817) and (kb|g.2146.peg.3662 or kb|g.2146.peg.1915) and (kb|g.2146.peg.4790 or kb|g.2146.peg.535) and (kb|g.2146.peg.360 or kb|g.2146.peg.4251) and (kb|g.2146.peg.4814 or kb|g.2146.peg.809) and (kb|g.2146.peg.4440 or kb|g.2146.peg.752) and (kb|g.2146.peg.4837 or kb|g.2146.peg.1498) and (kb|g.2146.peg.2060 or kb|g.2146.peg.629) and (kb|g.2146.peg.154 or kb|g.2146.peg.4945) and (kb|g.2146.peg.4312 or kb|g.2146.peg.224) and (kb|g.2146.peg.4131 or kb|g.2146.peg.362) and (kb|g.2146.peg.180 or kb|g.2146.peg.4589) and (kb|g.2146.peg.4008 or kb|g.2146.peg.2943) and (kb|g.2146.peg.441 or kb|g.2146.peg.4299) and (kb|g.2146.peg.4093 or kb|g.2146.peg.522) and (kb|g.2146.peg.3459 or kb|g.2146.peg.1779) and (kb|g.2146.peg.4191 or kb|g.2146.peg.374) and (kb|g.2146.peg.2851 or kb|g.2146.peg.381) and (kb|g.2146.peg.679 or kb|g.2146.peg.4260) and (kb|g.2146.peg.842 or kb|g.2146.peg.3592) and (kb|g.2146.peg.4498 or kb|g.2146.peg.320) and (kb|g.2146.peg.4928 or kb|g.2146.peg.45) and (kb|g.2146.peg.4321 or kb|g.2146.peg.686) and (kb|g.2146.peg.1859 or kb|g.2146.peg.4647) and (kb|g.2146.peg.1035 or kb|g.2146.peg.4779) and (kb|g.2146.peg.464 or kb|g.2146.peg.4980) and (kb|g.2146.peg.4069 or kb|g.2146.peg.617)))	{}
+rxn10334	2.0 cpd15538[c0] <=> cpd00100[c0] + cpd15791[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2397 or kb|g.2146.peg.174 or kb|g.2146.peg.937 or kb|g.2146.peg.2798)))	{}
+rxn00910	cpd00006[c0] + cpd00345[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd00125[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3726 or kb|g.2146.peg.5423)))	{}
+rxn02286	cpd00002[c0] + cpd00035[c0] + cpd00773[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00890[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3769 or kb|g.2146.peg.1115)))	{}
+rxn03159	cpd02835[c0] + cpd02930[c0] <=> cpd00014[c0] + cpd03002[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2645 or kb|g.2146.peg.737)))	{}
+rxn05363	cpd00067[c0] + cpd11492[c0] + cpd11499[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11500[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn01682	cpd02210[c0] <=> cpd00102[c0] + cpd00359[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3887 or kb|g.2146.peg.1411) and (kb|g.2146.peg.1890 or kb|g.2146.peg.3541)))	{}
+rxn02474	cpd00006[c0] + cpd02720[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd00931[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1704 or kb|g.2146.peg.3397)))	{}
+rxn05324	cpd00004[c0] + cpd00067[c0] + cpd11469[c0] --> cpd00003[c0] + cpd11468[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn01292	cpd00224[c0] <=> cpd00397[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1750 or kb|g.2146.peg.2485)))	{}
+rxn10311	24.0 cpd00037[c0] + cpd15750[c0] <=> 24.0 cpd00014[c0] + cpd15768[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2545 or kb|g.2146.peg.1799)))	{}
+rxn01486	cpd00113[c0] + cpd00350[c0] --> cpd00012[c0] + cpd00289[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3575 or kb|g.2146.peg.5125 or kb|g.2146.peg.2907 or kb|g.2146.peg.4394)))	{}
+rxn05464	cpd00004[c0] + cpd00067[c0] + cpd11572[c0] --> cpd00003[c0] + cpd11573[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn05359	cpd00067[c0] + cpd11492[c0] + cpd11495[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11496[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn00898	cpd02498[c0] --> cpd00001[c0] + cpd00123[c0]	0	0.0	1000.0	(((kb|g.2146.peg.208 or kb|g.2146.peg.2075)))	{}
+rxn01069	cpd00001[c0] + cpd00809[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00161[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4080 or kb|g.2146.peg.239)))	{}
+rxn05322	cpd00004[c0] + cpd00067[c0] + cpd11465[c0] --> cpd00003[c0] + cpd11464[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn01396	cpd00002[c0] + cpd00263[c0] <=> cpd00008[c0] + cpd00478[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4978 or kb|g.2146.peg.1070)))	{}
+rxn01997	cpd00626[c0] --> cpd00001[c0] + cpd00521[c0]	0	0.0	1000.0	(((kb|g.2146.peg.997 or kb|g.2146.peg.3523 or kb|g.2146.peg.2608 or kb|g.2146.peg.975)))	{}
+rxn05458	cpd00010[c0] + cpd11476[c0] <=> cpd00134[c0] + cpd11493[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn05453	cpd00010[c0] + cpd11540[c0] <=> cpd11437[c0] + cpd11493[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn00555	cpd00053[c0] + cpd00072[c0] <=> cpd00023[c0] + cpd00288[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4924 or kb|g.2146.peg.3737 or kb|g.2146.peg.575 or kb|g.2146.peg.79)))	{}
+rxn00260	cpd00024[c0] + cpd00041[c0] <=> cpd00023[c0] + cpd00032[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4573 or kb|g.2146.peg.2654 or kb|g.2146.peg.943 or kb|g.2146.peg.4254 or kb|g.2146.peg.2941 or kb|g.2146.peg.577)))	{}
+rxn03885	cpd00403[c0] --> cpd00001[c0] + cpd00176[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2207 or kb|g.2146.peg.3767)))	{}
+rxn02484	cpd00002[c0] + cpd00939[c0] <=> cpd00008[c0] + cpd02775[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3302 or kb|g.2146.peg.3967 or kb|g.2146.peg.1886 or kb|g.2146.peg.1163)))	{}
+rxn05337	cpd00006[c0] + cpd11479[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd11486[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn03137	cpd00201[c0] + cpd02851[c0] <=> cpd00087[c0] + cpd02884[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5017 or kb|g.2146.peg.3265) and (kb|g.2146.peg.614 or kb|g.2146.peg.4497 or kb|g.2146.peg.5017 or kb|g.2146.peg.3265)))	{}
+rxn00690	cpd00002[c0] + cpd00047[c0] + cpd00087[c0] <=> cpd00008[c0] + cpd00009[c0] + cpd00201[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2867 or kb|g.2146.peg.26)))	{}
+rxn01114	cpd00002[c0] + cpd00258[c0] <=> cpd00008[c0] + cpd00171[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1962 or kb|g.2146.peg.2125)))	{}
+rxn05367	cpd00067[c0] + cpd11492[c0] + cpd11503[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11504[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn00527	cpd00024[c0] + cpd00069[c0] <=> cpd00023[c0] + cpd00868[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2654 or kb|g.2146.peg.577)) or ((kb|g.2146.peg.2794 or kb|g.2146.peg.1499)))	{}
+rxn13783	 --> cpd17042[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2114 or kb|g.2146.peg.1982) and (kb|g.2146.peg.1714 or kb|g.2146.peg.3630) and (kb|g.2146.peg.4741 or kb|g.2146.peg.543 or kb|g.2146.peg.790 or kb|g.2146.peg.2963) and (kb|g.2146.peg.2196 or kb|g.2146.peg.315) and (kb|g.2146.peg.3228 or kb|g.2146.peg.5392) and (kb|g.2146.peg.4264 or kb|g.2146.peg.17) and (kb|g.2146.peg.3633 or kb|g.2146.peg.5078) and (kb|g.2146.peg.4332 or kb|g.2146.peg.5095) and (kb|g.2146.peg.5346 or kb|g.2146.peg.4122) and (kb|g.2146.peg.2948 or kb|g.2146.peg.3777) and (kb|g.2146.peg.2220 or kb|g.2146.peg.5210) and (kb|g.2146.peg.2491 or kb|g.2146.peg.1881) and (kb|g.2146.peg.1905 or kb|g.2146.peg.2708) and (kb|g.2146.peg.666 or kb|g.2146.peg.4680) and (kb|g.2146.peg.1825 or kb|g.2146.peg.2304) and (kb|g.2146.peg.713 or kb|g.2146.peg.4848)))	{}
+rxn08126	cpd00179[c0] + cpd01262[c0] <=> cpd00027[c0] + cpd01399[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4516 or kb|g.2146.peg.788)))	{}
+rxn01390	cpd00002[c0] + cpd00261[c0] <=> cpd00008[c0] + cpd03861[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3250 or kb|g.2146.peg.5132)))	{}
+rxn09111	cpd00080[c0] + cpd15419[c0] <=> cpd00046[c0] + cpd15545[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn01974	cpd00504[c0] <=> cpd00516[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4455 or kb|g.2146.peg.668)))	{}
+rxn12645	cpd00001[c0] + cpd11581[c0] <=> cpd00033[c0] + cpd00132[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn02008	cpd00002[c0] + cpd00186[c0] + cpd00890[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00525[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3899 or kb|g.2146.peg.1826)))	{}
+rxn05385	cpd00005[c0] + cpd00067[c0] + cpd11521[c0] <=> cpd00006[c0] + cpd11522[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn05443	cpd00004[c0] + cpd00067[c0] + cpd11539[c0] --> cpd00003[c0] + cpd11540[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn02155	cpd00002[c0] + cpd00873[c0] <=> cpd00012[c0] + cpd00638[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3731 or kb|g.2146.peg.232)))	{}
+rxn00915	cpd00103[c0] + cpd00207[c0] --> cpd00012[c0] + cpd00126[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4422 or kb|g.2146.peg.388)))	{}
+rxn00299	cpd00001[c0] + cpd00038[c0] --> cpd00047[c0] + cpd00067[c0] + cpd02978[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4991 or kb|g.2146.peg.2051)))	{}
+rxn00461	cpd00037[c0] + cpd00061[c0] <=> cpd00009[c0] + cpd00067[c0] + cpd02820[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3196 or kb|g.2146.peg.252)))	{}
+rxn08089	cpd11825[c0] + cpd15328[c0] --> cpd11493[c0] + cpd15527[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn05434	cpd00004[c0] + cpd00067[c0] + cpd11502[c0] --> cpd00003[c0] + cpd11503[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn00283	cpd00035[c0] <=> cpd00117[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.172 or kb|g.2146.peg.2307 or kb|g.2146.peg.3696 or kb|g.2146.peg.4144)))	{}
+rxn01508	cpd00002[c0] + cpd00438[c0] <=> cpd00008[c0] + cpd00294[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.957 or kb|g.2146.peg.2277 or kb|g.2146.peg.2651 or kb|g.2146.peg.158) and (kb|g.2146.peg.957 or kb|g.2146.peg.2277 or kb|g.2146.peg.2651 or kb|g.2146.peg.158)))	{}
+rxn10212	cpd01695[c0] + cpd15331[c0] --> cpd00010[c0] + cpd15522[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn10337	2.0 cpd15722[c0] <=> cpd00100[c0] + cpd15794[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2397 or kb|g.2146.peg.174 or kb|g.2146.peg.937 or kb|g.2146.peg.2798)))	{}
+rxn10235	2.0 cpd00067[c0] + cpd15692[c0] <=> cpd00011[c0] + cpd15698[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn05417	cpd00067[c0] + cpd11492[c0] + cpd11553[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11554[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn10221	cpd00052[c0] + cpd15678[c0] <=> cpd00012[c0] + cpd15684[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn09177	cpd00052[c0] + cpd00084[c0] + cpd02201[c0] --> cpd00012[c0] + cpd00046[c0] + cpd02666[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1809 or kb|g.2146.peg.2487)))	{}
+rxn03437	cpd02535[c0] --> cpd00001[c0] + cpd00508[c0]	0	0.0	1000.0	(((kb|g.2146.peg.208 or kb|g.2146.peg.2075)))	{}
+rxn09199	2.0 cpd00067[c0] + cpd15554[c0] <=> cpd00011[c0] + cpd15530[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn02320	cpd00024[c0] + cpd00807[c0] <=> cpd00023[c0] + cpd00930[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2794 or kb|g.2146.peg.1499)))	{}
+rxn10126	cpd00982[c0] + cpd15560[c0] --> cpd00015[c0] + cpd15561[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4540 or kb|g.2146.peg.5140) and (kb|g.2146.peg.5209 or kb|g.2146.peg.4078)))	{}
+rxn08083	cpd11468[c0] + cpd15325[c0] --> cpd11493[c0] + cpd15521[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn02507	cpd00067[c0] + cpd00956[c0] <=> cpd00001[c0] + cpd00011[c0] + cpd02210[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3856 or kb|g.2146.peg.1469)))	{}
+rxn03901	cpd00001[c0] + cpd02229[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00286[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4414 or kb|g.2146.peg.2205)))	{}
+rxn03933	cpd00037[c0] + cpd02948[c0] <=> cpd00014[c0] + cpd03491[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3108 or kb|g.2146.peg.1731)))	{}
+rxn05202	cpd00067[e0] + cpd00309[e0] <=> cpd00067[c0] + cpd00309[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1033 or kb|g.2146.peg.3791)))	{}
+rxn05297	cpd00023[e0] + cpd00067[e0] <=> cpd00023[c0] + cpd00067[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5401 or kb|g.2146.peg.3861)))	{}
+rxn09105	cpd00001[c0] + cpd15546[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15539[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn02161	cpd00002[c0] + cpd00642[c0] <=> cpd00008[c0] + cpd00831[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3250 or kb|g.2146.peg.5132)))	{}
+rxn06865	cpd03586[c0] + cpd11468[c0] --> cpd03736[c0] + cpd11493[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1375 or kb|g.2146.peg.3870)))	{}
+rxn00303	cpd00002[c0] + cpd00038[c0] <=> cpd00018[c0] + cpd02740[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.868 or kb|g.2146.peg.2245)) or ((kb|g.2146.peg.2252 or kb|g.2146.peg.1961)))	{}
+rxn01434	cpd00002[c0] + cpd00041[c0] + cpd00274[c0] <=> cpd00012[c0] + cpd00018[c0] + cpd02152[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1718 or kb|g.2146.peg.3697)))	{}
+rxn00693	cpd00135[c0] + cpd00345[c0] <=> cpd00060[c0] + cpd00087[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5316 or kb|g.2146.peg.2992 or kb|g.2146.peg.4674 or kb|g.2146.peg.1781)))	{}
+rxn00122	cpd00002[c0] + cpd00050[c0] --> cpd00012[c0] + cpd00015[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5117 or kb|g.2146.peg.4317) and (kb|g.2146.peg.5117 or kb|g.2146.peg.4317)))	{}
+rxn01116	cpd00171[c0] <=> cpd00198[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3044 or kb|g.2146.peg.1708)))	{}
+rxn03908	cpd00002[c0] + cpd08287[c0] <=> cpd00008[c0] + cpd08288[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1653 or kb|g.2146.peg.2387)))	{}
+rxn05436	cpd00004[c0] + cpd00067[c0] + cpd11510[c0] --> cpd00003[c0] + cpd11511[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn08308	cpd00052[c0] + cpd15523[c0] <=> cpd00012[c0] + cpd15422[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn06526	cpd00006[c0] + cpd12072[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd12139[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2951 or kb|g.2146.peg.1166)))	{}
+rxn02213	cpd00699[c0] --> cpd00001[c0] + cpd01716[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1987 or kb|g.2146.peg.3521)))	{}
+rxn02200	cpd00443[c0] + cpd00954[c0] <=> cpd00001[c0] + cpd00683[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3103 or kb|g.2146.peg.1530)))	{}
+rxn05397	cpd00005[c0] + cpd00067[c0] + cpd11533[c0] <=> cpd00006[c0] + cpd11534[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn04308	7.0 cpd00113[c0] + cpd08211[c0] --> 7.0 cpd00012[c0] + cpd02229[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3514 or kb|g.2146.peg.1539)))	{}
+rxn03062	cpd00003[c0] + cpd02693[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd02605[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1588 or kb|g.2146.peg.2039)))	{}
+rxn01171	cpd00027[c0] <=> cpd00190[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2303 or kb|g.2146.peg.1201 or kb|g.2146.peg.1135 or kb|g.2146.peg.2692)))	{}
+rxn01388	cpd00260[c0] <=> cpd00001[c0] + cpd00331[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.272 or kb|g.2146.peg.2376)))	{}
+rxn05421	cpd00067[c0] + cpd11492[c0] + cpd11557[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11558[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn01775	cpd00003[c0] + cpd00403[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd00672[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3163 or kb|g.2146.peg.2824)))	{}
+rxn10214	cpd11432[c0] + cpd15671[c0] --> cpd00010[c0] + cpd15677[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn01791	cpd00002[c0] + cpd00085[c0] + cpd00408[c0] --> cpd00012[c0] + cpd00018[c0] + cpd00644[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2113 or kb|g.2146.peg.1296)))	{}
+rxn00222	cpd00001[c0] + cpd00158[c0] --> 2.0 cpd00027[c0]	0	0.0	1000.0	(((kb|g.2146.peg.506 or kb|g.2146.peg.1220 or kb|g.2146.peg.3610 or kb|g.2146.peg.4639 or kb|g.2146.peg.364 or kb|g.2146.peg.3490 or kb|g.2146.peg.1957 or kb|g.2146.peg.3051 or kb|g.2146.peg.3138 or kb|g.2146.peg.2507)))	{}
+rxn00020	cpd00001[c0] + cpd00158[c0] --> 2.0 cpd00190[c0]	0	0.0	1000.0	(((kb|g.2146.peg.506 or kb|g.2146.peg.1220 or kb|g.2146.peg.3610 or kb|g.2146.peg.4639 or kb|g.2146.peg.364 or kb|g.2146.peg.3490 or kb|g.2146.peg.1957 or kb|g.2146.peg.3051 or kb|g.2146.peg.3138 or kb|g.2146.peg.2507)) or ((kb|g.2146.peg.4380 or kb|g.2146.peg.869)))	{}
+rxn03446	cpd00001[c0] + cpd03607[c0] --> cpd00009[c0] + cpd00067[c0] + cpd03608[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4080 or kb|g.2146.peg.239)))	{}
+rxn01519	cpd00001[c0] + cpd00358[c0] --> cpd00012[c0] + cpd00299[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3401 or kb|g.2146.peg.1934)))	{}
+rxn00242	cpd00001[c0] + cpd00905[c0] --> cpd00012[c0] + cpd00031[c0]	0	0.0	1000.0	(((kb|g.2146.peg.868 or kb|g.2146.peg.2245)))	{}
+rxn01143	cpd00002[c0] + cpd00184[c0] <=> cpd00008[c0] + cpd00298[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5359 or kb|g.2146.peg.3394)))	{}
+rxn10338	2.0 cpd15723[c0] <=> cpd00100[c0] + cpd15795[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2397 or kb|g.2146.peg.174 or kb|g.2146.peg.937 or kb|g.2146.peg.2798)))	{}
+rxn09687	cpd00067[e0] + cpd03279[e0] <=> cpd00067[c0] + cpd03279[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.385 or kb|g.2146.peg.2372)))	{}
+rxn10263	cpd00080[c0] + cpd15687[c0] <=> cpd00046[c0] + cpd15720[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn01964	cpd00054[c0] + cpd02210[c0] <=> cpd00001[c0] + cpd00065[c0] + cpd00102[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3887 or kb|g.2146.peg.1411) and (kb|g.2146.peg.1890 or kb|g.2146.peg.3541)))	{}
+rxn10113	0.5 cpd00007[c0] + 2.5 cpd00067[c0] + cpd15561[c0] --> cpd00001[c0] + 2.5 cpd00067[e0] + cpd15560[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2890 or kb|g.2146.peg.2320) and (kb|g.2146.peg.2216 or kb|g.2146.peg.1626)) or ((kb|g.2146.peg.4459 or kb|g.2146.peg.5212)))	{}
+rxn03919	cpd00001[c0] + cpd08316[c0] --> cpd00009[c0] + cpd00067[c0] + cpd04920[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4825)))	{}
+rxn10341	2.0 cpd15726[c0] <=> cpd00100[c0] + cpd15798[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2397 or kb|g.2146.peg.174 or kb|g.2146.peg.937 or kb|g.2146.peg.2798)))	{}
+rxn10269	cpd00001[c0] + cpd15720[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15726[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn12510	cpd00002[c0] + cpd00644[c0] <=> cpd00008[c0] + cpd02201[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.178 or kb|g.2146.peg.4605)))	{}
+rxn05392	cpd00067[c0] + cpd11492[c0] + cpd11528[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11529[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn00161	cpd00006[c0] + cpd00130[c0] --> cpd00005[c0] + cpd00011[c0] + cpd00020[c0]	0	0.0	1000.0	(((kb|g.2146.peg.953 or kb|g.2146.peg.4283)))	{}
+rxn01857	cpd00003[c0] + cpd00608[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd00437[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2221 or kb|g.2146.peg.1524)))	{}
+rxn00808	cpd00002[c0] + cpd00108[c0] <=> cpd00008[c0] + cpd00348[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1083 or kb|g.2146.peg.2581)))	{}
+rxn09207	cpd00054[c0] + cpd15422[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15554[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn02380	cpd00863[c0] <=> cpd00072[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3019 or kb|g.2146.peg.2424)))	{}
+rxn00474	cpd00054[c0] + cpd00359[c0] --> cpd00001[c0] + cpd00065[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3887 or kb|g.2146.peg.1411) and (kb|g.2146.peg.1890 or kb|g.2146.peg.3541)))	{}
+rxn09114	cpd00080[c0] + cpd15420[c0] <=> cpd00046[c0] + cpd15548[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn03435	cpd00006[c0] + cpd02535[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd10162[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2421 or kb|g.2146.peg.111)))	{}
+rxn12845	cpd00001[c0] + cpd15604[c0] <=> cpd00033[c0] + cpd00107[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn00085	cpd00006[c0] + 2.0 cpd00023[c0] <=> cpd00005[c0] + cpd00024[c0] + cpd00053[c0] + cpd00067[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4954 or kb|g.2146.peg.2330 or kb|g.2146.peg.936 or kb|g.2146.peg.4373 or kb|g.2146.peg.762 or kb|g.2146.peg.3853) and (kb|g.2146.peg.4885 or kb|g.2146.peg.3623)))	{}
+rxn11702	cpd00024[c0] + cpd00067[c0] + cpd00658[c0] --> cpd00011[c0] + cpd16335[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3491 or kb|g.2146.peg.2011)))	{}
+rxn05340	cpd00006[c0] + cpd11480[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd11489[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn00832	cpd00001[c0] + cpd00114[c0] <=> cpd02884[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5017 or kb|g.2146.peg.3265) and (kb|g.2146.peg.614 or kb|g.2146.peg.4497 or kb|g.2146.peg.5017 or kb|g.2146.peg.3265)))	{}
+rxn00295	cpd00037[c0] <=> cpd00175[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1362 or kb|g.2146.peg.4962)))	{}
+rxn05317	cpd00067[e0] + cpd00438[e0] <=> cpd00067[c0] + cpd00438[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.385 or kb|g.2146.peg.2372)))	{}
+rxn01368	cpd00001[c0] + cpd00067[c0] + cpd00367[c0] --> cpd00013[c0] + cpd00249[c0]	0	0.0	1000.0	(((kb|g.2146.peg.677 or kb|g.2146.peg.4152)))	{}
+rxn02187	cpd00668[c0] <=> cpd02569[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2421 or kb|g.2146.peg.111)))	{}
+rxn01219	cpd00002[c0] + cpd00206[c0] <=> cpd00008[c0] + cpd00533[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1272 or kb|g.2146.peg.3216 or kb|g.2146.peg.3299 or kb|g.2146.peg.2875)))	{}
+rxn01270	cpd00032[c0] + cpd00616[c0] <=> cpd00041[c0] + cpd00219[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2654 or kb|g.2146.peg.577)))	{}
+rxn07441	cpd00024[c0] + cpd00504[c0] --> cpd00001[c0] + cpd00023[c0] + cpd00067[c0] + cpd02465[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4362 or kb|g.2146.peg.480)))	{}
+rxn01021	cpd00001[c0] + cpd00147[c0] <=> cpd00128[c0] + cpd01981[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4786 or kb|g.2146.peg.2922) and (kb|g.2146.peg.4786 or kb|g.2146.peg.2922)))	{}
+rxn01127	cpd00002[c0] + cpd00294[c0] <=> cpd00008[c0] + cpd00177[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.41 or kb|g.2146.peg.4073)))	{}
+rxn08309	cpd00052[c0] + cpd15524[c0] <=> cpd00012[c0] + cpd15419[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn03892	cpd00113[c0] + cpd02591[c0] --> cpd00012[c0] + cpd00906[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3575 or kb|g.2146.peg.5125 or kb|g.2146.peg.2907 or kb|g.2146.peg.4394)))	{}
+rxn05461	cpd00005[c0] + cpd00067[c0] + cpd11570[c0] <=> cpd00006[c0] + cpd11571[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn08312	cpd00052[c0] + cpd15527[c0] <=> cpd00012[c0] + cpd15420[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn05144	cpd00053[c0] + cpd00102[c0] + cpd00171[c0] --> 3.0 cpd00001[c0] + cpd00009[c0] + cpd00016[c0] + cpd00023[c0] + 2.0 cpd00067[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3512 or kb|g.2146.peg.1110)) or ((kb|g.2146.peg.3542 or kb|g.2146.peg.1492)))	{}
+rxn00340	cpd00002[c0] + cpd00013[c0] + cpd00041[c0] --> cpd00012[c0] + cpd00018[c0] + cpd00132[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5250 or kb|g.2146.peg.2573)))	{}
+rxn00772	cpd00002[c0] + cpd00105[c0] <=> cpd00008[c0] + cpd00101[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.478 or kb|g.2146.peg.3379)))	{}
+rxn00410	cpd00002[c0] + cpd00013[c0] + cpd00062[c0] <=> cpd00008[c0] + cpd00009[c0] + cpd00052[c0] + 2.0 cpd00067[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.918 or kb|g.2146.peg.2317)))	{}
+rxn05368	cpd00005[c0] + cpd00067[c0] + cpd11504[c0] <=> cpd00006[c0] + cpd11505[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn09210	cpd00054[c0] + cpd15421[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15557[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn02405	cpd00052[c0] + cpd00875[c0] --> cpd00012[c0] + cpd02546[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1700 or kb|g.2146.peg.2015)))	{}
+rxn01000	cpd00067[c0] + cpd00219[c0] --> cpd00001[c0] + cpd00011[c0] + cpd00143[c0]	0	0.0	1000.0	(((kb|g.2146.peg.11 or kb|g.2146.peg.2617)))	{}
+rxn01138	cpd00009[c0] + cpd00067[c0] + cpd00182[c0] <=> cpd00128[c0] + cpd00475[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1577 or kb|g.2146.peg.1963 or kb|g.2146.peg.2046 or kb|g.2146.peg.3301)))	{}
+rxn02305	cpd00067[c0] + cpd02654[c0] + cpd02894[c0] <=> cpd00012[c0] + cpd00793[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2518 or kb|g.2146.peg.887)))	{}
+rxn01507	cpd00001[c0] + cpd00294[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00438[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)))	{}
+rxn10211	cpd00134[c0] + cpd15327[c0] --> cpd00010[c0] + cpd15524[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn12641	cpd00001[c0] + cpd11585[c0] <=> cpd00033[c0] + cpd00035[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn10315	24.0 cpd00037[c0] + cpd15754[c0] <=> 24.0 cpd00014[c0] + cpd15772[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2545 or kb|g.2146.peg.1799)))	{}
+rxn00239	cpd00002[c0] + cpd00126[c0] <=> cpd00008[c0] + cpd00031[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.818 or kb|g.2146.peg.3065)))	{}
+rxn00612	cpd00006[c0] + cpd00080[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd00095[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3975 or kb|g.2146.peg.2459)))	{}
+rxn05418	cpd00005[c0] + cpd00067[c0] + cpd11554[c0] <=> cpd00006[c0] + cpd11555[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn00711	cpd00012[c0] + cpd00091[c0] <=> cpd00092[c0] + cpd00103[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3001 or kb|g.2146.peg.1984)))	{}
+rxn10309	24.0 cpd00037[c0] + cpd15748[c0] <=> 24.0 cpd00014[c0] + cpd15766[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2545 or kb|g.2146.peg.1799)))	{}
+rxn12633	cpd00001[c0] + cpd11593[c0] <=> cpd00035[c0] + cpd00041[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn04113	cpd00005[c0] + cpd00067[c0] + cpd08615[c0] --> cpd00001[c0] + cpd00006[c0] + cpd00113[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2478 or kb|g.2146.peg.3470)))	{}
+rxn05250	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd11440[c0] --> cpd00012[c0] + cpd00018[c0] + cpd11441[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2233 or kb|g.2146.peg.1287 or kb|g.2146.peg.2968 or kb|g.2146.peg.746 or kb|g.2146.peg.3560 or kb|g.2146.peg.996)))	{}
+rxn05024	cpd00067[c0] + cpd02021[c0] --> cpd00001[c0] + cpd11217[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2724 or kb|g.2146.peg.4726)))	{}
+rxn05526	cpd00067[e0] + cpd11595[c0] <=> cpd00067[c0] + cpd11595[e0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2975 or kb|g.2146.peg.31 or kb|g.2146.peg.318 or kb|g.2146.peg.4861 or kb|g.2146.peg.4994 or kb|g.2146.peg.735 or kb|g.2146.peg.2664 or kb|g.2146.peg.507)))	{}
+rxn03174	cpd03666[c0] --> cpd00001[c0] + cpd02978[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4991 or kb|g.2146.peg.2051)))	{}
+rxn00763	cpd00003[c0] + cpd00100[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd00448[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4273 or kb|g.2146.peg.669)))	{}
+rxn05393	cpd00005[c0] + cpd00067[c0] + cpd11529[c0] <=> cpd00006[c0] + cpd11530[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn00138	cpd00002[c0] + cpd00013[c0] + cpd00638[c0] --> cpd00003[c0] + cpd00012[c0] + cpd00018[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1784 or kb|g.2146.peg.2143)))	{}
+rxn00338	cpd00007[c0] + cpd00041[c0] --> cpd00025[c0] + cpd00067[c0] + cpd03470[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4564 or kb|g.2146.peg.1286)))	{}
+rxn02831	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd01772[c0] --> cpd00012[c0] + cpd00018[c0] + cpd02021[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2368 or kb|g.2146.peg.106)))	{}
+rxn03136	cpd02921[c0] <=> cpd00106[c0] + cpd02851[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5161 or kb|g.2146.peg.3890)))	{}
+rxn00216	cpd00002[c0] + cpd00027[c0] <=> cpd00008[c0] + cpd00079[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3619 or kb|g.2146.peg.1831)))	{}
+rxn05440	cpd00004[c0] + cpd00067[c0] + cpd11527[c0] --> cpd00003[c0] + cpd11528[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn00988	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd00142[c0] --> cpd00012[c0] + cpd00018[c0] + cpd00279[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2233 or kb|g.2146.peg.1287 or kb|g.2146.peg.2968 or kb|g.2146.peg.746 or kb|g.2146.peg.3560 or kb|g.2146.peg.996)))	{}
+rxn04082	cpd00808[c0] <=> cpd00198[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1604 or kb|g.2146.peg.2309)))	{}
+rxn04996	cpd00005[c0] + cpd00067[c0] + cpd08615[c0] --> cpd00001[c0] + cpd00006[c0] + cpd00202[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2478 or kb|g.2146.peg.3470)))	{}
+rxn05236	cpd00062[c0] + cpd11421[c0] --> cpd00001[c0] + cpd00358[c0] + cpd11420[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4263 or kb|g.2146.peg.105)))	{}
+rxn02835	cpd00001[c0] + cpd01777[c0] <=> cpd02979[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1193 or kb|g.2146.peg.2270) and (kb|g.2146.peg.1193 or kb|g.2146.peg.2270)))	{}
+rxn02373	cpd00005[c0] + cpd02097[c0] --> cpd00006[c0] + cpd00009[c0] + cpd00858[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1162 or kb|g.2146.peg.3768)))	{}
+rxn02521	cpd00001[c0] + cpd01570[c0] --> cpd00988[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1711 or kb|g.2146.peg.2514)))	{}
+rxn00726	cpd00013[c0] + cpd00216[c0] <=> cpd00001[c0] + cpd00020[c0] + cpd00067[c0] + cpd00093[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3538 or kb|g.2146.peg.1218) and (kb|g.2146.peg.3918 or kb|g.2146.peg.1699)))	{}
+rxn05287	cpd00113[c0] + cpd00289[c0] --> cpd00012[c0] + cpd02591[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3575 or kb|g.2146.peg.5125 or kb|g.2146.peg.2907 or kb|g.2146.peg.4394)))	{}
+rxn05345	cpd00067[c0] + cpd11468[c0] + cpd11492[c0] --> cpd00011[c0] + cpd11491[c0] + cpd11493[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn10218	cpd11439[c0] + cpd15675[c0] --> cpd00010[c0] + cpd15681[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn03147	cpd00002[c0] + cpd00041[c0] + cpd02893[c0] --> cpd00008[c0] + cpd00009[c0] + 2.0 cpd00067[c0] + cpd02921[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2710 or kb|g.2146.peg.5107)))	{}
+rxn01211	cpd00001[c0] + cpd00347[c0] <=> cpd00067[c0] + cpd00201[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.491 or kb|g.2146.peg.2766) and (kb|g.2146.peg.491 or kb|g.2146.peg.2766)) or ((kb|g.2146.peg.2867 or kb|g.2146.peg.26)))	{}
+rxn03884	cpd02711[c0] <=> cpd00020[c0] + cpd00102[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2624 or kb|g.2146.peg.1874) and (kb|g.2146.peg.2624 or kb|g.2146.peg.1874)))	{}
+rxn01602	cpd00006[c0] + cpd00330[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd00393[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1807 or kb|g.2146.peg.3905)))	{}
+rxn00670	cpd00009[c0] + cpd00067[c0] + cpd00086[c0] <=> cpd00010[c0] + cpd01844[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3033 or kb|g.2146.peg.1805)))	{}
+rxn10335	2.0 cpd15536[c0] <=> cpd00100[c0] + cpd15792[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2397 or kb|g.2146.peg.174 or kb|g.2146.peg.937 or kb|g.2146.peg.2798)))	{}
+rxn00184	cpd00001[c0] + cpd00006[c0] + cpd00023[c0] <=> cpd00005[c0] + cpd00013[c0] + cpd00024[c0] + cpd00067[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.133 or kb|g.2146.peg.3682)))	{}
+rxn05444	cpd00004[c0] + cpd00067[c0] + cpd11543[c0] --> cpd00003[c0] + cpd11544[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn00650	cpd00001[c0] + cpd01017[c0] <=> cpd00033[c0] + cpd00084[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn10229	cpd00054[c0] + cpd15686[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15692[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn01117	cpd00817[c0] <=> cpd00171[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.992 or kb|g.2146.peg.2222)))	{}
+rxn00836	cpd00103[c0] + cpd00226[c0] --> cpd00012[c0] + cpd00114[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4422 or kb|g.2146.peg.388)))	{}
+rxn00776	cpd00092[c0] + cpd00101[c0] --> cpd00001[c0] + cpd00859[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2279 or kb|g.2146.peg.1353) and (kb|g.2146.peg.4092 or kb|g.2146.peg.2087)) or ((kb|g.2146.peg.3963 or kb|g.2146.peg.408) and (kb|g.2146.peg.1019 or kb|g.2146.peg.3340) and (kb|g.2146.peg.5018 or kb|g.2146.peg.3497)))	{}
+rxn09110	cpd00080[c0] + cpd15422[c0] <=> cpd00046[c0] + cpd15544[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn12646	cpd00001[c0] + cpd11580[c0] <=> cpd00033[c0] + cpd00053[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn09296	cpd00025[c0] + cpd11421[c0] --> 2.0 cpd00001[c0] + cpd11420[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5097 or kb|g.2146.peg.3077)))	{}
+rxn01255	cpd00932[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00216[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1648 or kb|g.2146.peg.2980)))	{}
+rxn03194	cpd00094[c0] + cpd03049[c0] <=> cpd00056[c0] + cpd00498[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.378 or kb|g.2146.peg.2982) and (kb|g.2146.peg.247 or kb|g.2146.peg.2637)))	{}
+rxn01360	cpd00007[c0] + cpd00282[c0] --> cpd00025[c0] + cpd00247[c0]	0	0.0	1000.0	(((kb|g.2146.peg.780 or kb|g.2146.peg.2023) and (kb|g.2146.peg.2360 or kb|g.2146.peg.86)))	{}
+rxn03958	cpd00006[c0] + cpd08286[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd08289[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3484 or kb|g.2146.peg.639)))	{}
+rxn10267	cpd00001[c0] + cpd15718[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15724[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn05433	cpd00004[c0] + cpd00067[c0] + cpd11498[c0] --> cpd00003[c0] + cpd11499[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn10236	2.0 cpd00067[c0] + cpd15693[c0] <=> cpd00011[c0] + cpd15699[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn05465	cpd00070[c0] + cpd11493[c0] <=> cpd00010[c0] + cpd11492[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn05452	cpd00010[c0] + cpd11519[c0] <=> cpd11434[c0] + cpd11493[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn10222	cpd00052[c0] + cpd15679[c0] <=> cpd00012[c0] + cpd15685[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn00392	cpd00002[c0] + cpd00220[c0] <=> cpd00008[c0] + cpd00050[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5117 or kb|g.2146.peg.4317) and (kb|g.2146.peg.5117 or kb|g.2146.peg.4317)))	{}
+rxn02400	cpd00001[c0] + cpd00873[c0] <=> cpd00009[c0] + cpd00067[c0] + cpd03471[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)))	{}
+rxn00328	cpd00830[c0] <=> cpd00020[c0] + cpd00040[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2624 or kb|g.2146.peg.1874) and (kb|g.2146.peg.2624 or kb|g.2146.peg.1874)))	{}
+rxn01670	cpd00001[c0] + cpd00355[c0] --> cpd00009[c0] + cpd00067[c0] + cpd02016[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)))	{}
+rxn05336	cpd00006[c0] + cpd11481[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd11485[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn02475	cpd00001[c0] + cpd00067[c0] + cpd00957[c0] --> cpd00013[c0] + cpd00931[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1704 or kb|g.2146.peg.3397) and (kb|g.2146.peg.1704 or kb|g.2146.peg.3397)))	{}
+rxn01304	cpd00078[c0] + cpd00227[c0] --> cpd00010[c0] + cpd00822[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2073 or kb|g.2146.peg.1088 or kb|g.2146.peg.1196)))	{}
+rxn05312	cpd00009[c0] + cpd00067[c0] --> cpd00009[e0] + cpd00067[e0]	0	0.0	1000.0	(((kb|g.2146.peg.4845 or kb|g.2146.peg.2218)))	{}
+rxn05671	cpd00067[e0] + cpd00154[e0] <=> cpd00067[c0] + cpd00154[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3365 or kb|g.2146.peg.5434)) or ((kb|g.2146.peg.3590 or kb|g.2146.peg.1133)))	{}
+rxn05325	cpd00004[c0] + cpd00067[c0] + cpd11471[c0] --> cpd00003[c0] + cpd11470[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn03408	cpd00037[c0] + cpd03494[c0] <=> cpd00014[c0] + cpd03495[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3108 or kb|g.2146.peg.1731)))	{}
+rxn09203	2.0 cpd00067[c0] + cpd15558[c0] <=> cpd00011[c0] + cpd15534[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn01485	cpd03671[c0] <=> cpd00288[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3859 or kb|g.2146.peg.5435)))	{}
+rxn13784	 --> cpd17043[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4415 or kb|g.2146.peg.2070) and (kb|g.2146.peg.986 or kb|g.2146.peg.1715 or kb|g.2146.peg.1564 or kb|g.2146.peg.3496 or kb|g.2146.peg.2163 or kb|g.2146.peg.1097 or kb|g.2146.peg.206 or kb|g.2146.peg.2770 or kb|g.2146.peg.531 or kb|g.2146.peg.3186) and (kb|g.2146.peg.1651 or kb|g.2146.peg.3364) and (kb|g.2146.peg.542 or kb|g.2146.peg.4391) and (kb|g.2146.peg.798 or kb|g.2146.peg.2456) and (kb|g.2146.peg.895 or kb|g.2146.peg.4552) and (kb|g.2146.peg.5378 or kb|g.2146.peg.3609) and (kb|g.2146.peg.4333 or kb|g.2146.peg.85) and (kb|g.2146.peg.4059 or kb|g.2146.peg.5441)))	{}
+rxn01291	cpd00006[c0] + cpd00417[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd00224[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2935 or kb|g.2146.peg.1585)))	{}
+rxn01987	cpd00008[c0] + cpd00510[c0] <=> cpd00002[c0] + cpd01242[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.478 or kb|g.2146.peg.3379)))	{}
+rxn00363	cpd00001[c0] + cpd00046[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00367[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)))	{}
+rxn00552	cpd00001[c0] + cpd00288[c0] --> cpd00013[c0] + cpd00072[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5159 or kb|g.2146.peg.5380 or kb|g.2146.peg.3298 or kb|g.2146.peg.3761)))	{}
+rxn01123	cpd00002[c0] + cpd00176[c0] <=> cpd00008[c0] + cpd02711[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2965 or kb|g.2146.peg.1089 or kb|g.2146.peg.1147 or kb|g.2146.peg.3349)))	{}
+rxn08086	cpd15277[c0] + cpd15327[c0] --> cpd11493[c0] + cpd15524[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn08129	cpd00179[c0] + cpd01329[c0] <=> cpd00027[c0] + cpd15494[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4516 or kb|g.2146.peg.788)))	{}
+rxn01548	cpd00009[c0] + cpd00067[c0] + cpd00311[c0] <=> cpd00207[c0] + cpd00475[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1577 or kb|g.2146.peg.1963 or kb|g.2146.peg.2046 or kb|g.2146.peg.3301)))	{}
+rxn05449	cpd00004[c0] + cpd00067[c0] + cpd11564[c0] --> cpd00003[c0] + cpd11565[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn05459	cpd00010[c0] + cpd11573[c0] <=> cpd00327[c0] + cpd11493[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn05313	cpd00009[e0] + 3.0 cpd00971[e0] <=> cpd00009[c0] + 3.0 cpd00971[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3817 or kb|g.2146.peg.1657 or kb|g.2146.peg.3102 or kb|g.2146.peg.1636)))	{}
+rxn00785	cpd00072[c0] + cpd00102[c0] <=> cpd00198[c0] + cpd00236[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2228 or kb|g.2146.peg.1243)))	{}
+rxn08127	cpd00179[c0] + cpd01399[c0] <=> cpd00027[c0] + cpd15495[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4516 or kb|g.2146.peg.788)))	{}
+rxn05323	cpd00003[c0] + cpd11466[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd11467[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn03084	cpd00001[c0] + cpd00002[c0] + cpd00053[c0] + cpd02678[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00023[c0] + cpd00067[c0] + cpd02826[c0]	0	0.0	1000.0	(((kb|g.2146.peg.994 or kb|g.2146.peg.4086) and (kb|g.2146.peg.994 or kb|g.2146.peg.4086)))	{}
+rxn00011	cpd00020[c0] + cpd00056[c0] + cpd00067[c0] --> cpd00011[c0] + cpd03049[c0]	0	0.0	1000.0	(((kb|g.2146.peg.378 or kb|g.2146.peg.2982) and (kb|g.2146.peg.247 or kb|g.2146.peg.2637)))	{}
+rxn00292	cpd00001[c0] + cpd00037[c0] --> cpd00014[c0] + cpd00492[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1695 or kb|g.2146.peg.2321 or kb|g.2146.peg.4947 or kb|g.2146.peg.367)))	{}
+rxn05252	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd11431[c0] --> cpd00012[c0] + cpd00018[c0] + cpd11432[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2233 or kb|g.2146.peg.1287 or kb|g.2146.peg.2968 or kb|g.2146.peg.746 or kb|g.2146.peg.3560 or kb|g.2146.peg.996)))	{}
+rxn05466	cpd00013[e0] <=> cpd00013[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3376 or kb|g.2146.peg.4170 or kb|g.2146.peg.5038 or kb|g.2146.peg.860)))	{}
+rxn00708	cpd00001[c0] + cpd00091[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00249[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)))	{}
+rxn01870	cpd00802[c0] <=> cpd00095[c0] + cpd00448[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.370 or kb|g.2146.peg.4632 or kb|g.2146.peg.23)))	{}
+rxn04954	cpd00003[c0] + cpd00345[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd00125[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3726 or kb|g.2146.peg.5423)))	{}
+rxn01575	cpd00024[c0] + cpd00322[c0] <=> cpd00023[c0] + cpd00508[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4393 or kb|g.2146.peg.4842)))	{}
+rxn09206	cpd00054[c0] + cpd15423[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15553[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn00781	cpd00003[c0] + cpd00009[c0] + cpd00102[c0] <=> cpd00004[c0] + cpd00203[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3939 or kb|g.2146.peg.1221)))	{}
+rxn00973	cpd00137[c0] <=> cpd00260[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.272 or kb|g.2146.peg.2376)))	{}
+rxn00642	cpd00083[c0] --> cpd00001[c0] + cpd00900[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3460 or kb|g.2146.peg.2176)))	{}
+rxn01985	cpd00009[c0] + cpd00067[c0] + cpd03279[c0] <=> cpd00226[c0] + cpd00509[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1577 or kb|g.2146.peg.1963 or kb|g.2146.peg.2046 or kb|g.2146.peg.3301)))	{}
+rxn00364	cpd00002[c0] + cpd00046[c0] <=> cpd00008[c0] + cpd00096[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1272 or kb|g.2146.peg.3216 or kb|g.2146.peg.3299 or kb|g.2146.peg.2875)))	{}
+rxn02522	cpd00001[c0] + cpd01572[c0] --> cpd00989[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1711 or kb|g.2146.peg.2514)))	{}
+rxn01444	cpd00002[c0] + cpd00277[c0] <=> cpd00008[c0] + cpd00296[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.957 or kb|g.2146.peg.2277 or kb|g.2146.peg.2651 or kb|g.2146.peg.158) and (kb|g.2146.peg.957 or kb|g.2146.peg.2277 or kb|g.2146.peg.2651 or kb|g.2146.peg.158)))	{}
+rxn02011	cpd00002[c0] + cpd00516[c0] + cpd00525[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd02964[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3430 or kb|g.2146.peg.1123)))	{}
+rxn02186	cpd00005[c0] + cpd00067[c0] + cpd00668[c0] <=> cpd00006[c0] + cpd02498[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2421 or kb|g.2146.peg.111)))	{}
+rxn10227	cpd00054[c0] + cpd15684[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15690[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn00917	cpd00001[c0] + cpd00002[c0] + cpd00053[c0] + cpd00497[c0] --> cpd00012[c0] + cpd00018[c0] + cpd00023[c0] + cpd00067[c0] + cpd00126[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1464 or kb|g.2146.peg.3062)))	{}
+rxn09113	cpd00080[c0] + cpd15421[c0] <=> cpd00046[c0] + cpd15547[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn12846	cpd00001[c0] + cpd15605[c0] <=> cpd00033[c0] + cpd00066[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn01218	cpd00001[c0] + cpd00206[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00654[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)))	{}
+rxn05239	cpd00044[c0] + cpd11421[c0] --> cpd00045[c0] + cpd00081[c0] + cpd11420[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2832 or kb|g.2146.peg.1212) and (kb|g.2146.peg.2832 or kb|g.2146.peg.1212)))	{}
+rxn05201	cpd00067[e0] + cpd00226[e0] <=> cpd00067[c0] + cpd00226[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4614 or kb|g.2146.peg.33)))	{}
+rxn10233	2.0 cpd00067[c0] + cpd15690[c0] <=> cpd00011[c0] + cpd15696[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn08976	cpd00004[c0] + cpd00067[c0] + cpd15352[c0] --> cpd00003[c0] + cpd15353[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3294 or kb|g.2146.peg.5345 or kb|g.2146.peg.4716 or kb|g.2146.peg.39)))	{}
+rxn02789	cpd01646[c0] <=> cpd00001[c0] + cpd01710[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2166 or kb|g.2146.peg.1298)) or ((kb|g.2146.peg.1694 or kb|g.2146.peg.2604)))	{}
+rxn03483	cpd00001[c0] + cpd03702[c0] --> cpd03701[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1711 or kb|g.2146.peg.2514)))	{}
+rxn05383	cpd01882[c0] + cpd11493[c0] <=> cpd00010[c0] + cpd11520[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn01331	cpd00001[c0] + cpd00003[c0] + cpd00236[c0] --> cpd00004[c0] + 2.0 cpd00067[c0] + cpd02147[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3939 or kb|g.2146.peg.1221)))	{}
+rxn10042	cpd00008[c0] + cpd00009[c0] + 4.0 cpd00067[e0] <=> cpd00001[c0] + cpd00002[c0] + 3.0 cpd00067[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1526 or kb|g.2146.peg.2734) and (kb|g.2146.peg.2437 or kb|g.2146.peg.1920) and (kb|g.2146.peg.1733 or kb|g.2146.peg.2153) and (kb|g.2146.peg.2259 or kb|g.2146.peg.1575) and (kb|g.2146.peg.1002 or kb|g.2146.peg.2101)))	{}
+rxn00800	cpd02375[c0] <=> cpd00018[c0] + cpd00106[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5161 or kb|g.2146.peg.3890)))	{}
+rxn00162	cpd00032[c0] + cpd00067[c0] --> cpd00011[c0] + cpd00020[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2155 or kb|g.2146.peg.1978)))	{}
+rxn01343	cpd00002[c0] + cpd00238[c0] <=> cpd00008[c0] + cpd00349[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2753 or kb|g.2146.peg.1187)))	{}
+rxn05234	cpd00038[c0] + cpd11421[c0] --> cpd00001[c0] + cpd00241[c0] + cpd11420[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4263 or kb|g.2146.peg.105)))	{}
+rxn05441	cpd00004[c0] + cpd00067[c0] + cpd11531[c0] --> cpd00003[c0] + cpd11532[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn10342	2.0 cpd15727[c0] <=> cpd00100[c0] + cpd15799[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2397 or kb|g.2146.peg.174 or kb|g.2146.peg.937 or kb|g.2146.peg.2798)))	{}
+rxn05426	cpd00005[c0] + cpd00067[c0] + cpd11562[c0] <=> cpd00006[c0] + cpd11563[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn02314	cpd00002[c0] + cpd00805[c0] <=> cpd00008[c0] + cpd02371[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2753 or kb|g.2146.peg.1187)))	{}
+rxn00179	cpd00002[c0] + cpd00023[c0] + cpd00067[c0] <=> cpd00008[c0] + cpd02097[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3048 or kb|g.2146.peg.1686)))	{}
+rxn01465	cpd00001[c0] + cpd00282[c0] <=> cpd00067[c0] + cpd00343[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2512 or kb|g.2146.peg.5271)))	{}
+rxn05364	cpd00005[c0] + cpd00067[c0] + cpd11500[c0] <=> cpd00006[c0] + cpd11501[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn00863	cpd00001[c0] + cpd00003[c0] + cpd01324[c0] --> cpd00004[c0] + 2.0 cpd00067[c0] + cpd00119[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1020 or kb|g.2146.peg.2164)))	{}
+rxn09978	cpd00001[c0] + cpd15584[c0] <=> cpd00027[c0] + cpd00116[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.506 or kb|g.2146.peg.1220 or kb|g.2146.peg.3610 or kb|g.2146.peg.4639 or kb|g.2146.peg.364 or kb|g.2146.peg.3490 or kb|g.2146.peg.1957 or kb|g.2146.peg.3051 or kb|g.2146.peg.3138 or kb|g.2146.peg.2507)))	{}
+rxn01800	cpd00001[c0] + cpd00067[c0] + cpd00654[c0] --> cpd00013[c0] + cpd00412[c0]	0	0.0	1000.0	(((kb|g.2146.peg.677 or kb|g.2146.peg.4152)))	{}
+rxn10217	cpd11437[c0] + cpd15674[c0] --> cpd00010[c0] + cpd15680[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn09449	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd01080[c0] --> cpd00012[c0] + cpd00018[c0] + cpd00327[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2233 or kb|g.2146.peg.1287 or kb|g.2146.peg.2968 or kb|g.2146.peg.746 or kb|g.2146.peg.3560 or kb|g.2146.peg.996)))	{}
+rxn00533	cpd00002[c0] + cpd00022[c0] + cpd00242[c0] <=> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00070[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5194 or kb|g.2146.peg.2749)))	{}
+rxn03436	cpd00498[c0] <=> cpd10162[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2421 or kb|g.2146.peg.111)))	{}
+rxn08756	cpd00004[c0] + cpd00067[c0] + cpd08615[c0] --> cpd00001[c0] + cpd00003[c0] + cpd00113[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2478 or kb|g.2146.peg.3470)))	{}
+rxn00423	cpd00022[c0] + cpd00054[c0] --> cpd00010[c0] + cpd00722[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3805 or kb|g.2146.peg.4021 or kb|g.2146.peg.736 or kb|g.2146.peg.3300)))	{}
+rxn03975	cpd00005[c0] + cpd00050[c0] + cpd00067[c0] --> cpd00006[c0] + cpd01270[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3151 or kb|g.2146.peg.2804)))	{}
+rxn00818	cpd00001[c0] + cpd00382[c0] --> cpd00076[c0] + cpd00108[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3519 or kb|g.2146.peg.1432)))	{}
+rxn05430	cpd00005[c0] + cpd00067[c0] + cpd11566[c0] <=> cpd00006[c0] + cpd11567[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn08307	cpd00052[c0] + cpd15522[c0] <=> cpd00012[c0] + cpd15423[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn02201	cpd00443[c0] + cpd02920[c0] --> cpd00012[c0] + cpd00683[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3103 or kb|g.2146.peg.1530)))	{}
+rxn05555	cpd00001[c0] + cpd00002[c0] + cpd10515[e0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd10515[c0]	0	0.0	1000.0	(((kb|g.2146.peg.256 or kb|g.2146.peg.2467)))	{}
+rxn02159	cpd00003[c0] + cpd00641[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd01324[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1020 or kb|g.2146.peg.2164)))	{}
+rxn00727	cpd00053[c0] + cpd00216[c0] --> cpd00020[c0] + cpd00023[c0] + cpd00067[c0] + cpd00093[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3538 or kb|g.2146.peg.1218) and (kb|g.2146.peg.3918 or kb|g.2146.peg.1699)))	{}
+rxn03891	cpd00113[c0] + cpd00906[c0] --> cpd00012[c0] + cpd02590[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3575 or kb|g.2146.peg.5125 or kb|g.2146.peg.2907 or kb|g.2146.peg.4394)))	{}
+rxn05413	cpd00067[c0] + cpd11492[c0] + cpd11549[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11550[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn05348	cpd00067[c0] + cpd11474[c0] + cpd11492[c0] --> cpd00011[c0] + cpd11489[c0] + cpd11493[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn02914	cpd00024[c0] + cpd00738[c0] <=> cpd00023[c0] + cpd02069[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4514 or kb|g.2146.peg.1004)))	{}
+rxn10264	cpd00080[c0] + cpd15688[c0] <=> cpd00046[c0] + cpd15721[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn05445	cpd00004[c0] + cpd00067[c0] + cpd11548[c0] --> cpd00003[c0] + cpd11549[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn00715	cpd00068[c0] + cpd00249[c0] <=> cpd00090[c0] + cpd00091[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3873 or kb|g.2146.peg.5279 or kb|g.2146.peg.1842 or kb|g.2146.peg.2181)))	{}
+rxn01647	cpd00009[c0] + cpd03471[c0] <=> cpd00218[c0] + cpd00475[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1577 or kb|g.2146.peg.1963 or kb|g.2146.peg.2046 or kb|g.2146.peg.3301)))	{}
+rxn12642	cpd00001[c0] + cpd11584[c0] <=> cpd00035[c0] + cpd00119[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn05198	cpd00067[e0] + cpd00367[e0] <=> cpd00067[c0] + cpd00367[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.385 or kb|g.2146.peg.2372)))	{}
+rxn05247	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd11430[c0] --> cpd00012[c0] + cpd00018[c0] + cpd11435[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2233 or kb|g.2146.peg.1287 or kb|g.2146.peg.2968 or kb|g.2146.peg.746 or kb|g.2146.peg.3560 or kb|g.2146.peg.996)))	{}
+rxn09688	cpd00067[e0] + cpd00277[e0] <=> cpd00067[c0] + cpd00277[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.385 or kb|g.2146.peg.2372)))	{}
+rxn02504	cpd02961[c0] <=> cpd00229[c0] + cpd00954[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3824 or kb|g.2146.peg.2474)))	{}
+rxn10473	cpd00099[e0] <=> cpd00099[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3188 or kb|g.2146.peg.1878)))	{}
+rxn08975	cpd00004[c0] + cpd00067[c0] + cpd15560[c0] --> cpd00003[c0] + cpd15561[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3294 or kb|g.2146.peg.5345 or kb|g.2146.peg.4716 or kb|g.2146.peg.39)))	{}
+rxn00912	cpd00001[c0] + cpd00123[c0] + cpd00125[c0] <=> cpd00087[c0] + cpd00712[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1299 or kb|g.2146.peg.2756)))	{}
+rxn05446	cpd00004[c0] + cpd00067[c0] + cpd11552[c0] --> cpd00003[c0] + cpd11553[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn05435	cpd00004[c0] + cpd00067[c0] + cpd11506[c0] --> cpd00003[c0] + cpd11507[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn01358	cpd00009[c0] + cpd00067[c0] + cpd00246[c0] <=> cpd00226[c0] + cpd00475[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1577 or kb|g.2146.peg.1963 or kb|g.2146.peg.2046 or kb|g.2146.peg.3301)))	{}
+rxn00692	cpd00001[c0] + cpd00033[c0] + cpd00125[c0] <=> cpd00054[c0] + cpd00087[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.977 or kb|g.2146.peg.2149)))	{}
+rxn09108	cpd00080[c0] + cpd15417[c0] <=> cpd00046[c0] + cpd15542[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn03068	cpd00006[c0] + cpd02498[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd02569[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2421 or kb|g.2146.peg.111)))	{}
+rxn09988	2.0 cpd00001[c0] + cpd12115[c0] --> 3.0 cpd00224[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1581 or kb|g.2146.peg.2229)) or ((kb|g.2146.peg.901 or kb|g.2146.peg.2375 or kb|g.2146.peg.450 or kb|g.2146.peg.4624 or kb|g.2146.peg.375 or kb|g.2146.peg.3195)))	{}
+rxn08971	cpd00004[c0] + cpd00067[c0] + cpd15500[c0] --> cpd00003[c0] + cpd15499[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3294 or kb|g.2146.peg.5345 or kb|g.2146.peg.4716 or kb|g.2146.peg.39)))	{}
+rxn12634	cpd00001[c0] + cpd11592[c0] <=> cpd00023[c0] + cpd00033[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn05456	cpd00010[c0] + cpd11569[c0] <=> cpd11441[c0] + cpd11493[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn10261	cpd00080[c0] + cpd15685[c0] <=> cpd00046[c0] + cpd15718[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn10232	2.0 cpd00067[c0] + cpd15689[c0] <=> cpd00011[c0] + cpd15695[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn00300	3.0 cpd00001[c0] + cpd00038[c0] --> cpd00012[c0] + cpd00047[c0] + cpd00067[c0] + cpd00957[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4125 or kb|g.2146.peg.4366)))	{}
+rxn00907	cpd00006[c0] + cpd00125[c0] <=> cpd00005[c0] + cpd00347[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.491 or kb|g.2146.peg.2766) and (kb|g.2146.peg.491 or kb|g.2146.peg.2766)))	{}
+rxn05410	cpd00005[c0] + cpd00067[c0] + cpd11546[c0] <=> cpd00006[c0] + cpd11547[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn01269	cpd00006[c0] + cpd00219[c0] --> cpd00005[c0] + cpd00011[c0] + cpd00868[c0]	0	0.0	1000.0	(((kb|g.2146.peg.651 or kb|g.2146.peg.2942)))	{}
+rxn00278	cpd00001[c0] + cpd00003[c0] + cpd00035[c0] <=> cpd00004[c0] + cpd00013[c0] + cpd00020[c0] + cpd00067[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.546 or kb|g.2146.peg.3994)))	{}
+rxn00790	cpd00001[c0] + cpd00053[c0] + cpd00103[c0] --> cpd00012[c0] + cpd00023[c0] + cpd01982[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2773 or kb|g.2146.peg.1016 or kb|g.2146.peg.3864 or kb|g.2146.peg.519)))	{}
+rxn01169	cpd00002[c0] + cpd00190[c0] <=> cpd00008[c0] + cpd00863[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3619 or kb|g.2146.peg.1831)))	{}
+rxn05574	cpd00067[e0] + cpd00164[e0] <=> cpd00067[c0] + cpd00164[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2658 or kb|g.2146.peg.3722)))	{}
+rxn09202	2.0 cpd00067[c0] + cpd15557[c0] <=> cpd00011[c0] + cpd15533[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn02473	cpd02843[c0] <=> cpd00001[c0] + cpd00930[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5011 or kb|g.2146.peg.4769)))	{}
+rxn08128	cpd00179[c0] + cpd15495[c0] <=> cpd00027[c0] + cpd01329[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4516 or kb|g.2146.peg.788)))	{}
+rxn00834	cpd00001[c0] + cpd00003[c0] + cpd00114[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd00497[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3606 or kb|g.2146.peg.5175)))	{}
+rxn05293	cpd00004[c0] + cpd00067[c0] + cpd08301[c0] --> cpd00001[c0] + cpd00003[c0] + cpd08615[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5476 or kb|g.2146.peg.3007)))	{}
+rxn12639	cpd00001[c0] + cpd11587[c0] <=> cpd00035[c0] + cpd00053[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn03080	cpd02882[c0] + cpd11225[c0] <=> 2.0 cpd00001[c0] + cpd00009[c0] + cpd00067[c0] + cpd02656[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1055 or kb|g.2146.peg.3693)))	{}
+rxn05150	cpd00001[c0] + cpd00002[c0] + cpd00034[e0] --> cpd00008[c0] + cpd00009[c0] + cpd00034[c0] + cpd00067[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3236 or kb|g.2146.peg.4587) and (kb|g.2146.peg.4880 or kb|g.2146.peg.3012) and (kb|g.2146.peg.2497 or kb|g.2146.peg.4010)))	{}
+rxn01761	cpd00396[c0] <=> cpd00642[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3658 or kb|g.2146.peg.5237)))	{}
+rxn05199	cpd00067[e0] + cpd00249[e0] <=> cpd00067[c0] + cpd00249[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.385 or kb|g.2146.peg.2372)))	{}
+rxn02297	cpd00035[c0] + cpd00067[c0] + cpd00782[c0] --> cpd00010[c0] + cpd00011[c0] + cpd00800[c0]	0	0.0	1000.0	(((kb|g.2146.peg.952 or kb|g.2146.peg.4820)))	{}
+rxn05040	cpd00171[c0] --> cpd00047[c0] + cpd00067[c0] + cpd11225[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4125 or kb|g.2146.peg.4366) and (kb|g.2146.peg.4125 or kb|g.2146.peg.4366)))	{}
+rxn05326	cpd00004[c0] + cpd00067[c0] + cpd11473[c0] --> cpd00003[c0] + cpd11472[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn09562	cpd00115[c0] + cpd00126[c0] <=> cpd00031[c0] + cpd00177[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.818 or kb|g.2146.peg.3065)))	{}
+rxn00799	cpd00130[c0] <=> cpd00001[c0] + cpd00106[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3396 or kb|g.2146.peg.5457)))	{}
+rxn00313	cpd00067[c0] + cpd00516[c0] <=> cpd00011[c0] + cpd00039[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1946 or kb|g.2146.peg.2490)))	{}
+rxn03439	cpd02546[c0] + cpd03585[c0] <=> cpd00046[c0] + cpd03586[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.76 or kb|g.2146.peg.4140)))	{}
+rxn09197	2.0 cpd00067[c0] + cpd15552[c0] <=> cpd00011[c0] + cpd15528[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn05455	cpd00010[c0] + cpd11565[c0] <=> cpd11435[c0] + cpd11493[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn11268	cpd00012[c0] + cpd00067[c0] --> cpd00012[e0] + cpd00067[e0]	0	0.0	1000.0	(((kb|g.2146.peg.4845 or kb|g.2146.peg.2218)))	{}
+rxn05344	cpd00067[c0] + cpd11466[c0] + cpd11492[c0] --> cpd00011[c0] + cpd11485[c0] + cpd11493[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn10339	2.0 cpd15724[c0] <=> cpd00100[c0] + cpd15796[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2397 or kb|g.2146.peg.174 or kb|g.2146.peg.937 or kb|g.2146.peg.2798)))	{}
+rxn10226	cpd00054[c0] + cpd15683[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15689[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn10237	2.0 cpd00067[c0] + cpd15694[c0] <=> cpd00011[c0] + cpd15700[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn05248	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd11438[c0] --> cpd00012[c0] + cpd00018[c0] + cpd11439[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2233 or kb|g.2146.peg.1287 or kb|g.2146.peg.2968 or kb|g.2146.peg.746 or kb|g.2146.peg.3560 or kb|g.2146.peg.996)))	{}
+rxn10223	cpd00052[c0] + cpd15680[c0] <=> cpd00012[c0] + cpd15686[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn00256	cpd00001[c0] + cpd00022[c0] + cpd00032[c0] --> cpd00010[c0] + cpd00067[c0] + cpd00137[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2256 or kb|g.2146.peg.645)))	{}
+rxn02503	cpd00002[c0] + cpd00954[c0] <=> cpd00018[c0] + cpd02920[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2254 or kb|g.2146.peg.4096)))	{}
+rxn09101	cpd00001[c0] + cpd15542[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15535[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn05349	cpd00022[c0] + cpd11493[c0] <=> cpd00010[c0] + cpd11494[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn00547	cpd00002[c0] + cpd00082[c0] <=> cpd00008[c0] + cpd00072[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4331 or kb|g.2146.peg.4071 or kb|g.2146.peg.4761 or kb|g.2146.peg.5238)))	{}
+rxn00672	cpd00067[c0] + cpd00519[c0] --> cpd00011[c0] + cpd00086[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1490 or kb|g.2146.peg.2850)))	{}
+rxn04794	cpd00010[c0] + cpd00094[c0] <=> cpd00047[c0] + cpd00086[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.744 or kb|g.2146.peg.2884)))	{}
+rxn10307	24.0 cpd00037[c0] + cpd15746[c0] <=> 24.0 cpd00014[c0] + cpd15764[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2545 or kb|g.2146.peg.1799)))	{}
+rxn01334	cpd00349[c0] <=> cpd00095[c0] + cpd00236[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.370 or kb|g.2146.peg.4632 or kb|g.2146.peg.23)))	{}
+rxn08087	cpd15239[c0] + cpd15326[c0] --> cpd11493[c0] + cpd15525[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn05200	cpd00067[e0] + cpd00184[e0] <=> cpd00067[c0] + cpd00184[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.385 or kb|g.2146.peg.2372)))	{}
+rxn00770	cpd00002[c0] + cpd00101[c0] <=> cpd00018[c0] + cpd00103[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.283 or kb|g.2146.peg.4509)))	{}
+rxn05938	cpd00011[c0] + cpd00022[c0] + cpd00067[c0] + cpd11620[c0] <=> cpd00010[c0] + cpd00020[c0] + cpd11621[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2555 or kb|g.2146.peg.1139)))	{}
+rxn00611	cpd00003[c0] + cpd00080[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd00095[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3975 or kb|g.2146.peg.2459)))	{}
+rxn00211	cpd00001[c0] + 2.0 cpd00003[c0] + cpd00026[c0] <=> 2.0 cpd00004[c0] + 3.0 cpd00067[c0] + cpd00144[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2958 or kb|g.2146.peg.54 or kb|g.2146.peg.2579 or kb|g.2146.peg.130 or kb|g.2146.peg.4666 or kb|g.2146.peg.866)))	{}
+rxn02832	cpd03451[c0] --> cpd00001[c0] + cpd01772[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2072 or kb|g.2146.peg.248)))	{}
+rxn05388	cpd00067[c0] + cpd11492[c0] + cpd11524[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11525[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn04783	cpd00002[c0] + cpd00047[c0] + cpd02394[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd02678[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1182 or kb|g.2146.peg.3790)))	{}
+rxn05429	cpd00067[c0] + cpd11492[c0] + cpd11565[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11566[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn01739	cpd00002[c0] + cpd00383[c0] <=> cpd00008[c0] + cpd02030[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5174 or kb|g.2146.peg.4939)))	{}
+rxn00543	cpd00003[c0] + cpd00363[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd00071[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4273 or kb|g.2146.peg.669)))	{}
+rxn10052	cpd00018[c0] + cpd00067[c0] + cpd00421[c0] <=> cpd00008[c0] + cpd00012[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.41 or kb|g.2146.peg.4073)))	{}
+rxn05206	cpd00205[e0] <=> cpd00205[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.907 or kb|g.2146.peg.2394)))	{}
+rxn00102	cpd00067[c0] + cpd00242[c0] <=> cpd00001[c0] + cpd00011[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.852 or kb|g.2146.peg.3913)))	{}
+rxn05235	cpd00052[c0] + cpd11421[c0] --> cpd00001[c0] + cpd00356[c0] + cpd11420[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4263 or kb|g.2146.peg.105)))	{}
+rxn01521	cpd00001[c0] + cpd00299[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00412[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)) or ((kb|g.2146.peg.2792 or kb|g.2146.peg.748)))	{}
+rxn00097	cpd00002[c0] + cpd00018[c0] <=> 2.0 cpd00008[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.41 or kb|g.2146.peg.4073)))	{}
+rxn01967	cpd00501[c0] <=> cpd00863[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2275 or kb|g.2146.peg.3161)))	{}
+rxn00126	cpd00001[c0] + cpd00002[c0] + cpd00060[c0] --> cpd00009[c0] + cpd00012[c0] + cpd00017[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1559 or kb|g.2146.peg.3793)))	{}
+rxn00414	cpd00001[c0] + 2.0 cpd00002[c0] + cpd00053[c0] + cpd00242[c0] --> 2.0 cpd00008[c0] + cpd00009[c0] + cpd00023[c0] + cpd00067[c0] + cpd00146[c0]	0	0.0	1000.0	(((kb|g.2146.peg.928 or kb|g.2146.peg.3039) and (kb|g.2146.peg.255 or kb|g.2146.peg.3248 or kb|g.2146.peg.1771 or kb|g.2146.peg.3825)))	{}
+rxn06937	cpd00002[c0] + cpd00023[c0] + cpd00067[c0] + cpd11912[c0] --> cpd00012[c0] + cpd00018[c0] + cpd12227[c0]	0	0.0	1000.0	(((kb|g.2146.peg.154 or kb|g.2146.peg.4945)))	{}
+rxn00980	cpd00001[c0] + cpd00727[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00139[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4648 or kb|g.2146.peg.1153)))	{}
+rxn01080	cpd00164[c0] <=> cpd00672[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2057 or kb|g.2146.peg.1631)))	{}
+rxn03445	cpd00024[c0] + cpd03607[c0] <=> cpd00023[c0] + cpd03606[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4514 or kb|g.2146.peg.1004)))	{}
+rxn10312	24.0 cpd00037[c0] + cpd15751[c0] <=> 24.0 cpd00014[c0] + cpd15769[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2545 or kb|g.2146.peg.1799)))	{}
+rxn02508	cpd02642[c0] <=> cpd00956[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3185 or kb|g.2146.peg.1685)))	{}
+rxn00609	cpd00867[c0] <=> cpd00079[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1958 or kb|g.2146.peg.3405)))	{}
+rxn05251	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd11433[c0] --> cpd00012[c0] + cpd00018[c0] + cpd11434[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2233 or kb|g.2146.peg.1287 or kb|g.2146.peg.2968 or kb|g.2146.peg.746 or kb|g.2146.peg.3560 or kb|g.2146.peg.996)))	{}
+rxn05516	cpd00001[c0] + cpd00002[c0] + cpd01012[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd01012[e0]	0	0.0	1000.0	(((kb|g.2146.peg.4425 or kb|g.2146.peg.141 or kb|g.2146.peg.4219 or kb|g.2146.peg.5130)))	{}
+rxn02938	cpd00067[c0] + cpd02893[c0] --> cpd00011[c0] + cpd02140[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3008 or kb|g.2146.peg.5475)))	{}
+rxn05439	cpd00004[c0] + cpd00067[c0] + cpd11523[c0] --> cpd00003[c0] + cpd11524[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn05339	cpd00006[c0] + cpd11478[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd11488[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn10268	cpd00001[c0] + cpd15719[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15725[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn00139	cpd00103[c0] + cpd00128[c0] --> cpd00012[c0] + cpd00018[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4799 or kb|g.2146.peg.5073)))	{}
+rxn05451	cpd00010[c0] + cpd11515[c0] <=> cpd11439[c0] + cpd11493[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn05736	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd03847[c0] --> cpd00012[c0] + cpd00018[c0] + cpd01695[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2233 or kb|g.2146.peg.1287 or kb|g.2146.peg.2968 or kb|g.2146.peg.746 or kb|g.2146.peg.3560 or kb|g.2146.peg.996)))	{}
+rxn00931	cpd00006[c0] + cpd00129[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd02431[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1080 or kb|g.2146.peg.3752)))	{}
+rxn03904	cpd00286[c0] + cpd02968[c0] <=> cpd00091[c0] + cpd03494[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1242 or kb|g.2146.peg.3322)))	{}
+rxn02465	cpd00006[c0] + cpd00009[c0] + cpd00918[c0] <=> cpd00005[c0] + cpd02552[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1595 or kb|g.2146.peg.3315)))	{}
+rxn08335	cpd00282[c0] + cpd15560[c0] --> cpd00247[c0] + cpd15561[c0]	0	0.0	1000.0	(((kb|g.2146.peg.780 or kb|g.2146.peg.2023) and (kb|g.2146.peg.2360 or kb|g.2146.peg.86)))	{}
+rxn09205	cpd00054[c0] + cpd15417[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15552[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn05957	cpd00239[c0] + cpd00822[c0] --> cpd00036[c0] + cpd00067[c0] + cpd00135[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3756 or kb|g.2146.peg.483 or kb|g.2146.peg.4553 or kb|g.2146.peg.1622 or kb|g.2146.peg.2042 or kb|g.2146.peg.492)))	{}
+rxn00549	cpd00001[c0] + cpd00290[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00072[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1515 or kb|g.2146.peg.4067)))	{}
+rxn01257	cpd00053[c0] + cpd00216[c0] <=> cpd00023[c0] + cpd08210[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2267 or kb|g.2146.peg.1527 or kb|g.2146.peg.1918 or kb|g.2146.peg.2979)) or ((kb|g.2146.peg.3538 or kb|g.2146.peg.1218)) or ((kb|g.2146.peg.3538 or kb|g.2146.peg.1218)))	{}
+rxn05401	cpd00005[c0] + cpd00067[c0] + cpd11537[c0] <=> cpd00006[c0] + cpd11538[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn01740	cpd00006[c0] + cpd00383[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd01716[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2997 or kb|g.2146.peg.5179)))	{}
+rxn01217	cpd00001[c0] + cpd00067[c0] + cpd00206[c0] --> cpd00013[c0] + cpd00299[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3192 or kb|g.2146.peg.1615)))	{}
+rxn12847	cpd00001[c0] + cpd15606[c0] <=> cpd00033[c0] + cpd00069[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn03130	cpd00001[c0] + cpd02835[c0] --> cpd00091[c0] + cpd02930[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3368 or kb|g.2146.peg.1479)))	{}
+rxn05371	cpd00067[c0] + cpd11492[c0] + cpd11507[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11508[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn05347	cpd00067[c0] + cpd11492[c0] + cpd11494[c0] --> cpd00011[c0] + cpd11488[c0] + cpd11493[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn05338	cpd00006[c0] + cpd11482[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd11487[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn00416	cpd00001[c0] + cpd00002[c0] + cpd00041[c0] + cpd00053[c0] --> cpd00012[c0] + cpd00018[c0] + cpd00023[c0] + cpd00132[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3716 or kb|g.2146.peg.4667)))	{}
+rxn00165	cpd00054[c0] <=> cpd00013[c0] + cpd00020[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1512 or kb|g.2146.peg.2751) and (kb|g.2146.peg.1512 or kb|g.2146.peg.2751)))	{}
+rxn09112	cpd00080[c0] + cpd15418[c0] <=> cpd00046[c0] + cpd15546[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn00903	cpd00024[c0] + cpd00156[c0] <=> cpd00023[c0] + cpd00123[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4393 or kb|g.2146.peg.4842)))	{}
+rxn00947	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd00214[c0] --> cpd00012[c0] + cpd00018[c0] + cpd00134[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2233 or kb|g.2146.peg.1287 or kb|g.2146.peg.2968 or kb|g.2146.peg.746 or kb|g.2146.peg.3560 or kb|g.2146.peg.996)))	{}
+rxn05400	cpd00067[c0] + cpd11492[c0] + cpd11536[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11537[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn08088	cpd15268[c0] + cpd15329[c0] --> cpd11493[c0] + cpd15526[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn10343	cpd00001[c0] + cpd00002[c0] + cpd00531[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00531[e0]	0	0.0	1000.0	(((kb|g.2146.peg.4425 or kb|g.2146.peg.141 or kb|g.2146.peg.4219 or kb|g.2146.peg.5130)))	{}
+rxn10310	24.0 cpd00037[c0] + cpd15749[c0] <=> 24.0 cpd00014[c0] + cpd15767[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2545 or kb|g.2146.peg.1799)))	{}
+rxn05442	cpd00004[c0] + cpd00067[c0] + cpd11535[c0] --> cpd00003[c0] + cpd11536[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn00838	cpd00038[c0] + cpd00041[c0] + cpd00114[c0] --> cpd00009[c0] + cpd00031[c0] + 2.0 cpd00067[c0] + cpd02375[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4066 or kb|g.2146.peg.1931)))	{}
+rxn10265	cpd00001[c0] + cpd15716[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15722[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn00297	cpd00037[c0] <=> cpd00861[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1695 or kb|g.2146.peg.2321 or kb|g.2146.peg.4947 or kb|g.2146.peg.367)))	{}
+rxn05651	cpd00048[e0] + cpd00067[e0] <=> cpd00048[c0] + cpd00067[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4812 or kb|g.2146.peg.740)))	{}
+rxn02760	cpd00001[c0] + cpd01693[c0] <=> cpd00079[c0] + cpd00082[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4977 or kb|g.2146.peg.4364 or kb|g.2146.peg.4286 or kb|g.2146.peg.4488)))	{}
+rxn09102	cpd00001[c0] + cpd15543[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15536[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn05425	cpd00067[c0] + cpd11492[c0] + cpd11561[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11562[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn10234	2.0 cpd00067[c0] + cpd15691[c0] <=> cpd00011[c0] + cpd15697[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn01859	cpd00009[c0] + cpd00067[c0] + cpd00438[c0] <=> cpd00128[c0] + cpd00509[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1577 or kb|g.2146.peg.1963 or kb|g.2146.peg.2046 or kb|g.2146.peg.3301)))	{}
+rxn00337	cpd00002[c0] + cpd00041[c0] + cpd00067[c0] <=> cpd00008[c0] + cpd01977[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.183 or kb|g.2146.peg.1402 or kb|g.2146.peg.4528 or kb|g.2146.peg.2534)))	{}
+rxn05673	cpd00067[e0] + cpd00280[e0] <=> cpd00067[c0] + cpd00280[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2658 or kb|g.2146.peg.3722)))	{}
+rxn01445	cpd00001[c0] + cpd00296[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00277[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)))	{}
+rxn00777	cpd00101[c0] <=> cpd00171[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2860 or kb|g.2146.peg.1424)))	{}
+rxn05602	cpd00067[e0] + cpd00159[e0] <=> cpd00067[c0] + cpd00159[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4167 or kb|g.2146.peg.1967)))	{}
+rxn01466	cpd00113[c0] + cpd00283[c0] --> cpd00012[c0] + cpd00350[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3575 or kb|g.2146.peg.5125 or kb|g.2146.peg.2907 or kb|g.2146.peg.4394) and (kb|g.2146.peg.3575 or kb|g.2146.peg.5125 or kb|g.2146.peg.2907 or kb|g.2146.peg.4394) and (kb|g.2146.peg.3575 or kb|g.2146.peg.5125 or kb|g.2146.peg.2907 or kb|g.2146.peg.4394)))	{}
+rxn02185	cpd00056[c0] + cpd00668[c0] <=> cpd00020[c0] + cpd03049[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.378 or kb|g.2146.peg.2982) and (kb|g.2146.peg.247 or kb|g.2146.peg.2637)))	{}
+rxn05358	cpd00760[c0] + cpd11493[c0] <=> cpd00010[c0] + cpd11495[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn01106	cpd00482[c0] <=> cpd00169[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1864 or kb|g.2146.peg.3335)))	{}
+rxn00784	cpd00510[c0] <=> cpd00071[c0] + cpd00102[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5178 or kb|g.2146.peg.4933)))	{}
+rxn05740	cpd00009[c0] + cpd00067[c0] + cpd00155[c0] <=> cpd00089[c0] + cpd15302[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4929 or kb|g.2146.peg.644)))	{}
+rxn03181	cpd00002[c0] + cpd03002[c0] <=> cpd00008[c0] + cpd02993[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1954 or kb|g.2146.peg.3435)))	{}
+rxn00974	cpd00137[c0] <=> cpd00001[c0] + cpd00331[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.272 or kb|g.2146.peg.2376)))	{}
+rxn01646	cpd00009[c0] + cpd02016[c0] <=> cpd00133[c0] + cpd00475[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1577 or kb|g.2146.peg.1963 or kb|g.2146.peg.2046 or kb|g.2146.peg.3301)))	{}
+rxn09685	cpd00067[e0] + cpd00412[e0] <=> cpd00067[c0] + cpd00412[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.385 or kb|g.2146.peg.2372)))	{}
+rxn10147	cpd00001[c0] + cpd00002[c0] + cpd00635[e0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00635[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4232 or kb|g.2146.peg.570) and (kb|g.2146.peg.4017 or kb|g.2146.peg.553)))	{}
+rxn12638	cpd00001[c0] + cpd11588[c0] --> cpd00033[c0] + cpd00067[c0] + cpd00129[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn12643	cpd00001[c0] + cpd11583[c0] --> cpd00035[c0] + cpd00107[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn01225	cpd00001[c0] + cpd00067[c0] + cpd00207[c0] --> cpd00013[c0] + cpd00309[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3098)))	{}
+rxn09979	cpd00001[c0] + cpd15585[c0] <=> cpd00027[c0] + cpd00116[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.506 or kb|g.2146.peg.1220 or kb|g.2146.peg.3610 or kb|g.2146.peg.4639 or kb|g.2146.peg.364 or kb|g.2146.peg.3490 or kb|g.2146.peg.1957 or kb|g.2146.peg.3051 or kb|g.2146.peg.3138 or kb|g.2146.peg.2507)))	{}
+rxn03903	cpd00286[c0] + cpd02862[c0] <=> cpd00091[c0] + cpd02948[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1242 or kb|g.2146.peg.3322)))	{}
+rxn00985	cpd00002[c0] + cpd00067[c0] + cpd00141[c0] <=> cpd00008[c0] + cpd01844[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1363 or kb|g.2146.peg.3175)))	{}
+rxn00151	cpd00002[c0] + cpd00009[c0] + cpd00020[c0] + cpd00067[c0] <=> cpd00012[c0] + cpd00018[c0] + cpd00061[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2142 or kb|g.2146.peg.861)))	{}
+rxn05447	cpd00004[c0] + cpd00067[c0] + cpd11556[c0] --> cpd00003[c0] + cpd11557[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn08352	cpd00004[c0] + cpd00067[c0] + cpd08615[c0] --> cpd00001[c0] + cpd00003[c0] + cpd00202[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2478 or kb|g.2146.peg.3470)))	{}
+rxn05209	cpd00067[c0] + cpd00971[e0] <=> cpd00067[e0] + cpd00971[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5050 or kb|g.2146.peg.1945 or kb|g.2146.peg.3955 or kb|g.2146.peg.4910)) or ((kb|g.2146.peg.5050 or kb|g.2146.peg.1945 or kb|g.2146.peg.3955 or kb|g.2146.peg.4910)))	{}
+rxn08306	cpd00052[c0] + cpd15521[c0] <=> cpd00012[c0] + cpd15417[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn00709	cpd00002[c0] + cpd00249[c0] <=> cpd00008[c0] + cpd00091[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3873 or kb|g.2146.peg.5279 or kb|g.2146.peg.1842 or kb|g.2146.peg.2181)))	{}
+rxn05360	cpd00005[c0] + cpd00067[c0] + cpd11496[c0] <=> cpd00006[c0] + cpd11497[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn00148	cpd00002[c0] + cpd00020[c0] <=> cpd00008[c0] + cpd00061[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3446 or kb|g.2146.peg.751)))	{}
+rxn00913	cpd00001[c0] + cpd00126[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00311[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)))	{}
+rxn00214	cpd00026[c0] <=> cpd00043[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1362 or kb|g.2146.peg.4962)))	{}
+rxn05438	cpd00004[c0] + cpd00067[c0] + cpd11518[c0] --> cpd00003[c0] + cpd11519[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn08085	cpd15294[c0] + cpd15330[c0] --> cpd11493[c0] + cpd15523[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn09109	cpd00080[c0] + cpd15423[c0] <=> cpd00046[c0] + cpd15543[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn01352	cpd00001[c0] + cpd00241[c0] <=> cpd00067[c0] + cpd00277[c0] + cpd00421[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3328 or kb|g.2146.peg.1654)))	{}
+rxn05289	cpd00005[c0] + cpd00067[c0] + cpd11420[c0] <=> cpd00006[c0] + cpd11421[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1360 or kb|g.2146.peg.2769)))	{}
+rxn02000	cpd00521[c0] <=> cpd00522[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1204 or kb|g.2146.peg.2432)))	{}
+rxn10228	cpd00054[c0] + cpd15685[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15691[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn01977	cpd00079[c0] <=> cpd00863[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3019 or kb|g.2146.peg.2424)))	{}
+rxn00368	cpd00062[c0] + cpd00367[c0] <=> cpd00014[c0] + cpd00046[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3873 or kb|g.2146.peg.5279 or kb|g.2146.peg.1842 or kb|g.2146.peg.2181)))	{}
+rxn09448	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd15269[c0] --> cpd00012[c0] + cpd00018[c0] + cpd15274[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2233 or kb|g.2146.peg.1287 or kb|g.2146.peg.2968 or kb|g.2146.peg.746 or kb|g.2146.peg.3560 or kb|g.2146.peg.996)))	{}
+rxn03421	cpd03519[c0] <=> cpd03666[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4991 or kb|g.2146.peg.2051)))	{}
+rxn12635	cpd00001[c0] + cpd11591[c0] <=> cpd00033[c0] + cpd00060[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2854 or kb|g.2146.peg.167 or kb|g.2146.peg.1889 or kb|g.2146.peg.2847)) or ((kb|g.2146.peg.4088 or kb|g.2146.peg.1370)))	{}
+rxn03838	cpd00001[c0] + cpd03200[c0] --> cpd00108[c0] + cpd03198[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3519 or kb|g.2146.peg.1432)))	{}
+rxn05409	cpd00067[c0] + cpd11492[c0] + cpd11545[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11546[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn10314	24.0 cpd00037[c0] + cpd15753[c0] <=> 24.0 cpd00014[c0] + cpd15771[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2545 or kb|g.2146.peg.1799)))	{}
+rxn00743	cpd00001[c0] + cpd00095[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00157[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5267 or kb|g.2146.peg.4493)))	{}
+rxn01145	cpd00001[c0] + cpd00298[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00184[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)))	{}
+rxn00493	cpd00024[c0] + cpd00066[c0] <=> cpd00023[c0] + cpd00143[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2654 or kb|g.2146.peg.577)) or ((kb|g.2146.peg.2794 or kb|g.2146.peg.1499)))	{}
+rxn00173	cpd00009[c0] + cpd00022[c0] + cpd00067[c0] <=> cpd00010[c0] + cpd00196[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3033 or kb|g.2146.peg.1805)))	{}
+rxn08528	cpd00106[c0] + cpd15353[c0] <=> cpd00036[c0] + cpd15352[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4540 or kb|g.2146.peg.5140) and (kb|g.2146.peg.5209 or kb|g.2146.peg.4078)) or ((kb|g.2146.peg.5209 or kb|g.2146.peg.4078)))	{}
+rxn01509	cpd00002[c0] + cpd00296[c0] <=> cpd00008[c0] + cpd00295[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.818 or kb|g.2146.peg.3065)))	{}
+rxn05414	cpd00005[c0] + cpd00067[c0] + cpd11550[c0] <=> cpd00006[c0] + cpd11551[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn00789	cpd00012[c0] + cpd01775[c0] <=> cpd00002[c0] + cpd00103[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1176 or kb|g.2146.peg.2054)))	{}
+rxn10481	cpd00001[c0] + cpd00002[c0] + cpd00058[e0] --> cpd00008[c0] + cpd00009[c0] + cpd00058[c0] + cpd00067[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4425 or kb|g.2146.peg.141 or kb|g.2146.peg.4219 or kb|g.2146.peg.5130)))	{}
+rxn00817	cpd00001[c0] + cpd03198[c0] <=> cpd00027[c0] + cpd00108[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3519 or kb|g.2146.peg.1432)))	{}
+rxn02895	cpd00002[c0] + cpd00033[c0] + cpd01982[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd02394[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4409 or kb|g.2146.peg.3676)))	{}
+rxn10216	cpd11435[c0] + cpd15673[c0] --> cpd00010[c0] + cpd15679[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn02596	cpd00001[c0] + cpd01133[c0] --> cpd00108[c0] + cpd00382[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3519 or kb|g.2146.peg.1432)))	{}
+rxn09211	cpd00054[c0] + cpd15420[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15558[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn02312	cpd00017[c0] + cpd00800[c0] <=> cpd00764[c0] + cpd02701[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3063 or kb|g.2146.peg.1921)))	{}
+rxn05256	cpd00193[c0] + cpd11421[c0] --> cpd00018[c0] + cpd00081[c0] + cpd11420[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2832 or kb|g.2146.peg.1212) and (kb|g.2146.peg.2832 or kb|g.2146.peg.1212)))	{}
+rxn00438	cpd00002[c0] + cpd00793[c0] <=> cpd00008[c0] + cpd00056[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1680 or kb|g.2146.peg.3224)))	{}
+rxn05405	cpd00005[c0] + cpd00067[c0] + cpd11541[c0] <=> cpd00006[c0] + cpd11542[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn03951	cpd00003[c0] + cpd03607[c0] <=> cpd00004[c0] + cpd00067[c0] + cpd04539[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1333 or kb|g.2146.peg.3475)))	{}
+rxn05327	cpd00004[c0] + cpd00067[c0] + cpd11475[c0] --> cpd00003[c0] + cpd11474[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn10344	cpd00001[c0] + cpd00002[c0] + cpd04097[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd04097[e0]	0	0.0	1000.0	(((kb|g.2146.peg.4425 or kb|g.2146.peg.141 or kb|g.2146.peg.4219 or kb|g.2146.peg.5130)))	{}
+rxn00365	cpd00002[c0] + cpd00367[c0] <=> cpd00008[c0] + cpd00046[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3873 or kb|g.2146.peg.5279 or kb|g.2146.peg.1842 or kb|g.2146.peg.2181)))	{}
+rxn05318	cpd00067[e0] + cpd00182[e0] <=> cpd00067[c0] + cpd00182[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.385 or kb|g.2146.peg.2372)))	{}
+rxn05404	cpd00067[c0] + cpd11492[c0] + cpd11540[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11541[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn01102	cpd00002[c0] + cpd00223[c0] <=> cpd00008[c0] + cpd00169[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2717)))	{}
+rxn10336	2.0 cpd15540[c0] <=> cpd00100[c0] + cpd15793[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2397 or kb|g.2146.peg.174 or kb|g.2146.peg.937 or kb|g.2146.peg.2798)))	{}
+rxn01643	cpd00005[c0] + cpd01977[c0] --> cpd00006[c0] + cpd00009[c0] + cpd00346[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3483 or kb|g.2146.peg.5386)))	{}
+rxn09209	cpd00054[c0] + cpd15418[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15556[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn01653	cpd00002[c0] + cpd02197[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00347[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1128 or kb|g.2146.peg.3852)))	{}
+rxn01029	cpd00001[c0] + cpd00152[c0] --> cpd00013[c0] + cpd00341[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4 or kb|g.2146.peg.2594)))	{}
+rxn09198	2.0 cpd00067[c0] + cpd15553[c0] <=> cpd00011[c0] + cpd15529[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn01362	cpd00103[c0] + cpd00247[c0] --> cpd00012[c0] + cpd00810[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1926 or kb|g.2146.peg.3750)))	{}
+rxn09106	cpd00001[c0] + cpd15547[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15540[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn10270	cpd00001[c0] + cpd15721[c0] --> cpd00009[c0] + cpd00067[c0] + cpd15727[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3847 or kb|g.2146.peg.4835 or kb|g.2146.peg.3145)))	{}
+rxn05450	cpd00004[c0] + cpd00067[c0] + cpd11568[c0] --> cpd00003[c0] + cpd11569[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1692 or kb|g.2146.peg.3741)))	{}
+rxn02402	2.0 cpd00067[c0] + cpd00103[c0] + cpd02333[c0] --> cpd00011[c0] + cpd00012[c0] + cpd00873[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2423 or kb|g.2146.peg.1765)))	{}
+rxn05375	cpd00067[c0] + cpd11492[c0] + cpd11511[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11512[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn10224	cpd00052[c0] + cpd15681[c0] <=> cpd00012[c0] + cpd15687[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn10231	cpd00054[c0] + cpd15688[c0] --> cpd00046[c0] + cpd00067[c0] + cpd15694[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5067 or kb|g.2146.peg.3357)))	{}
+rxn02811	cpd02693[c0] <=> cpd00001[c0] + cpd01710[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1694 or kb|g.2146.peg.2604) and (kb|g.2146.peg.2166 or kb|g.2146.peg.1298)))	{}
+rxn05939	cpd00011[c0] + cpd00067[c0] + cpd00078[c0] + cpd11620[c0] <=> cpd00010[c0] + cpd00024[c0] + cpd11621[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5016 or kb|g.2146.peg.3922)) or ((kb|g.2146.peg.5139 or kb|g.2146.peg.3136)) or ((kb|g.2146.peg.3107 or kb|g.2146.peg.5431)) or ((kb|g.2146.peg.3321 or kb|g.2146.peg.5126)))	{}
+rxn10262	cpd00080[c0] + cpd15686[c0] <=> cpd00046[c0] + cpd15719[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn00199	cpd00067[c0] + cpd03187[c0] --> cpd00011[c0] + cpd00024[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4706 or kb|g.2146.peg.698)))	{}
+rxn01019	cpd00064[c0] + cpd00146[c0] <=> cpd00009[c0] + 2.0 cpd00067[c0] + cpd00274[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1377 or kb|g.2146.peg.3950)))	{}
+rxn00412	cpd00001[c0] + cpd00002[c0] + cpd00053[c0] + cpd00062[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00023[c0] + cpd00052[c0] + 2.0 cpd00067[c0]	0	0.0	1000.0	(((kb|g.2146.peg.918 or kb|g.2146.peg.2317)))	{}
+rxn03167	3.0 cpd00001[c0] + cpd02978[c0] --> 3.0 cpd00009[c0] + 3.0 cpd00067[c0] + cpd02961[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5267 or kb|g.2146.peg.4493)))	{}
+rxn05457	cpd00010[c0] + cpd11466[c0] <=> cpd01695[c0] + cpd11493[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn08310	cpd00052[c0] + cpd15525[c0] <=> cpd00012[c0] + cpd15418[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn03917	cpd00238[c0] <=> cpd04918[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1069 or kb|g.2146.peg.4948)))	{}
+rxn03135	cpd00023[c0] + cpd00067[c0] + cpd02843[c0] + cpd02851[c0] <=> cpd00053[c0] + cpd02991[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1093 or kb|g.2146.peg.2449) and (kb|g.2146.peg.1137 or kb|g.2146.peg.2411)))	{}
+rxn00469	cpd00001[c0] + cpd00342[c0] <=> cpd00029[c0] + cpd00064[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1642 or kb|g.2146.peg.3110)))	{}
+rxn12512	cpd00002[c0] + cpd00084[c0] + cpd02201[c0] --> cpd00012[c0] + cpd00018[c0] + cpd02666[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1809 or kb|g.2146.peg.2487)))	{}
+rxn09272	cpd00036[c0] + cpd15560[c0] <=> cpd00106[c0] + cpd15561[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4540 or kb|g.2146.peg.5140) and (kb|g.2146.peg.5209 or kb|g.2146.peg.4078)) or ((kb|g.2146.peg.5209 or kb|g.2146.peg.4078)))	{}
+rxn00686	cpd00006[c0] + cpd00087[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd00330[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1807 or kb|g.2146.peg.3905)))	{}
+rxn00791	cpd00012[c0] + cpd02642[c0] <=> cpd00093[c0] + cpd00103[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3146 or kb|g.2146.peg.1821)))	{}
+rxn09201	2.0 cpd00067[c0] + cpd15556[c0] <=> cpd00011[c0] + cpd15532[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5318 or kb|g.2146.peg.3393)))	{}
+rxn08040	cpd00037[c0] + cpd00286[c0] <=> cpd00091[c0] + cpd00946[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2545 or kb|g.2146.peg.1799)))	{}
+rxn08084	cpd11466[c0] + cpd15331[c0] --> cpd11493[c0] + cpd15522[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn02303	cpd00007[c0] + 2.0 cpd00067[c0] + cpd02083[c0] <=> 2.0 cpd00001[c0] + 2.0 cpd00011[c0] + cpd00791[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2100 or kb|g.2146.peg.988)))	{}
+rxn03843	cpd00113[c0] + cpd00350[c0] --> cpd00012[c0] + cpd08211[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3514 or kb|g.2146.peg.1539)))	{}
+rxn10260	cpd00080[c0] + cpd15684[c0] <=> cpd00046[c0] + cpd15717[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4734 or kb|g.2146.peg.3438)))	{}
+rxn01329	cpd00235[c0] <=> cpd00485[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3859 or kb|g.2146.peg.5435)))	{}
+rxn00077	cpd00002[c0] + cpd00003[c0] <=> cpd00006[c0] + cpd00008[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.926 or kb|g.2146.peg.3182)))	{}
+rxn00247	cpd00002[c0] + cpd00032[c0] + cpd00067[c0] <=> cpd00008[c0] + cpd00011[c0] + cpd00061[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3073 or kb|g.2146.peg.1552)))	{}
+rxn05379	cpd00067[c0] + cpd11492[c0] + cpd11515[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11516[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn05667	cpd00073[e0] <=> cpd00073[c0]	0	-1000.0	1000.0	Unknown	{}
+rxn09450	cpd00002[c0] + cpd00010[c0] + cpd00067[c0] + cpd15237[c0] --> cpd00012[c0] + cpd00018[c0] + cpd15238[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2233 or kb|g.2146.peg.1287 or kb|g.2146.peg.2968 or kb|g.2146.peg.746 or kb|g.2146.peg.3560 or kb|g.2146.peg.996)))	{}
+rxn01213	cpd00113[c0] + cpd00202[c0] --> cpd00012[c0] + cpd00283[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3575 or kb|g.2146.peg.5125 or kb|g.2146.peg.2907 or kb|g.2146.peg.4394) and (kb|g.2146.peg.3575 or kb|g.2146.peg.5125 or kb|g.2146.peg.2907 or kb|g.2146.peg.4394) and (kb|g.2146.peg.3575 or kb|g.2146.peg.5125 or kb|g.2146.peg.2907 or kb|g.2146.peg.4394)))	{}
+rxn05384	cpd00067[c0] + cpd11492[c0] + cpd11520[c0] --> cpd00011[c0] + cpd11493[c0] + cpd11521[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn01917	cpd00002[c0] + cpd00067[c0] + cpd00477[c0] <=> cpd00008[c0] + cpd02552[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5362 or kb|g.2146.peg.4608)))	{}
+rxn01100	cpd00002[c0] + cpd00067[c0] + cpd00169[c0] <=> cpd00008[c0] + cpd00203[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1315 or kb|g.2146.peg.2711)))	{}
+rxn05389	cpd00005[c0] + cpd00067[c0] + cpd11525[c0] <=> cpd00006[c0] + cpd11526[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn01603	cpd00002[c0] + cpd00023[c0] + cpd00683[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00330[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1186 or kb|g.2146.peg.2040) and (kb|g.2146.peg.1186 or kb|g.2146.peg.2040)))	{}
+rxn05515	cpd00001[c0] + cpd00002[c0] + cpd00423[e0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00423[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4232 or kb|g.2146.peg.570) and (kb|g.2146.peg.4017 or kb|g.2146.peg.553)))	{}
+rxn02339	cpd00024[c0] + cpd01974[c0] <=> cpd00023[c0] + cpd00830[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.4573 or kb|g.2146.peg.2654 or kb|g.2146.peg.943 or kb|g.2146.peg.4254 or kb|g.2146.peg.2941 or kb|g.2146.peg.577)))	{}
+rxn02175	cpd00002[c0] + cpd00834[c0] <=> cpd00012[c0] + cpd00655[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5143 or kb|g.2146.peg.4610)))	{}
+rxn01544	cpd00103[c0] + cpd00309[c0] --> cpd00012[c0] + cpd00497[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4422 or kb|g.2146.peg.388)) or ((kb|g.2146.peg.1762 or kb|g.2146.peg.3545)))	{}
+rxn00713	cpd00038[c0] + cpd00249[c0] <=> cpd00031[c0] + cpd00091[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3873 or kb|g.2146.peg.5279 or kb|g.2146.peg.1842 or kb|g.2146.peg.2181)))	{}
+rxn00288	cpd00106[c0] + cpd00982[c0] --> cpd00015[c0] + cpd00036[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4540 or kb|g.2146.peg.5140) and (kb|g.2146.peg.5209 or kb|g.2146.peg.4078)))	{}
+rxn03182	cpd02546[c0] + cpd02993[c0] <=> cpd00046[c0] + cpd03585[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.76 or kb|g.2146.peg.4140)))	{}
+rxn00132	cpd00001[c0] + cpd00018[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00182[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)))	{}
+rxn01790	cpd00006[c0] + cpd00408[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd00712[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2421 or kb|g.2146.peg.111)))	{}
+rxn03075	cpd00002[c0] + cpd02636[c0] <=> cpd00008[c0] + cpd02654[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3081 or kb|g.2146.peg.5219)))	{}
+rxn05528	cpd00001[c0] + cpd00002[c0] + cpd00058[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00058[e0] + cpd00067[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4425 or kb|g.2146.peg.141 or kb|g.2146.peg.4219 or kb|g.2146.peg.5130)))	{}
+rxn00747	cpd00102[c0] <=> cpd00095[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2767 or kb|g.2146.peg.4831)))	{}
+rxn00707	cpd00068[c0] + cpd00367[c0] <=> cpd00046[c0] + cpd00090[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1272 or kb|g.2146.peg.3216 or kb|g.2146.peg.3299 or kb|g.2146.peg.2875)))	{}
+rxn02285	cpd00006[c0] + cpd00773[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd02820[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2515 or kb|g.2146.peg.1045)))	{}
+rxn03108	cpd00002[c0] + cpd02775[c0] <=> cpd00008[c0] + cpd02894[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.3302 or kb|g.2146.peg.3967 or kb|g.2146.peg.1886 or kb|g.2146.peg.1163)))	{}
+rxn10213	cpd00327[c0] + cpd15329[c0] --> cpd00010[c0] + cpd15526[c0]	0	0.0	1000.0	(((kb|g.2146.peg.5079 or kb|g.2146.peg.2131)))	{}
+rxn01799	cpd00009[c0] + cpd00067[c0] + cpd00412[c0] <=> cpd00092[c0] + cpd00509[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.1577 or kb|g.2146.peg.1963 or kb|g.2146.peg.2046 or kb|g.2146.peg.3301)))	{}
+rxn05380	cpd00005[c0] + cpd00067[c0] + cpd11516[c0] <=> cpd00006[c0] + cpd11517[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5264 or kb|g.2146.peg.3447)))	{}
+rxn10118	2.0 cpd00067[c0] + cpd11640[c0] + cpd15560[c0] --> 2.0 cpd00067[e0] + cpd15561[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2890 or kb|g.2146.peg.2320)))	{}
+rxn00420	cpd00001[c0] + cpd00738[c0] --> cpd00009[c0] + cpd00054[c0] + cpd00067[c0]	0	0.0	1000.0	(((kb|g.2146.peg.689 or kb|g.2146.peg.3158)))	{}
+rxn10313	24.0 cpd00037[c0] + cpd15752[c0] <=> 24.0 cpd00014[c0] + cpd15770[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2545 or kb|g.2146.peg.1799)))	{}
+rxn02003	cpd00006[c0] + cpd02113[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd00522[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.2691 or kb|g.2146.peg.431)))	{}
+rxn06723	cpd03584[c0] + cpd11484[c0] --> cpd00067[c0] + cpd02835[c0] + cpd11493[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2145 or kb|g.2146.peg.5409)))	{}
+rxn01268	cpd00003[c0] + cpd00219[c0] --> cpd00004[c0] + cpd00011[c0] + cpd00868[c0]	0	0.0	1000.0	(((kb|g.2146.peg.651 or kb|g.2146.peg.2942)))	{}
+rxn01621	cpd00831[c0] <=> cpd00095[c0] + cpd00334[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.5422 or kb|g.2146.peg.3088)))	{}
+rxn08336	cpd00282[c0] + cpd15500[c0] --> cpd00247[c0] + cpd15499[c0]	0	0.0	1000.0	(((kb|g.2146.peg.780 or kb|g.2146.peg.2023) and (kb|g.2146.peg.2360 or kb|g.2146.peg.86)))	{}
+rxn01961	cpd00001[c0] + cpd00497[c0] --> cpd00009[c0] + cpd00067[c0] + cpd01217[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)))	{}
+rxn02898	cpd02021[c0] --> cpd00010[c0] + cpd02295[c0]	0	0.0	1000.0	(((kb|g.2146.peg.2724 or kb|g.2146.peg.4726)))	{}
+rxn01210	cpd00002[c0] + cpd00023[c0] + cpd00201[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd03524[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1186 or kb|g.2146.peg.2040) and (kb|g.2146.peg.1186 or kb|g.2146.peg.2040)))	{}
+rxn10220	cpd00052[c0] + cpd15677[c0] <=> cpd00012[c0] + cpd15683[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.932 or kb|g.2146.peg.2120)))	{}
+rxn03907	cpd00052[c0] + cpd08286[c0] <=> cpd00012[c0] + cpd08287[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.316 or kb|g.2146.peg.3748 or kb|g.2146.peg.203 or kb|g.2146.peg.3679)))	{}
+rxn00851	cpd00002[c0] + 2.0 cpd00117[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00731[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1556 or kb|g.2146.peg.3452)))	{}
+rxn00346	cpd00041[c0] + cpd00067[c0] --> cpd00011[c0] + cpd00085[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1465 or kb|g.2146.peg.2206)))	{}
+rxn00831	cpd00001[c0] + cpd00114[c0] --> cpd00009[c0] + cpd00067[c0] + cpd00246[c0]	0	0.0	1000.0	(((kb|g.2146.peg.4089 or kb|g.2146.peg.390 or kb|g.2146.peg.1711 or kb|g.2146.peg.389 or kb|g.2146.peg.2514 or kb|g.2146.peg.4704)))	{}
+rxn05454	cpd00010[c0] + cpd11544[c0] <=> cpd11432[c0] + cpd11493[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.959 or kb|g.2146.peg.2496)))	{}
+rxn00190	cpd00001[c0] + cpd00002[c0] + cpd00053[c0] + cpd00638[c0] --> cpd00003[c0] + cpd00012[c0] + cpd00018[c0] + cpd00023[c0]	0	0.0	1000.0	(((kb|g.2146.peg.1784 or kb|g.2146.peg.2143)))	{}
+rxn05343	cpd00067[c0] + cpd11470[c0] + cpd11492[c0] --> cpd00011[c0] + cpd11487[c0] + cpd11493[c0]	0	0.0	1000.0	(((kb|g.2146.peg.3036 or kb|g.2146.peg.5183) and (kb|g.2146.peg.3513 or kb|g.2146.peg.5480)))	{}
+rxn05205	cpd00067[e0] + cpd00654[e0] <=> cpd00067[c0] + cpd00654[c0]	0	-1000.0	1000.0	(((kb|g.2146.peg.385 or kb|g.2146.peg.2372)))	{}
+rxn10571	cpd00001[c0] + cpd00002[c0] + cpd00254[e0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00254[c0]	0	0.0	1000.0	Unknown	{}
+rxn05195	cpd00001[c0] + cpd00002[c0] + cpd10516[e0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd10516[c0]	0	0.0	1000.0	Unknown	{}
+rxn00062	cpd00001[c0] + cpd00002[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0]	0	0.0	1000.0	Unknown	{}
+rxn01208	cpd00067[c0] + cpd02605[c0] --> cpd00011[c0] + cpd00200[c0]	0	0.0	1000.0	Unknown	{}
+rxn04132	cpd00001[c0] + cpd08625[c0] --> cpd00011[c0] + cpd01567[c0]	0	0.0	1000.0	Unknown	{}
+rxn04133	cpd00001[c0] + cpd08625[c0] --> cpd00011[c0] + cpd01092[c0]	0	0.0	1000.0	Unknown	{}
+rxn05319	cpd00001[c0] --> cpd00001[e0]	0	0.0	1000.0	Unknown	{}
+rxn05467	cpd00011[e0] <=> cpd00011[c0]	0	-1000.0	1000.0	Unknown	{}
+rxn05468	cpd00007[e0] <=> cpd00007[c0]	0	-1000.0	1000.0	Unknown	{}
+rxn02374	cpd00858[c0] --> cpd00001[c0] + cpd00067[c0] + cpd02431[c0]	0	0.0	1000.0	Unknown	{}
+rxn05116	cpd00067[c0] + cpd04539[c0] --> cpd00011[c0] + cpd08449[c0]	0	0.0	1000.0	Unknown	{}
+rxn03012	cpd02414[c0] --> cpd00001[c0] + cpd00067[c0] + cpd02465[c0]	0	0.0	1000.0	Unknown	{}
+rxn05064	2.0 cpd00067[c0] + cpd01101[c0] <=> cpd00011[c0] + cpd00013[c0]	0	-1000.0	1000.0	Unknown	{}
+rxn02666	cpd00067[c0] + cpd02211[c0] --> cpd00011[c0] + cpd01298[c0]	0	0.0	1000.0	Unknown	{}
+rxn04457	cpd00067[c0] + cpd09027[c0] --> cpd00011[c0] + cpd01567[c0]	0	0.0	1000.0	Unknown	{}
+rxn04456	cpd00067[c0] + cpd09027[c0] --> cpd00011[c0] + cpd01092[c0]	0	0.0	1000.0	Unknown	{}
+rxn01664	cpd02522[c0] --> cpd00001[c0] + cpd00067[c0] + cpd00352[c0]	0	0.0	1000.0	Unknown	{}
+rxn02916	cpd02074[c0] --> cpd00001[c0] + cpd00067[c0] + cpd00922[c0]	0	0.0	1000.0	Unknown	{}
+rxn03538	cpd03423[c0] + cpd03920[c0] --> cpd00126[c0] + cpd00166[c0]	0	0.0	1000.0	Unknown	{}
+rxn08669	cpd00080[c0] + cpd00100[c0] --> cpd00001[c0] + cpd02090[c0]	0	0.0	1000.0	Unknown	{}
+rxn05386	cpd11522[c0] --> cpd00001[c0] + cpd11523[c0]	0	0.0	1000.0	Unknown	{}
+rxn04160	cpd00008[c0] + cpd00009[c0] + cpd01449[c0] --> cpd00002[c0] + cpd01845[c0]	0	0.0	1000.0	Unknown	{}
+rxn03397	cpd00017[c0] + cpd03447[c0] --> cpd00019[c0] + cpd00067[c0] + cpd03448[c0]	0	0.0	1000.0	Unknown	{}
+rxn00101	cpd00001[c0] + 2.0 cpd00067[c0] + cpd00073[c0] --> cpd00011[c0] + 2.0 cpd00013[c0]	0	0.0	1000.0	Unknown	{}
+rxn00399	2.0 cpd00001[c0] + cpd00006[c0] + cpd00067[c0] + 2.0 cpd00274[c0] + 2.0 cpd00418[c0] --> cpd00005[c0] + 3.0 cpd00007[c0] + 2.0 cpd00051[c0]	0	0.0	1000.0	Unknown	{}
+rxn02716	cpd00005[c0] + 2.0 cpd00067[c0] + cpd01845[c0] --> cpd00006[c0] + cpd01449[c0]	0	0.0	1000.0	Unknown	{}
+rxn00859	2.0 cpd00004[c0] + 3.0 cpd00067[c0] + cpd00119[c0] --> cpd00001[c0] + 2.0 cpd00003[c0] + cpd00641[c0]	0	0.0	1000.0	Unknown	{}
+rxn07191	3.0 cpd00067[c0] + cpd00169[c0] + 2.0 cpd11620[c0] --> cpd00001[c0] + cpd00102[c0] + 2.0 cpd11621[c0]	0	0.0	1000.0	Unknown	{}
+rxn00056	cpd00007[c0] + 4.0 cpd00067[c0] + 4.0 cpd10515[c0] --> 2.0 cpd00001[c0] + 4.0 cpd10516[c0]	0	0.0	1000.0	Unknown	{}
+rxn09180	3.0 cpd00106[c0] + cpd00791[c0] --> 3.0 cpd00036[c0] + cpd01476[c0]	0	0.0	1000.0	Unknown	{}
+rxn05029	cpd00002[c0] + cpd03422[c0] --> cpd00421[c0] + cpd03918[c0]	0	0.0	1000.0	Unknown	{}
+rxn00029	2.0 cpd00338[c0] --> 2.0 cpd00001[c0] + cpd00067[c0] + cpd00689[c0]	0	0.0	1000.0	Unknown	{}
+rxn13085	cpd00017[c0] + cpd00118[c0] --> cpd00011[c0] + cpd00147[c0] + cpd00264[c0]	0	0.0	1000.0	Unknown	{}
+rxn08713	cpd03831[c0] + cpd15477[c0] --> cpd00008[c0] + cpd15432[c0]	0	0.0	1000.0	Unknown	{}
+rxn06022	cpd00834[c0] + cpd12370[c0] --> cpd00001[c0] + cpd11493[c0]	0	0.0	1000.0	Unknown	{}
+rxn03393	cpd00067[c0] + cpd03443[c0] --> cpd00011[c0] + cpd03444[c0]	0	0.0	1000.0	Unknown	{}
+rxn05243	cpd00067[e0] + cpd00107[e0] --> cpd00067[c0] + cpd00107[c0]	0	0.0	1000.0	Unknown	{}
+rxn12224	cpd00007[c0] + cpd03446[c0] --> cpd00001[c0] + cpd03447[c0]	0	0.0	1000.0	Unknown	{}
+rxn01391	cpd00004[c0] + cpd00067[c0] + cpd00261[c0] --> cpd00003[c0] + cpd00417[c0]	0	0.0	1000.0	Unknown	{}
+rxn10094	cpd00017[c0] + cpd15352[c0] --> cpd00019[c0] + cpd00067[c0] + cpd15500[c0]	0	0.0	1000.0	Unknown	{}
+rxn02269	cpd00003[c0] + cpd00010[c0] + cpd00508[c0] --> cpd00004[c0] + cpd00011[c0] + cpd00760[c0]	0	0.0	1000.0	Unknown	{}
+rxn04413	cpd00038[c0] + cpd03918[c0] --> cpd00031[c0] + cpd00067[c0] + cpd03919[c0]	0	0.0	1000.0	Unknown	{}
+rxn05303	cpd00051[e0] + cpd00067[e0] --> cpd00051[c0] + cpd00067[c0]	0	0.0	1000.0	Unknown	{}
+rxn00356	cpd00014[c0] + cpd00208[c0] --> cpd00027[c0] + cpd00043[c0]	0	0.0	1000.0	Unknown	{}
+rxn00060	cpd00001[c0] + 4.0 cpd00689[c0] --> 4.0 cpd00013[c0] + cpd00755[c0]	0	0.0	1000.0	Unknown	{}
+rxn01520	cpd00125[c0] + cpd00299[c0] --> cpd00298[c0] + cpd00330[c0]	0	0.0	1000.0	Unknown	{}
+rxn00285	cpd00008[c0] + cpd00009[c0] + cpd00078[c0] --> cpd00002[c0] + cpd00010[c0] + cpd00036[c0]	0	0.0	1000.0	Unknown	{}
+rxn08815	cpd00067[c0] + cpd01080[c0] + cpd02090[c0] --> cpd00001[c0] + cpd15323[c0]	0	0.0	1000.0	Unknown	{}
+rxn05369	cpd11505[c0] --> cpd00001[c0] + cpd11506[c0]	0	0.0	1000.0	Unknown	{}
+rxn13160	cpd01741[e0] --> cpd01741[c0]	0	0.0	1000.0	Unknown	{}
+rxn11703	cpd16335[c0] --> cpd00020[c0] + cpd03451[c0]	0	0.0	1000.0	Unknown	{}
+rxn05406	cpd11542[c0] --> cpd00001[c0] + cpd11543[c0]	0	0.0	1000.0	Unknown	{}
+rxn03918	cpd00002[c0] + cpd04918[c0] --> cpd00008[c0] + cpd08316[c0]	0	0.0	1000.0	Unknown	{}
+rxn08620	cpd00026[c0] + cpd15475[c0] --> cpd00014[c0] + cpd15477[c0]	0	0.0	1000.0	Unknown	{}
+rxn08954	cpd02546[c0] + cpd15550[c0] --> cpd00046[c0] + cpd15492[c0]	0	0.0	1000.0	Unknown	{}
+rxn03537	cpd00038[c0] + cpd00067[c0] + cpd03919[c0] --> cpd00012[c0] + cpd03920[c0]	0	0.0	1000.0	Unknown	{}
+rxn00966	cpd00216[c0] --> cpd00020[c0] + cpd00136[c0]	0	0.0	1000.0	Unknown	{}
+rxn05390	cpd11526[c0] --> cpd00001[c0] + cpd11527[c0]	0	0.0	1000.0	Unknown	{}
+rxn11946	cpd00017[c0] + cpd03449[c0] --> cpd00019[c0] + cpd15560[c0]	0	0.0	1000.0	Unknown	{}
+rxn05306	cpd00066[e0] + cpd00067[e0] --> cpd00066[c0] + cpd00067[c0]	0	0.0	1000.0	Unknown	{}
+rxn00350	cpd00023[c0] + cpd01017[c0] --> cpd00001[c0] + cpd00042[c0]	0	0.0	1000.0	Unknown	{}
+rxn02989	cpd02692[c0] --> cpd00001[c0] + cpd02333[c0]	0	0.0	1000.0	Unknown	{}
+rxn00119	cpd00002[c0] + cpd00091[c0] --> cpd00008[c0] + cpd00014[c0]	0	0.0	1000.0	Unknown	{}
+rxn09225	cpd02113[c0] + cpd15492[c0] --> cpd00297[c0] + cpd15489[c0]	0	0.0	1000.0	Unknown	{}
+rxn02774	cpd00003[c0] + cpd01620[c0] --> cpd00004[c0] + cpd00067[c0] + cpd03426[c0]	0	0.0	1000.0	Unknown	{}
+rxn05299	cpd00067[e0] + cpd00119[e0] --> cpd00067[c0] + cpd00119[c0]	0	0.0	1000.0	Unknown	{}
+rxn01636	cpd00064[c0] + cpd00477[c0] --> cpd00023[c0] + cpd00342[c0]	0	0.0	1000.0	Unknown	{}
+rxn05301	cpd00067[e0] + cpd00069[e0] --> cpd00067[c0] + cpd00069[c0]	0	0.0	1000.0	Unknown	{}
+rxn00452	cpd00019[c0] + cpd00060[c0] + cpd00067[c0] --> cpd00017[c0] + cpd00135[c0]	0	0.0	1000.0	Unknown	{}
+rxn01806	cpd00001[c0] + cpd00003[c0] + cpd00659[c0] --> cpd00004[c0] + 2.0 cpd00067[c0] + 2.0 cpd00418[c0]	0	0.0	1000.0	Unknown	{}
+rxn12376	cpd15378[c0] --> cpd15378[e0]	0	0.0	1000.0	Unknown	{}
+rxn08710	cpd03587[c0] + cpd03831[c0] --> cpd00008[c0] + cpd15485[c0]	0	0.0	1000.0	Unknown	{}
+rxn05365	cpd11501[c0] --> cpd00001[c0] + cpd11502[c0]	0	0.0	1000.0	Unknown	{}
+rxn01327	cpd00007[c0] + cpd00093[c0] + cpd00233[c0] --> cpd00001[c0] + cpd00231[c0] + cpd00483[c0]	0	0.0	1000.0	Unknown	{}
+rxn08333	cpd00067[c0] + cpd02295[c0] + cpd02557[c0] --> cpd00011[c0] + cpd00012[c0] + cpd15353[c0]	0	0.0	1000.0	Unknown	{}
+rxn01207	cpd00003[c0] + cpd00010[c0] + cpd00200[c0] --> cpd00004[c0] + cpd00011[c0] + cpd01882[c0]	0	0.0	1000.0	Unknown	{}
+rxn05514	cpd00063[e0] + cpd00067[c0] --> cpd00063[c0] + cpd00067[e0]	0	0.0	1000.0	Unknown	{}
+rxn08020	cpd00002[c0] + cpd00067[c0] + cpd01741[c0] + cpd11493[c0] --> cpd00012[c0] + cpd00018[c0] + cpd11468[c0]	0	0.0	1000.0	Unknown	{}
+rxn01308	cpd00095[c0] + cpd00229[c0] --> cpd03861[c0]	0	0.0	1000.0	Unknown	{}
+rxn02288	4.0 cpd00067[c0] + cpd00774[c0] --> 4.0 cpd00011[c0] + cpd02083[c0]	0	0.0	1000.0	Unknown	{}
+rxn10162	cpd00067[e0] + cpd00214[e0] --> cpd00067[c0] + cpd00214[c0]	0	0.0	1000.0	Unknown	{}
+rxn10474	cpd00149[e0] --> cpd00149[c0]	0	0.0	1000.0	Unknown	{}
+rxn12225	cpd00007[c0] + 2.0 cpd03444[c0] --> 2.0 cpd03445[c0]	0	0.0	1000.0	Unknown	{}
+rxn05394	cpd11530[c0] --> cpd00001[c0] + cpd11531[c0]	0	0.0	1000.0	Unknown	{}
+rxn08709	cpd00002[c0] + cpd15488[c0] --> cpd00008[c0] + cpd15550[c0]	0	0.0	1000.0	Unknown	{}
+rxn00293	cpd00062[c0] + cpd02611[c0] --> cpd00012[c0] + cpd00037[c0]	0	0.0	1000.0	Unknown	{}
+rxn08711	cpd03831[c0] + cpd15485[c0] --> cpd00008[c0] + cpd15484[c0]	0	0.0	1000.0	Unknown	{}
+rxn08131	cpd00001[c0] + cpd00003[c0] + cpd02140[c0] --> cpd00004[c0] + 2.0 cpd00047[c0] + 4.0 cpd00067[c0] + cpd02775[c0]	0	0.0	1000.0	Unknown	{}
+rxn10161	cpd00067[e0] + cpd01080[e0] --> cpd00067[c0] + cpd01080[c0]	0	0.0	1000.0	Unknown	{}
+rxn06591	cpd00005[c0] + cpd00067[c0] + cpd12227[c0] --> cpd00006[c0] + cpd02345[c0] + cpd11912[c0]	0	0.0	1000.0	Unknown	{}
+rxn10169	cpd00067[e0] + cpd00208[e0] --> cpd00067[c0] + cpd00208[c0]	0	0.0	1000.0	Unknown	{}
+rxn02897	cpd00873[c0] + cpd01997[c0] --> cpd00067[c0] + cpd00218[c0] + cpd02904[c0]	0	0.0	1000.0	Unknown	{}
+rxn10206	cpd00080[c0] + cpd11434[c0] --> cpd00010[c0] + cpd15672[c0]	0	0.0	1000.0	Unknown	{}
+rxn00224	cpd01476[c0] + cpd10515[c0] --> cpd00028[c0] + 2.0 cpd00067[c0]	0	0.0	1000.0	Unknown	{}
+rxn00409	cpd00002[c0] + cpd00096[c0] --> cpd00008[c0] + cpd00052[c0]	0	0.0	1000.0	Unknown	{}
+rxn01314	cpd00005[c0] + cpd00067[c0] + cpd00231[c0] --> cpd00006[c0] + cpd00233[c0]	0	0.0	1000.0	Unknown	{}
+rxn08708	cpd00002[c0] + cpd15484[c0] --> cpd00008[c0] + cpd15549[c0]	0	0.0	1000.0	Unknown	{}
+rxn05335	cpd00001[c0] + cpd11467[c0] --> cpd11484[c0]	0	0.0	1000.0	Unknown	{}
+rxn05381	cpd11517[c0] --> cpd00001[c0] + cpd11518[c0]	0	0.0	1000.0	Unknown	{}
+rxn01513	cpd00002[c0] + cpd00298[c0] --> cpd00008[c0] + cpd00297[c0]	0	0.0	1000.0	Unknown	{}
+rxn01629	cpd02345[c0] --> cpd00338[c0]	0	0.0	1000.0	Unknown	{}
+rxn09163	cpd00067[c0] + cpd01080[c0] + cpd15323[c0] --> cpd00001[c0] + cpd15540[c0]	0	0.0	1000.0	Unknown	{}
+rxn01927	cpd00007[c0] + cpd00483[c0] --> cpd00067[c0] + cpd02692[c0]	0	0.0	1000.0	Unknown	{}
+rxn08618	cpd00026[c0] + cpd15489[c0] --> cpd00014[c0] + cpd15479[c0]	0	0.0	1000.0	Unknown	{}
+rxn00082	cpd00005[c0] + cpd00007[c0] + 2.0 cpd03527[c0] --> cpd00006[c0] + 3.0 cpd00067[c0] + 2.0 cpd00274[c0] + 2.0 cpd00418[c0]	0	0.0	1000.0	Unknown	{}
+rxn10163	cpd00067[e0] + cpd03847[e0] --> cpd00067[c0] + cpd03847[c0]	0	0.0	1000.0	Unknown	{}
+rxn05663	cpd00065[e0] + cpd00067[e0] --> cpd00065[c0] + cpd00067[c0]	0	0.0	1000.0	Unknown	{}
+rxn05373	cpd11509[c0] --> cpd00001[c0] + cpd11510[c0]	0	0.0	1000.0	Unknown	{}
+rxn05039	cpd00001[c0] + cpd02720[c0] --> cpd00009[c0] + cpd00067[c0] + cpd02882[c0]	0	0.0	1000.0	Unknown	{}
+rxn00701	cpd00026[c0] + cpd00348[c0] --> cpd00043[c0] + cpd00089[c0]	0	0.0	1000.0	Unknown	{}
+rxn05291	6.0 cpd00001[c0] + 14.0 cpd00006[c0] + 8.0 cpd00010[c0] + 7.0 cpd00011[c0] + cpd00214[c0] --> 14.0 cpd00005[c0] + cpd00022[c0] + 20.0 cpd00067[c0] + 7.0 cpd00070[c0]	0	0.0	1000.0	Unknown	{}
+rxn08801	cpd00067[c0] + cpd00080[c0] + cpd01080[c0] --> cpd00001[c0] + cpd15329[c0]	0	0.0	1000.0	Unknown	{}
+rxn05361	cpd11497[c0] --> cpd00001[c0] + cpd11498[c0]	0	0.0	1000.0	Unknown	{}
+rxn05615	cpd00060[e0] + cpd00067[c0] --> cpd00060[c0] + cpd00067[e0]	0	0.0	1000.0	Unknown	{}
+rxn02287	2.0 cpd00017[c0] + cpd00774[c0] --> 2.0 cpd00019[c0] + 2.0 cpd00067[c0] + cpd01620[c0]	0	0.0	1000.0	Unknown	{}
+rxn03395	cpd00017[c0] + cpd03445[c0] --> cpd00019[c0] + cpd00067[c0] + cpd03446[c0]	0	0.0	1000.0	Unknown	{}
+rxn08583	cpd00026[c0] + cpd15479[c0] --> cpd00014[c0] + cpd15469[c0]	0	0.0	1000.0	Unknown	{}
+rxn08619	cpd00026[c0] + cpd15469[c0] --> cpd00014[c0] + cpd15475[c0]	0	0.0	1000.0	Unknown	{}
+rxn03638	cpd00022[c0] + cpd03671[c0] --> cpd00010[c0] + cpd00067[c0] + cpd02611[c0]	0	0.0	1000.0	Unknown	{}
+rxn05300	cpd00067[e0] + cpd00161[e0] --> cpd00067[c0] + cpd00161[c0]	0	0.0	1000.0	Unknown	{}
+rxn05244	cpd00067[e0] + cpd00322[e0] --> cpd00067[c0] + cpd00322[c0]	0	0.0	1000.0	Unknown	{}
+rxn06874	16.0 cpd00008[c0] + 16.0 cpd00009[c0] + 2.0 cpd00013[c0] + 6.0 cpd00067[c0] + 8.0 cpd11621[c0] + cpd11640[c0] --> 16.0 cpd00001[c0] + 16.0 cpd00002[c0] + cpd00528[c0] + 8.0 cpd11620[c0]	0	0.0	1000.0	Unknown	{}
+rxn00141	cpd00001[c0] + cpd00019[c0] --> cpd00135[c0] + cpd00182[c0]	0	0.0	1000.0	Unknown	{}
+rxn04139	cpd00005[c0] + cpd00007[c0] + cpd03448[c0] --> cpd00001[c0] + cpd00006[c0] + cpd03449[c0]	0	0.0	1000.0	Unknown	{}
+rxn02264	cpd00755[c0] --> cpd00001[c0] + cpd00774[c0]	0	0.0	1000.0	Unknown	{}
+rxn03150	cpd00001[c0] + cpd02904[c0] --> cpd00009[c0] + cpd00067[c0] + cpd03423[c0]	0	0.0	1000.0	Unknown	{}
+rxn05398	cpd11534[c0] --> cpd00001[c0] + cpd11535[c0]	0	0.0	1000.0	Unknown	{}
+rxn06848	cpd03736[c0] + cpd11466[c0] --> cpd03587[c0] + cpd11493[c0]	0	0.0	1000.0	Unknown	{}
+rxn14091	2.0 cpd00001[c0] + cpd00006[c0] + 2.0 cpd00274[c0] + 2.0 cpd00418[c0] --> cpd00005[c0] + 2.0 cpd00007[c0] + cpd00067[c0] + 2.0 cpd03527[c0]	0	0.0	1000.0	Unknown	{}
+rxn08712	cpd03831[c0] + cpd15549[c0] --> cpd00008[c0] + cpd15488[c0]	0	0.0	1000.0	Unknown	{}
+rxn03146	cpd00001[c0] + cpd02886[c0] --> cpd00029[c0] + cpd03584[c0]	0	0.0	1000.0	Unknown	{}
+rxn11937	cpd00001[c0] + cpd00003[c0] + cpd00528[c0] --> cpd00004[c0] + cpd00659[c0]	0	0.0	1000.0	Unknown	{}
+rxn00470	cpd00064[c0] + cpd00067[c0] --> cpd00011[c0] + cpd00118[c0]	0	0.0	1000.0	Unknown	{}
+rxn05377	cpd11513[c0] --> cpd00001[c0] + cpd11514[c0]	0	0.0	1000.0	Unknown	{}
+rxn10998	cpd00084[e0] --> cpd00084[c0]	0	0.0	1000.0	Unknown	{}
+rxn08518	cpd00047[c0] + cpd00067[c0] --> cpd00011[c0] + cpd11640[c0]	0	0.0	1000.0	Unknown	{}
+rxn00471	cpd00064[c0] --> cpd00013[c0] + cpd00067[c0] + cpd00129[c0]	0	0.0	1000.0	Unknown	{}
+rxn03893	cpd00136[c0] + cpd02557[c0] --> cpd00012[c0] + cpd03443[c0]	0	0.0	1000.0	Unknown	{}
+rxn05402	cpd11538[c0] --> cpd00001[c0] + cpd11539[c0]	0	0.0	1000.0	Unknown	{}
+rxn02056	cpd03426[c0] + cpd10515[c0] --> 2.0 cpd00067[c0] + cpd00557[c0]	0	0.0	1000.0	Unknown	{}
+rxn03916	cpd00002[c0] + cpd04920[c0] --> cpd00012[c0] + cpd03830[c0]	0	0.0	1000.0	Unknown	{}
+rxn10205	cpd00080[c0] + cpd11432[c0] --> cpd00010[c0] + cpd15671[c0]	0	0.0	1000.0	Unknown	{}
+rxn03511	cpd03830[c0] --> cpd03831[c0]	0	0.0	1000.0	Unknown	{}
+rxn05618	cpd00030[e0] + cpd00067[e0] --> cpd00030[c0] + cpd00067[c0]	0	0.0	1000.0	Unknown	{}
+rxn00125	cpd00067[c0] + cpd00147[c0] + cpd00227[c0] --> cpd00001[c0] + cpd00017[c0]	0	0.0	1000.0	Unknown	{}
+biomass0	35.5403092430435 cpd00001[c0] + 40.1101757365074 cpd00002[c0] + 0.00309646685192537 cpd00003[c0] + 0.00309646685192537 cpd00006[c0] + 0.00309646685192537 cpd00010[c0] + 0.00309646685192537 cpd00015[c0] + 0.00309646685192537 cpd00016[c0] + 0.00309646685192537 cpd00017[c0] + 0.219088153012743 cpd00023[c0] + 0.00309646685192537 cpd00028[c0] + 0.00309646685192537 cpd00030[c0] + 0.509869786991038 cpd00033[c0] + 0.00309646685192537 cpd00034[c0] + 0.427934380173264 cpd00035[c0] + 0.135406821203723 cpd00038[c0] + 0.285438020490179 cpd00039[c0] + 0.200830806928348 cpd00041[c0] + 0.00309646685192537 cpd00042[c0] + 0.00309646685192537 cpd00048[c0] + 0.246696822701341 cpd00051[c0] + 0.0841036156544863 cpd00052[c0] + 0.219088153012743 cpd00053[c0] + 0.179456352975885 cpd00054[c0] + 0.00309646685192537 cpd00056[c0] + 0.00309646685192537 cpd00058[c0] + 0.127801422590767 cpd00060[c0] + 0.0908319049068452 cpd00062[c0] + 0.00309646685192537 cpd00063[c0] + 0.0472019191450218 cpd00065[c0] + 0.154519490031345 cpd00066[c0] + 0.120676604606612 cpd00069[c0] + 0.0761464922056484 cpd00084[c0] + 0.00309646685192537 cpd00087[c0] + 0.00309646685192537 cpd00099[c0] + 0.375388847540127 cpd00107[c0] + 0.0178526409910695 cpd00115[c0] + 0.00309646685192537 cpd00118[c0] + 0.0792636000737159 cpd00119[c0] + 0.184354665339991 cpd00129[c0] + 0.200830806928348 cpd00132[c0] + 0.00309646685192537 cpd00149[c0] + 0.352233189091625 cpd00156[c0] + 0.211072732780569 cpd00161[c0] + 0.00309646685192537 cpd00166[c0] + 0.00309646685192537 cpd00201[c0] + 0.00309646685192537 cpd00205[c0] + 0.00309646685192537 cpd00220[c0] + 0.0141905952083015 cpd00241[c0] + 0.00309646685192537 cpd00254[c0] + 0.00309646685192537 cpd00264[c0] + 0.241798510337235 cpd00322[c0] + 0.00309646685192537 cpd00345[c0] + 0.0141905952083015 cpd00356[c0] + 0.0178526409910695 cpd00357[c0] + 0.00309646685192537 cpd00557[c0] + 0.0250105977108944 cpd02229[c0] + 0.00309646685192537 cpd10515[c0] + 0.00309646685192537 cpd10516[c0] + 0.00309646685192537 cpd11493[c0] + 0.00309646685192537 cpd15352[c0] + 0.0250105977108944 cpd15432[c0] + 0.00309646685192537 cpd15500[c0] + 0.0106480421341882 cpd15533[c0] + 0.0106480421341882 cpd15540[c0] + 0.00309646685192537 cpd15560[c0] + 0.0250105977108944 cpd15665[c0] + 0.0106480421341882 cpd15695[c0] + 0.0106480421341882 cpd15696[c0] + 0.0106480421341882 cpd15722[c0] + 0.0106480421341882 cpd15723[c0] + 0.0106480421341882 cpd15793[c0] + 0.0106480421341882 cpd15794[c0] + 0.0106480421341882 cpd15795[c0] + cpd17041[c0] + cpd17042[c0] + cpd17043[c0] --> 40.0 cpd00008[c0] + 39.9969035331481 cpd00009[c0] + 0.484604550671173 cpd00012[c0] + 40.0 cpd00067[c0] + 0.00309646685192537 cpd01997[c0] + 0.00309646685192537 cpd03422[c0] + cpd11416[c0] + 0.00309646685192537 cpd12370[c0] + 0.0250105977108944 cpd15666[c0]	1.0	0.0	1000.0		{}
+EX_cpd08636	cpd08636[c0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd15302	cpd15302[c0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd02701	cpd02701[c0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd11416	cpd11416[c0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00971	cpd00971[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00023	cpd00023[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00067	cpd00067[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00396	cpd00396[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd03424	cpd03424[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00246	cpd00246[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00039	cpd00039[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd01171	cpd01171[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00311	cpd00311[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00205	cpd00205[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00309	cpd00309[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd03279	cpd03279[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00438	cpd00438[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd11595	cpd11595[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00009	cpd00009[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00154	cpd00154[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00013	cpd00013[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00226	cpd00226[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd10515	cpd10515[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00367	cpd00367[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00277	cpd00277[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00099	cpd00099[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00164	cpd00164[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00034	cpd00034[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00249	cpd00249[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00012	cpd00012[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00184	cpd00184[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd01012	cpd01012[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00531	cpd00531[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00048	cpd00048[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00280	cpd00280[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00159	cpd00159[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00412	cpd00412[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00635	cpd00635[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00058	cpd00058[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd04097	cpd04097[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00182	cpd00182[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00073	cpd00073[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00423	cpd00423[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00654	cpd00654[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00254	cpd00254[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd10516	cpd10516[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00001	cpd00001[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00011	cpd00011[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00007	cpd00007[e0] --> 	0	0.0	1000.0		{}
+EX_cpd00107	cpd00107[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00051	cpd00051[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd01741	cpd01741[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00066	cpd00066[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00119	cpd00119[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00069	cpd00069[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd15378	cpd15378[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00063	cpd00063[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00214	cpd00214[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00149	cpd00149[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd01080	cpd01080[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00208	cpd00208[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd03847	cpd03847[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00065	cpd00065[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00060	cpd00060[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00161	cpd00161[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00322	cpd00322[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00084	cpd00084[e0] <=> 	0	-1000.0	1000.0		{}
+EX_cpd00030	cpd00030[e0] <=> 	0	-1000.0	1000.0		{}
