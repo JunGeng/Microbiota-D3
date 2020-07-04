@@ -39,7 +39,7 @@ id	Species	bofTemplateType
 38	Bifidobacterium_adolescentis	GramPositive
 39	Streptococcus_thermophilus	GramPositive
 40	Akkermansia_muciniphila	GramNegative
-41	Pseudoflavonifractor_capillosus	
+41	Pseudoflavonifractor_capillosus	GramPositive
 42	Holdemania_filiformis	GramPositive
 43	Ruminococcaceae_bacterium_D16	GramPositive
 44	Streptococcus_salivarius	GramPositive
@@ -59,7 +59,7 @@ id	Species	bofTemplateType
 58	Anaerostipes_caccae	GramPositive
 59	Atopobium_rimae	GramPositive
 60	Bacteroides_plebeius	GramNegative
-61	Blautia_hansenii	
+61	Blautia_hansenii	GramPositive
 62	Brevibacterium_linens	GramPositive
 63	Butyrivibrio_crossotus	GramNegative
 64	Citrobacter_sp__30_2	GramNegative
@@ -80,7 +80,7 @@ id	Species	bofTemplateType
 79	Eubacterium_limosum	GramPositive
 80	Fusobacterium_mortiferum	GramNegative
 81	Fusobacterium_periodonticum	GramNegative
-82	Granulicatella_elegans	
+82	Granulicatella_elegans	GramPositive
 83	Haemophilus_haemolyticus	GramNegative
 84	Klebsiella_oxytoca	GramNegative
 85	Klebsiella_variicola_pneumoniae	GramNegative
@@ -96,7 +96,7 @@ id	Species	bofTemplateType
 95	Megasphaera_elsdenii	GramPositive
 96	Methanobrevibacter_smithii	Archaea
 97	Methanosphaera_stadtmanae	GramPositive
-98	Mitsuokella_multacida	
+98	Mitsuokella_multacida	GramPositive
 99	Oribacterium_sinus	GramPositive
 100	Prevotella_buccalis	GramNegative
 101	Pyramidobacter_piscolens	GramNegative
