@@ -1,4 +1,7 @@
 """
+from :https://github.com/jclachance/BOFdat
+Cite
+BOFdat: Generating biomass objective functions for genome-scale metabolic models from experimental data
 DNA
 ===
 
@@ -166,7 +169,7 @@ if __name__ == '__main__':
     # import os
     # os.chdir('../../data/')
     # path_to_fasta = 'sequences_processing/genomic_sequences/[Bacteroides]_pectinophilus_ATCC_43243_genomic.fna.gz'
-    path_to_fasta = 'Ecoli_DNA.fna'
+    path_to_fasta = '../../archive/Ecoli_DNA.fna'
 
     genome = _import_genome(path_to_fasta)
 
