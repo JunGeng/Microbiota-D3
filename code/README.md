@@ -24,4 +24,10 @@ download  sequences
 ## draft GEMs/
 - step1_draftGEMs_from_metacyc.m
   - get draft GEM from MetaCyc by RAVEN
+
+
+## biomass/
+- dna.py and rna.py functions to generate nda and rna coefficients adopt from: [BOFdat: Generating biomass objective functions for genome-scale metabolic models from experimental data
+](https://github.com/jclachance/BOFdat)
 - 
+
