@@ -37,3 +37,14 @@ download  sequences
 
 ### python
 - draft models from python scrips
+
+
+## biomass/
+- Biomass_compare_summary.xlsx the summary
+- mat GEMs from: [Gut microbiota dysbiosis is associated with malnutrition and reduced plasma amino acid levels: Lessons from genome-scale metabolic modeling](https://doi.org/10.1016/j.ymben.2018.07.018)
+- xml GEMs from: [Quantifying Diet-Induced Metabolic Changes of the Human Gut Microbiome](http://dx.doi.org/10.1016/j.cmet.2015.07.001)
+
+## media/
+- mediaComposition.tsv from [Nutritional preferences of human gut bacteria reveal their metabolic idiosyncrasies](https://www.nature.com/articles/s41564-018-0123-9),[github](https://github.com/sandrejev/growth_curves/blob/master/data/compounds.xlsx)
+- mediaComposition.xlsx sheet M2 from [MetaCyc Growth Medium: dGMM+LAB](https://metacyc.org/META/NEW-IMAGE?type=Growth-Media&object=MIX-13)
+
