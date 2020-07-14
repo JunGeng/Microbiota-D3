@@ -92,7 +92,7 @@ biomass_map_df.to_csv('biomass_constituents_id_map.tsv', sep='\t')
 gram_n_df = biomass_map_df[['metacyc_id', 'bigg_id', 'comp', 'seed_id', 'iML1515']][biomass_map_df['iML1515'] != '']
 gram_p_df = biomass_map_df[['metacyc_id', 'bigg_id', 'comp', 'seed_id', 'iYO844']][biomass_map_df['iYO844'] != '']
 archaea_df = biomass_map_df[['metacyc_id', 'bigg_id', 'comp', 'seed_id', 'iAF692']][biomass_map_df['iAF692'] != '']
-# NOTE: some metabolites have no metacyc id
+# TODO: some metabolites have no metacyc id
 '''
 print(gram_n_df[(gram_n_df['metacyc_id']=='')])
 1     2fe2s         -0.000026
