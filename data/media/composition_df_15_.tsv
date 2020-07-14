@@ -1,0 +1,47 @@
+  	Constituents        	Link                                                      	Concentration_GMM	Role_GMM
+0
+1 	K+                  	/compound?orgid=META&id=K%2b                              	100.0 mM
+2 	dihydrogen phosphate	/compound?orgid=META&id=CPD-16459                         	100.0 mM
+3 	Na+                 	/compound?orgid=META&id=NA%2b                             	6.3009 mM
+4 	hydrogencarbonate   	/compound?orgid=META&id=HCO3                              	4.8 mM
+5 	L-cysteine          	/compound?orgid=META&id=CYS                               	4.1 mM
+6 	maltose             	/META/NEW-IMAGE?type=COMPOUND&object=MALTOSE              	2.9 mM
+7 	β-D-cellobiose      	/compound?orgid=META&id=CELLOBIOSE                        	2.9 mM
+8 	D-glucose           	/META/NEW-IMAGE?type=COMPOUND&object=D-Glucose            	2.2 mM
+9 	chloride            	/compound?orgid=META&id=CL-                               	1.663 mM
+10	L-histidine         	/compound?orgid=META&id=HIS                               	200 µM
+11	sulfate             	/compound?orgid=META&id=SULFATE                           	129.72 µM
+12	Mg2+                	/compound?orgid=META&id=MG%2b2                            	120.0 µM
+13	Ca2+                	/compound?orgid=META&id=CA%2b2                            	81.1 µM
+14	acetate             	/compound?orgid=META&id=ACET                              	28.8 µM
+15	propanoate          	/compound?orgid=META&id=PROPIONATE                        	27 µM
+16	butanoate           	/compound?orgid=META&id=BUTYRIC_ACID                      	23.0 µM
+17	EDTA                	/compound?orgid=META&id=EDTA                              	17 µM
+18	nitrate             	/compound?orgid=META&id=NITRATE                           	6.8 µM
+19	menadione           	/compound?orgid=META&id=CPD-3766                          	5.8 µM
+20	Fe2+                	/compound?orgid=META&id=FE%2b2                            	5.04 µM
+21	Zn2+                	/compound?orgid=META&id=ZN%2b2                            	3.5 µM
+22	Co2+                	/compound?orgid=META&id=CO%2b2                            	3.4 µM
+23	hematin             	/compound?orgid=META&id=CPD-11677                         	1.9 µM
+24	borate              	/compound?orgid=META&id=BORATE                            	1.6 µM
+25	Ni2+                	/compound?orgid=META&id=NI%2b2                            	990 nM
+26	isovalerate         	/compound?orgid=META&id=ISOVALERATE                       	990 nM
+27	molybdate           	/compound?orgid=META&id=CPD-3                             	460 nM
+28	nicotinate          	/compound?orgid=META&id=NIACINE                           	410.0 nM
+29	Cu2+                	/compound?orgid=META&id=CU%2b2                            	401 nM
+30	Al3+                	/compound?orgid=META&id=CPD-1484                          	390 nM
+31	4-aminobenzoate     	/compound?orgid=META&id=P-AMINO-BENZOATE                  	370 nM
+32	tungstate           	/compound?orgid=META&id=TUNGSTATE                         	330 nM
+33	(R)-lipoate         	/compound?orgid=META&id=LIPOIC-ACID                       	240 nM
+34	(R)-pantothenate    	/compound?orgid=META&id=PANTOTHENATE                      	200 nM
+35	thiamine            	/compound?orgid=META&id=THIAMINE                          	170 nM
+36	HCl                 	/compound?orgid=META&id=HCL                               	170 nM
+37	riboflavin          	/compound?orgid=META&id=RIBOFLAVIN                        	130.0 nM
+38	biotin              	/compound?orgid=META&id=BIOTIN                            	82 nM
+39	selenite            	/compound?orgid=META&id=SELENITE                          	58 nM
+40	folate              	/compound?orgid=META&id=CPD-12826                         	46 nM
+41	adenosylcobalamin   	/compound?orgid=META&id=ADENOSYLCOBALAMIN                 	6.3e-10 M
+42	fructose            	/META/NEW-IMAGE?type=COMPOUND&object=Fructose
+43	meat extract        	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX-10908
+44	resazurin           	/compound?orgid=META&id=CPD-22877
+45	yeast extract       	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX0-804

@@ -1,0 +1,42 @@
+  	Substances                    	Link                                                      	Concentration_GMM	Role_GMM
+0
+1 	potassium dihydrogen phosphate	/compound?orgid=META&id=CPD0-1421                         	13.609 g/l       	 
+2 	fructose                      	/META/NEW-IMAGE?type=COMPOUND&object=Fructose             	1 g/l            	 
+3 	maltose                       	/META/NEW-IMAGE?type=COMPOUND&object=MALTOSE              	1 g/l            	 
+4 	β-D-cellobiose                	/compound?orgid=META&id=CELLOBIOSE                        	1 g/l            	 
+5 	L-cysteine                    	/compound?orgid=META&id=CYS                               	0.5 g/l          	 
+6 	D-glucose                     	/META/NEW-IMAGE?type=COMPOUND&object=D-Glucose            	0.4 g/l          	 
+7 	sodium bicarbonate            	/compound?orgid=META&id=CPD-22421                         	0.4 g/l          	 
+8 	sodium chloride               	/compound?orgid=META&id=NACL                              	90 mg/l          	 
+9 	L-histidine                   	/compound?orgid=META&id=HIS                               	31 mg/l          	 
+10	magnesium sulfate heptahydrate	/compound?orgid=META&id=CPD0-2387                         	30 mg/l          	 
+11	calcium chloride              	/compound?orgid=META&id=CPD0-1589                         	9 mg/l           	 
+12	yeast extract                 	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX0-804 	5 mg/l           	 
+13	EDTA                          	/compound?orgid=META&id=EDTA                              	5 mg/l           	 
+14	propanoate                    	/compound?orgid=META&id=PROPIONATE                        	2 mg/l           	 
+15	butanoate                     	/compound?orgid=META&id=BUTYRIC_ACID                      	2 mg/l           	 
+16	acetate                       	/compound?orgid=META&id=ACET                              	1.7 mg/l         	 
+17	iron(II) sulfate heptahydrate 	/compound?orgid=META&id=CPD0-2418                         	1.4 mg/l         	 
+18	hematin                       	/compound?orgid=META&id=CPD-11677                         	1.2 mg/l         	 
+19	cobalt(II) nitrate hexahydrate	/compound?orgid=META&id=CPD-19638                         	1 mg/l           	 
+20	meat extract                  	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX-10908	1 mg/l           	 
+21	zinc sulfate heptahydrate     	/compound?orgid=META&id=CPD0-2420                         	1 mg/l           	 
+22	resazurin                     	/compound?orgid=META&id=CPD-22877                         	1 mg/l           	 
+23	menadione                     	/compound?orgid=META&id=CPD-3766                          	1 mg/l           	 
+24	nickel chloride hexahydrate   	/compound?orgid=META&id=CPD-22886                         	0.2 mg/l         	 
+25	sodium molybdate dihydrate    	/compound?orgid=META&id=CPD-19634                         	0.1 mg/l         	 
+26	isovalerate                   	/compound?orgid=META&id=ISOVALERATE                       	0.1 mg/l         	 
+27	potassium aluminium sulfate   	/compound?orgid=META&id=CPD-22882                         	0.1 mg/l         	 
+28	sodium tungstate dihydrate    	/compound?orgid=META&id=CPD-22885                         	0.1 mg/l         	 
+29	borate                        	/compound?orgid=META&id=BORATE                            	0.1 mg/l         	 
+30	copper sulfate                	/compound?orgid=META&id=CUSO4                             	0.064 mg/l       	 
+31	riboflavin                    	/compound?orgid=META&id=RIBOFLAVIN                        	50 µg/l          	 
+32	(R)-lipoate                   	/compound?orgid=META&id=LIPOIC-ACID                       	50 µg/l          	 
+33	thiamine HCl                  	/compound?orgid=META&id=CPD-22876                         	50 µg/l          	 
+34	4-aminobenzoate               	/compound?orgid=META&id=P-AMINO-BENZOATE                  	50 µg/l          	 
+35	calcium pantothenate          	/compound?orgid=META&id=CPD0-2443                         	50 µg/l          	 
+36	nicotinate                    	/compound?orgid=META&id=NIACINE                           	50 µg/l          	 
+37	folate                        	/compound?orgid=META&id=CPD-12826                         	20 µg/l          	 
+38	biotin                        	/compound?orgid=META&id=BIOTIN                            	20 µg/l          	 
+39	disodium selenite             	/compound?orgid=META&id=CPD-22884                         	10 µg/l          	 
+40	adenosylcobalamin             	/compound?orgid=META&id=ADENOSYLCOBALAMIN                 	1 µg/l           	 

@@ -1,0 +1,16 @@
+  	Substances                    	Link                                                       	Concentration_mGAM	Role_mGAM
+0
+1 	peptone                       	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX3O-4   	5 g/l             	 
+2 	soytone                       	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX0-839  	3 g/l             	 
+3 	sodium chloride               	/compound?orgid=META&id=NACL                               	3 g/l             	 
+4 	potassium dihydrogen phosphate	/compound?orgid=META&id=CPD0-1421                          	2.5 g/l           	 
+5 	yeast extract                 	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX0-804  	2.5 g/l           	 
+6 	meat extract                  	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX-10908 	2.2 g/l           	 
+7 	liver extract                 	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX-10911 	1.2 g/l           	 
+8 	L-arginine                    	/compound?orgid=META&id=ARG                                	1 g/l             	 
+9 	D-glucose                     	/META/NEW-IMAGE?type=COMPOUND&object=D-Glucose             	0.5 g/l           	 
+10	sodium thioglycolate          	/compound?orgid=META&id=CPD-22914                          	0.3 g/l           	 
+11	cysteine hydrochloride        	/compound?orgid=META&id=CPD-22934                          	0.3 g/l           	 
+12	L-tryptophan                  	/compound?orgid=META&id=TRP                                	0.2 g/l           	 
+13	hemin                         	/compound?orgid=META&id=CPD-11678                          	10 mg/l           	 
+14	phylloquinone                 	/compound?orgid=META&id=2-METHYL-3-PHYTYL-14-NAPHTHOQUINONE	5 mg/l            	 

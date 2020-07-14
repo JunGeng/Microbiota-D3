@@ -1,0 +1,59 @@
+  	Substances                        	Link                                          	Concentration_LAB	Role_LAB
+0
+1 	D-glucose                         	/META/NEW-IMAGE?type=COMPOUND&object=D-Glucose	15 g/l           	 
+2 	dipotassium hydrogen phosphate    	/compound?orgid=META&id=CPD0-2433             	6.48 g/l         	 
+3 	potassium dihydrogen phosphate    	/compound?orgid=META&id=CPD0-1421             	3.1 g/l          	 
+4 	sodium chloride                   	/compound?orgid=META&id=NACL                  	3 g/l            	 
+5 	diammonium citrate                	/compound?orgid=META&id=CPD-22905             	1.7 g/l          	 
+6 	N-tris(hydroxymethyl)methylglycine	/compound?orgid=META&id=CPD0-2399             	1.5 g/l          	 
+7 	L-leucine                         	/compound?orgid=META&id=LEU                   	1 g/l            	 
+8 	potassium acetate                 	/compound?orgid=META&id=CPD-22893             	0.9 g/l          	 
+9 	L-arginine                        	/compound?orgid=META&id=ARG                   	0.72 g/l         	 
+10	L-proline                         	/compound?orgid=META&id=PRO                   	0.7 g/l          	 
+11	L-valine                          	/compound?orgid=META&id=VAL                   	0.7 g/l          	 
+12	L-glutamate                       	/compound?orgid=META&id=GLT                   	0.6 g/l          	 
+13	L-glutamine                       	/compound?orgid=META&id=GLN                   	0.6 g/l          	 
+14	L-lysine                          	/compound?orgid=META&id=LYS                   	0.5 g/l          	 
+15	L-asparagine                      	/compound?orgid=META&id=ASN                   	0.5 g/l          	 
+16	L-threonine                       	/compound?orgid=META&id=THR                   	0.5 g/l          	 
+17	L-serine                          	/compound?orgid=META&id=SER                   	0.5 g/l          	 
+18	L-ascorbate                       	/compound?orgid=META&id=ASCORBATE             	0.5 g/l          	 
+19	L-alanine                         	/compound?orgid=META&id=L-ALPHA-ALANINE       	0.4 g/l          	 
+20	L-phenylalanine                   	/compound?orgid=META&id=PHE                   	0.4 g/l          	 
+21	glycine                           	/compound?orgid=META&id=GLY                   	0.3 g/l          	 
+22	L-tyrosine                        	/compound?orgid=META&id=TYR                   	0.3 g/l          	 
+23	L-isoleucine                      	/compound?orgid=META&id=ILE                   	0.24 g/l         	 
+24	L-tryptophan                      	/compound?orgid=META&id=TRP                   	0.2 g/l          	 
+25	L-cysteine                        	/compound?orgid=META&id=CYS                   	0.2 g/l          	 
+26	L-histidine                       	/compound?orgid=META&id=HIS                   	0.17 g/l         	 
+27	L-methionine                      	/compound?orgid=META&id=MET                   	0.125 g/l        	 
+28	L-aspartate                       	/compound?orgid=META&id=L-ASPARTATE           	0.05 g/l         	 
+29	calcium chloride                  	/compound?orgid=META&id=CPD0-1589             	30.2 mg/l        	 
+30	uracil                            	/compound?orgid=META&id=URACIL                	23 mg/l          	 
+31	glutathione                       	/compound?orgid=META&id=GLUTATHIONE           	15 mg/l          	 
+32	adenine                           	/compound?orgid=META&id=ADENINE               	11 mg/l          	 
+33	EDTA                              	/compound?orgid=META&id=EDTA                  	7.34 mg/l        	 
+34	nitrilotriacetate                 	/compound?orgid=META&id=CPD-10188             	7.24 mg/l        	 
+35	biotin                            	/compound?orgid=META&id=BIOTIN                	6 mg/l           	 
+36	guanine                           	/compound?orgid=META&id=GUANINE               	5.6 mg/l         	 
+37	zinc sulfate heptahydrate         	/compound?orgid=META&id=CPD0-2420             	5 mg/l           	 
+38	pyridoxamine dihydrochloride      	/compound?orgid=META&id=CPD-22901             	5 mg/l           	 
+39	pyridoxine HCl                    	/compound?orgid=META&id=CPD185E-7             	4.8 mg/l         	 
+40	iron(II) sulfate heptahydrate     	/compound?orgid=META&id=CPD0-2418             	4 mg/l           	 
+41	xanthine                          	/compound?orgid=META&id=XANTHINE              	3.8 mg/l         	 
+42	iron(III) chloride                	/compound?orgid=META&id=CPD0-1693             	3 mg/l           	 
+43	myo-inositol                      	/compound?orgid=META&id=MYO-INOSITOL          	2 mg/l           	 
+44	calcium pantothenate              	/compound?orgid=META&id=CPD0-2443             	1.2 mg/l         	 
+45	(R)-lipoate                       	/compound?orgid=META&id=LIPOIC-ACID           	1 mg/l           	 
+46	riboflavin                        	/compound?orgid=META&id=RIBOFLAVIN            	0.9 mg/l         	 
+47	nicotinate                        	/compound?orgid=META&id=NIACINE               	0.9 mg/l         	 
+48	borate                            	/compound?orgid=META&id=BORATE                	0.75 mg/l        	 
+49	folate                            	/compound?orgid=META&id=CPD-12826             	0.56 mg/l        	 
+50	thiamine HCl                      	/compound?orgid=META&id=CPD-22876             	0.56 mg/l        	 
+51	magnesium dichloride              	/compound?orgid=META&id=MGCL2                 	0.386 mg/l       	 
+52	ammonium heptamolybdate           	/compound?orgid=META&id=CPD0-2508             	0.19 mg/l        	 
+53	cobalt chloride hexahydrate       	/compound?orgid=META&id=CPD-22904             	0.19 mg/l        	 
+54	copper sulfate                    	/compound?orgid=META&id=CUSO4                 	0.12 mg/l        	 
+55	manganese(II) sulfate monohydrate 	/compound?orgid=META&id=CPD-22902             	0.11 mg/l        	 
+56	potassium iodide                  	/compound?orgid=META&id=CPD-22903             	0.11 mg/l        	 
+57	4-aminobenzoate                   	/compound?orgid=META&id=P-AMINO-BENZOATE      	56 µg/l          	 
