@@ -1,7 +1,7 @@
   	Medium Name                   	pH 	Computed Osmolarity  (Osm/L)	Knockout Data Available?	Anaerobic Data Available?	Data for other Temperatures Available?	Link
-1 	B.thetaiotaomicron MM         	7  	0.24                        	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-21
+1 	dB.thetaiotaomicron MM         	7  	0.24                        	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-21
 2 	brain heart infusion          	7.4	                            	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX1370-2
-3 	C.perfiringens MM             	   	0.22                        	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-25
+3 	dC.perfiringens MM             	   	0.22                        	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-25
 4 	dGMM                          	7  	                            	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-10906
 5 	dGMM+LAB                      	   	                            	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-13
 6 	dGMM+LAB 10% aminoacids       	7  	                            	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-19
@@ -11,10 +11,10 @@
 10	dGMM+LAB only monosacharides  	   	                            	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-16
 11	dGMM+LAB only Mucin           	   	                            	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-18
 12	dGMM+LAB plus Mucin           	   	                            	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-17
-13	E.coli MM1                    	   	0.15                        	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-23
-14	E.coli MM2                    	   	0.11                        	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-24
+13	dE.coli MM1                    	   	0.15                        	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-23
+14	dE.coli MM2                    	   	0.11                        	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-24
 15	GMM                           	7  	                            	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-10909
-16	LAB                           	7  	                            	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-12
+16	dLAB                           	7  	                            	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-12
 17	mGAM                          	7.3	                            	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-10910
-18	V.parvula defined medium      	   	0.22                        	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-22
+18	dV.parvula defined medium      	   	0.22                        	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-22
 19	WCA                           	7.1	                            	                        	                         	                                      	/META/NEW-IMAGE?type=Growth-Media&object=MIX-10912
