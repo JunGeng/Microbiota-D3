@@ -1,0 +1,17 @@
+  	Constituents        	Link                                          	Concentration_B.thetaiotaomicron MM	Role_B.thetaiotaomicron MM
+0
+1 	chloride            	/compound?orgid=META&id=CL-                   	115.32 mM
+2 	Ca2+                	/compound?orgid=META&id=CA%2b2                	50.01 mM
+3 	D-glucose           	/META/NEW-IMAGE?type=COMPOUND&object=D-Glucose	28 mM
+4 	ammonium            	/compound?orgid=META&id=AMMONIUM              	16.952 mM
+5 	Na+                 	/compound?orgid=META&id=NA%2b                 	15.1 mM
+6 	sulfate             	/compound?orgid=META&id=SULFATE               	8.4774 mM
+7 	L-cysteine          	/compound?orgid=META&id=CYS                   	4.1 mM
+8 	L-histidine         	/compound?orgid=META&id=HIS                   	200 µM
+9 	Mg2+                	/compound?orgid=META&id=MG%2b2                	99.99 µM
+10	K+                  	/compound?orgid=META&id=K%2b                  	99.94 µM
+11	dihydrogen phosphate	/compound?orgid=META&id=CPD-16459             	99.94 µM
+12	menadione           	/compound?orgid=META&id=CPD-3766              	5.8 µM
+13	hematin             	/compound?orgid=META&id=CPD-11677             	1.9 µM
+14	Fe2+                	/compound?orgid=META&id=FE%2b2                	1.381 µM
+15	adenosylcobalamin   	/compound?orgid=META&id=ADENOSYLCOBALAMIN     	3.2 nM

@@ -1,0 +1,12 @@
+  	Constituents      	Link                                                     	Concentration_WCA	Role_WCA
+0
+1 	Na+               	/compound?orgid=META&id=NA%2b                            	91.2 mM
+2 	chloride          	/compound?orgid=META&id=CL-                              	86 mM
+3 	L-arginine        	/compound?orgid=META&id=ARG                              	5.7 mM
+4 	D-glucose         	/META/NEW-IMAGE?type=COMPOUND&object=D-Glucose           	5.6 mM
+5 	pyruvate          	/compound?orgid=META&id=PYRUVATE                         	5.2 mM
+6 	(E)-3-penten-2-one	/compound?orgid=META&id=CPD-16989                        	5.2 mM
+7 	hemin             	/compound?orgid=META&id=CPD-11678                        	7.7 µM
+8 	menadione         	/compound?orgid=META&id=CPD-3766                         	2.9 nM
+9 	peptone           	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX3O-4
+10	yeast extract     	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX0-804

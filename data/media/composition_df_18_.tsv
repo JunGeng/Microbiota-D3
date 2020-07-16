@@ -1,0 +1,30 @@
+  	Constituents        	Link                                           	Concentration_V.parvula defined medium	Role_V.parvula defined medium
+0
+1 	Na+                 	/compound?orgid=META&id=NA%2b                  	89.979 mM
+2 	(S)-lactate         	/compound?orgid=META&id=L-LACTATE              	89 mM
+3 	ammonium            	/compound?orgid=META&id=AMMONIUM               	10.536 mM
+4 	K+                  	/compound?orgid=META&id=K%2b                   	8.3 mM
+5 	carbonate           	/compound?orgid=META&id=CO3                    	5.2 mM
+6 	phosphate           	/compound?orgid=META&id=Pi                     	3.4 mM
+7 	glutamate           	/META/NEW-IMAGE?type=COMPOUND&object=Glutamates	3.4 mM
+8 	dihydrogen phosphate	/compound?orgid=META&id=CPD-16459              	1.5 mM
+9 	L-serine            	/compound?orgid=META&id=SER                    	950 µM
+10	thioglycolate       	/compound?orgid=META&id=THIOGLYCOLATE          	880.0 µM
+11	L-aspartate         	/compound?orgid=META&id=L-ASPARTATE            	760 µM
+12	L-cysteine          	/compound?orgid=META&id=CYS                    	410 µM
+13	L-tyrosine          	/compound?orgid=META&id=TYR                    	220 µM
+14	sulfate             	/compound?orgid=META&id=SULFATE                	144.81 µM
+15	molybdate           	/compound?orgid=META&id=CPD-3                  	91 µM
+16	HCl                 	/compound?orgid=META&id=HCL                    	78.4 µM
+17	Fe2+                	/compound?orgid=META&id=FE%2b2                 	68 µM
+18	Mn2+                	/compound?orgid=META&id=MN%2b2                 	59.0 µM
+19	putrescine          	/compound?orgid=META&id=PUTRESCINE             	31 µM
+20	Zn2+                	/compound?orgid=META&id=ZN%2b2                 	17 µM
+21	pyridoxal           	/compound?orgid=META&id=PYRIDOXAL              	9.8 µM
+22	metavanadate        	/compound?orgid=META&id=CPD-22911              	8.2 µM
+23	nicotinate          	/compound?orgid=META&id=NIACINE                	8.2 µM
+24	thiamine            	/compound?orgid=META&id=THIAMINE               	6.6 µM
+25	(R)-pantothenate    	/compound?orgid=META&id=PANTOTHENATE           	4.2 µM
+26	4-aminobenzoate     	/compound?orgid=META&id=P-AMINO-BENZOATE       	3.7 µM
+27	Ca2+                	/compound?orgid=META&id=CA%2b2                 	2.1 µM
+28	Mg2+                	/compound?orgid=META&id=MG%2b2                 	810 nM

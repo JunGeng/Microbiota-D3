@@ -1,0 +1,10 @@
+ 	Substances     	Link                                                     	Concentration_WCA	Role_WCA
+0
+1	peptone        	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX3O-4 	10 g/l           	 
+2	yeast extract  	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX0-804	5 g/l            	 
+3	sodium chloride	/compound?orgid=META&id=NACL                             	5 g/l            	 
+4	L-arginine     	/compound?orgid=META&id=ARG                              	1 g/l            	 
+5	D-glucose      	/META/NEW-IMAGE?type=COMPOUND&object=D-Glucose           	1 g/l            	 
+6	sodium pyruvate	/compound?orgid=META&id=CPD0-2431                        	1 g/l            	 
+7	hemin          	/compound?orgid=META&id=CPD-11678                        	0.005 g/l        	 
+8	menadione      	/compound?orgid=META&id=CPD-3766                         	5.0e-4 mg/l      	 

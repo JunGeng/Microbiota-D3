@@ -1,0 +1,9 @@
+ 	Constituents                    	Link                                                      	Concentration_brain heart infusion	Role_brain heart infusion
+0
+1	Na+                             	/compound?orgid=META&id=NA%2b                             	121.2 mM
+2	chloride                        	/compound?orgid=META&id=CL-                               	86 mM
+3	phosphate                       	/compound?orgid=META&id=Pi                                	17.6 mM
+4	Beef heart (infusion from 250g) 	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX1370-4
+5	Calf brains (infusion from 200g)	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX1370-3
+6	D-glucose                       	/META/NEW-IMAGE?type=COMPOUND&object=D-Glucose
+7	peptone                         	/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX3O-4
