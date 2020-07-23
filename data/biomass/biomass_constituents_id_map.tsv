@@ -1,122 +1,138 @@
-   	metacyc_id                  	bigg_id    	comp	seed_id 	kegg_id_from_iML1515                      	metacyc_id_from_iML1515              	iML1515   	iYO844     	iAF692   	iSMU  	metacyc_from_bigg                                  	metacyc_from_seed
-0  	10-FORMYL-THF               	10fthf     	c   	cpd00201	C00234                                    	10-FORMYL-THF                        	-0.000223 	-0.000367  	         	      	10-FORMYL-THF                                      	CPD-1771
-1  	                            	2fe2s      	c   	cpd24604	                                          	                                     	-2.6e-05  	           	         	      	Elemental-Sulfur
-2  	2-OCTAPRENYL-6-HYDROXYPHENOL	2ohph      	c   	cpd03445	C05811                                    	2-OCTAPRENYL-6-HYDROXYPHENOL         	-0.000223 	           	         	      	2-OCTAPRENYL-6-HYDROXYPHENOL                       	2-OCTAPRENYL-6-HYDROXYPHENOL
-3  	                            	3hdpgpe    	c   	cpd15817	                                          	                                     	          	           	-0.002698
-4  	                            	3hdpgpg    	c   	cpd15818	                                          	                                     	          	           	-0.01012
-5  	CPD-19667                   	3hdpgpi    	c   	cpd15819	                                          	                                     	          	           	-0.01349 	      	CPD-19667                                          	CPD-19667
-6  	                            	3hdpgps    	c   	cpd15820	                                          	                                     	          	           	-0.01147
-7  	CPD-7                       	4fe4s      	c   	cpd24682	                                          	CPD-7                                	-0.00026  	           	         	      	                                                   	CPD-7
-8  	ACETYL-COA                  	accoa      	c   	cpd00022	                                          	                                     	          	           	-5e-05   	      	ACETYL-COA                                         	ACETYL-COA
-9  	                            	adocblhbi  	c   	cpd15834	                                          	                                     	          	           	-0.00474
-10 	ADP                         	adp        	c   	cpd00008	C00008                                    	ADPCPD0-1651                         	75.37723  	104.997414 	29.998   	28.242	ADP                                                	ADP
-11 	ADP                         	adp        	c   	cpd00008	C00008                                    	ADPCPD0-1651                         	75.37723  	104.997414 	29.998   	28.242	ADP                                                	ADP
-12 	L-ALPHA-ALANINE             	ala__L     	c   	cpd00035	C00041C01401                              	L-ALPHA-ALANINE                      	-0.513689 	-0.266902  	-0.5621  	0.181 	                                                   	L-ALPHA-ALANINE
-13 	S-ADENOSYLMETHIONINE        	amet       	c   	cpd00017	C00019                                    	S-ADENOSYLMETHIONINE                 	-0.000223 	           	         	1e-05 	S-ADENOSYLMETHIONINE                               	S-ADENOSYLMETHIONINE
-14 	AMP                         	amp        	c   	cpd00018	                                          	                                     	          	-0.00467   	-0.001   	      	AMP                                                	AMP
-15 	ARG                         	arg__L     	c   	cpd00051	C00062C02385                              	ARG                                  	-0.295792 	-0.193021  	-0.3237  	0.095 	ARG                                                	ARG
-16 	ASN                         	asn__L     	c   	cpd00132	C00152C16438                              	ASN                                  	-0.241055 	-0.147987  	-0.2638  	0.118 	ASN                                                	ASN
-17 	L-ASPARTATE                 	asp__L     	c   	cpd00041	C00049C16433                              	L-ASPARTATE                          	-0.241055 	-0.148014  	-0.2638  	0.137 	                                                   	L-ASPARTATE
-18 	ATP                         	atp        	c   	cpd00002	C00002                                    	ATPCPD0-1634                         	-75.55223 	-105.053483	-30.1846 	28.329	ATP                                                	ATP
-19 	ATP                         	atp        	c   	cpd00002	C00002                                    	ATPCPD0-1634                         	-75.55223 	-105.053483	-30.1846 	28.329	ATP                                                	ATP
-21 	BIOTIN                      	btn        	c   	cpd00104	C00120                                    	BIOTIN                               	-2e-06    	           	         	      	BIOTIN                                             	BIOTIN
-22 	CA+2                        	ca2        	c   	cpd00063	C00076C08130C12277C13140C13189C17392C18381	                                     	-0.005205 	-0.003205  	         	      	CA+2                                               	CA+2
-23 	                            	cdlp_BS    	c   	cpd11426	                                          	                                     	          	-5e-06
-24 	CDP                         	cdp        	c   	cpd00096	                                          	                                     	          	-0.000251  	         	      	CDP                                                	CDP
-25 	CL-                         	cl         	c   	cpd00099	C00698C01327                              	CL-HCL                               	-0.005205 	           	         	      	['HCL', 'CL-']                                     	['CL-', 'HCL']
-26 	CMP                         	cmp        	c   	cpd00046	                                          	                                     	          	-0.001042  	         	      	CMP                                                	CMP
-27 	CO-A                        	coa        	c   	cpd00010	C00010                                    	CO-ACOA-GROUP                        	-0.000576 	           	-6e-06   	      	CO-A                                               	CO-A
-28 	CPD-1281                    	cob        	c   	cpd02817	                                          	                                     	          	           	-0.0005  	      	CPD-1281                                           	CPD-1281
-29 	CO+2                        	cobalt2    	c   	cpd00149	C00175                                    	                                     	-2.5e-05  	           	         	      	CO+2                                               	CO+2
-30 	CoM                         	com        	c   	cpd02246	                                          	                                     	          	           	-0.02056 	      	CoM                                                	CoM
-31 	CTP                         	ctp        	c   	cpd00052	C00063                                    	CTP                                  	-0.133508 	-0.038902  	-0.1379  	0.047 	CTP                                                	CTP
-32 	CU+2                        	cu2        	c   	cpd00058	C00070                                    	                                     	-0.000709 	           	         	      	['Oxidized-Azurins', 'CU+2']                       	['CU+2', 'Oxidized-Azurins']
-33 	CYS                         	cys__L     	c   	cpd00084	C00097C00736                              	CYS                                  	-0.09158  	-0.05699   	-0.1002  	0.014 	CYS                                                	CYS
-34 	                            	d12dg_BS   	c   	cpd11428	                                          	                                     	          	-0.00011
-35 	DATP                        	datp       	c   	cpd00115	C00131                                    	DATP                                 	-0.026166 	-0.022982  	-0.03312 	      	DATP                                               	DATP
-36 	DCTP                        	dctp       	c   	cpd00356	C00458                                    	DCTP                                 	-0.027017 	-0.01738   	-0.02153 	      	DCTP                                               	DCTP
-37 	DGTP                        	dgtp       	c   	cpd00241	C00286                                    	DGTP                                 	-0.027017 	-0.017398  	-0.02153 	      	DGTP                                               	DGTP
-38 	CPD-15258                   	dpgpe      	c   	cpd15858	                                          	                                     	          	           	-0.000674	      	CPD-15258                                          	CPD-15258
-39 	CPD-17766                   	dpgpg      	c   	cpd15859	                                          	                                     	          	           	-0.000674	      	CPD-17766                                          	CPD-17766
-40 	                            	dpgpi      	c   	cpd15860	                                          	                                     	          	           	-0.002698
-41 	CPD-15257                   	dpgps      	c   	cpd15861	                                          	                                     	          	           	-0.001349	      	CPD-15257                                          	CPD-15257
-42 	TTP                         	dttp       	c   	cpd00357	C00459                                    	TTP                                  	-0.026166 	-0.022899  	-0.03312 	      	TTP                                                	TTP
-43 	CPD-10017                   	f390a      	c   	cpd15862	                                          	                                     	          	           	-5e-06   	      	CPD-10017                                          	CPD-10017
-44 	CPD-19661                   	f390g      	c   	cpd15863	                                          	                                     	          	           	-5e-06   	      	CPD-19661                                          	CPD-19661
-45 	                            	f420_2     	c   	cpd00649	                                          	                                     	          	           	-4.3e-05 	      	                                                   	OX-COENZYME-F420
-46 	                            	f420_3     	c   	cpd15868	                                          	                                     	          	           	-2.6e-05
-47 	                            	f420_4     	c   	cpd15869	                                          	                                     	          	           	-0.000374
-48 	                            	f420_5     	c   	cpd15870	                                          	                                     	          	           	-0.000299
-49 	                            	f420_6     	c   	cpd15871	                                          	                                     	          	           	-1.1e-05
-50 	                            	f420_7     	c   	cpd15872	                                          	                                     	          	           	-1e-06
-51 	                            	f430       	c   	        	                                          	                                     	          	           	-0.002
-52 	FAD                         	fad        	c   	cpd00015	C00016                                    	FAD                                  	-0.000223 	           	         	1e-05 	                                                   	['Ox-FAD-Flavoproteins', 'FAD']
-53 	                            	fe2        	c   	cpd10515	C14818                                    	                                     	-0.006715 	           	         	      	FE+2                                               	FE+2
-54 	                            	fe3        	c   	cpd10516	C14819                                    	                                     	-0.007808 	-0.00345   	         	      	FE+3                                               	FE+3
-55 	                            	gdp        	c   	cpd00031	                                          	                                     	          	-0.00018   	         	4.86  	GDP                                                	GDP
-56 	                            	gdpgpi     	c   	cpd15880	                                          	                                     	          	           	-0.01619
-57 	GLN                         	gln__L     	c   	cpd00053	C00064C00303                              	GLN                                  	-0.26316  	-0.260335  	-0.288   	0.099 	GLN                                                	GLN
-58 	GLT                         	glu__L     	c   	cpd00023	C00025C00302                              	GLTGlutamates                        	-0.26316  	-0.260378  	-0.288   	0.155 	                                                   	GLT
-59 	GLY                         	gly        	c   	cpd00033	C00037                                    	GLY                                  	-0.612638 	-0.408288  	-0.6704  	0.152 	GLY                                                	GLY
-60 	                            	glycogen   	c   	cpd00155	                                          	                                     	          	           	-0.01543
-61 	GMP                         	gmp        	c   	cpd00126	                                          	                                     	          	-0.000503  	         	      	GMP                                                	GMP
-62 	                            	gtca1_45_BS	c   	cpd15667	                                          	                                     	          	-0.003624
-63 	                            	gtca2_45_BS	c   	cpd15668	                                          	                                     	          	-0.002347
-64 	                            	gtca3_45_BS	c   	cpd15669	                                          	                                     	          	-0.001819
-65 	GTP                         	gtp        	c   	cpd00038	C00044                                    	GTP                                  	-0.215096 	-0.062667  	-0.2222  	4.918 	GTP                                                	GTP
-66 	PROTON                      	h          	c   	cpd00067	C00080                                    	PROTON                               	75.37723  	105.0      	29.99755 	33.1  	['OXONIUM', 'PROTON']                              	['OXONIUM', 'PROTON']
-67 	WATER                       	h2o        	c   	cpd00001	C00001C01328C18714                        	CPD-15815HYDROXYL-GROUPOHOXONIUMWATER	-70.028756	-105.0     	-30.0    	33.129	WATER                                              	WATER
-68 	CPD-8                       	h4spt      	c   	cpd15884	                                          	                                     	          	           	-0.02362 	      	CPD-8                                              	CPD-8
-69 	HIS                         	his__L     	c   	cpd00119	C00135C00768                              	HIS                                  	-0.094738 	-0.081739  	-0.1037  	0.048 	HIS                                                	HIS
-70 	CPD-1821                    	hspmd      	c   	cpd03802	                                          	                                     	          	           	-0.0047  	      	CPD-1821                                           	CPD-1821
-71 	ILE                         	ile__L     	c   	cpd00322	C00407                                    	ILE                                  	-0.290529 	-0.269905  	-0.3179  	0.188 	                                                   	ILE
-72 	K+                          	k          	c   	cpd00205	C00238C12568                              	KCL                                  	-0.195193 	-0.706312  	         	      	K+                                                 	K+
-74 	KDO2-LIPID-IVA              	kdo2lipid4 	e   	cpd03586	C06025                                    	KDO2-LIPID-IVA                       	-0.019456 	           	         	      	KDO2-LIPID-IVA                                     	KDO2-LIPID-IVA
-75 	LEU                         	leu__L     	c   	cpd00107	C00123C16439                              	LEU                                  	-0.450531 	-0.346445  	-0.493   	0.246 	LEU                                                	LEU
-76 	                            	lipo1_24_BS	c   	cpd11445	                                          	                                     	          	-7e-06
-77 	                            	lipo2_24_BS	c   	cpd11446	                                          	                                     	          	-6e-06
-78 	                            	lipo3_24_BS	c   	cpd11447	                                          	                                     	          	-1.8e-05
-79 	                            	lipo4_24_BS	c   	cpd11448	                                          	                                     	          	-1.5e-05
-80 	LYS                         	lys__L     	c   	cpd00039	C00047C16440                              	LYS                                  	-0.343161 	-0.323093  	-0.3755  	0.18  	LYS                                                	LYS
-81 	MET                         	met__L     	c   	cpd00060	C00073C01733                              	MET                                  	-0.153686 	-0.113326  	-0.1682  	0.051 	MET                                                	MET
-82 	MG+2                        	mg2        	c   	cpd00254	C00305C07755C07876C12567                  	                                     	-0.008675 	-0.101714  	         	      	MG+2                                               	MG+2
-83 	METHYLENE-THF               	mlthf      	c   	cpd00125	C00143                                    	METHYLENE-THF                        	-0.000223 	           	         	      	METHYLENE-THF                                      	METHYLENE-THF
-84 	MN+2                        	mn2        	c   	cpd00030	C19610                                    	                                     	-0.000691 	           	         	      	MN+2                                               	MN+2
-85 	CPD-3                       	mobd       	c   	cpd11574	C06232C15455                              	CPD-3                                	-7e-06    	           	         	      	                                                   	CPD-3
-86 	                            	mql7       	c   	cpd11451	                                          	                                     	          	-0.000266  	         	      	CPD-12125                                          	CPD-9730
-88 	CPD0-2278                   	murein5px4p	p   	cpd15514	                                          	CPD0-2278                            	-0.013894 	           	         	      	CPD0-2278                                          	CPD0-2278
-89 	NAD                         	nad        	c   	cpd00003	C00003                                    	NAD                                  	-0.001831 	-0.016164  	-0.00215 	0.0002	NAD                                                	NAD
-90 	NADH                        	nadh       	c   	cpd00004	                                          	                                     	          	           	-5e-05   	      	NADH                                               	NADH
-91 	NADP                        	nadp       	c   	cpd00006	C00006                                    	NADP                                 	-0.000447 	-0.000934  	-0.00013 	0.0002	NADP                                               	NADP
-92 	NADPH                       	nadph      	c   	cpd00005	                                          	                                     	          	-0.000216  	-0.0004  	      	NADPH                                              	NADPH
-93 	AMMONIUM                    	nh4        	c   	cpd00013	C00014C01342                              	AMMONIAAMMONIUM                      	-0.013013 	           	         	      	['AMMONIUM', 'AMMONIA']                            	['AMMONIA', 'AMMONIUM']
-94 	                            	ni2        	c   	cpd20862	C14711C19609                              	                                     	-0.000323 	           	         	      	NI+2
-96 	CPD-12819                   	pe160      	p   	cpd15531	                                          	CPD-12819                            	-0.063814 	           	         	      	CPD-12819                                          	CPD-12819
-98 	                            	pe161      	p   	cpd29055	                                          	CPD-17086                            	-0.075214
-99 	                            	peptido_BS 	c   	cpd15665	                                          	                                     	          	-0.101817
-100	                            	pgly_BS    	c   	cpd11453	                                          	                                     	          	-0.000176
-101	PHE                         	phe__L     	c   	cpd00066	C00079C02057                              	PHE                                  	-0.185265 	-0.175939  	-0.2027  	0.116 	                                                   	PHE
-102	PROTOHEME                   	pheme      	c   	cpd00028	C00032                                    	PROTOHEME                            	-0.000223 	           	         	      	PROTOHEME
-103	Pi                          	pi         	c   	cpd00009	C00009C13558                              	CPD-16459CPD-9010PHOSPHATE-GROUPPi   	75.37323  	104.985613 	30.0     	33.1  	['CPD-16459', 'CPD-20124', 'Pi', 'PHOSPHATE-GROUP']	['CPD-16459', 'CPD-20124', 'PHOSPHATE-GROUP', 'Pi']
-104	Pi                          	pi         	c   	cpd00009	C00009C13558                              	CPD-16459CPD-9010PHOSPHATE-GROUPPi   	75.37323  	104.985613 	30.0     	33.1  	['CPD-16459', 'PHOSPHATE-GROUP', 'Pi', 'CPD-20124']	['CPD-20124', 'Pi', 'PHOSPHATE-GROUP', 'CPD-16459']
-105	PPI                         	ppi        	c   	cpd00012	C00013                                    	PPIPYROPHOSPHATE-GROUP               	0.773903  	-0.000918  	0.799    	      	['PYROPHOSPHATE-GROUP', 'PPI']                     	['PYROPHOSPHATE-GROUP', 'PPI']
-106	PRO                         	pro__L     	c   	cpd00129	C00148C16435                              	PRO                                  	-0.221055 	-0.160642  	-0.2419  	0.077 	PRO                                                	PRO
-107	                            	psetha_BS  	c   	cpd29688	                                          	                                     	          	-0.00056
-108	PUTRESCINE                  	ptrc       	c   	cpd00118	                                          	                                     	          	           	-0.0262  	      	PUTRESCINE                                         	PUTRESCINE
-109	PYRIDOXAL_PHOSPHATE         	pydx5p     	c   	cpd00016	C00018                                    	PYRIDOXAL_PHOSPHATE                  	-0.000223 	           	         	      	PYRIDOXAL_PHOSPHATE                                	PYRIDOXAL_PHOSPHATE
-110	RIBOFLAVIN                  	ribflv     	c   	cpd00220	C00255                                    	RIBOFLAVIN                           	-0.000223 	           	         	      	RIBOFLAVIN                                         	RIBOFLAVIN
-111	SER                         	ser__L     	c   	cpd00054	C00065C00716                              	SERSerines                           	-0.215792 	-0.216213  	-0.2361  	0.153 	SER                                                	SER
-112	SIROHEME                    	sheme      	c   	cpd00557	C00748                                    	SIROHEME                             	-0.000223 	           	         	      	SIROHEME                                           	SIROHEME
-113	                            	so4        	c   	cpd00048	C00059                                    	HSO4SULFATE                          	-0.004338 	           	         	      	['HSO4', 'SULFATE']                                	['SULFATE', 'HSO4']
-114	SUC-COA                     	succoa     	c   	cpd00078	C00091                                    	SUC-COA                              	-9.8e-05  	           	-3e-06   	      	SUC-COA                                            	SUC-COA
-115	                            	t12dg_BS   	c   	cpd11458	                                          	                                     	          	-6.6e-05   	         	      	                                                   	diacyl-3-Glc-16-Glc-16-Glc-glycerol
-116	                            	tcam_BS    	c   	cpd11459	                                          	                                     	          	-0.003112
-117	THF                         	thf        	c   	cpd00087	C00101                                    	THF                                  	-0.000223 	           	-6.1e-05 	1e-05 	THF                                                	THF
-118	THIAMINE-PYROPHOSPHATE      	thmpp      	c   	cpd00056	C00068                                    	THIAMINE-PYROPHOSPHATE               	-0.000223 	           	         	1e-05 	THIAMINE-PYROPHOSPHATE                             	THIAMINE-PYROPHOSPHATE
-119	THR                         	thr__L     	c   	cpd00161	C00188                                    	THR                                  	-0.253687 	-0.186317  	-0.2776  	0.136 	                                                   	THR
-120	TRP                         	trp__L     	c   	cpd00065	C00078C00806                              	TRP                                  	-0.056843 	-0.054336  	-0.0622  	0.021 	TRP
-121	TYR                         	tyr__L     	c   	cpd00069	C00082C01536                              	TYR                                  	-0.137896 	-0.110824  	-0.1509  	0.094 	TYR                                                	TYR
-123	CPD-9649                    	udcpdp     	c   	cpd25775	                                          	CPD-9649                             	-5.5e-05  	           	         	      	                                                   	CPD-9649
-124	UTP                         	utp        	c   	cpd00062	C00075                                    	UTP                                  	-0.144104 	-0.041501  	-0.1489  	0.087 	UTP                                                	UTP
-125	VAL                         	val__L     	c   	cpd00156	C00183C16436                              	VAL                                  	-0.423162 	-0.306734  	-0.4631  	0.16  	VAL                                                	VAL
-126	ZN+2                        	zn2        	c   	cpd00034	C00038C12570                              	                                     	-0.000341 	           	         	      	ZN+2                                               	ZN+2
+	metacyc_id	bigg_id	iMSU_Biomass_KEGGID	comp	name	observations	observations_Hao.L	seed_id	kegg_id_from_iML1515	metacyc_id_from_iML1515	iML1515	iYO844	iAF692	iSMU	metacyc_from_bigg	metacyc_from_seed
+37		glycogen		c	Glycogen	carbohydrate	carbohydrate	cpd00155					-0.01543			
+39		gtca1_45_BS		c	Glycerol teichoic acid  n45   unlinked  unsubstituted C151H297N2O238P46	cellwall	carbohydrate	cpd15667				-0.003624				
+40		gtca2_45_BS		c	Glycerol teichoic acid  n45   unlinked  D ala substituted C286H612N47O328P46	cellwall	carbohydrate	cpd15668				-0.002347				
+41		gtca3_45_BS		c	Glycerol teichoic acid  n45   unlinked  glucose substituted C421H749N2O464P46	cellwall	carbohydrate	cpd15669				-0.001819				
+66		peptido_BS		c	Peptidoglycan_polymer_n_subunits	cellwall	carbohydrate	cpd15665				-0.101817				
+78		tcam_BS		c	Minor teichoic acid  acetylgalactosamine glucose phosphate  n30  C420H750N30O420P30	cellwall	carbohydrate	cpd11459				-0.003112				
+0	10-FORMYL-THF	10fthf		c	10-Formyltetrahydrofolate	cofactor	cofactor	cpd00201	C00234	10-FORMYL-THF	-0.000223	-0.000367			10-FORMYL-THF	CPD-1771
+1		2fe2s		c	[2Fe-2S] iron-sulfur cluster	cofactor	iron	cpd24604			-2.60E-05				Elemental-Sulfur	
+2	2-OCTAPRENYL-6-HYDROXYPHENOL	2ohph		c	2-Octaprenyl-6-hydroxyphenol	cofactor	cofactor	cpd03445	C05811	2-OCTAPRENYL-6-HYDROXYPHENOL	-0.000223				2-OCTAPRENYL-6-HYDROXYPHENOL	2-OCTAPRENYL-6-HYDROXYPHENOL
+5	CPD-7	4fe4s		c	[4Fe-4S] iron-sulfur cluster	cofactor	iron	cpd24682		CPD-7	-0.00026					CPD-7
+6	ACETYL-COA	accoa		c	Acetyl-CoA	cofactor	cofactor	cpd00022					-5.00E-05		ACETYL-COA	ACETYL-COA
+7		adocblhbi		c	Adenosylcobalamin-HBI	cofactor	cofactor	cpd15834					-0.00474			
+8	AMP	amp		c	AMP	cofactor	cofactor	cpd00018				-0.00467	-0.001		AMP	AMP
+11	CA+2	ca2		c	Calcium	cofactor	iron	cpd00063	C00076C08130C12277C13140C13189C17392C18381		-0.005205	-0.003205			CA+2	CA+2
+13	CDP	cdp		c	CDP	cofactor	cofactor	cpd00096				-0.000251			CDP	CDP
+14	CL-	cl		c	Chloride	cofactor	cofactor	cpd00099	C00698C01327	CL-HCL	-0.005205				"['HCL', 'CL-']"	"['CL-', 'HCL']"
+15	CMP	cmp		c	CMP	cofactor	cofactor	cpd00046				-0.001042			CMP	CMP
+16	CPD-1281	cob		c	Coenzyme b	cofactor	cofactor	cpd02817					-0.0005		CPD-1281	CPD-1281
+17	CO+2	cobalt2		c	Co2+	cofactor	iron	cpd00149	C00175		-2.50E-05				CO+2	CO+2
+18	CoM	com		c	Coenzyme m	cofactor	cofactor	cpd02246					-0.02056		CoM	CoM
+19	CU+2	cu2		c	Cu2+	cofactor	iron	cpd00058	C00070		-0.000709				"['CU+2', 'Oxidized-Azurins']"	"['Oxidized-Azurins', 'CU+2']"
+26	CPD-10017	f390a		c	Coenzyme F390 (adenosine)	cofactor	cofactor	cpd15862					-5.00E-06		CPD-10017	CPD-10017
+27	CPD-19661	f390g		c	Coenzyme F390 (guanosine)	cofactor	cofactor	cpd15863					-5.00E-06		CPD-19661	CPD-19661
+28		f420_2		c	Coenzyme ferredoxin 420-2 (oxidized)	cofactor	cofactor	cpd00649					-4.30E-05			OX-COENZYME-F420
+29		f420_3		c	Coenzyme ferredoxin 420-3	cofactor	cofactor	cpd15868					-2.60E-05			
+30		f420_4		c	Coenzyme ferredoxin 420-4	cofactor	cofactor	cpd15869					-0.000374			
+31		f420_5		c	Coenzyme ferredoxin 420-5	cofactor	cofactor	cpd15870					-0.000299			
+32		f420_6		c	Coenzyme ferredoxin 420-6	cofactor	cofactor	cpd15871					-1.10E-05			
+33		f420_7		c	Coenzyme ferredoxin 420-7	cofactor	cofactor	cpd15872					-1.00E-06			
+34		f430		c	Coenzyme F430	cofactor	cofactor						-0.002			
+35		fe2		c	Fe2+	cofactor	cofactor	cpd10515	C14818		-0.006715				FE+2	FE+2
+38	GMP	gmp		c	GMP	cofactor	cofactor	cpd00126				-0.000503			GMP	GMP
+42	CPD-8	h4spt		c	Tetrahydrosarcinapterin	cofactor	cofactor	cpd15884					-0.02362		CPD-8	CPD-8
+44	K+	k		c	Potassium	cofactor	cofactor	cpd00205	C00238C12568	KCL	-0.195193	-0.706312			K+	K+
+51	MG+2	mg2		c	Magnesium	cofactor	iron	cpd00254	C00305C07755C07876C12567		-0.008675	-0.101714			MG+2	MG+2
+52	METHYLENE-THF	mlthf		c	"5,10-Methylenetetrahydrofolate"	cofactor	cofactor	cpd00125	C00143	METHYLENE-THF	-0.000223				METHYLENE-THF	METHYLENE-THF
+53	MN+2	mn2		c	Mn2+	cofactor	iron	cpd00030	C19610		-0.000691				MN+2	MN+2
+59	NADPH	nadph		c	NAPDH	cofactor	cofactor	cpd00005				-0.000216	-0.0004		NADPH	NADPH
+68	PROTOHEME	pheme		c	Protoheme	cofactor	cofactor	cpd00028	C00032	PROTOHEME	-0.000223				PROTOHEME	
+72	PYRIDOXAL_PHOSPHATE	pydx5p		c	Pyridoxal 5'-phosphate	cofactor	cofactor	cpd00016	C00018	PYRIDOXAL_PHOSPHATE	-0.000223				PYRIDOXAL_PHOSPHATE	PYRIDOXAL_PHOSPHATE
+73	RIBOFLAVIN	ribflv		c	Riboflavin	cofactor	cofactor	cpd00220	C00255	RIBOFLAVIN	-0.000223				RIBOFLAVIN	RIBOFLAVIN
+74	SIROHEME	sheme		c	Siroheme	cofactor	cofactor	cpd00557	C00748	SIROHEME	-0.000223				SIROHEME	SIROHEME
+75		so4		c	Sulfate	cofactor	cofactor	cpd00048	C00059	HSO4SULFATE	-0.004338				"['SULFATE', 'HSO4']"	"['HSO4', 'SULFATE']"
+81	ZN+2	zn2		c	Zinc	cofactor	iron	cpd00034	C00038C12570		-0.000341				ZN+2	ZN+2
+126	ADP	adp	C00008	c	ADP	cofactor	cofactor	cpd00008	C00008	ADPCPD0-1651	75.37723	104.997414	29.998	28.242	ADP	ADP
+131	S-ADENOSYLMETHIONINE	amet	C00019	c	S-Adenosyl-L-methionine	cofactor	cofactor	cpd00017	C00019	S-ADENOSYLMETHIONINE	-0.000223			1.00E-05	S-ADENOSYLMETHIONINE	S-ADENOSYLMETHIONINE
+139	CO-A	coa	C00131	c	Coenzyme A	cofactor	cofactor	cpd00010	C00010	CO-ACOA-GROUP	-0.000576		-6.00E-06	0.019	CO-A	CO-A
+145	FAD	fad	C00016	c	FAD	cofactor	cofactor	cpd00015	C00016	FAD	-0.000223			1.00E-05		"['Ox-FAD-Flavoproteins', 'FAD']"
+146		fe3	C00013	c	Fe3+	cofactor	cofactor	cpd10516	C14819		-0.007808	-0.00345		0.3401	FE+3	FE+3
+147		gdp	C00035	c	GDP	cofactor	cofactor	cpd00031				-0.00018		4.86	GDP	GDP
+159	NAD	nad	C00003	c	NAD	cofactor	cofactor	cpd00003	C00003	NAD	-0.001831	-0.016164	-0.00215	0.0002	NAD	NAD
+160	NADP	nadp	C00006	c	NADP	cofactor	cofactor	cpd00006	C00006	NADP	-0.000447	-0.000934	-0.00013	0.0002	NADP	NADP
+162	Pi	pi	C00009	c	Phosphate	cofactor	cofactor	cpd00009	C00009C13558	CPD-16459CPD-9010PHOSPHATE-GROUPPi	75.37323	104.985613	30	33.1	"['Pi', 'PHOSPHATE-GROUP', 'CPD-16459', 'CPD-20124']"	"['Pi', 'PHOSPHATE-GROUP', 'CPD-16459', 'CPD-20124']"
+168	THF	thf	C00101	c	Tetrahydrofolate	cofactor	cofactor	cpd00087	C00101	THF	-0.000223		-6.10E-05	1.00E-05	THF	THF
+169	THIAMINE-PYROPHOSPHATE	thmpp	C00068	c	Thiamine diphosphate	cofactor	cofactor	cpd00056	C00068	THIAMINE-PYROPHOSPHATE	-0.000223			1.00E-05	THIAMINE-PYROPHOSPHATE	THIAMINE-PYROPHOSPHATE
+21	DCTP	dctp		c	DCTP	dna	dna	cpd00356	C00458	DCTP	-0.027017	-0.01738	-0.02153		DCTP	DCTP
+22	DGTP	dgtp		c	DGTP	dna	dna	cpd00241	C00286	DGTP	-0.027017	-0.017398	-0.02153		DGTP	DGTP
+25	TTP	dttp		c	DTTP	dna	dna	cpd00357	C00459	TTP	-0.026166	-0.022899	-0.03312		TTP	TTP
+142	DATP	datp	C00286	c	DATP	dna	dna	cpd00115	C00131	DATP	-0.026166	-0.022982	-0.03312	0.011	DATP	DATP
+135	ATP	atp	C00002	c	ATP	energy	other and rna	cpd00002	C00002	ATPCPD0-1634	-75.55223	-105.053483	-30.1846	28.329	ATP	ATP
+3		3hdpgpe		c	2-O-(3'-hydroxy)phytanyl-3-O-phytanyl-sn-glycero-l-phosphoethanolamine	lipid	lipid	cpd15817					-0.002698			
+4	CPD-19667	3hdpgpi		c	2-O-(3'-hydroxyl)phytanyl-3-O-phytanyl-sn-glycero-1-phospho-myo-inositol	lipid	lipid	cpd15819					-0.01349		CPD-19667	CPD-19667
+20		d12dg_BS		c	Diglucosyl 1 2 diacylglycerol C4636H8672O1500	lipid	lipid	cpd11428				-0.00011				
+23	CPD-15258	dpgpe		c	"2,3-O-phytanyl-sn-glycero-1-phosphoethanolamine"	lipid	lipid	cpd15858					-0.000674		CPD-15258	CPD-15258
+24	CPD-15257	dpgps		c	"2,3-O-phytanyl-sn-glycero-1-phosphoserine"	lipid	lipid	cpd15861					-0.001349		CPD-15257	CPD-15257
+36		gdpgpi		c	Glucosaminyl archaetidyl-myo-inositol	lipid	lipid	cpd15880					-0.01619			
+46	KDO2-LIPID-IVA	kdo2lipid4		e	KDO(2)-lipid IV(A)	lipid	lipid	cpd03586	C06025	KDO2-LIPID-IVA	-0.019456				KDO2-LIPID-IVA	KDO2-LIPID-IVA
+124		3hdpgpg	C00010	c	2-O-(3'-hydroxy)phytanyl-3-O-phytanyl-sn-glycerol-1-phospho-3'-sn-glycerol	lipid	lipid	cpd15818					-0.01012	0.0002		
+125		3hdpgps	C00018	c	2-O-(3'-hydroxy)phytanyl-3-O-phytanyl-sn-glycero-l-phosphoserine	lipid	lipid	cpd15820					-0.01147	1.00E-05		
+143	CPD-17766	dpgpg	C00458	c	"2,3-di-O-phytanyl-sn-glycerol-1-phospho-3'-sn-glycerol"	lipid	lipid	cpd15859					-0.000674	0.011	CPD-17766	CPD-17766
+144		dpgpi	C00459	c	"2,3-O-phytanyl-sn-glycero-1-phospho-myo-inositol"	lipid	lipid	cpd15860					-0.002698	0.019		
+60	AMMONIUM	nh4		c	Ammonium	nitrogen source	other	cpd00013	C00014C01342	AMMONIAAMMONIUM	-0.013013				"['AMMONIA', 'AMMONIUM']"	"['AMMONIUM', 'AMMONIA']"
+130	L-ALPHA-ALANINE	ala__L	C00041	c	L-Alanine	protein	protein	cpd00035	C00041C01401	L-ALPHA-ALANINE	-0.513689	-0.266902	-0.5621	0.181		L-ALPHA-ALANINE
+132	ARG	arg__L	C00062	c	L-Arginine	protein	protein	cpd00051	C00062C02385	ARG	-0.295792	-0.193021	-0.3237	0.095	ARG	ARG
+133	ASN	asn__L	C00152	c	L-Asparagine	protein	protein	cpd00132	C00152C16438	ASN	-0.241055	-0.147987	-0.2638	0.118	ASN	ASN
+134	L-ASPARTATE	asp__L	C00049	c	L-Aspartate	protein	protein	cpd00041	C00049C16433	L-ASPARTATE	-0.241055	-0.148014	-0.2638	0.137		L-ASPARTATE
+141	CYS	cys__L	C00097	c	L-Cysteine	protein	protein	cpd00084	C00097C00736	CYS	-0.09158	-0.05699	-0.1002	0.014	CYS	CYS
+148	GLN	gln__L	C00064	c	L-Glutamine	protein	protein	cpd00053	C00064C00303	GLN	-0.26316	-0.260335	-0.288	0.099	GLN	GLN
+149	GLT	glu__L	C00025	c	L-Glutamate	protein	protein	cpd00023	C00025C00302	GLTGlutamates	-0.26316	-0.260378	-0.288	0.155		GLT
+150	GLY	gly	C00037	c	Glycine	protein	protein	cpd00033	C00037	GLY	-0.612638	-0.408288	-0.6704	0.152	GLY	GLY
+154	HIS	his__L	C00135	c	L-Histidine	protein	protein	cpd00119	C00135C00768	HIS	-0.094738	-0.081739	-0.1037	0.048	HIS	HIS
+155	ILE	ile__L	C00407	c	L-Isoleucine	protein	protein	cpd00322	C00407	ILE	-0.290529	-0.269905	-0.3179	0.188		ILE
+156	LEU	leu__L	C00123	c	L-Leucine	protein	protein	cpd00107	C00123C16439	LEU	-0.450531	-0.346445	-0.493	0.246	LEU	LEU
+157	LYS	lys__L	C00047	c	L-Lysine	protein	protein	cpd00039	C00047C16440	LYS	-0.343161	-0.323093	-0.3755	0.18	LYS	LYS
+158	MET	met__L	C00073	c	L-Methionine	protein	protein	cpd00060	C00073C01733	MET	-0.153686	-0.113326	-0.1682	0.051	MET	MET
+161	PHE	phe__L	C00079	c	L-Phenylalanine	protein	protein	cpd00066	C00079C02057	PHE	-0.185265	-0.175939	-0.2027	0.116		PHE
+166	PRO	pro__L	C00148	c	L-Proline	protein	protein	cpd00129	C00148C16435	PRO	-0.221055	-0.160642	-0.2419	0.077	PRO	PRO
+167	SER	ser__L	C00065	c	L-Serine	protein	protein	cpd00054	C00065C00716	SERSerines	-0.215792	-0.216213	-0.2361	0.153	SER	SER
+170	THR	thr__L	C00188	c	L-Threonine	protein	protein	cpd00161	C00188	THR	-0.253687	-0.186317	-0.2776	0.136		THR
+171	TRP	trp__L	C00078	c	L-Tryptophan	protein	protein	cpd00065	C00078C00806	TRP	-0.056843	-0.054336	-0.0622	0.021	TRP	
+172	TYR	tyr__L	C00082	c	L-Tyrosine	protein	protein	cpd00069	C00082C01536	TYR	-0.137896	-0.110824	-0.1509	0.094	TYR	TYR
+174	VAL	val__L	C00183	c	L-Valine	protein	protein	cpd00156	C00183C16436	VAL	-0.423162	-0.306734	-0.4631	0.16	VAL	VAL
+152	PROTON	h	C00080	c	H+	proton	other	cpd00067	C00080	PROTON	75.37723	105	29.99755	33.1	"['OXONIUM', 'PROTON']"	"['PROTON', 'OXONIUM']"
+140	CTP	ctp	C00063	c	CTP	rna	rna	cpd00052	C00063	CTP	-0.133508	-0.038902	-0.1379	0.047	CTP	CTP
+151	GTP	gtp	C00044	c	GTP	rna	rna	cpd00038	C00044	GTP	-0.215096	-0.062667	-0.2222	4.918	GTP	GTP
+173	UTP	utp	C00075	c	UTP	rna	rna	cpd00062	C00075	UTP	-0.144104	-0.041501	-0.1489	0.087	UTP	UTP
+10	BIOTIN	btn		c	Biotin	vitamin B7	other	cpd00104	C00120	BIOTIN	-2.00E-06				BIOTIN	BIOTIN
+153	WATER	h2o	C00001	c	H2O	water	other	cpd00001	C00001C01328C18714	CPD-15815HYDROXYL-GROUPOHOXONIUMWATER	-70.028756	-105	-30	33.129	WATER	WATER
+12		cdlp_BS		c	Cardiolipin  B subtilis  C7172H13744O1700P200		delete	cpd11426				-5.00E-06				
+43	CPD-1821	hspmd		c	Sym-Homospermidine			cpd03802					-0.0047		CPD-1821	CPD-1821
+47		lipo1_24_BS		c	Lipoteichoic acid  n24   linked  glucose substituted C26236H47072O25500P2400		lipid	cpd11445				-7.00E-06				
+48		lipo2_24_BS		c	Lipoteichoic acid  n24   linked  N acetyl D glucosamine C31036H54272N2400O25500P2400		lipid	cpd11446				-6.00E-06				
+49		lipo3_24_BS		c	Lipoteichoic acid  n24   linked  D alanine substituted C19036H39872N2400O18300P2400		lipid	cpd11447				-1.80E-05				
+50		lipo4_24_BS		c	Lipoteichoic acid  n24   linked  unsubstituted C11836H23072O13500P2400		lipid	cpd11448				-1.50E-05				
+54	CPD-3	mobd		c	Molybdate			cpd11574	C06232C15455	CPD-3	-7.00E-06					CPD-3
+55		mql7		c	Menaquinol 7 C46H66O2		cofactor	cpd11451				-0.000266			CPD-12125	CPD-9730
+57	CPD0-2278	murein5px4p		p	"Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)"			cpd15514		CPD0-2278	-0.013894				CPD0-2278	CPD0-2278
+58	NADH	nadh		c	Nicotinamide adenine dinucleotide - reduced		cofactor	cpd00004					-5.00E-05		NADH	NADH
+61		ni2		c	Nickel		iron	cpd20862	C14711C19609		-0.000323				NI+2	
+63	CPD-12819	pe160		p	"Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)"			cpd15531		CPD-12819	-0.063814				CPD-12819	CPD-12819
+65		pe161		p	"Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)"			cpd29055		CPD-17086	-0.075214					
+67		pgly_BS		c	Phosphatidylglycerol  B subtils  C3736H7272O1000P100		delete	cpd11453				-0.000176				
+69	PPI	ppi		c	Diphosphate		cofactor	cpd00012	C00013	PPIPYROPHOSPHATE-GROUP	0.773903	-0.000918	0.799		"['PYROPHOSPHATE-GROUP', 'PPI']"	"['PPI', 'PYROPHOSPHATE-GROUP']"
+70		psetha_BS		c	Phosphatidylethanolamine  B subtilis  C3636H7172N100O800P100		delete	cpd29688				-0.00056				
+71	PUTRESCINE	ptrc		c	Putrescine			cpd00118					-0.0262		PUTRESCINE	PUTRESCINE
+76	SUC-COA	succoa		c	Succinyl-CoA		cofactor	cpd00078	C00091	SUC-COA	-9.80E-05		-3.00E-06		SUC-COA	SUC-COA
+77		t12dg_BS		c	Triglucosyl 1 2 diacylglycerol C5236H9672O2000		delete	cpd11458				-6.60E-05				diacyl-3-Glc-16-Glc-16-Glc-glycerol
+80	CPD-9649	udcpdp		c	Undecaprenyl diphosphate			cpd25775		CPD-9649	-5.50E-05					CPD-9649
+175			C00029		UDP-glucose									0.758		
+176			C00043		UDP-N-acetylglucosamine									0.293		
+177			C00052		UDP-galactose									0.129		
+178			C00061		FMN									1.00E-05		
+179			C00133		D-Alanine		protein							0.158		
+180			C00251		Chorismate									0.0002		
+181			C00305		Mg		iron							1.00E-05		
+182			C00344		Phosphatidylglycerol									0.00079		
+183			C00627		Pyridoxine phosphate									1.00E-05		
+184			C00647		Pyridoxamine phosphate									1.00E-05		
+185			C00842		dTDPglucose									0.009		
+186			C01170		UDP-N-acetyl-D-mannosamine									0.017		
+187			C03294		N-Formylmethionyl-tRNA									0.008		
+188			C03319		dTDP-rhamnose									0.172		
+189			C04144		Tetrahydropteroyltri-L-glutamate									1.00E-05		
+190			C04574		Bactoprenyl diphosphate									0.0002		
+191			C05896(LYS)		Lys-type peptidoglycan									0.146		
+192			C05980		Cardiolipin									1.80E-05		
+193			C20897		Glycerophosphoglycoglycerolipid									0.00013		
