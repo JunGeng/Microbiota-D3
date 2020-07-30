@@ -1,0 +1,73 @@
+{
+  "tadFileFormatVersion": 2,
+  "contents": {
+    "targetPath": "/Users/gejun/Desktop/Projects/Metacardis_Gut/GEMs of species/Sharing/Microbiota-D3/data/biomass/biomass_constituents_id_map_Jun.txt",
+    "viewParams": {
+      "aggMap": {},
+      "columnFormats": {},
+      "defaultFormats": {
+        "boolean": {
+          "commas": true,
+          "decimalPlaces": 0,
+          "exponential": false,
+          "type": "NumFormatOptions"
+        },
+        "integer": {
+          "commas": true,
+          "decimalPlaces": 0,
+          "exponential": false,
+          "type": "NumFormatOptions"
+        },
+        "real": {
+          "commas": true,
+          "decimalPlaces": 2,
+          "exponential": false,
+          "type": "NumFormatOptions"
+        },
+        "text": {
+          "type": "TextFormatOptions",
+          "urlsAsHyperlinks": true
+        }
+      },
+      "displayColumns": [
+        "col0",
+        "metacyc_id",
+        "bigg_id",
+        "comp",
+        "seed_id",
+        "kegg_id_from_iML",
+        "metacyc_id_from_",
+        "iML1515",
+        "iYO844",
+        "iAF692",
+        "iSMU",
+        "metacyc_from_big",
+        "metacyc_from_see",
+        "col13",
+        "Annotation",
+        "originalcategory",
+        "Category_Jun",
+        "col17",
+        "col18",
+        "col19",
+        "CategoryI",
+        "CategoryII",
+        "col22",
+        "Rec"
+      ],
+      "filterExp": {
+        "expType": "FilterExp",
+        "op": "AND",
+        "opArgs": []
+      },
+      "openPaths": {
+        "_rep": {}
+      },
+      "pivotLeafColumn": null,
+      "showHiddenCols": false,
+      "showRoot": false,
+      "sortKey": [],
+      "vpivots": []
+    }
+  }
+}
