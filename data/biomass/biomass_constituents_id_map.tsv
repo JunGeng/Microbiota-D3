@@ -116,13 +116,13 @@
 71	PUTRESCINE	ptrc		c	Putrescine		other	cpd00118					-0.0262		PUTRESCINE	PUTRESCINE
 76	SUC-COA	succoa		c	Succinyl-CoA		cofactor	cpd00078	C00091	SUC-COA	-9.80E-05		-3.00E-06		SUC-COA	SUC-COA
 77		t12dg_BS		c	Triglucosyl 1 2 diacylglycerol C5236H9672O2000		delete	cpd11458				-6.60E-05				diacyl-3-Glc-16-Glc-16-Glc-glycerol
-80	CPD-9649	udcpdp		c	Undecaprenyl diphosphate			cpd25775		CPD-9649	-5.50E-05					CPD-9649
-175			C00029		UDP-glucose									0.758		
-176			C00043		UDP-N-acetylglucosamine									0.293		
-177			C00052		UDP-galactose									0.129		
-178			C00061		FMN									1.00E-05		
+80	CPD-9649	udcpdp		c	Undecaprenyl diphosphate		other	cpd25775		CPD-9649	-5.50E-05					CPD-9649
+175			C00029		UDP-glucose		other							0.758		
+176			C00043		UDP-N-acetylglucosamine		other							0.293		
+177			C00052		UDP-galactose		other							0.129		
+178			C00061		FMN		cofactor							1.00E-05		
 179			C00133		D-Alanine		protein							0.158		
-180			C00251		Chorismate									0.0002		
+180			C00251		Chorismate		other							0.0002		
 181			C00305		Mg		ion							1.00E-05		
 182			C00344		Phosphatidylglycerol									0.00079		
 183			C00627		Pyridoxine phosphate									1.00E-05		
