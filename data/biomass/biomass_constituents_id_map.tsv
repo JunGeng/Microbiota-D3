@@ -1,4 +1,4 @@
-	metacyc_id	bigg_id	iMSU_Biomass_KEGGID	comp	name	observations	observations_Hao.L	seed_id	kegg_id_from_iML1515	metacyc_id_from_iML1515	iML1515	iYO844	iAF692	iSMU	metacyc_from_bigg	metacyc_from_seed
+	metacyc_id	bigg_id	iMSU_Biomass_KEGGID	comp	name	observations_initial	observations_modified	seed_id	kegg_id_from_iML1515	metacyc_id_from_iML1515	iML1515	iYO844	iAF692	iSMU	metacyc_from_bigg	metacyc_from_seed
 37		glycogen		c	Glycogen	carbohydrate	carbohydrate	cpd00155					-0.01543			
 39		gtca1_45_BS		c	Glycerol teichoic acid  n45   unlinked  unsubstituted C151H297N2O238P46	cellwall	carbohydrate	cpd15667				-0.003624				
 40		gtca2_45_BS		c	Glycerol teichoic acid  n45   unlinked  D ala substituted C286H612N47O328P46	cellwall	carbohydrate	cpd15668				-0.002347				
@@ -6,20 +6,20 @@
 66		peptido_BS		c	Peptidoglycan_polymer_n_subunits	cellwall	carbohydrate	cpd15665				-0.101817				
 78		tcam_BS		c	Minor teichoic acid  acetylgalactosamine glucose phosphate  n30  C420H750N30O420P30	cellwall	carbohydrate	cpd11459				-0.003112				
 0	10-FORMYL-THF	10fthf		c	10-Formyltetrahydrofolate	cofactor	cofactor	cpd00201	C00234	10-FORMYL-THF	-0.000223	-0.000367			10-FORMYL-THF	CPD-1771
-1		2fe2s		c	[2Fe-2S] iron-sulfur cluster	cofactor	iron	cpd24604			-2.60E-05				Elemental-Sulfur	
+1		2fe2s		c	[2Fe-2S] iron-sulfur cluster	cofactor	ion	cpd24604			-2.60E-05				Elemental-Sulfur	
 2	2-OCTAPRENYL-6-HYDROXYPHENOL	2ohph		c	2-Octaprenyl-6-hydroxyphenol	cofactor	cofactor	cpd03445	C05811	2-OCTAPRENYL-6-HYDROXYPHENOL	-0.000223				2-OCTAPRENYL-6-HYDROXYPHENOL	2-OCTAPRENYL-6-HYDROXYPHENOL
-5	CPD-7	4fe4s		c	[4Fe-4S] iron-sulfur cluster	cofactor	iron	cpd24682		CPD-7	-0.00026					CPD-7
+5	CPD-7	4fe4s		c	[4Fe-4S] iron-sulfur cluster	cofactor	ion	cpd24682		CPD-7	-0.00026					CPD-7
 6	ACETYL-COA	accoa		c	Acetyl-CoA	cofactor	cofactor	cpd00022					-5.00E-05		ACETYL-COA	ACETYL-COA
 7		adocblhbi		c	Adenosylcobalamin-HBI	cofactor	cofactor	cpd15834					-0.00474			
 8	AMP	amp		c	AMP	cofactor	cofactor	cpd00018				-0.00467	-0.001		AMP	AMP
-11	CA+2	ca2		c	Calcium	cofactor	iron	cpd00063	C00076C08130C12277C13140C13189C17392C18381		-0.005205	-0.003205			CA+2	CA+2
+11	CA+2	ca2		c	Calcium	cofactor	ion	cpd00063	C00076C08130C12277C13140C13189C17392C18381		-0.005205	-0.003205			CA+2	CA+2
 13	CDP	cdp		c	CDP	cofactor	cofactor	cpd00096				-0.000251			CDP	CDP
 14	CL-	cl		c	Chloride	cofactor	cofactor	cpd00099	C00698C01327	CL-HCL	-0.005205				"['HCL', 'CL-']"	"['CL-', 'HCL']"
 15	CMP	cmp		c	CMP	cofactor	cofactor	cpd00046				-0.001042			CMP	CMP
 16	CPD-1281	cob		c	Coenzyme b	cofactor	cofactor	cpd02817					-0.0005		CPD-1281	CPD-1281
-17	CO+2	cobalt2		c	Co2+	cofactor	iron	cpd00149	C00175		-2.50E-05				CO+2	CO+2
+17	CO+2	cobalt2		c	Co2+	cofactor	ion	cpd00149	C00175		-2.50E-05				CO+2	CO+2
 18	CoM	com		c	Coenzyme m	cofactor	cofactor	cpd02246					-0.02056		CoM	CoM
-19	CU+2	cu2		c	Cu2+	cofactor	iron	cpd00058	C00070		-0.000709				"['CU+2', 'Oxidized-Azurins']"	"['Oxidized-Azurins', 'CU+2']"
+19	CU+2	cu2		c	Cu2+	cofactor	ion	cpd00058	C00070		-0.000709				"['CU+2', 'Oxidized-Azurins']"	"['Oxidized-Azurins', 'CU+2']"
 26	CPD-10017	f390a		c	Coenzyme F390 (adenosine)	cofactor	cofactor	cpd15862					-5.00E-06		CPD-10017	CPD-10017
 27	CPD-19661	f390g		c	Coenzyme F390 (guanosine)	cofactor	cofactor	cpd15863					-5.00E-06		CPD-19661	CPD-19661
 28		f420_2		c	Coenzyme ferredoxin 420-2 (oxidized)	cofactor	cofactor	cpd00649					-4.30E-05			OX-COENZYME-F420
@@ -33,16 +33,16 @@
 38	GMP	gmp		c	GMP	cofactor	cofactor	cpd00126				-0.000503			GMP	GMP
 42	CPD-8	h4spt		c	Tetrahydrosarcinapterin	cofactor	cofactor	cpd15884					-0.02362		CPD-8	CPD-8
 44	K+	k		c	Potassium	cofactor	cofactor	cpd00205	C00238C12568	KCL	-0.195193	-0.706312			K+	K+
-51	MG+2	mg2		c	Magnesium	cofactor	iron	cpd00254	C00305C07755C07876C12567		-0.008675	-0.101714			MG+2	MG+2
+51	MG+2	mg2		c	Magnesium	cofactor	ion	cpd00254	C00305C07755C07876C12567		-0.008675	-0.101714			MG+2	MG+2
 52	METHYLENE-THF	mlthf		c	"5,10-Methylenetetrahydrofolate"	cofactor	cofactor	cpd00125	C00143	METHYLENE-THF	-0.000223				METHYLENE-THF	METHYLENE-THF
-53	MN+2	mn2		c	Mn2+	cofactor	iron	cpd00030	C19610		-0.000691				MN+2	MN+2
+53	MN+2	mn2		c	Mn2+	cofactor	ion	cpd00030	C19610		-0.000691				MN+2	MN+2
 59	NADPH	nadph		c	NAPDH	cofactor	cofactor	cpd00005				-0.000216	-0.0004		NADPH	NADPH
 68	PROTOHEME	pheme		c	Protoheme	cofactor	cofactor	cpd00028	C00032	PROTOHEME	-0.000223				PROTOHEME	
 72	PYRIDOXAL_PHOSPHATE	pydx5p		c	Pyridoxal 5'-phosphate	cofactor	cofactor	cpd00016	C00018	PYRIDOXAL_PHOSPHATE	-0.000223				PYRIDOXAL_PHOSPHATE	PYRIDOXAL_PHOSPHATE
 73	RIBOFLAVIN	ribflv		c	Riboflavin	cofactor	cofactor	cpd00220	C00255	RIBOFLAVIN	-0.000223				RIBOFLAVIN	RIBOFLAVIN
 74	SIROHEME	sheme		c	Siroheme	cofactor	cofactor	cpd00557	C00748	SIROHEME	-0.000223				SIROHEME	SIROHEME
 75		so4		c	Sulfate	cofactor	cofactor	cpd00048	C00059	HSO4SULFATE	-0.004338				"['SULFATE', 'HSO4']"	"['HSO4', 'SULFATE']"
-81	ZN+2	zn2		c	Zinc	cofactor	iron	cpd00034	C00038C12570		-0.000341				ZN+2	ZN+2
+81	ZN+2	zn2		c	Zinc	cofactor	ion	cpd00034	C00038C12570		-0.000341				ZN+2	ZN+2
 126	ADP	adp	C00008	c	ADP	cofactor	cofactor	cpd00008	C00008	ADPCPD0-1651	75.37723	104.997414	29.998	28.242	ADP	ADP
 131	S-ADENOSYLMETHIONINE	amet	C00019	c	S-Adenosyl-L-methionine	cofactor	cofactor	cpd00017	C00019	S-ADENOSYLMETHIONINE	-0.000223			1.00E-05	S-ADENOSYLMETHIONINE	S-ADENOSYLMETHIONINE
 139	CO-A	coa	C00131	c	Coenzyme A	cofactor	cofactor	cpd00010	C00010	CO-ACOA-GROUP	-0.000576		-6.00E-06	0.019	CO-A	CO-A
@@ -58,7 +58,7 @@
 22	DGTP	dgtp		c	DGTP	dna	dna	cpd00241	C00286	DGTP	-0.027017	-0.017398	-0.02153		DGTP	DGTP
 25	TTP	dttp		c	DTTP	dna	dna	cpd00357	C00459	TTP	-0.026166	-0.022899	-0.03312		TTP	TTP
 142	DATP	datp	C00286	c	DATP	dna	dna	cpd00115	C00131	DATP	-0.026166	-0.022982	-0.03312	0.011	DATP	DATP
-135	ATP	atp	C00002	c	ATP	energy	other and rna	cpd00002	C00002	ATPCPD0-1634	-75.55223	-105.053483	-30.1846	28.329	ATP	ATP
+135	ATP	atp	C00002	c	ATP	energy	other	cpd00002	C00002	ATPCPD0-1634	-75.55223	-105.053483	-30.1846	28.329	ATP	ATP
 3		3hdpgpe		c	2-O-(3'-hydroxy)phytanyl-3-O-phytanyl-sn-glycero-l-phosphoethanolamine	lipid	lipid	cpd15817					-0.002698			
 4	CPD-19667	3hdpgpi		c	2-O-(3'-hydroxyl)phytanyl-3-O-phytanyl-sn-glycero-1-phospho-myo-inositol	lipid	lipid	cpd15819					-0.01349		CPD-19667	CPD-19667
 20		d12dg_BS		c	Diglucosyl 1 2 diacylglycerol C4636H8672O1500	lipid	lipid	cpd11428				-0.00011				
@@ -107,7 +107,7 @@
 55		mql7		c	Menaquinol 7 C46H66O2		cofactor	cpd11451				-0.000266			CPD-12125	CPD-9730
 57	CPD0-2278	murein5px4p		p	"Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)"			cpd15514		CPD0-2278	-0.013894				CPD0-2278	CPD0-2278
 58	NADH	nadh		c	Nicotinamide adenine dinucleotide - reduced		cofactor	cpd00004					-5.00E-05		NADH	NADH
-61		ni2		c	Nickel		iron	cpd20862	C14711C19609		-0.000323				NI+2	
+61		ni2		c	Nickel		ion	cpd20862	C14711C19609		-0.000323				NI+2	
 63	CPD-12819	pe160		p	"Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)"			cpd15531		CPD-12819	-0.063814				CPD-12819	CPD-12819
 65		pe161		p	"Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)"			cpd29055		CPD-17086	-0.075214					
 67		pgly_BS		c	Phosphatidylglycerol  B subtils  C3736H7272O1000P100		delete	cpd11453				-0.000176				
@@ -123,7 +123,7 @@
 178			C00061		FMN									1.00E-05		
 179			C00133		D-Alanine		protein							0.158		
 180			C00251		Chorismate									0.0002		
-181			C00305		Mg		iron							1.00E-05		
+181			C00305		Mg		ion							1.00E-05		
 182			C00344		Phosphatidylglycerol									0.00079		
 183			C00627		Pyridoxine phosphate									1.00E-05		
 184			C00647		Pyridoxamine phosphate									1.00E-05		
