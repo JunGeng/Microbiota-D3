@@ -98,22 +98,22 @@
 10	BIOTIN	btn		c	Biotin	vitamin B7	other	cpd00104	C00120	BIOTIN	-2.00E-06				BIOTIN	BIOTIN
 153	WATER	h2o	C00001	c	H2O	water	other	cpd00001	C00001C01328C18714	CPD-15815HYDROXYL-GROUPOHOXONIUMWATER	-70.028756	-105	-30	33.129	WATER	WATER
 12		cdlp_BS		c	Cardiolipin  B subtilis  C7172H13744O1700P200		delete	cpd11426				-5.00E-06				
-43	CPD-1821	hspmd		c	Sym-Homospermidine			cpd03802					-0.0047		CPD-1821	CPD-1821
+43	CPD-1821	hspmd		c	Sym-Homospermidine		other	cpd03802					-0.0047		CPD-1821	CPD-1821
 47		lipo1_24_BS		c	Lipoteichoic acid  n24   linked  glucose substituted C26236H47072O25500P2400		lipid	cpd11445				-7.00E-06				
 48		lipo2_24_BS		c	Lipoteichoic acid  n24   linked  N acetyl D glucosamine C31036H54272N2400O25500P2400		lipid	cpd11446				-6.00E-06				
 49		lipo3_24_BS		c	Lipoteichoic acid  n24   linked  D alanine substituted C19036H39872N2400O18300P2400		lipid	cpd11447				-1.80E-05				
 50		lipo4_24_BS		c	Lipoteichoic acid  n24   linked  unsubstituted C11836H23072O13500P2400		lipid	cpd11448				-1.50E-05				
-54	CPD-3	mobd		c	Molybdate			cpd11574	C06232C15455	CPD-3	-7.00E-06					CPD-3
+54	CPD-3	mobd		c	Molybdate		ion	cpd11574	C06232C15455	CPD-3	-7.00E-06					CPD-3
 55		mql7		c	Menaquinol 7 C46H66O2		cofactor	cpd11451				-0.000266			CPD-12125	CPD-9730
-57	CPD0-2278	murein5px4p		p	"Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)"			cpd15514		CPD0-2278	-0.013894				CPD0-2278	CPD0-2278
+57	CPD0-2278	murein5px4p		p	"Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)"		other	cpd15514		CPD0-2278	-0.013894				CPD0-2278	CPD0-2278
 58	NADH	nadh		c	Nicotinamide adenine dinucleotide - reduced		cofactor	cpd00004					-5.00E-05		NADH	NADH
 61		ni2		c	Nickel		ion	cpd20862	C14711C19609		-0.000323				NI+2	
-63	CPD-12819	pe160		p	"Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)"			cpd15531		CPD-12819	-0.063814				CPD-12819	CPD-12819
-65		pe161		p	"Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)"			cpd29055		CPD-17086	-0.075214					
+63	CPD-12819	pe160		p	"Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)"		lipid	cpd15531		CPD-12819	-0.063814				CPD-12819	CPD-12819
+65		pe161		p	"Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)"		lipid	cpd29055		CPD-17086	-0.075214					
 67		pgly_BS		c	Phosphatidylglycerol  B subtils  C3736H7272O1000P100		delete	cpd11453				-0.000176				
 69	PPI	ppi		c	Diphosphate		cofactor	cpd00012	C00013	PPIPYROPHOSPHATE-GROUP	0.773903	-0.000918	0.799		"['PYROPHOSPHATE-GROUP', 'PPI']"	"['PPI', 'PYROPHOSPHATE-GROUP']"
 70		psetha_BS		c	Phosphatidylethanolamine  B subtilis  C3636H7172N100O800P100		delete	cpd29688				-0.00056				
-71	PUTRESCINE	ptrc		c	Putrescine			cpd00118					-0.0262		PUTRESCINE	PUTRESCINE
+71	PUTRESCINE	ptrc		c	Putrescine		other	cpd00118					-0.0262		PUTRESCINE	PUTRESCINE
 76	SUC-COA	succoa		c	Succinyl-CoA		cofactor	cpd00078	C00091	SUC-COA	-9.80E-05		-3.00E-06		SUC-COA	SUC-COA
 77		t12dg_BS		c	Triglucosyl 1 2 diacylglycerol C5236H9672O2000		delete	cpd11458				-6.60E-05				diacyl-3-Glc-16-Glc-16-Glc-glycerol
 80	CPD-9649	udcpdp		c	Undecaprenyl diphosphate			cpd25775		CPD-9649	-5.50E-05					CPD-9649
