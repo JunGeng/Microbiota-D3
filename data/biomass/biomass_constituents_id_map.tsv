@@ -1,5 +1,5 @@
 	metacyc_id	bigg_id	iMSU_Biomass_KEGGID	comp	name	observations_initial	observations_modified	seed_id	kegg_id_from_iML1515	metacyc_id_from_iML1515	iML1515	iYO844	iAF692	iSMU	metacyc_from_bigg	metacyc_from_seed
-37		glycogen		c	Glycogen	carbohydrate	carbohydrate	cpd00155					-0.01543			
+37	Glycogens	glycogen		c	Glycogen	carbohydrate	carbohydrate	cpd00155					-0.01543			
 39		gtca1_45_BS		c	Glycerol teichoic acid  n45   unlinked  unsubstituted C151H297N2O238P46	cellwall	carbohydrate	cpd15667				-0.003624				
 40		gtca2_45_BS		c	Glycerol teichoic acid  n45   unlinked  D ala substituted C286H612N47O328P46	cellwall	carbohydrate	cpd15668				-0.002347				
 41		gtca3_45_BS		c	Glycerol teichoic acid  n45   unlinked  glucose substituted C421H749N2O464P46	cellwall	carbohydrate	cpd15669				-0.001819				
@@ -29,7 +29,7 @@
 32		f420_6		c	Coenzyme ferredoxin 420-6	cofactor	cofactor	cpd15871					-1.10E-05			
 33		f420_7		c	Coenzyme ferredoxin 420-7	cofactor	cofactor	cpd15872					-1.00E-06			
 34		f430		c	Coenzyme F430	cofactor	cofactor						-0.002			
-35		fe2		c	Fe2+	cofactor	cofactor	cpd10515	C14818		-0.006715				FE+2	FE+2
+35	FE+2	fe2		c	Fe2+	cofactor	cofactor	cpd10515	C14818		-0.006715				FE+2	FE+2
 38	GMP	gmp		c	GMP	cofactor	cofactor	cpd00126				-0.000503			GMP	GMP
 42	CPD-8	h4spt		c	Tetrahydrosarcinapterin	cofactor	cofactor	cpd15884					-0.02362		CPD-8	CPD-8
 44	K+	k		c	Potassium	cofactor	cofactor	cpd00205	C00238C12568	KCL	-0.195193	-0.706312			K+	K+
@@ -41,14 +41,14 @@
 72	PYRIDOXAL_PHOSPHATE	pydx5p		c	Pyridoxal 5'-phosphate	cofactor	cofactor	cpd00016	C00018	PYRIDOXAL_PHOSPHATE	-0.000223				PYRIDOXAL_PHOSPHATE	PYRIDOXAL_PHOSPHATE
 73	RIBOFLAVIN	ribflv		c	Riboflavin	cofactor	cofactor	cpd00220	C00255	RIBOFLAVIN	-0.000223				RIBOFLAVIN	RIBOFLAVIN
 74	SIROHEME	sheme		c	Siroheme	cofactor	cofactor	cpd00557	C00748	SIROHEME	-0.000223				SIROHEME	SIROHEME
-75		so4		c	Sulfate	cofactor	cofactor	cpd00048	C00059	HSO4SULFATE	-0.004338				"['SULFATE', 'HSO4']"	"['HSO4', 'SULFATE']"
+75	SULFATE	so4		c	Sulfate	cofactor	cofactor	cpd00048	C00059	HSO4SULFATE	-0.004338				"['SULFATE', 'HSO4']"	"['HSO4', 'SULFATE']"
 81	ZN+2	zn2		c	Zinc	cofactor	ion	cpd00034	C00038C12570		-0.000341				ZN+2	ZN+2
 126	ADP	adp	C00008	c	ADP	cofactor	cofactor	cpd00008	C00008	ADPCPD0-1651	75.37723	104.997414	29.998	28.242	ADP	ADP
 131	S-ADENOSYLMETHIONINE	amet	C00019	c	S-Adenosyl-L-methionine	cofactor	cofactor	cpd00017	C00019	S-ADENOSYLMETHIONINE	-0.000223			1.00E-05	S-ADENOSYLMETHIONINE	S-ADENOSYLMETHIONINE
 139	CO-A	coa	C00131	c	Coenzyme A	cofactor	cofactor	cpd00010	C00010	CO-ACOA-GROUP	-0.000576		-6.00E-06	0.019	CO-A	CO-A
 145	FAD	fad	C00016	c	FAD	cofactor	cofactor	cpd00015	C00016	FAD	-0.000223			1.00E-05		"['Ox-FAD-Flavoproteins', 'FAD']"
-146		fe3	C00013	c	Fe3+	cofactor	cofactor	cpd10516	C14819		-0.007808	-0.00345		0.3401	FE+3	FE+3
-147		gdp	C00035	c	GDP	cofactor	cofactor	cpd00031				-0.00018		4.86	GDP	GDP
+146	FE+3	fe3	C00013	c	Fe3+	cofactor	cofactor	cpd10516	C14819		-0.007808	-0.00345		0.3401	FE+3	FE+3
+147	GDP	gdp	C00035	c	GDP	cofactor	cofactor	cpd00031				-0.00018		4.86	GDP	GDP
 159	NAD	nad	C00003	c	NAD	cofactor	cofactor	cpd00003	C00003	NAD	-0.001831	-0.016164	-0.00215	0.0002	NAD	NAD
 160	NADP	nadp	C00006	c	NADP	cofactor	cofactor	cpd00006	C00006	NADP	-0.000447	-0.000934	-0.00013	0.0002	NADP	NADP
 162	Pi	pi	C00009	c	Phosphate	cofactor	cofactor	cpd00009	C00009C13558	CPD-16459CPD-9010PHOSPHATE-GROUPPi	75.37323	104.985613	30	33.1	"['Pi', 'PHOSPHATE-GROUP', 'CPD-16459', 'CPD-20124']"	"['Pi', 'PHOSPHATE-GROUP', 'CPD-16459', 'CPD-20124']"
@@ -104,10 +104,10 @@
 49		lipo3_24_BS		c	Lipoteichoic acid  n24   linked  D alanine substituted C19036H39872N2400O18300P2400		lipid	cpd11447				-1.80E-05				
 50		lipo4_24_BS		c	Lipoteichoic acid  n24   linked  unsubstituted C11836H23072O13500P2400		lipid	cpd11448				-1.50E-05				
 54	CPD-3	mobd		c	Molybdate		ion	cpd11574	C06232C15455	CPD-3	-7.00E-06					CPD-3
-55		mql7		c	Menaquinol 7 C46H66O2		cofactor	cpd11451				-0.000266			CPD-12125	CPD-9730
+55	CPD-12125	mql7		c	Menaquinol 7 C46H66O2		cofactor	cpd11451				-0.000266			CPD-12125	CPD-9730
 57	CPD0-2278	murein5px4p		p	"Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)"		other	cpd15514		CPD0-2278	-0.013894				CPD0-2278	CPD0-2278
 58	NADH	nadh		c	Nicotinamide adenine dinucleotide - reduced		cofactor	cpd00004					-5.00E-05		NADH	NADH
-61		ni2		c	Nickel		ion	cpd20862	C14711C19609		-0.000323				NI+2	
+61	NI+2	ni2		c	Nickel		ion	cpd20862	C14711C19609		-0.000323				NI+2	
 63	CPD-12819	pe160		p	"Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)"		lipid	cpd15531		CPD-12819	-0.063814				CPD-12819	CPD-12819
 65		pe161		p	"Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)"		lipid	cpd29055		CPD-17086	-0.075214					
 67		pgly_BS		c	Phosphatidylglycerol  B subtils  C3736H7272O1000P100		delete	cpd11453				-0.000176				
@@ -115,7 +115,7 @@
 70		psetha_BS		c	Phosphatidylethanolamine  B subtilis  C3636H7172N100O800P100		delete	cpd29688				-0.00056				
 71	PUTRESCINE	ptrc		c	Putrescine		other	cpd00118					-0.0262		PUTRESCINE	PUTRESCINE
 76	SUC-COA	succoa		c	Succinyl-CoA		cofactor	cpd00078	C00091	SUC-COA	-9.80E-05		-3.00E-06		SUC-COA	SUC-COA
-77		t12dg_BS		c	Triglucosyl 1 2 diacylglycerol C5236H9672O2000		delete	cpd11458				-6.60E-05				diacyl-3-Glc-16-Glc-16-Glc-glycerol
+77	diacyl-3-Glc-16-Glc-16-Glc-glycerol	t12dg_BS		c	Triglucosyl 1 2 diacylglycerol C5236H9672O2000		delete	cpd11458				-6.60E-05				diacyl-3-Glc-16-Glc-16-Glc-glycerol
 80	CPD-9649	udcpdp		c	Undecaprenyl diphosphate		other	cpd25775		CPD-9649	-5.50E-05					CPD-9649
 175			C00029		UDP-glucose		other							0.758		
 176			C00043		UDP-N-acetylglucosamine		other							0.293		
