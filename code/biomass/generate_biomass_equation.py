@@ -81,9 +81,9 @@ model_a = get_biomass_model(archaea_dic, observations_list)
 
 import gemstool
 
-gemstool.io.gem2txt(model_n, 'biomass_negative.txt')
-gemstool.io.gem2txt(model_p, 'biomass_positive.txt')
-gemstool.io.gem2txt(model_a, 'biomass_archaea.txt')
+gemstool.io.gem2txt(model_n, 'biomass_negative_reactions.txt')
+gemstool.io.gem2txt(model_p, 'biomass_positive_reactions.txt')
+gemstool.io.gem2txt(model_a, 'biomass_archaea_reactions.txt')
 # #
 # # gram_n_df = gram_n_df[(gram_n_df['metacyc']!='')]
 # # gram_p_df = gram_p_df[(gram_p_df['metacyc']!='')]
