@@ -26,7 +26,7 @@ def get_biomass_model(dic_i, observations_list=False):
     '''
     :description : function to get a model contain biomass reactions from a dic
     :param :
-        dic_i(dic) : {'met': [coefficient, 'pool]}
+        dic_i(dic) : {'met_id': [coefficient, 'pool]}
                     eg. {'10-FORMYL-THF': [-0.000367, 'cofactor'],
                      'AMP': [-0.0046700000000000005, 'cofactor'],
                      'CPD-12125': [-0.000266, 'cofactor'],
