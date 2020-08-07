@@ -18,16 +18,29 @@ download  sequences
     - 'seq_rel_date': ascendingbool = False
 
   - after select the 'refseq_category' and 'relation_to_type_material', 115 species 'type' strain were selected
-  - organize seq files. copy selected files to genomic_sequences/ and protein_sequences/
+  - organize seq files. copy selected files to genomic_sequences/, gbff_sequences/ and protein_sequences/
 
 
 ## draft GEMs/
+### Master
 - step1_draftGEMs_from_metacyc.m
   - get draft GEM from MetaCyc by RAVEN
-
+- step2_add_biomass_and_media.py
+  - add biomass and media reactions
 
 ## biomass/
 - dna.py and rna.py functions to generate nda and rna coefficients adopt from: [BOFdat: Generating biomass objective functions for genome-scale metabolic models from experimental data
 ](https://github.com/jclachance/BOFdat)
-- 
+- biomass_constituents_id_map.py
+  - map bigg(from template biomass) id to Meatcyc
+- generate_biomass_equation.py
+  - generate biomass reactions and save as a model(.json)
+  - gram n p and archaea
+
+## media/
+- get_media_from_Metacyc_web.py
+  - get media tables from metacyc websites
+- generate_media_equation.py
+  - generate media reactions (transport and exchange reaction) and save as a model(.json)
+
 
