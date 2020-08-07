@@ -36,6 +36,8 @@ Microbiota-D3-Project-1st
       ```
       pip install cobra[all]
       ```
+* Diamond
+  * [github link](https://github.com/bbuchfink/diamond)
 
 ### Usage
 
