@@ -15,7 +15,6 @@ import wget
 import pandas as pd
 
 os.chdir('../../data/sequences_processing/')
-
 # load data
 refseq_info_df_initial = pd.read_csv('species_info.txt', sep='\t')
 refseq_info_df = refseq_info_df_initial.copy()
@@ -120,5 +119,6 @@ for index in range(0, final_df_copy.shape[0]):
 
     os.system('cp sequences/' + fna_name + ' genomic_sequences/' + organism_name + '_genomic.fna.gz')
     os.system('cp sequences/' + faa_name + ' protein_sequences/' + organism_name + '_protein.faa.gz')
+    os.system('cp sequences/' + gbff_name + ' gbff_sequences/' + organism_name + '_genomic.gbff.gz')
     print(index)
 print('Done')
