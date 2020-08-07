@@ -6,7 +6,7 @@
 66		peptido_BS		c	Peptidoglycan_polymer_n_subunits	cellwall	carbohydrate	cpd15665				-0.101817				
 78		tcam_BS		c	Minor teichoic acid  acetylgalactosamine glucose phosphate  n30  C420H750N30O420P30	cellwall	carbohydrate	cpd11459				-0.003112				
 0	10-FORMYL-THF	10fthf		c	10-Formyltetrahydrofolate	cofactor	cofactor	cpd00201	C00234	10-FORMYL-THF	-0.000223	-0.000367			10-FORMYL-THF	CPD-1771
-1		2fe2s		c	[2Fe-2S] iron-sulfur cluster	cofactor	ion	cpd24604			-2.60E-05				Elemental-Sulfur	
+1	CPD-6	2fe2s		c	[2Fe-2S] iron-sulfur cluster	cofactor	ion	cpd24604			-2.60E-05				Elemental-Sulfur	
 2	2-OCTAPRENYL-6-HYDROXYPHENOL	2ohph		c	2-Octaprenyl-6-hydroxyphenol	cofactor	cofactor	cpd03445	C05811	2-OCTAPRENYL-6-HYDROXYPHENOL	-0.000223				2-OCTAPRENYL-6-HYDROXYPHENOL	2-OCTAPRENYL-6-HYDROXYPHENOL
 5	CPD-7	4fe4s		c	[4Fe-4S] iron-sulfur cluster	cofactor	ion	cpd24682		CPD-7	-0.00026					CPD-7
 6	ACETYL-COA	accoa		c	Acetyl-CoA	cofactor	cofactor	cpd00022					-5.00E-05		ACETYL-COA	ACETYL-COA
@@ -109,7 +109,7 @@
 58	NADH	nadh		c	Nicotinamide adenine dinucleotide - reduced		cofactor	cpd00004					-5.00E-05		NADH	NADH
 61	NI+2	ni2		c	Nickel		ion	cpd20862	C14711C19609		-0.000323				NI+2	
 63	CPD-12819	pe160		p	"Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)"		lipid	cpd15531		CPD-12819	-0.063814				CPD-12819	CPD-12819
-65		pe161		p	"Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)"		lipid	cpd29055		CPD-17086	-0.075214					
+65	CPD-17086	pe161		p	"Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)"		lipid	cpd29055		CPD-17086	-0.075214					
 67		pgly_BS		c	Phosphatidylglycerol  B subtils  C3736H7272O1000P100		delete	cpd11453				-0.000176				
 69	PPI	ppi		c	Diphosphate		cofactor	cpd00012	C00013	PPIPYROPHOSPHATE-GROUP	0.773903	-0.000918	0.799		"['PYROPHOSPHATE-GROUP', 'PPI']"	"['PPI', 'PYROPHOSPHATE-GROUP']"
 70		psetha_BS		c	Phosphatidylethanolamine  B subtilis  C3636H7172N100O800P100		delete	cpd29688				-0.00056				
