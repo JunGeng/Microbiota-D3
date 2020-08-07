@@ -40,6 +40,7 @@ Microbiota-D3-Project-1st
 ### Usage
 
 modelFiles/.xml
+modelFiles/.mat
 
 
 ### Contributing
