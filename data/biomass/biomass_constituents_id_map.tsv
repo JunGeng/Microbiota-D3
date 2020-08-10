@@ -22,7 +22,7 @@
 19	CU+2	cu2		c	Cu2+	cofactor	ion	cpd00058	C00070		-0.000709				"['CU+2', 'Oxidized-Azurins']"	"['Oxidized-Azurins', 'CU+2']"
 26	CPD-10017	f390a		c	Coenzyme F390 (adenosine)	cofactor	cofactor	cpd15862					-5.00E-06		CPD-10017	CPD-10017
 27	CPD-19661	f390g		c	Coenzyme F390 (guanosine)	cofactor	cofactor	cpd15863					-5.00E-06		CPD-19661	CPD-19661
-28		f420_2		c	Coenzyme ferredoxin 420-2 (oxidized)	cofactor	cofactor	cpd00649					-4.30E-05			OX-COENZYME-F420
+28	OX-COENZYME-F420	f420_2		c	Coenzyme ferredoxin 420-2 (oxidized)	cofactor	cofactor	cpd00649					-4.30E-05			OX-COENZYME-F420
 29		f420_3		c	Coenzyme ferredoxin 420-3	cofactor	cofactor	cpd15868					-2.60E-05			
 30		f420_4		c	Coenzyme ferredoxin 420-4	cofactor	cofactor	cpd15869					-0.000374			
 31		f420_5		c	Coenzyme ferredoxin 420-5	cofactor	cofactor	cpd15870					-0.000299			
@@ -117,22 +117,22 @@
 76	SUC-COA	succoa		c	Succinyl-CoA		cofactor	cpd00078	C00091	SUC-COA	-9.80E-05		-3.00E-06		SUC-COA	SUC-COA
 77	diacyl-3-Glc-16-Glc-16-Glc-glycerol	t12dg_BS		c	Triglucosyl 1 2 diacylglycerol C5236H9672O2000		delete	cpd11458				-6.60E-05				diacyl-3-Glc-16-Glc-16-Glc-glycerol
 80	CPD-9649	udcpdp		c	Undecaprenyl diphosphate		other	cpd25775		CPD-9649	-5.50E-05					CPD-9649
-175			C00029		UDP-glucose		other							0.758		
-176			C00043		UDP-N-acetylglucosamine		other							0.293		
-177			C00052		UDP-galactose		other							0.129		
-178			C00061		FMN		cofactor							1.00E-05		
-179			C00133		D-Alanine		protein							0.158		
-180			C00251		Chorismate		other							0.0002		
-181			C00305		Mg		ion							1.00E-05		
-182			C00344		Phosphatidylglycerol									0.00079		
-183			C00627		Pyridoxine phosphate									1.00E-05		
-184			C00647		Pyridoxamine phosphate									1.00E-05		
-185			C00842		dTDPglucose									0.009		
-186			C01170		UDP-N-acetyl-D-mannosamine									0.017		
+175	CPD-12575		C00029		UDP-glucose		other							0.758		
+176	UDP-N-ACETYL-D-GLUCOSAMINE		C00043		UDP-N-acetylglucosamine		other							0.293		
+177	CPD-14553		C00052		UDP-galactose		other							0.129		
+178	FMN		C00061		FMN		cofactor							1.00E-05		
+179	D-ALANINE		C00133		D-Alanine		protein							0.158		
+180	CHORISMATE		C00251		Chorismate		other							0.0002		
+181	MG+2		C00305		Mg		ion							1.00E-05		
+182	L-1-PHOSPHATIDYL-GLYCEROL		C00344		Phosphatidylglycerol									0.00079		
+183	PYRIDOXINE-5P		C00627		Pyridoxine phosphate									1.00E-05		
+184	PYRIDOXAMINE-5P		C00647		Pyridoxamine phosphate									1.00E-05		
+185	DTDP-D-GLUCOSE		C00842		dTDPglucose									0.009		
+186	UDP-MANNAC		C01170		UDP-N-acetyl-D-mannosamine									0.017		
 187			C03294		N-Formylmethionyl-tRNA									0.008		
-188			C03319		dTDP-rhamnose									0.172		
-189			C04144		Tetrahydropteroyltri-L-glutamate									1.00E-05		
-190			C04574		Bactoprenyl diphosphate									0.0002		
+188	DTDP-RHAMNOSE		C03319		dTDP-rhamnose									0.172		
+189	CPD-1301		C04144		Tetrahydropteroyltri-L-glutamate									1.00E-05		
+190	UNDECAPRENYL-DIPHOSPHATE		C04574		Bactoprenyl diphosphate									0.0002		
 191			C05896(LYS)		Lys-type peptidoglycan									0.146		
-192			C05980		Cardiolipin									1.80E-05		
+192	CARDIOLIPIN		C05980		Cardiolipin									1.80E-05		
 193			C20897		Glycerophosphoglycoglycerolipid									0.00013		
