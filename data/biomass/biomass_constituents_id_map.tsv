@@ -28,7 +28,7 @@
 31		f420_5		c	Coenzyme ferredoxin 420-5	cofactor	cofactor	cpd15870					-0.000299			
 32		f420_6		c	Coenzyme ferredoxin 420-6	cofactor	cofactor	cpd15871					-1.10E-05			
 33		f420_7		c	Coenzyme ferredoxin 420-7	cofactor	cofactor	cpd15872					-1.00E-06			
-34		f430		c	Coenzyme F430	cofactor	cofactor						-0.002			
+34	CPD-7425	f430		c	Coenzyme F430	cofactor	cofactor						-0.002			
 35	FE+2	fe2		c	Fe2+	cofactor	cofactor	cpd10515	C14818		-0.006715				FE+2	FE+2
 38	GMP	gmp		c	GMP	cofactor	cofactor	cpd00126				-0.000503			GMP	GMP
 42	CPD-8	h4spt		c	Tetrahydrosarcinapterin	cofactor	cofactor	cpd15884					-0.02362		CPD-8	CPD-8
@@ -66,10 +66,10 @@
 24	CPD-15257	dpgps		c	"2,3-O-phytanyl-sn-glycero-1-phosphoserine"	lipid	lipid	cpd15861					-0.001349		CPD-15257	CPD-15257
 36		gdpgpi		c	Glucosaminyl archaetidyl-myo-inositol	lipid	lipid	cpd15880					-0.01619			
 46	KDO2-LIPID-IVA	kdo2lipid4		e	KDO(2)-lipid IV(A)	lipid	lipid	cpd03586	C06025	KDO2-LIPID-IVA	-0.019456				KDO2-LIPID-IVA	KDO2-LIPID-IVA
-124		3hdpgpg	C00010	c	2-O-(3'-hydroxy)phytanyl-3-O-phytanyl-sn-glycerol-1-phospho-3'-sn-glycerol	lipid	lipid	cpd15818					-0.01012	0.0002		
-125		3hdpgps	C00018	c	2-O-(3'-hydroxy)phytanyl-3-O-phytanyl-sn-glycero-l-phosphoserine	lipid	lipid	cpd15820					-0.01147	1.00E-05		
-143	CPD-17766	dpgpg	C00458	c	"2,3-di-O-phytanyl-sn-glycerol-1-phospho-3'-sn-glycerol"	lipid	lipid	cpd15859					-0.000674	0.011	CPD-17766	CPD-17766
-144		dpgpi	C00459	c	"2,3-O-phytanyl-sn-glycero-1-phospho-myo-inositol"	lipid	lipid	cpd15860					-0.002698	0.019		
+124		3hdpgpg		c	2-O-(3'-hydroxy)phytanyl-3-O-phytanyl-sn-glycerol-1-phospho-3'-sn-glycerol	lipid	lipid	cpd15818					-0.01012	0.0002		
+125		3hdpgps		c	2-O-(3'-hydroxy)phytanyl-3-O-phytanyl-sn-glycero-l-phosphoserine	lipid	lipid	cpd15820					-0.01147	1.00E-05		
+143	CPD-17766	dpgpg		c	"2,3-di-O-phytanyl-sn-glycerol-1-phospho-3'-sn-glycerol"	lipid	lipid	cpd15859					-0.000674	0.011	CPD-17766	CPD-17766
+144		dpgpi		c	"2,3-O-phytanyl-sn-glycero-1-phospho-myo-inositol"	lipid	lipid	cpd15860					-0.002698	0.019		
 60	AMMONIUM	nh4		c	Ammonium	nitrogen source	other	cpd00013	C00014C01342	AMMONIAAMMONIUM	-0.013013				"['AMMONIA', 'AMMONIUM']"	"['AMMONIUM', 'AMMONIA']"
 130	L-ALPHA-ALANINE	ala__L	C00041	c	L-Alanine	protein	protein	cpd00035	C00041C01401	L-ALPHA-ALANINE	-0.513689	-0.266902	-0.5621	0.181		L-ALPHA-ALANINE
 132	ARG	arg__L	C00062	c	L-Arginine	protein	protein	cpd00051	C00062C02385	ARG	-0.295792	-0.193021	-0.3237	0.095	ARG	ARG
