@@ -55,7 +55,7 @@ for index in iSMU_df.index:
     keeg_id = iSMU_df.loc[index,]['iMSU_Biomass_KEGGID']
     if keeg_id not in keegset and keeg_id in iML1515_keeg_list:
         index_2 = iML1515_keeg_list.index(keeg_id)
-        biomass_map_df.loc[index, ['iMSU_Biomass_KEGGID']] = keeg_id
+        biomass_map_df.loc[index_2, ['iMSU_Biomass_KEGGID']] = keeg_id
         print(keeg_id)
 
 biomass_map_df = biomass_map_df.merge(iSMU_df, how='outer',
