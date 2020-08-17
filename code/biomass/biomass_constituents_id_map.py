@@ -11,8 +11,8 @@
 
 import os
 
-import cobra
 import gemstool
+import numpy as np
 import pandas as pd
 
 os.chdir('../../data/biomass/')
@@ -25,7 +25,6 @@ os.chdir('../../data/biomass/')
 # iYO844 = cobra.io.load_json_model('../archive/iML1515.json')
 # for i in iML1515.metabolites:
 #     print(i.annotation)
-
 # %%< four template model biomass tabble >
 carveme_db = pd.read_excel(r'Biomass_compare_summary.xlsx', sheet_name='from carveme')  # iYO844 and iAF692
 
@@ -37,27 +36,57 @@ biomass_summary_df = pd.read_excel(r'Biomass_compare_summary.xlsx', sheet_name='
 biomass_summary_df = biomass_summary_df[['seed_id', 'bigg_id', 'comp', 'metacyc']]
 df = pd.read_excel(r'Biomass_Literatures_Templates_Combined_new_correct_upload.xlsx', sheet_name='Biomass References',
                    header=1)
-biomass_summary_df['iSMU'] = df['iSMU']
-biomass_summary_df = biomass_summary_df.dropna(how='all', subset=['metacyc', 'iSMU'])
+iSMU_df = pd.read_excel(r'iMSU_Biomass_KEGGID.xlsx', sheet_name='Sheet1', header=0)
+# biomass_summary_df['iSMU'] = df['iSMU']
+# biomass_summary_df = biomass_summary_df.dropna(how='all', subset=['metacyc', 'iSMU'])
 
 # merge tables
-biomass_map_df = carveme_db.merge(iML1515, on=['bigg_id', 'comp'], how='outer')
-biomass_map_df = biomass_map_df.merge(biomass_summary_df, how='outer', on=['bigg_id', 'comp', 'seed_id'])
+biomass_map_df = carveme_db.merge(iML1515, on=['bigg_id', 'comp'], how='outer', suffixes=['', '_y'])
+biomass_map_df = biomass_map_df.merge(biomass_summary_df, how='outer', on=['bigg_id', 'comp', 'seed_id'],
+                                      suffixes=['', '_y'])
+biomass_map_df = biomass_map_df.merge(biomass_summary_df, how='outer', on=['bigg_id', 'comp', 'seed_id'],
+                                      suffixes=['', '_y'])
+biomass_map_df = biomass_map_df.merge(iSMU_df[['iMSU_Biomass_Name', 'iMSU_Biomass_KEGGID']], how='left', left_on='name',
+                                      right_on='iMSU_Biomass_Name',
+                                      suffixes=['', '_y'])
+keegset = set(biomass_map_df['iMSU_Biomass_KEGGID'])
+iML1515_keeg_list = list(biomass_map_df['kegg.compound'])
+for index in iSMU_df.index:
+    keeg_id = iSMU_df.loc[index,]['iMSU_Biomass_KEGGID']
+    if keeg_id not in keegset and keeg_id in iML1515_keeg_list:
+        index_2 = iML1515_keeg_list.index(keeg_id)
+        biomass_map_df.loc[index_2, ['iMSU_Biomass_KEGGID']] = keeg_id
+        print(keeg_id)
 
+biomass_map_df = biomass_map_df.merge(iSMU_df, how='outer',
+                                      left_on='iMSU_Biomass_KEGGID', right_on='iMSU_Biomass_KEGGID',
+                                      suffixes=['', '_y'])
+biomass_map_df.loc[pd.isnull(biomass_map_df['name']), 'name'] = biomass_map_df[
+    pd.isnull(biomass_map_df['name']) ]['iMSU_Biomass_Name_y']
+
+# %%< rename columns >
+print(biomass_map_df.columns)
 # Index(['bigg_id', 'comp', 'seed_id', '@bacteria', '@grampos', '@gramneg',
-#        '@archaea', '@iAF1260', '@iJO1366', '@iYO844', '@iAF692', 'name_x',
+#        '@archaea', '@iAF1260', '@iJO1366', '@iYO844', '@iAF692', 'name',
 #        'observations', 'id', 'name_y', 'class', 'coeff', 'bigg.metabolite',
 #        'biocyc', 'chebi', 'hmdb', 'kegg.compound', 'metanetx.chemical',
-#        'seed.compound', 'kegg.drug', 'lipidmaps', 'kegg.glycan'],
+#        'seed.compound', 'kegg.drug', 'lipidmaps', 'kegg.glycan', 'iML1515',
+#        'metacyc', 'metacyc_y', 'iMSU_Biomass_Name', 'iMSU_Biomass_KEGGID',
+#        'iMSU_Biomass_Name_y', 'Coef'],
+#       dtype='object')
 
 biomass_map_df = biomass_map_df[
-    ['metacyc', 'bigg_id', 'comp', 'seed_id', 'kegg.compound', 'biocyc', 'iML1515', '@iYO844', '@iAF692', 'iSMU']]
+    ['metacyc', 'bigg_id', 'iMSU_Biomass_KEGGID', 'comp', 'name', 'observations', 'seed_id', 'kegg.compound', 'biocyc',
+     'iML1515', '@iYO844',
+     '@iAF692', 'Coef']]
 biomass_map_df.columns = [
-    'metacyc_id', 'bigg_id', 'comp', 'seed_id', 'kegg_id_from_iML1515', 'metacyc_id_from_iML1515', 'iML1515', 'iYO844',
+    'metacyc_id', 'bigg_id', 'iMSU_Biomass_KEGGID', 'comp', 'name', 'observations', 'seed_id', 'kegg_id_from_iML1515',
+    'metacyc_id_from_iML1515', 'iML1515', 'iYO844',
     'iAF692', 'iSMU']
 
 biomass_map_df = biomass_map_df.dropna(how='all', subset=['iML1515', 'iYO844', 'iAF692', 'iSMU'])
-
+biomass_map_df = biomass_map_df.fillna('')
+biomass_map_df = biomass_map_df.drop_duplicates(keep='first')
 # %% <map id>
 
 targetlist1, MNX_IDlist = gemstool.mapIDsViaMNXref.mapIDsViaMNXref('mets', biomass_map_df['bigg_id'].tolist(), 'biggM',
@@ -86,7 +115,7 @@ index = biomass_map_df.apply(lambda x: (
         x.metacyc_from_bigg != '')), axis=1)
 biomass_map_df['metacyc_id'][index] = biomass_map_df['metacyc_from_bigg'][index]
 
-biomass_map_df.to_csv('biomass_constituents_id_map.tsv', sep='\t')
+biomass_map_df.to_csv('biomass_constituents_id_map_initial.tsv', sep='\t')
 
 # %% <get reaction>
 gram_n_df = biomass_map_df[['metacyc_id', 'bigg_id', 'comp', 'seed_id', 'iML1515']][biomass_map_df['iML1515'] != '']
