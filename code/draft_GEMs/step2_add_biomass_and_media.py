@@ -69,10 +69,16 @@ gram = species_dic[name_list[index]][1]
 
 if gram == 'GramNegative':
     biomass_model = biomass_n_model
+    DNA_WEIGHT_FRACTION = 0.032754653286106
+    RNA_WEIGHT_FRACTION = 0.2173669926367441
 elif gram == 'GramPositive':
     biomass_model = biomass_p_model
+    DNA_WEIGHT_FRACTION = 0.024836038302619
+    RNA_WEIGHT_FRACTION = 0.06834193130139973
 elif gram == 'Archaea':
     biomass_model = biomass_a_model
+    DNA_WEIGHT_FRACTION = 0.03365199989709999
+    RNA_WEIGHT_FRACTION = 0.22444954697759986
 else:
     print('Error')
 
