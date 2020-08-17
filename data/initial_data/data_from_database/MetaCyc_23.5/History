@@ -1,0 +1,8 @@
+pkarp:May-16-2001 
+Saved MetaCyc to disk just before importing EcoCyc data into MetaCyc.
+
+pkarp:May-10-2001 
+Saved MetaCyc to disk under v 5.5 after running the consistency checker.
+All seemed to be well.  This is in preparation for doing a large-scale
+import of EcoCyc data into MetaCyc.
+

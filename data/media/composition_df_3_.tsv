@@ -1,0 +1,41 @@
+  	Constituents        	Link                                          	Concentration_C.perfiringens MM	Role_C.perfiringens MM
+0
+1 	D-glucose           	/META/NEW-IMAGE?type=COMPOUND&object=D-Glucose	56 mM
+2 	Na+                 	/compound?orgid=META&id=NA%2b                 	48.96 mM
+3 	phosphate           	/compound?orgid=META&id=Pi                    	20.08 mM
+4 	L-arginine          	/compound?orgid=META&id=ARG                   	14.3 mM
+5 	thioglycolate       	/compound?orgid=META&id=THIOGLYCOLATE         	8.8 mM
+6 	L-aspartate         	/compound?orgid=META&id=L-ASPARTATE           	7.6 mM
+7 	L-glutamate         	/compound?orgid=META&id=GLT                   	6.8 mM
+8 	glycine             	/compound?orgid=META&id=GLY                   	6.7 mM
+9 	dihydrogen phosphate	/compound?orgid=META&id=CPD-16459             	5.1 mM
+10	K+                  	/compound?orgid=META&id=K%2b                  	5.1 mM
+11	L-threonine         	/compound?orgid=META&id=THR                   	4.2 mM
+12	L-isoleucine        	/compound?orgid=META&id=ILE                   	3.8 mM
+13	L-leucine           	/compound?orgid=META&id=LEU                   	3.8 mM
+14	L-serine            	/compound?orgid=META&id=SER                   	3.568 mM
+15	L-lysine            	/compound?orgid=META&id=LYS                   	3.4 mM
+16	L-cysteine          	/compound?orgid=META&id=CYS                   	3.3 mM
+17	L-valine            	/compound?orgid=META&id=VAL                   	3.201 mM
+18	L-histidine         	/compound?orgid=META&id=HIS                   	3.2 mM
+19	L-alanine           	/compound?orgid=META&id=L-ALPHA-ALANINE       	2.81 mM
+20	L-methionine        	/compound?orgid=META&id=MET                   	2.35 mM
+21	L-proline           	/compound?orgid=META&id=PRO                   	2.17 mM
+22	L-phenylalanine     	/compound?orgid=META&id=PHE                   	1.51 mM
+23	L-ascorbate         	/compound?orgid=META&id=ASCORBATE             	1.43 mM
+24	L-tyrosine          	/compound?orgid=META&id=TYR                   	1.38 mM
+25	L-tryptophan        	/compound?orgid=META&id=TRP                   	1.22 mM
+26	sulfate             	/compound?orgid=META&id=SULFATE               	983.7 µM
+27	Mg2+                	/compound?orgid=META&id=MG%2b2                	410 µM
+28	Mn2+                	/compound?orgid=META&id=MN%2b2                	223.7 µM
+29	Fe2+                	/compound?orgid=META&id=FE%2b2                	180 µM
+30	Zn2+                	/compound?orgid=META&id=ZN%2b2                	170 µM
+31	adenine             	/compound?orgid=META&id=ADENINE               	128.8 µM
+32	uracil              	/compound?orgid=META&id=URACIL                	89.0 µM
+33	HCl                 	/compound?orgid=META&id=HCL                   	9.6604 µM
+34	nicotinate          	/compound?orgid=META&id=NIACINE               	8.2 µM
+35	(R)-pantothenate    	/compound?orgid=META&id=PANTOTHENATE          	4.2 µM
+36	thiamine            	/compound?orgid=META&id=THIAMINE              	3.3 µM
+37	pyridoxamine        	/compound?orgid=META&id=PYRIDOXAMINE          	3.1802 µM
+38	Ca2+                	/compound?orgid=META&id=CA%2b2                	2.1 µM
+39	biotin              	/compound?orgid=META&id=BIOTIN                	21 nM

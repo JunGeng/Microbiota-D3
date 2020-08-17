@@ -1,0 +1,682 @@
+# Copyright SRI International 1999-2019, Marine Biological Laboratory 1998-2001, DoubleTwist Inc 1998-1999.  All Rights Reserved.
+#
+# Authors:
+#    Ron Caspi
+#    Carol A Fulcher
+#    Anamika Kothari
+#    Markus Krummenacker
+#    Mario Latendresse
+#    Suzanne Paley
+#    Pallavi Subhraveti
+#    Peifen Zhang
+#    Sue Rhee
+#    Hartmut Foerster
+#    Lukas Mueller
+#    Peter D Karp
+#
+# Please see the license agreement regarding the use of and distribution of this file.
+# The format of this file is defined at http://bioinformatics.ai.sri.com/ptools/flatfile-format.html .
+#
+# Filename: /homedir/brg/aic/pgdbs/tier1/metacyc/23.5/data/transporters.col
+#
+# Organism: MetaCyc
+# Database: MetaCyc
+# Version: 23.5
+# Date and time generated: December 11, 2019, 16:53:45
+#
+UNIQUE-ID	NAME	REACTION-EQUATION	SUBUNIT-COMPOSITION
+MONOMER-14257	carboxybiotin decarboxylase	[a carboxylated biotinylated MadF protein] + n Na+[in] + H+  <-->  CO2 + [a biotinylated MadF protein] + n Na+[extracellular space]	1*MONOMER-14257
+NUPC-MONOMER	nucleoside:H<sup>+</sup> symporter NupC	uridine[periplasm] + H+[periplasm]  <-->  uridine[cytosol] + H+[cytosol]	1*NUPC-MONOMER
+CPLX-165	mannose-specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + 2-deoxy-D-glucose[periplasm]  <-->  an [HPr]-L-histidine[cytosol] + 2-deoxy-D-glucose 6-phosphate	2*MANZ-MONOMER,1*MANY-MONOMER,2*MANX-MONOMER
+CPLX66-226	large neutral amino acid transporter 1	L-leucine[out]  <-->  L-leucine[in]	1*ENSG00000168003-MONOMER,1*ENSG00000103257-MONOMER
+CPLX0-7906	L-carnitine:&gamma;-butyrobetaine antiporter	gamma-butyrobetaine[cytosol] + L-carnitine[periplasm]  <-->  gamma-butyrobetaine[periplasm] + L-carnitine[cytosol]	3*CAIT-MONOMER
+		thymine[cytosol]  <-->  thymine[periplasm]	
+ABC-16-CPLX	maltose ABC transporter	maltotetraose[periplasm] + ATP + H2O  <-->  ADP + maltotetraose[cytosol] + phosphate + H+	2*MALK-MONOMER,1*MALF-MONOMER,1*MALG-MONOMER,1*MALE-MONOMER
+PNUC-MONOMER	nicotinamide riboside transporter	1-(beta-D ribofuranosyl)nicotinamide[periplasm]  <-->  1-(beta-D ribofuranosyl)nicotinamide[cytosol]	1*PNUC-MONOMER
+		heme b[cytosol] + ATP + H2O  <-->  heme b[periplasm] + ADP + phosphate + H+	
+		4-amino-2-methyl-5-pyrimidinemethanol[periplasm]  <-->  4-amino-2-methyl-5-pyrimidinemethanol[cytosol]	
+		ATP + a monosaccharide[extracellular space] + H2O  <-->  ADP + a monosaccharide[cytosol] + phosphate	
+YHFM-MONOMER	fructoselysine/psicoselysine transporter	N6-(D-fructosyl)-L-lysine[periplasm]  <-->  N6-(D-fructosyl)-L-lysine[cytosol]	1*YHFM-MONOMER
+G6984-MONOMER	leucine exporter	L-leucine[cytosol] + H+[periplasm]  <-->  L-leucine[periplasm] + H+[cytosol]	1*G6984-MONOMER
+CPLX0-4	aromatic carboxylic acid efflux pump	4-hydroxybenzoate[cytosol] + H+[periplasm]  <-->  4-hydroxybenzoate[periplasm] + H+[cytosol]	1*G7686-MONOMER,1*G7685-MONOMER
+B0612-MONOMER	citrate:succinate antiporter	succinate[cytosol] + citrate[periplasm]  <-->  citrate[cytosol] + succinate[periplasm]	1*B0612-MONOMER
+		ATP + Mn2+[in] + H2O  <-->  ADP + Mn2+[out] + phosphate + H+	
+TNAB-MONOMER	tryptophan:H<sup>+</sup> symporter TnaB	L-tryptophan[periplasm] + H+[periplasm]  <-->  L-tryptophan[cytosol] + H+[cytosol]	1*TNAB-MONOMER
+B1296-MONOMER	putrescine:H<sup>+</sup> symporter PuuP	putrescine[periplasm] + H+[periplasm]  <-->  putrescine[cytosol] + H+[cytosol]	1*B1296-MONOMER
+EG12455-MONOMER	lysophospholipid transporter	a lyso-cardiolipin[periplasm]  <-->  a lyso-cardiolipin[cytosol]	1*EG12455-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + alpha-L-sorbofuranose[periplasm]  <-->  alpha-L-sorbofuranose 1-phosphate[cytosol] + an [HPr]-L-histidine	
+ABC-64-CPLX	taurine ABC transporter	taurine[out] + ATP + H2O  <-->  taurine[in] + ADP + phosphate + H+	1*TAUA-MONOMER,2*TAUC-MONOMER,2*TAUB-MONOMER
+PYRNUTRANSHYDROGEN-CPLX	pyridine nucleotide transhydrogenase	NADPH + NAD+ + H+[cytosol]  <-->  NADP+ + NADH + H+[periplasm]	2*PNTB-MONOMER,2*PNTA-MONOMER
+TRANS-CPLX-204	multidrug efflux pump MdtEF-TolC	an erythromycin[periplasm] + H+[periplasm]  <-->  an erythromycin[extracellular space] + H+[cytosol]	3*EG11009-MONOMER,1*EG12240-MONOMER,1*YHIV-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + beta-D-fructopyranose[periplasm]  <-->  beta-D-fructopyranose 1-phosphate[cytosol] + an [HPr]-L-histidine	
+ABC-25-CPLX	putrescine ABC transporter	ATP + putrescine[out] + H2O  <-->  ADP + putrescine[in] + phosphate + H+	2*POTG-MONOMER,1*POTH-MONOMER,1*POTI-MONOMER,1*POTF-MONOMER
+G185E-5445-MONOMER	drugs-transport transmembrane ATP-binding protein ABC transporter	ATP + trehalose-trans-methoxy-mono-mycolate[cytosol] + H2O  <-->  ADP + trehalose-trans-methoxy-mono-mycolate[periplasm] + phosphate + H+	1*G185E-5445-MONOMER
+CPLX0-7807	putative multidrug efflux pump MdtNOP	sulfadiazine[periplasm] + H+[periplasm]  <-->  sulfadiazine[extracellular space] + H+[cytosol]	1*EG11952-MONOMER,1*YJCQ-MONOMER,1*EG11954-MONOMER
+G7942-MONOMER	pyruvate:H<sup>+</sup> symporter	pyruvate[periplasm] + H+[periplasm]  <-->  pyruvate[cytosol] + H+[cytosol]	1*G7942-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + N-acetyl-alpha-D-glucosamine[periplasm]  <-->  N-acetyl-alpha-D-glucosamine 6-phosphate[cytosol] + an [HPr]-L-histidine	
+CYCA-MONOMER	D-serine/alanine/glycine/:H<sup>+</sup>symporter	D-serine[periplasm] + H+[periplasm]  <-->  D-serine[cytosol] + H+[cytosol]	1*CYCA-MONOMER
+XAPB-MONOMER	xanthosine:H<sup>+</sup> symporter XapB	xanthosine[periplasm] + H+[periplasm]  <-->  xanthosine[cytosol] + H+[cytosol]	1*XAPB-MONOMER
+		L-histidine[out] + H+[out]  <-->  L-histidine[in] + H+[in]	
+G6934-MONOMER	cystine/sulfocysteine:cation symporter	L-cystine[periplasm] + H+[periplasm]  <-->  L-cystine[cytosol] + H+[cytosol]	1*G6934-MONOMER
+CPLX-8974	alginate periplasmic scaffold	mannuronan[cytosol]  <-->  mannuronan[periplasm]	1*MONOMER-19197,1*MONOMER-19196,1*MONOMER-19195,1*MONOMER-19194,1*MONOMER-19193
+YFEP-MONOMER	Mn<sup>2+</sup>/Fe<sup>2+</sup>: H<sup>+</sup> symporter MntH	Mn2+[periplasm] + H+[periplasm]  <-->  Mn2+[cytosol] + H+[cytosol]	1*YFEP-MONOMER
+MONOMER-17076	glucosyl-oleandomycin-exporting ATPase	ATP + glucosyl-oleandomycin[cytosol] + H2O  <-->  ADP + glucosyl-oleandomycin[extracellular space] + phosphate + H+	1*MONOMER-17076
+MONOMER-14778	purine transporter	cis-zeatin[extracellular space] + H+[extracellular space]  <-->  cis-zeatin[cytosol] + H+[cytosol]	1*MONOMER-14778
+ENSG00000178537-MONOMER	mitochondrial carnitine/acylcarnitine carrier protein	an O-acyl-L-carnitine[mitochondrial intermembrane space] + L-carnitine[mitochondrial lumen]  <-->  an O-acyl-L-carnitine[mitochondrial lumen] + L-carnitine[mitochondrial intermembrane space]	1*ENSG00000178537-MONOMER
+		iron(III) dicitrate[extracellular space]  <-->  iron(III) dicitrate[cytosol]	
+CPLX0-7653	water channel AqpZ	H2O[periplasm]  <-->  H2O[cytosol]	4*AQPZ-MONOMER
+CPLX0-7955	acetate/glycolate:cation symporter	tellurite[periplasm] + Na+[periplasm]  <-->  tellurite[cytosol] + Na+[cytosol]	2*YJCG-MONOMER
+		an alpha factor[cytosol] + ATP + H2O  <-->  an alpha factor[extracellular space] + ADP + phosphate	
+		Na+[periplasm] + L-alanine[periplasm]  <-->  Na+[cytosol] + L-alanine[cytosol]	
+		dihydroxyacetone[periplasm]  <-->  dihydroxyacetone[cytosol]	
+CPLX0-1941	ferric enterobactin outer membrane transport complex	iron(III)-enterobactin complex[extracellular space] + H+[periplasm]  <-->  iron(III)-enterobactin complex[periplasm] + H+[cytosol]	1*EG10272-MONOMER,1*EG10271-MONOMER,1*EG11012-MONOMER,1*EG10293-MONOMER
+NUPC-MONOMER	nucleoside:H<sup>+</sup> symporter NupC	2'-deoxyuridine[periplasm] + H+[periplasm]  <-->  2'-deoxyuridine[cytosol] + H+[cytosol]	1*NUPC-MONOMER
+CPLX0-7654	glycerol facilitator	glycine[periplasm]  <-->  glycine[cytosol]	4*GLPF-MONOMER
+METNIQ-METHIONINE-ABC-CPLX	L-methionine/D-methionine ABC transporter	D-selenomethionine[periplasm] + ATP + H2O  <-->  D-selenomethionine[cytosol] + ADP + phosphate + H+	2*ABC-MONOMER,2*METI-MONOMER,1*METQ-MONOMER
+ABC-49-CPLX	glutathione ABC transporter	glutathione[periplasm] + ATP + H2O  <-->  glutathione[cytosol] + ADP + phosphate + H+	1*YLIA-MONOMER,1*YLIB-MONOMER,1*YLID-MONOMER,1*YLIC-MONOMER
+		a dolichyl beta-D-mannosyl phosphate[cytosol]  <-->  a dolichyl beta-D-mannosyl phosphate[rough endoplasmic reticulum lumen]	
+MELB-MONOMER	melibiose:H<sup>+</sup>/Na<sup>+</sup>/Li<sup>+</sup> symporter	methyl-beta-D-galactoside[periplasm] + Na+[periplasm]  <-->  methyl-beta-D-galactoside[cytosol] + Na+[cytosol]	1*MELB-MONOMER
+GALP-MONOMER	galactose:H<sup>+</sup> symporter	D-glucopyranose[periplasm] + H+[periplasm]  <-->  D-glucopyranose[cytosol] + H+[cytosol]	1*GALP-MONOMER
+LYSP-MONOMER	lysine:H<sup>+</sup> symporter	L-lysine[periplasm] + H+[periplasm]  <-->  L-lysine[cytosol] + H+[cytosol]	1*LYSP-MONOMER
+		Cu+[cytosol] + ATP + H2O  <-->  Cu+[extracellular space] + ADP + phosphate + H+	
+DCUA-MONOMER	C4-dicarboxylate transporter DcuA	L-aspartate[periplasm] + fumarate[cytosol]  <-->  L-aspartate[cytosol] + fumarate[periplasm]	1*DCUA-MONOMER
+UHPT-MONOMER	hexose-6-phosphate:phosphate antiporter	D-fructofuranose 6-phosphate[periplasm] + phosphate[cytosol]  <-->  D-fructofuranose 6-phosphate[cytosol] + phosphate[periplasm]	1*UHPT-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + D-galactopyranose[out]  <-->  D-galactopyranose 6-phosphate[in] + an [HPr]-L-histidine	
+ABC-70-CPLX	sulfate/thiosulfate ABC transporter	selenate[periplasm] + ATP + H2O  <-->  selenate[cytosol] + ADP + phosphate + H+	1*SBP-MONOMER,1*CYSW-MONOMER,1*CYST-MONOMER,2*CYSA-MONOMER
+ABC-4-CPLX	L-arginine ABC transporter	ATP + L-arginine[periplasm] + H2O  <-->  ADP + L-arginine[cytosol] + phosphate + H+	2*ARTP-MONOMER,1*ARTM-MONOMER,1*ARTQ-MONOMER,1*ARTJ-MONOMER
+		ATP + guanine[in] + H2O  <-->  ADP + guanine[out] + phosphate + H+	
+B1006-MONOMER	pyrimidine:H<sup>+</sup> symporter	thymine[periplasm] + H+[periplasm]  <-->  thymine[cytosol] + H+[cytosol]	1*B1006-MONOMER
+		methanol[cytosol]  <-->  methanol[periplasm]	
+		an [HPr protein]-Npi-phospho-L-histidine + keto-D-fructose[periplasm]  <-->  keto-D-fructose 1-phosphate[cytosol] + an [HPr]-L-histidine	
+		chloride[side 1] + ATP + H2O  <-->  chloride[side 2] + ADP + phosphate + H+	
+ABC-19-CPLX	molybdate ABC transporter	ATP + molybdate[out] + H2O  <-->  ADP + molybdate[in] + phosphate + H+	1*MODC-MONOMER,2*MODB-MONOMER,1*MODA-MONOMER
+MONOMER-21008	trivalent organoarsenicals efflux protein ArsP	roxarsone (III)[in] + H+[out]  <-->  roxarsone (III)[out] + H+[in]	1*MONOMER-21008
+YDHE-MONOMER	multidrug efflux pump MdtK	norfloxacin[cytosol] + Na+[periplasm]  <-->  norfloxacin[periplasm] + Na+[cytosol]	1*YDHE-MONOMER
+		phenylacetaldehyde[periplasm]  <-->  phenylacetaldehyde[cytosol]	
+MONOMER-20046	chitoporin	a chitodextrin[extracellular space]  <-->  a chitodextrin[periplasm]	1*MONOMER-20046
+B1634-MONOMER	dipeptide/tripeptide:H<sup>+</sup> symporter DtpA	a tripeptide[periplasm] + H+[periplasm]  <-->  a tripeptide[cytosol] + H+[cytosol]	1*B1634-MONOMER
+DCUA-MONOMER	C4-dicarboxylate transporter DcuA	fumarate[periplasm] + 3 H+[periplasm]  <-->  fumarate[cytosol] + 3 H+[cytosol]	1*DCUA-MONOMER
+AMPG-MONOMER	muropeptide:H<sup>+</sup> symporter	GlcNAc-1,6-anhMurNAc-L-Ala-gamma-D-Glu-DAP-D-Ala[periplasm] + H+[periplasm]  <-->  GlcNAc-1,6-anhMurNAc-L-Ala-gamma-D-Glu-DAP-D-Ala[cytosol] + H+[cytosol]	1*AMPG-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + D-galactose[periplasm]  <-->  a D-galactose 6-phosphate[cytosol] + an [HPr]-L-histidine	
+ABC-35-CPLX	heme trafficking system CcmABCDE	protoheme[cytosol] + ATP + H2O  <-->  protoheme[periplasm] + ADP + phosphate + H+	1*CCME-MONOMER,1*EG12169-MONOMER,1*CCMB-MONOMER,2*CCMA-MONOMER,1*CCMC-MONOMER
+AT1G58360-MONOMER	amino acid permease 1	2 L-alanine[out] + 2 H+[out]  <-->  2 L-alanine[in] + 2 H+[in]	1*AT1G58360-MONOMER
+MONOMER-17399	oxaloacetate/malate antiporter / malate/oxaloacetate antiporter	oxaloacetate[mitochondrial lumen]  <-->  oxaloacetate[cytosol]	1*MONOMER-17399
+PITA-MONOMER	metal phosphate:H<sup>+</sup> symporter PitA	tellurite[periplasm] + H+[periplasm]  <-->  tellurite[cytosol] + H+[cytosol]	1*PITA-MONOMER
+		nitrite[cytosol] + H+[periplasm]  <-->  nitrite[periplasm] + H+[cytosol]	
+CPLX0-7992	lipopolysaccharide transport system	a lipopolysaccharide[periplasm] + ATP + H2O  <-->  a lipopolysaccharide[extracellular space] + ADP + phosphate + H+	1*EG10855-MONOMER,1*EG11569-MONOMER,1*G7889-MONOMER,1*G7664-MONOMER,1*YHBN-MONOMER,2*YHBG-MONOMER,1*G7888-MONOMER
+CPLX-7939	cystine/glutamate antiporter system x<sub>c</sub><sup>-</sup>	L-glutamate[cytosol] + L-cystine[extracellular space]  <-->  L-cystine[cytosol] + L-glutamate[extracellular space]	1*ENSG00000168003-MONOMER,1*ENSG00000151012-MONOMER
+CYCA-MONOMER	D-serine/alanine/glycine/:H<sup>+</sup>symporter	D-alanine[periplasm] + H+[periplasm]  <-->  D-alanine[cytosol] + H+[cytosol]	1*CYCA-MONOMER
+MONOMER-14768	purine permease	adenine[extracellular space] + H+[extracellular space]  <-->  adenine[cytosol] + H+[cytosol]	1*MONOMER-14768
+CPLX-167	N-acetylglucosamine-specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + D-glucosamine[periplasm]  <-->  D-glucosamine 6-phosphate[cytosol] + an [HPr]-L-histidine	2*NAGE-MONOMER
+CPLX0-7843	formate channel FocA	phosphinate[cytosol]  <-->  phosphinate[periplasm]	5*FOCA-MONOMER
+B2975-MONOMER	glycolate/lactate:H<sup>+</sup> symporter GlcA	(S)-2-hydroxybutanoate[periplasm] + H+[periplasm]  <-->  (S)-2-hydroxybutanoate[cytosol] + H+[cytosol]	1*B2975-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + beta-D-galactopyranose[out]  <-->  beta-D-galactose 6-phosphate[in] + an [HPr]-L-histidine	
+CPLX0-7535	arginine:agmatine antiporter	agmatine[cytosol] + L-arginine[periplasm]  <-->  agmatine[periplasm] + L-arginine[cytosol]	2*YJDE-MONOMER
+CORA-MONOMER	Ni<sup>2+</sup>/Co<sup>2+</sup>/Mg<sup>2+</sup> transporter	Mg2+[periplasm]  <-->  Mg2+[cytosol]	1*CORA-MONOMER
+ABC-5-CPLX	vitamin B<sub>12</sub> ABC transporter	ATP + cob(I)alamin[periplasm] + H2O  <-->  ADP + cob(I)alamin[cytosol] + phosphate + H+	2*BTUD-MONOMER,2*BTUC-MONOMER,1*EG12334-MONOMER
+EG11512-MONOMER	acetate/succinate:H<sup>+</sup> symporter	acetate[periplasm] + H+[periplasm]  <-->  acetate[cytosol] + H+[cytosol]	1*EG11512-MONOMER
+CPLX1QP9-157	fructoselysine/glucoselysine PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + N6-(D-fructosyl)-L-lysine[periplasm]  <-->  an [HPr]-L-histidine + N6-(6-phospho-D-fructosyl)-L-lysine[cytosol]	1*STM14_RS23780-MONOMER,1*STM14_RS23775-MONOMER,1*STM14_RS23770-MONOMER,1*STM14_RS23765-MONOMER
+CPLX0-2121	multidrug efflux pump EmrAB-TolC	carbonylcyanide m-chlorophenylhydrazone[cytosol] + H+[periplasm]  <-->  carbonylcyanide m-chlorophenylhydrazone[extracellular space] + H+[cytosol]	3*EG11009-MONOMER,1*EG11354-MONOMER,1*EMRB-MONOMER
+DCTA-MONOMER	C4 dicarboxylate/orotate:H<sup>+</sup> symporter	(S)-malate[periplasm] + 2 H+[periplasm]  <-->  (S)-malate[cytosol] + 2 H+[cytosol]	1*DCTA-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + alpha-D-fructofuranose[periplasm]  <-->  alpha-D-fructofuranose 1-phosphate[cytosol] + an [HPr]-L-histidine	
+CPLX0-7654	glycerol facilitator	arsenite[periplasm]  <-->  arsenite[cytosol]	4*GLPF-MONOMER
+CPLX0-1924	vitamin B12 outer membrane transport complex	cob(I)alamin[extracellular space] + H+[periplasm]  <-->  cob(I)alamin[periplasm] + H+[cytosol]	1*EG10272-MONOMER,1*EG10271-MONOMER,1*EG11012-MONOMER,1*EG10126-MONOMER
+ABC-20-CPLX	Ni(2+) ABC transporter	Ni2+[out] + ATP + H2O  <-->  Ni2+[in] + ADP + phosphate + H+	1*NIKD-MONOMER,1*NIKE-MONOMER,1*NIKB-MONOMER,1*NIKC-MONOMER,1*NIKA-MONOMER
+		L-methionine-(S)-S-oxide[periplasm] + ATP + H2O  <-->  L-methionine-(S)-S-oxide[cytosol] + ADP + phosphate + H+	
+YDHE-MONOMER	multidrug efflux pump MdtK	deoxycholate[cytosol] + Na+[periplasm]  <-->  deoxycholate[periplasm] + Na+[cytosol]	1*YDHE-MONOMER
+NUPC-MONOMER	nucleoside:H<sup>+</sup> symporter NupC	adenosine[periplasm] + H+[periplasm]  <-->  adenosine[cytosol] + H+[cytosol]	1*NUPC-MONOMER
+ABC-29-CPLX	putrescine ABC exporter	ATP + putrescine[in] + H2O  <-->  ADP + putrescine[out] + phosphate + H+	1*SAPF-MONOMER,1*SAPC-MONOMER,1*SAPB-MONOMER,1*SAPD-MONOMER
+CPLX0-7963	multidrug efflux pump EmrE / betaine:H<sup>+</sup> antiporter / choline:H<sup>+</sup> antiporter	glycine betaine[cytosol] + H+[periplasm]  <-->  glycine betaine[periplasm] + H+[cytosol]	2*EMRE-MONOMER
+CPLX0-8152	cystine ABC transporter	ATP + lanthionine[periplasm] + H2O  <-->  ADP + lanthionine[cytosol] + phosphate + H+	2*EG12347-MONOMER,2*G7037-MONOMER,1*G7039-MONOMER
+TRKG-MONOMER	Rac prophage; K<sup>+</sup> transporter TrkG	K+[periplasm] + H+[periplasm]  <-->  K+[cytosol] + H+[cytosol]	1*TRKG-MONOMER
+YBDA-MONOMER	enterobactin exporter EntS	enterobactin[cytosol] + H+[periplasm]  <-->  enterobactin[periplasm] + H+[cytosol]	1*YBDA-MONOMER
+AT1G58360-MONOMER	amino acid permease 1	L-serine[out] + H+[out]  <-->  L-serine[in] + H+[in]	1*AT1G58360-MONOMER
+EG11919-MONOMER	putative inorganic phosphate export protein YjbB	phosphate[cytosol]  <-->  phosphate[periplasm]	1*EG11919-MONOMER
+B4141-MONOMER	L-methionine/branched chain amino acid exporter	L-valine[cytosol] + H+[periplasm]  <-->  L-valine[periplasm] + H+[cytosol]	1*B4141-MONOMER
+		Fe3+[extracellular space] + ATP + H2O  <-->  Fe3+[cytosol] + ADP + phosphate + H+	
+CPLX12WB-78	queuosine-specific ECF transporter	ATP + queuosine[out] + H2O  <-->  ADP + queuosine[in] + phosphate + H+	1*G12WB-158-MONOMER,1*G12WB-159-MONOMER,1*G12WB-160-MONOMER,1*G12WB-1825-MONOMER
+		L-asparagine[periplasm] + H+[periplasm]  <-->  L-asparagine[cytosol] + H+[cytosol]	
+DCTA-MONOMER	C4 dicarboxylate/orotate:H<sup>+</sup> symporter	(R)-malate[periplasm] + 2 H+[periplasm]  <-->  (R)-malate[cytosol] + 2 H+[cytosol]	1*DCTA-MONOMER
+YGJU-MONOMER	serine/threonine:Na<sup>+</sup> symporter	Na+[periplasm] + L-serine[periplasm]  <-->  Na+[cytosol] + L-serine[cytosol]	1*YGJU-MONOMER
+EG11486-MONOMER	lipid III flippase	(enterobacterial common antigen)-undecaprenyl diphosphate[cytosol]  <-->  (enterobacterial common antigen)-undecaprenyl diphosphate[periplasm]	1*EG11486-MONOMER
+MONOMER-17939	maltose transporter	maltose[chloroplast stroma]  <-->  maltose[cytosol]	1*MONOMER-17939
+EG12713-MONOMER	amino acid exporter YddG	an amino acid[cytosol]  <-->  an amino acid[periplasm]	1*EG12713-MONOMER
+POTE-MONOMER	putrescine transporter PotE	putrescine[periplasm] + L-ornithine[cytosol]  <-->  putrescine[cytosol] + L-ornithine[periplasm]	1*POTE-MONOMER
+ATPASE-1-CPLX	K<sup>+</sup> transporting P-type ATPase	ATP + K+[periplasm] + H2O  <-->  ADP + K+[cytosol] + phosphate + H+	1*MONOMER0-12,1*EG10513-MONOMER,1*KDPB-MONOMER,1*EG10515-MONOMER
+MELB-MONOMER	melibiose:H<sup>+</sup>/Na<sup>+</sup>/Li<sup>+</sup> symporter	Na+[periplasm] + melibiose[periplasm]  <-->  Na+[cytosol] + melibiose[cytosol]	1*MELB-MONOMER
+CPLX0-231	galactitol-specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + D-sorbitol[periplasm]  <-->  D-sorbitol 6-phosphate[cytosol] + an [HPr]-L-histidine	1*GATB-MONOMER,1*GATA-MONOMER
+KEFB-MONOMER	K<sup>+</sup> : H<sup>+</sup> antiporter KefB	K+[cytosol] + H+[periplasm]  <-->  K+[periplasm] + H+[cytosol]	1*KEFB-MONOMER
+CPLX66-228	y+LAT-2/4F2hc complex	L-glutamine[out] + L-arginine[in]  <-->  L-glutamine[in] + L-arginine[out]	1*ENSG00000168003-MONOMER,1*ENSG00000103064-MONOMER
+YICM-MONOMER	purine ribonucleoside exporter	guanosine[cytosol] + H+[periplasm]  <-->  guanosine[periplasm] + H+[cytosol]	1*YICM-MONOMER
+G7097-MONOMER	M-antigen undecaprenyl disphosphate flippase	M-antigen monomer undecaprenyl diphosphate[cytosol]  <-->  M-antigen monomer undecaprenyl diphosphate[periplasm]	1*G7097-MONOMER
+CORA-MONOMER	Ni<sup>2+</sup>/Co<sup>2+</sup>/Mg<sup>2+</sup> transporter	Ni2+[periplasm]  <-->  Ni2+[cytosol]	1*CORA-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + alpha-maltose[periplasm]  <-->  alpha-maltose 6'-phosphate[cytosol] + an [HPr]-L-histidine	
+ABC-34-CPLX	<i>sn</i>-glycerol 3-phosphate / glycerophosphodiester ABC transporter	ATP + a glycerophosphodiester[periplasm] + H2O  <-->  ADP + a glycerophosphodiester[cytosol] + phosphate + H+	2*UGPC-MONOMER,1*UGPA-MONOMER,1*UGPE-MONOMER,1*UGPB-MONOMER
+GLTS-MONOMER	glutamate:sodium symporter	2 Na+[periplasm] + L-glutamate[periplasm]  <-->  2 Na+[cytosol] + L-glutamate[cytosol]	1*GLTS-MONOMER
+ABC-304-CPLX	leucine / L-phenylalanine ABC transporter	ATP + L-leucine[periplasm] + H2O  <-->  ADP + L-leucine[cytosol] + phosphate + H+	1*LIVK-MONOMER,1*LIVM-MONOMER,1*LIVH-MONOMER,1*LIVG-MONOMER,1*LIVF-MONOMER
+		carbon monoxide[periplasm]  <-->  carbon monoxide[cytosol]	
+TRANS-CPLX-201	multidrug efflux pump AcrAB-TolC	ethidium[periplasm] + H+[periplasm]  <-->  ethidium[extracellular space] + H+[cytosol]	6*EG11703-MONOMER,3*EG11009-MONOMER,3*ACRB-MONOMER
+NUPC-MONOMER	nucleoside:H<sup>+</sup> symporter NupC	2'-deoxyadenosine[periplasm] + H+[periplasm]  <-->  2'-deoxyadenosine[cytosol] + H+[cytosol]	1*NUPC-MONOMER
+ABC-15-CPLX	branched chain amino acid / phenylalanine ABC transporter	ATP + L-isoleucine[periplasm] + H2O  <-->  ADP + L-isoleucine[cytosol] + phosphate + H+	1*LIVM-MONOMER,1*LIVH-MONOMER,1*LIVG-MONOMER,1*LIVF-MONOMER,1*LIVJ-MONOMER
+UHPT-MONOMER	hexose-6-phosphate:phosphate antiporter	L-glyceraldehyde 3-phosphate[periplasm] + phosphate[cytosol]  <-->  L-glyceraldehyde 3-phosphate[cytosol] + phosphate[periplasm]	1*UHPT-MONOMER
+EG11167-MONOMER	heavy metal divalent cation transporter ZupT	Cd2+[periplasm]  <-->  Cd2+[cytosol]	1*EG11167-MONOMER
+		ATP + D-glucopyranose[periplasm] + H2O  <-->  ADP + D-glucopyranose[cytosol] + phosphate + H+	
+B2975-MONOMER	glycolate/lactate:H<sup>+</sup> symporter GlcA	(R)-lactate[periplasm] + H+[periplasm]  <-->  (R)-lactate[cytosol] + H+[cytosol]	1*B2975-MONOMER
+ABC-5-CPLX	vitamin B<sub>12</sub> ABC transporter	cob(I)inamide[periplasm] + ATP + H2O  <-->  cob(I)inamide[cytosol] + ADP + phosphate + H+	2*BTUD-MONOMER,2*BTUC-MONOMER,1*EG12334-MONOMER
+		n H+[in]  <-->  n H+[out]	
+CPLX0-8271	F<sup>-</sup> channel	fluoride[cytosol]  <-->  fluoride[periplasm]	2*EG12209-MONOMER
+PITB-MONOMER	metal phosphate:H<sup>+</sup> symporter PitB	magnesium hydrogenphosphate[periplasm] + H+[periplasm]  <-->  magnesium hydrogenphosphate[cytosol] + H+[cytosol]	1*PITB-MONOMER
+		oxygen[periplasm]  <-->  oxygen[cytosol]	
+		a Coalpha-[alpha-(5,6-dimethylbenzimidazolyl)]-cobamide[extracellular space] + ATP + H2O  <-->  a Coalpha-[alpha-(5,6-dimethylbenzimidazolyl)]-cobamide[cytosol] + ADP + phosphate	
+AT1G22710-MONOMER	sucrose transporter	arbutin[extracellular space] + H+[extracellular space]  <-->  arbutin[cytosol] + H+[cytosol]	1*AT1G22710-MONOMER
+G6859-MONOMER	autoinducer 2 exporter	(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran[cytosol]  <-->  (2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran[periplasm]	1*G6859-MONOMER
+EG11671-MONOMER	short chain fatty acid transporter	acetoacetate[periplasm]  <-->  acetoacetate[cytosol]	1*EG11671-MONOMER
+MONOMER-17461	glutamine-glutamate antiporter	L-glutamine[cytosol]  <-->  L-glutamine[chloroplast stroma]	1*MONOMER-17461
+		an [HPr protein]-Npi-phospho-L-histidine + N-acetyl-beta-D-glucosamine[periplasm]  <-->  N-acetyl-beta-D-glucosamine 6-phosphate[cytosol] + an [HPr]-L-histidine	
+MONOMER0-2798	transport of pyridoxamine	pyridoxamine[periplasm]  <-->  pyridoxamine[cytosol]	1*MONOMER0-2798
+		choline[extracellular space] + Na+[extracellular space]  <-->  choline[cytosol] + Na+[cytosol]	
+		D-glyceraldehyde 3-phosphate[cytosol] + phosphate[extracellular space]  <-->  D-glyceraldehyde 3-phosphate[cytosol] + phosphate[cytosol]	
+		antimonite[in] + H+[out]  <-->  antimonite[out] + H+[in]	
+MONOMER-14583	potassium transporter	K+[in]  <-->  K+[out]	1*MONOMER-14583
+UIDB-MONOMER	glucuronide:H<sup>+</sup> symporter	a D-glucoronoside[periplasm] + H+[periplasm]  <-->  a D-glucoronoside[cytosol] + H+[cytosol]	1*UIDB-MONOMER
+EIISGA	L-ascorbate specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + L-ascorbate[out]  <-->  L-ascorbate 6-phosphate[in] + an [HPr]-L-histidine	1*YJFU-MONOMER,1*YJFT-MONOMER,2*SGAT-MONOMER
+GABP-MONOMER	4-aminobutanoate:H<sup>+</sup> symporter	4-aminobutanoate[periplasm] + H+[periplasm]  <-->  4-aminobutanoate[cytosol] + H+[cytosol]	1*GABP-MONOMER
+GLTP-MONOMER	glutamate/aspartate : H<sup>+</sup> symporter GltP	L-glutamate[periplasm] + 2 H+[periplasm]  <-->  L-glutamate[cytosol] + 2 H+[cytosol]	1*GLTP-MONOMER
+		an inorganic compound[periplasm]  <-->  an inorganic compound[extracellular space]	
+TRANS-200-CPLX	ABC-type tripartite efflux pump	a polymyxin[periplasm] + ATP + H2O  <-->  a polymyxin[extracellular space] + ADP + phosphate + H+	3*EG11009-MONOMER,2*MACB,6*MACA
+		an [HPr protein]-Npi-phospho-L-histidine + aldehydo-D-galactose[out]  <-->  aldehydo-D-galactose 6-phosphate[in] + an [HPr]-L-histidine	
+CPLX0-8247	uracil:H<sup>+</sup> symporter UraA	uracil[periplasm] + H+[periplasm]  <-->  uracil[cytosol] + H+[cytosol]	2*URAA-MONOMER
+		lactate[cytosol]  <-->  lactate[periplasm]	
+		ATP + L-ornithine[periplasm] + H2O  <-->  ADP + L-ornithine[cytosol] + phosphate + H+	
+EG10280-MONOMER	long-chain fatty acid outer membrane channel / bacteriophage T2 receptor	a long-chain fatty acid[extracellular space]  <-->  a long-chain fatty acid[periplasm]	1*EG10280-MONOMER
+		a dolichyl beta-D-glucosyl phosphate[cytosol]  <-->  a dolichyl beta-D-glucosyl phosphate[rough endoplasmic reticulum lumen]	
+PANF-MONOMER	pantothenate:Na<sup>+</sup> symporter	Na+[periplasm] + (R)-pantothenate[periplasm]  <-->  Na+[cytosol] + (R)-pantothenate[cytosol]	1*PANF-MONOMER
+		D-xylonate[cytosol]  <-->  D-xylonate[periplasm]	
+		H2O[periplasm]  <-->  H2O[cytosol]	
+DCUA-MONOMER	C4-dicarboxylate transporter DcuA	succinate[cytosol] + L-aspartate[periplasm]  <-->  L-aspartate[cytosol] + succinate[periplasm]	1*DCUA-MONOMER
+ABC-18-CPLX	D-galactose / methyl-&beta;-D-galactoside ABC transporter	ATP + D-galactopyranose[periplasm] + H2O  <-->  ADP + D-galactopyranose[cytosol] + phosphate + H+	1*MGLA-MONOMER,2*MGLC-MONOMER,1*MGLB-MONOMER
+		hydroquinone[cytosol]  <-->  hydroquinone[periplasm]	
+G6674-MONOMER	Zn<sup>2+</sup>:H<sup>+</sup> symporter	Zn2+[periplasm] + H+[periplasm]  <-->  Zn2+[cytosol] + H+[cytosol]	1*G6674-MONOMER
+METNIQ-METHIONINE-ABC-CPLX	L-methionine/D-methionine ABC transporter	N-acetyl-DL-methionine[periplasm] + ATP + H2O  <-->  N-acetyl-DL-methionine[cytosol] + ADP + phosphate + H+	2*ABC-MONOMER,2*METI-MONOMER,1*METQ-MONOMER
+BSU35600-MONOMER	teichuronic acid transporter	beta-D-glucuronosyl-(1->4)-beta-D-glucuronosyl-(1->3)-N-acetyl-alpha-D-galactosaminyl-(1->6)-N-acetyl-alpha-D-galactosaminyl-diphospho-ditrans,octacis-undecaprenol[cytosol]  <-->  beta-D-glucuronosyl-(1->4)-beta-D-glucuronosyl-(1->3)-N-acetyl-alpha-D-galactosaminyl-(1->6)-N-acetyl-alpha-D-galactosaminyl-diphospho-ditrans,octacis-undecaprenol[extracellular space]	1*BSU35600-MONOMER
+ABC-46-CPLX	galactofuranose ABC transporter	beta-D-galactofuranose[periplasm] + ATP + H2O  <-->  beta-D-galactofuranose[cytosol] + ADP + phosphate + H+	1*YJFF-MONOMER,1*YTFR-MONOMER,1*YTFT-MONOMER,1*YTFQ-MONOMER
+ABC-11-CPLX	iron(III) hydroxamate ABC transporter	ferrichrome[periplasm] + ATP + H2O  <-->  ferrichrome[cytosol] + ADP + phosphate + H+	2*FHUC-MONOMER,1*FHUB-MONOMER,1*FHUD-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + maltose[periplasm]  <-->  maltose 6'-phosphate[cytosol] + an [HPr]-L-histidine	
+		ATP + Ag+[cytosol] + H2O  <-->  ADP + Ag+[extracellular space] + phosphate + H+	
+AT1G58360-MONOMER	amino acid permease 1	2 L-cysteine[out] + 2 H+[out]  <-->  2 L-cysteine[in] + 2 H+[in]	1*AT1G58360-MONOMER
+		(R)-propane-1,2-diol[cytosol]  <-->  (R)-propane-1,2-diol[periplasm]	
+PITA-MONOMER	metal phosphate:H<sup>+</sup> symporter PitA	zinc hydrogenphosphate[periplasm] + H+[periplasm]  <-->  zinc hydrogenphosphate[cytosol] + H+[cytosol]	1*PITA-MONOMER
+		nitrate[extracellular space] + ATP + H2O  <-->  nitrate[cytosol] + ADP + phosphate + H+	
+METNIQ-METHIONINE-ABC-CPLX	L-methionine/D-methionine ABC transporter	ATP + L-methionine[periplasm] + H2O  <-->  ADP + L-methionine[cytosol] + phosphate + H+	2*ABC-MONOMER,2*METI-MONOMER,1*METQ-MONOMER
+EG11724-MONOMER	adenine:H<sup>+</sup> symporter	adenine[periplasm] + H+[periplasm]  <-->  adenine[cytosol] + H+[cytosol]	1*EG11724-MONOMER
+		ATP + Mg2+[out] + H2O  <-->  ADP + Mg2+[in] + phosphate + H+	
+CPLX0-7720	undecaprenyl-phosphate-&alpha;-L-Ara4N flippase	4-amino-4-deoxy-alpha-L-arabinopyranosyl ditrans,octacis-undecaprenyl phosphate[cytosol]  <-->  4-amino-4-deoxy-alpha-L-arabinopyranosyl ditrans,octacis-undecaprenyl phosphate[periplasm]	1*MONOMER0-2682,1*G7171-MONOMER
+CPLX0-7704	ATP-dependent Lipid A-core flippase	a rough-form lipopolysaccharide[cytosol] + ATP + H2O  <-->  a rough-form lipopolysaccharide[periplasm] + ADP + phosphate + H+	2*EG10613-MONOMER
+		phosphoenolpyruvate[chloroplast stroma] + phosphate[cytosol]  <-->  phosphoenolpyruvate[cytosol] + phosphate[cytosol]	
+CPLX0-7641	Zn<sup>2+</sup>/Fe<sup>2+</sup>/Cd<sup>2+</sup> exporter	Cd2+[in] + H+[out]  <-->  Cd2+[out] + H+[in]	2*YIIP-MONOMER
+MONOMER-14768	purine permease	purine[extracellular space] + H+[extracellular space]  <-->  purine[cytosol] + H+[cytosol]	1*MONOMER-14768
+MONOMER-17939	maltose transporter	maltose[chloroplast stroma]  <-->  maltose[cytosol]	1*MONOMER-17939
+HRSA-MONOMER	2-<i>O</i>-&alpha;-mannosyl-D-glycerate specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + 2-O-(alpha-D-mannosyl)-D-glycerate[periplasm]  <-->  2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate[cytosol] + an [HPr]-L-histidine	1*HRSA-MONOMER
+CPLX0-7532	ammonia / ammonium transporter	ammonium[periplasm]  <-->  ammonium[cytosol]	3*AMTB-MONOMER
+CPLX-167	N-acetylglucosamine-specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + N-acetyl-D-glucosamine[periplasm]  <-->  an [HPr]-L-histidine + N-acetyl-D-glucosamine 6-phosphate[cytosol]	2*NAGE-MONOMER
+CPLX0-1721	copper/silver export system	Ag+[cytosol] + H+[periplasm]  <-->  Ag+[extracellular space] + H+[cytosol]	3*G6320-MONOMER,6*G6322-MONOMER,1*G6321-MONOMER,3*YBDE-MONOMER
+CPLX0-8152	cystine ABC transporter	ATP + L,L-homocystine[periplasm] + H2O  <-->  ADP + L,L-homocystine[cytosol] + phosphate + H+	2*EG12347-MONOMER,2*G7037-MONOMER,1*G7039-MONOMER
+		aerobactin[extracellular space]  <-->  aerobactin[periplasm]	
+		cyanate[periplasm]  <-->  cyanate[cytosol]	
+		an [HPr protein]-Npi-phospho-L-histidine + alpha,beta-trehalose[out]  <-->  alpha,beta-trehalose 6-phosphate[in] + an [HPr]-L-histidine	
+		pyruvate[cytosol]  <-->  pyruvate[periplasm]	
+CPLX-8721	D-glucosaminate PTS permease	an [HPr protein]-Npi-phospho-L-histidine + 2-amino-2-deoxy-D-gluconate[periplasm]  <-->  2-amino-2-deoxy-D-gluconate 6-phosphate[cytosol] + an [HPr]-L-histidine	1*MONOMER-18129,1*MONOMER-18128,1*MONOMER-18127,1*MONOMER-18126
+EG11512-MONOMER	acetate/succinate:H<sup>+</sup> symporter	succinate[periplasm] + 2 H+[periplasm]  <-->  succinate[cytosol] + 2 H+[cytosol]	1*EG11512-MONOMER
+		L-aspartate[side 1]  <-->  L-aspartate[side 2]	
+		2 a reduced ferredoxin [iron-sulfur] cluster + Na+[cytosol] + NAD+ + H+  <-->  2 an oxidized ferredoxin [iron-sulfur] cluster + Na+[extracellular space] + NADH	
+PITB-MONOMER	metal phosphate:H<sup>+</sup> symporter PitB	arsenate[periplasm] + H+[periplasm]  <-->  arsenate[cytosol] + H+[cytosol]	1*PITB-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + aldehydo-D-mannose[out]  <-->  aldehydo-D-mannose 6-phosphate[in] + an [HPr]-L-histidine	
+		L-methionine-(R)-S-oxide[periplasm] + ATP + H2O  <-->  L-methionine-(R)-S-oxide[cytosol] + ADP + phosphate + H+	
+ABC-32-CPLX	thiamin(e) ABC transporter	ATP + thiamine[periplasm] + H2O  <-->  ADP + thiamine[cytosol] + phosphate + H+	2*SFUC-MONOMER,2*SFUB-MONOMER,1*SFUA-MONOMER
+NUPG-MONOMER	nucleoside:H<sup>+</sup> symporter NupG	a nucleoside[periplasm] + H+[periplasm]  <-->  a nucleoside[cytosol] + H+[cytosol]	1*NUPG-MONOMER
+TRANS-CPLX-201	multidrug efflux pump AcrAB-TolC	decanoate[periplasm] + H+[periplasm]  <-->  decanoate[extracellular space] + H+[cytosol]	6*EG11703-MONOMER,3*EG11009-MONOMER,3*ACRB-MONOMER
+		a lipopolysaccharide[periplasm]  <-->  a lipopolysaccharide[extracellular space]	
+ABC-12-CPLX	L-glutamine ABC transporter	ATP + L-glutamine[periplasm] + H2O  <-->  ADP + L-glutamine[cytosol] + phosphate + H+	2*GLNQ-MONOMER,2*GLNP-MONOMER,1*GLNH-MONOMER
+		L-cystathionine[periplasm]  <-->  L-cystathionine[cytosol]	
+G185E-5445-MONOMER	drugs-transport transmembrane ATP-binding protein ABC transporter	ATP + alpha, alpha'-trehalose 6-alpha-mycolate[cytosol] + H2O  <-->  ADP + alpha, alpha'-trehalose 6-alpha-mycolate[periplasm] + phosphate + H+	1*G185E-5445-MONOMER
+G6984-MONOMER	leucine exporter	L-methionine[cytosol] + H+[periplasm]  <-->  L-methionine[periplasm] + H+[cytosol]	1*G6984-MONOMER
+BCR-MONOMER	multidrug efflux pump Bcr	bicozamycin[cytosol] + H+[periplasm]  <-->  bicozamycin[periplasm] + H+[cytosol]	1*BCR-MONOMER
+		D-serine[periplasm]  <-->  D-serine[cytosol]	
+MONOMER-7721	phosphatidylglycerol lysyltransferase	3-O-L-lysyl-1-O-phosphatidylglycerol[cytosol]  <-->  3-O-L-lysyl-1-O-phosphatidylglycerol[extracellular space]	1*MONOMER-7721
+		2 K+[extracellular space] + 3 Na+[cytosol] + ATP + H2O  <-->  2 K+[cytosol] + 3 Na+[extracellular space] + ADP + phosphate + H+	
+CPLX0-7629	Na<sup>+</sup>:H<sup>+</sup> antiporter NhaA	Li+[cytosol] + 2 H+[periplasm]  <-->  Li+[periplasm] + 2 H+[cytosol]	2*NHAA-MONOMER
+G7399-MONOMER	L-alanine exporter	L-alanine[cytosol] + H+[periplasm]  <-->  L-alanine[periplasm] + H+[cytosol]	1*G7399-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + D-mannose[periplasm]  <-->  D-mannose 6-phosphate[cytosol] + an [HPr]-L-histidine	
+G1G01-5484-MONOMER	cadmium translocating P-type ATPase	Cd2+[in] + ATP + H2O  <-->  Cd2+[out] + ADP + phosphate + H+	1*G1G01-5484-MONOMER
+B1791-MONOMER	2-nitroimidazole exporter	2-nitroimidazole[cytosol]  <-->  2-nitroimidazole[periplasm]	1*B1791-MONOMER
+G3O-29733-MONOMER	ATP-dependent vacuolar transporter YBT1	Cd2+[cytosol] + ATP + H2O  <-->  Cd2+[vacuolar lumen] + ADP + phosphate + H+	1*G3O-29733-MONOMER
+AT1G71880-MONOMER	sucrose transporter	sucrose[out] + H+[out]  <-->  sucrose[in] + H+[in]	1*AT1G71880-MONOMER
+KGTP-MONOMER	&alpha;-ketoglutarate:H<sup>+</sup> symporter	2-oxoglutarate[periplasm] + H+[periplasm]  <-->  2-oxoglutarate[cytosol] + H+[cytosol]	1*KGTP-MONOMER
+		N-(2,3-dihydroxybenzoyl)-L-serine[cytosol]  <-->  N-(2,3-dihydroxybenzoyl)-L-serine[extracellular space]	
+MONOMER-14782	leaf permease	xanthine[extracellular space] + H+[extracellular space]  <-->  xanthine[cytosol] + H+[cytosol]	1*MONOMER-14782
+		(R)-lipoate[periplasm]  <-->  (R)-lipoate[cytosol]	
+MONOMER-14560	stelar K+ outward rectifying channel	K+[extracellular space]  <-->  K+[unknown space]	1*MONOMER-14560
+CPLX-157	glucose-specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + D-glucopyranose[periplasm]  <-->  D-glucopyranose 6-phosphate[cytosol] + an [HPr]-L-histidine	2*PTSG-MONOMER,1*CRR-MONOMER
+TRANS-CPLX-201	multidrug efflux pump AcrAB-TolC	chenodeoxycholate[periplasm] + H+[periplasm]  <-->  chenodeoxycholate[extracellular space] + H+[cytosol]	6*EG11703-MONOMER,3*EG11009-MONOMER,3*ACRB-MONOMER
+CPLX-7	arsenite/antimonite:H<sup>+</sup> antiporter	arsenite[cytosol] + H+[periplasm]  <-->  arsenite[periplasm] + H+[cytosol]	2*ARSF-MONOMER
+CPLX0-7629	Na<sup>+</sup>:H<sup>+</sup> antiporter NhaA	Na+[cytosol] + 2 H+[periplasm]  <-->  Na+[periplasm] + 2 H+[cytosol]	2*NHAA-MONOMER
+		cyclic-AMP[cytosol]  <-->  cyclic-AMP[periplasm]	
+YJGT-MONOMER	L-idonate/5-ketogluconate/gluconate transporter	D-gluconate[periplasm] + H+[periplasm]  <-->  D-gluconate[cytosol] + H+[cytosol]	1*YJGT-MONOMER
+EG10155-MONOMER	ferric dihyroxybenzoylserine outer membrane transporter	iron(III)-[N-(2,3-dihydroxybenzoyl)-L-serine trimer] complex[extracellular space]  <-->  iron(III)-[N-(2,3-dihydroxybenzoyl)-L-serine trimer] complex[periplasm]	1*EG10155-MONOMER
+MELB-MONOMER	melibiose:H<sup>+</sup>/Na<sup>+</sup>/Li<sup>+</sup> symporter	melibiose[periplasm] + H+[periplasm]  <-->  melibiose[cytosol] + H+[cytosol]	1*MELB-MONOMER
+KDGT-MONOMER	2-dehydro-3-deoxy-D-gluconate:H<sup>+</sup> symporter	2-dehydro-3-deoxy-D-gluconate[periplasm] + H+[periplasm]  <-->  2-dehydro-3-deoxy-D-gluconate[cytosol] + H+[cytosol]	1*KDGT-MONOMER
+		ammonia[periplasm]  <-->  ammonia[cytosol]	
+EG11167-MONOMER	heavy metal divalent cation transporter ZupT	Cu2+[periplasm]  <-->  Cu2+[cytosol]	1*EG11167-MONOMER
+FSR-MONOMER	fosmidomycin efflux pump	fosmidomycin[cytosol] + H+[periplasm]  <-->  fosmidomycin[periplasm] + H+[cytosol]	1*FSR-MONOMER
+CPLX66-226	large neutral amino acid transporter 1	L-tryptophan[out]  <-->  L-tryptophan[in]	1*ENSG00000168003-MONOMER,1*ENSG00000103257-MONOMER
+MONOMER-20621	mitochondrial tricarboxylate transporter 1	cis-aconitate[mitochondrial lumen]  <-->  cis-aconitate[cytosol]	1*MONOMER-20621
+B2975-MONOMER	glycolate/lactate:H<sup>+</sup> symporter GlcA	(S)-lactate[periplasm] + H+[periplasm]  <-->  (S)-lactate[cytosol] + H+[cytosol]	1*B2975-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + beta-D-mannopyranose[out]  <-->  beta-D-mannopyranose 6-phosphate[in] + an [HPr]-L-histidine	
+		ATP[cytosol]  <-->  ATP[chloroplast stroma]	
+		methane[cytosol]  <-->  methane[periplasm]	
+ABC-34-CPLX	<i>sn</i>-glycerol 3-phosphate / glycerophosphodiester ABC transporter	ATP + sn-glycerol 3-phosphate[out] + H2O  <-->  ADP + sn-glycerol 3-phosphate[in] + phosphate + H+	2*UGPC-MONOMER,1*UGPA-MONOMER,1*UGPE-MONOMER,1*UGPB-MONOMER
+		L-cystine[cytosol]  <-->  L-cystine[periplasm]	
+G3O-32147-MONOMER	ATP-dependent vacuolar transporter YBT1	a glutathione-S-conjugate[in] + ATP + H2O  <-->  a glutathione-S-conjugate[out] + ADP + phosphate + H+	1*G3O-32147-MONOMER
+G6999-MONOMER	Mn<sup>2+</sup> exporter	Mn2+[cytosol]  <-->  Mn2+[periplasm]	1*G6999-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + aldehydo-D-glucose[periplasm]  <-->  aldehydo-D-glucose 6-phosphate[cytosol] + an [HPr]-L-histidine	
+		ATP + a xenobiotic[cytosol] + H2O  <-->  ADP + a xenobiotic[extracellular space] + phosphate	
+		5-(2-hydroxyethyl)-4-methylthiazole[periplasm]  <-->  5-(2-hydroxyethyl)-4-methylthiazole[cytosol]	
+		ATP + L-histidine[periplasm] + H2O  <-->  ADP + L-histidine[cytosol] + phosphate + H+	
+		a polar amino acid[extracellular space] + ATP + H2O  <-->  a polar amino acid[cytosol] + ADP + phosphate	
+YCEE-MONOMER	efflux pump MdtG	fosfomycin[cytosol] + H+[periplasm]  <-->  fosfomycin[periplasm] + H+[cytosol]	1*YCEE-MONOMER
+		a long-chain fatty acid[periplasm]  <-->  a long-chain fatty acid[cytosol]	
+MONOMER-20023	choline transporter	choline[extracellular space]  <-->  choline[cytosol]	1*MONOMER-20023
+		dimethyl sulfoxide[periplasm]  <-->  dimethyl sulfoxide[cytosol]	
+EG12455-MONOMER	lysophospholipid transporter	a lyso-phosphatidylglycerol[periplasm]  <-->  a lyso-phosphatidylglycerol[cytosol]	1*EG12455-MONOMER
+RHAT-MONOMER	rhamnose/lyxose:H<sup>+</sup> symporter	L-lyxopyranose[periplasm] + H+[periplasm]  <-->  L-lyxopyranose[cytosol] + H+[cytosol]	1*RHAT-MONOMER
+		beta-D-mannosyl-(C55 omega-saturated dolichyl phosphate)[cytosol]  <-->  beta-D-mannosyl-(C55 omega-saturated dolichyl phosphate)[extracellular space]	
+YHAU-MONOMER	galactarate/D-glucarate transporter GarP	galactarate[periplasm] + H+[periplasm]  <-->  galactarate[cytosol] + H+[cytosol]	1*YHAU-MONOMER
+AT1G22710-MONOMER	sucrose transporter	salicin[extracellular space] + H+[extracellular space]  <-->  salicin[cytosol] + H+[cytosol]	1*AT1G22710-MONOMER
+FEOB-MONOMER	Fe<sup>2+</sup> transporter FeoB	Fe2+[periplasm]  <-->  Fe2+[cytosol]	1*FEOB-MONOMER
+ATPSYN-CPLX	ATP synthase / thiamin triphosphate synthase	ATP + H2O + 3 H+[in]  <-->  ADP + phosphate + 4 H+[out]	1*ATPB-MONOMER,2*ATPF-MONOMER,10*ATPE-MONOMER,3*ATPD-MONOMER,1*ATPG-MONOMER,3*ATPA-MONOMER,1*ATPH-MONOMER,1*ATPC-MONOMER
+MONOMER-17462	glutamate/aspartate transporter	L-glutamate[cytosol]  <-->  L-glutamate[mitochondrial lumen]	1*MONOMER-17462
+		an [HPr protein]-Npi-phospho-L-histidine + L-sorbopyranose[out]  <-->  L-sorbopyranose 1-phosphate[in] + an [HPr]-L-histidine	
+ABC-70-CPLX	sulfate/thiosulfate ABC transporter	ATP + sulfate[out] + H2O  <-->  ADP + sulfate[in] + phosphate + H+	1*SBP-MONOMER,1*CYSW-MONOMER,1*CYST-MONOMER,2*CYSA-MONOMER
+		L-ascorbate[extracellular space] + H+[extracellular space]  <-->  L-ascorbate[cytosol] + H+[cytosol]	
+		an [HPr protein]-Npi-phospho-L-histidine + beta-lactose[periplasm]  <-->  beta-lactose 6'-phosphate[cytosol] + an [HPr]-L-histidine	
+ABC-27-CPLX	phosphate ABC transporter	ATP + phosphate[out] + H2O  <-->  ADP + 2 phosphate[in] + H+	2*PSTB-MONOMER,1*PSTA-MONOMER,1*PSTC-MONOMER,1*PSTS-MONOMER
+MONOMER-14577	sodium transporter	Na+[in]  <-->  Na+[out]	1*MONOMER-14577
+G185E-5445-MONOMER	drugs-transport transmembrane ATP-binding protein ABC transporter	ATP + trehalose-trans-keto-mono-mycolate[cytosol] + H2O  <-->  ADP + trehalose-trans-keto-mono-mycolate[periplasm] + phosphate + H+	1*G185E-5445-MONOMER
+TRANS-CPLX-202	multidrug efflux pump MdtABC-TolC	novobiocin[periplasm] + H+[periplasm]  <-->  novobiocin[extracellular space] + H+[cytosol]	3*EG11009-MONOMER,1*B2076-MONOMER,2*B2075-MONOMER,1*MDTA
+CPLX0-231	galactitol-specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + galactitol[periplasm]  <-->  galactitol 1-phosphate[cytosol] + an [HPr]-L-histidine	1*GATB-MONOMER,1*GATA-MONOMER
+YEEO-MONOMER	FMN/FAD exporter	FMN[cytosol]  <-->  FMN[periplasm]	1*YEEO-MONOMER
+CYCA-MONOMER	D-serine/alanine/glycine/:H<sup>+</sup>symporter	L-alanine[periplasm] + H+[periplasm]  <-->  L-alanine[cytosol] + H+[cytosol]	1*CYCA-MONOMER
+CMR-MONOMER	multidrug efflux pump MdfA / Na<sup>+</sup>:H<sup>+</sup> antiporter / K<sup>+</sup>:H<sup>+</sup> antiporter	dequalinium[cytosol] + 2 H+[periplasm]  <-->  dequalinium[periplasm] + 2 H+[cytosol]	1*CMR-MONOMER
+		D-alanine[cytosol] + H+[periplasm]  <-->  D-alanine[periplasm] + H+[cytosol]	
+		a peptide[cytosol] + ATP + H2O  <-->  a peptide[extracellular space] + ADP + phosphate + H+	
+CPLX0-7654	glycerol facilitator	glycerol[periplasm]  <-->  glycerol[cytosol]	4*GLPF-MONOMER
+		IMP[cytosol]  <-->  IMP[periplasm]	
+CPLX0-7642	osmolyte:H<sup>+</sup> symporter ProP	L-proline[periplasm] + H+[periplasm]  <-->  L-proline[cytosol] + H+[cytosol]	2*PROP-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + D-fructose[periplasm]  <-->  D-fructose 1-phosphate[cytosol] + an [HPr]-L-histidine	
+YICM-MONOMER	purine ribonucleoside exporter	inosine[cytosol] + H+[periplasm]  <-->  inosine[periplasm] + H+[cytosol]	1*YICM-MONOMER
+CODB-MONOMER	cytosine transporter	cytosine[periplasm] + H+[periplasm]  <-->  cytosine[cytosol] + H+[cytosol]	1*CODB-MONOMER
+MONOMER-19197	AlgE	acetylated alginate[periplasm]  <-->  acetylated alginate[extracellular space]	1*MONOMER-19197
+		ethanol[periplasm]  <-->  ethanol[cytosol]	
+RHTB-MONOMER	L-homoserine/L-homoserine lactone/L-threonine exporter	L-homoserine lactone[cytosol] + H+[periplasm]  <-->  L-homoserine lactone[periplasm] + H+[cytosol]	1*RHTB-MONOMER
+DCUA-MONOMER	C4-dicarboxylate transporter DcuA	succinate[cytosol] + fumarate[periplasm]  <-->  fumarate[cytosol] + succinate[periplasm]	1*DCUA-MONOMER
+MONOMER-17407	malate-oxaloacetate antiporter / oxaloacetate-malate antiporter	(S)-malate[chloroplast stroma]  <-->  (S)-malate[cytosol]	1*MONOMER-17407
+		salicyl alcohol[cytosol]  <-->  salicyl alcohol[periplasm]	
+MONOMER-14768	purine permease	adenosine[extracellular space] + H+[extracellular space]  <-->  adenosine[cytosol] + H+[cytosol]	1*MONOMER-14768
+		hypotaurine[periplasm]  <-->  hypotaurine[cytosol]	
+YJGT-MONOMER	L-idonate/5-ketogluconate/gluconate transporter	L-idonate[periplasm] + H+[periplasm]  <-->  L-idonate[cytosol] + H+[cytosol]	1*YJGT-MONOMER
+CPLX-153	&beta;-glucoside specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + salicin[periplasm]  <-->  salicin 6-phosphate[cytosol] + an [HPr]-L-histidine	2*ASCF-MONOMER
+ATPSYN-CPLX	ATP synthase / thiamin triphosphate synthase	thiamine diphosphate + phosphate + n H+[periplasm]  <-->  thiamine triphosphate + H2O + n H+[cytosol]	1*ATPB-MONOMER,2*ATPF-MONOMER,10*ATPE-MONOMER,3*ATPD-MONOMER,1*ATPG-MONOMER,3*ATPA-MONOMER,1*ATPH-MONOMER,1*ATPC-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + trehalose[out]  <-->  D-trehalose 6-phosphate[in] + an [HPr]-L-histidine	
+ABC-46-CPLX	galactofuranose ABC transporter	alpha-D-galactofuranose[periplasm] + ATP + H2O  <-->  alpha-D-galactofuranose[cytosol] + ADP + phosphate + H+	1*YJFF-MONOMER,1*YTFR-MONOMER,1*YTFT-MONOMER,1*YTFQ-MONOMER
+EG11939-MONOMER	guanine/hypoxanthine transporter GhxP	guanine[periplasm]  <-->  guanine[cytosol]	1*EG11939-MONOMER
+HS00075-MONOMER	cystic fibrosis transmembrane conductance regulator	chloride[cytosol] + ATP + H2O  <-->  chloride[extracellular space] + ADP + phosphate + H+	1*HS00075-MONOMER
+		glyoxylate[periplasm]  <-->  glyoxylate[cytosol]	
+		cinnamate[periplasm]  <-->  cinnamate[cytosol]	
+BRNQ-MONOMER	branched chain amino acid transporter BrnQ	Na+[periplasm] + L-valine[periplasm]  <-->  Na+[cytosol] + L-valine[cytosol]	1*BRNQ-MONOMER
+ABC-22-CPLX	oligopeptide ABC transporter	an oligopeptide[out] + ATP + H2O  <-->  an oligopeptide[in] + ADP + phosphate + H+	1*OPPC-MONOMER,1*OPPD-MONOMER,1*OPPF-MONOMER,1*OPPB-MONOMER,1*OPPA-MONOMER
+		xanthine[cytosol]  <-->  xanthine[periplasm]	
+G6370-MONOMER	chitobiose outer membrane channel	N,N'-diacetylchitobiose[out]  <-->  N,N'-diacetylchitobiose[in]	1*G6370-MONOMER
+ABC-6-CPLX	glutathione / L-cysteine ABC exporter CydDC	glutathione[cytosol] + ATP + H2O  <-->  glutathione[periplasm] + ADP + phosphate + H+	1*CYDD-MONOMER,1*CYDC-MONOMER
+CPLX0-7	N-acetylmuramic acid-specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + N-acetyl-D-muramate[periplasm]  <-->  N-acetyl-D-muramate 6-phosphate[cytosol] + an [HPr]-L-histidine	1*CRR-MONOMER,1*MONOMER0-5
+G6531-MONOMER	partially deacetylated poly-&beta;-1,6-<i>N</i>-acetyl-D-glucosamine outer membrane porin	partially deacetylated poly-beta-1,6-N-acetyl-D-glucosamine[periplasm]  <-->  partially deacetylated poly-beta-1,6-N-acetyl-D-glucosamine[extracellular space]	1*G6531-MONOMER
+NUPC-MONOMER	nucleoside:H<sup>+</sup> symporter NupC	thymidine[periplasm] + H+[periplasm]  <-->  thymidine[cytosol] + H+[cytosol]	1*NUPC-MONOMER
+TEHA-MONOMER	tellurite resistance protein	ethidium[cytosol]  <-->  ethidium[periplasm]	1*TEHA-MONOMER
+EG11471-MONOMER	biotin transporter	biotin[periplasm]  <-->  biotin[cytosol]	1*EG11471-MONOMER
+MONOMER0-2797	pyridoxine transporter	pyridoxine[periplasm]  <-->  pyridoxine[cytosol]	1*MONOMER0-2797
+CPLX66-226	large neutral amino acid transporter 1	L-tyrosine[out]  <-->  L-tyrosine[in]	1*ENSG00000168003-MONOMER,1*ENSG00000103257-MONOMER
+ARAE-MONOMER	arabinose:H<sup>+</sup> symporter	L-arabinose[periplasm] + H+[periplasm]  <-->  L-arabinose[cytosol] + H+[cytosol]	1*ARAE-MONOMER
+YHAU-MONOMER	galactarate/D-glucarate transporter GarP	(R)-glycerate[periplasm] + H+[periplasm]  <-->  (R)-glycerate[cytosol] + H+[cytosol]	1*YHAU-MONOMER
+B0070-MONOMER	sugar exporter SetA	alpha-lactose[cytosol] + H+[periplasm]  <-->  alpha-lactose[periplasm] + H+[cytosol]	1*B0070-MONOMER
+ABC-16-CPLX	maltose ABC transporter	maltotriose[periplasm] + ATP + H2O  <-->  ADP + maltotriose[cytosol] + phosphate + H+	2*MALK-MONOMER,1*MALF-MONOMER,1*MALG-MONOMER,1*MALE-MONOMER
+		L-selenocysteine[periplasm]  <-->  L-selenocysteine[cytosol]	
+G7921-MONOMER	<i>N</i>-acetylneuraminic acid outer membrane channel	N-acetyl-beta-neuraminate[extracellular space]  <-->  N-acetyl-beta-neuraminate[periplasm]	1*G7921-MONOMER
+		a polyisoprenyl-teichoic acid[cytosol] + ATP + H2O  <-->  a polyisoprenyl-teichoic acid[cell wall] + ADP + phosphate + H+	
+		tetracycline[in]  <-->  tetracycline[out]	
+		5-(methylsulfanyl)-alpha-D-ribose[cytosol]  <-->  5-(methylsulfanyl)-alpha-D-ribose[periplasm]	
+		an [HPr protein]-Npi-phospho-L-histidine + beta-L-sorbopyranose[periplasm]  <-->  beta-L-sorbopyranose 1-phosphate[cytosol] + an [HPr]-L-histidine	
+BSU25790-MONOMER	arsenite efflux transporter	ATP + arsenite[cytosol] + H2O  <-->  ADP + arsenite[periplasm] + phosphate + H+	1*BSU25790-MONOMER
+ABC-9-CPLX	ferric citrate ABC transporter	ATP + iron(III) dicitrate[periplasm] + H2O  <-->  ADP + iron(III) dicitrate[cytosol] + phosphate + H+	2*FECE-MONOMER,1*FECC-MONOMER,1*FECD-MONOMER,1*FECB-MONOMER
+B0709-MONOMER	dipeptide:H<sup>+</sup> symporter DtpD	a dipeptide[periplasm] + H+[periplasm]  <-->  a dipeptide[cytosol] + H+[cytosol]	1*B0709-MONOMER
+		(glutathion-S-yl)-bimane[cytosol] + ATP + H2O  <-->  (glutathion-S-yl)-bimane[periplasm] + ADP + phosphate + H+	
+		an [HPr protein]-Npi-phospho-L-histidine + beta-D-cellobiose[out]  <-->  beta-D-cellobiose 6'-phosphate[in] + an [HPr]-L-histidine	
+CPLX0-7684	L-valine exporter	L-valine[cytosol]  <-->  L-valine[periplasm]	1*G7405-MONOMER,1*G7406-MONOMER
+		ATP + L-lysine[periplasm] + H2O  <-->  ADP + L-lysine[cytosol] + phosphate + H+	
+TRANS-CPLX-201	multidrug efflux pump AcrAB-TolC	hexane[periplasm] + H+[periplasm]  <-->  hexane[extracellular space] + H+[cytosol]	6*EG11703-MONOMER,3*EG11009-MONOMER,3*ACRB-MONOMER
+YJGT-MONOMER	L-idonate/5-ketogluconate/gluconate transporter	5-dehydro-D-gluconate[periplasm] + H+[periplasm]  <-->  5-dehydro-D-gluconate[cytosol] + H+[cytosol]	1*YJGT-MONOMER
+		ATP + an oligomycin[cytosol] + H2O  <-->  ADP + an oligomycin[extracellular space] + phosphate	
+YHHO-MONOMER	Zn<sup>2+</sup>/Cd<sup>2+</sup>/Pb<sup>2+</sup> exporting P-type ATPase	Zn2+[cytosol] + ATP + H2O  <-->  Zn2+[periplasm] + ADP + phosphate + H+	1*YHHO-MONOMER
+B0752-MONOMER	Zn<sup>2+</sup>/Cd<sup>2+</sup>/Ni<sup>2+</sup>/Cu<sup>2+</sup> exporter	Zn2+[in] + H+[out]  <-->  Zn2+[out] + H+[in]	1*B0752-MONOMER
+ABC-11-CPLX	iron(III) hydroxamate ABC transporter	ATP + a ferric hydroxamate complex[periplasm] + H2O  <-->  ADP + a ferric hydroxamate complex[cytosol] + phosphate	2*FHUC-MONOMER,1*FHUB-MONOMER,1*FHUD-MONOMER
+MONOMER-14021	Fe-nicotianamine transporter	Fe(II)-nicotianamine[extracellular space]  <-->  Fe(II)-nicotianamine[cytosol]	1*MONOMER-14021
+TDCC-MONOMER	threonine/serine:H<sup>+</sup> symporter	L-threonine[periplasm] + H+[periplasm]  <-->  L-threonine[cytosol] + H+[cytosol]	1*TDCC-MONOMER
+EMRD-MONOMER	multidrug efflux pump EmrD	carbonylcyanide m-chlorophenylhydrazone[cytosol] + H+[periplasm]  <-->  carbonylcyanide m-chlorophenylhydrazone[periplasm] + H+[cytosol]	1*EMRD-MONOMER
+CADB-MONOMER	lysine:cadaverine antiporter	cadaverine[cytosol] + L-lysine[periplasm]  <-->  cadaverine[periplasm] + L-lysine[cytosol]	1*CADB-MONOMER
+		N-acetyl-alpha-D-glucosaminyl-phospho-ditrans,octacis-undecaprenol[in]  <-->  N-acetyl-alpha-D-glucosaminyl-phospho-ditrans,octacis-undecaprenol[out]	
+GABP-MONOMER	4-aminobutanoate:H<sup>+</sup> symporter	5-aminopentanoate[periplasm] + H+[periplasm]  <-->  5-aminopentanoate[cytosol] + H+[cytosol]	1*GABP-MONOMER
+CPLX0-8152	cystine ABC transporter	ATP + meso-diaminopimelate[periplasm] + H2O  <-->  ADP + meso-diaminopimelate[cytosol] + phosphate + H+	2*EG12347-MONOMER,2*G7037-MONOMER,1*G7039-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + L-sorbofuranose[periplasm]  <-->  L-sorbofuranose 1-phosphate[cytosol] + an [HPr]-L-histidine	
+YEEO-MONOMER	FMN/FAD exporter	FAD[cytosol]  <-->  FAD[periplasm]	1*YEEO-MONOMER
+ABC-63-CPLX	Zn<sup>2+</sup> ABC transporter	Zn2+[periplasm] + ATP + H2O  <-->  Zn2+[cytosol] + ADP + phosphate + H+	2*ZNUC-MONOMER,2*ZNUB-MONOMER,1*ZNUA-MONOMER
+ABC-57-CPLX	putative ABC exporter YbhFSR	ATP + cefoperazone[cytosol] + H2O  <-->  ADP + cefoperazone[periplasm] + phosphate + H+	1*YBHS-MONOMER,1*YBHR-MONOMER,1*YBHF-MONOMER
+CPLX-8750	adenylate translocator (plastidic)	ATP[cytosol] + ADP[chloroplast stroma] + phosphate[chloroplast stroma]  <-->  ATP[chloroplast stroma] + ADP[cytosol] + phosphate[cytosol]	2*AT1G80300-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + D-fructopyranose[periplasm]  <-->  D-fructopyranose 1-phosphate[cytosol] + an [HPr]-L-histidine	
+AT1G79900-MONOMER	ornithine/ornithine exchanger / arginine/citrulline exchanger	L-citrulline[mitochondrial lumen]  <-->  L-citrulline[cytosol]	1*AT1G79900-MONOMER
+MONOMER-14768	purine permease	cis-zeatin riboside[extracellular space] + H+[extracellular space]  <-->  cis-zeatin riboside[cytosol] + H+[cytosol]	1*MONOMER-14768
+ABC-24-CPLX	spermidine preferential ABC transporter	ATP + spermidine[periplasm] + H2O  <-->  ADP + spermidine[cytosol] + phosphate + H+	2*POTA-MONOMER,1*POTB-MONOMER,1*POTC-MONOMER,1*POTD-MONOMER
+MONOMER-14552	potassium channel	K+[periplasm]  <-->  K+[cytosol]	1*MONOMER-14552
+G185E-5445-MONOMER	drugs-transport transmembrane ATP-binding protein ABC transporter	ATP + trehalose-cis-methoxy-mono-mycolate[cytosol] + H2O  <-->  ADP + trehalose-cis-methoxy-mono-mycolate[periplasm] + phosphate + H+	1*G185E-5445-MONOMER
+CPLX-156	mannitol-specific PTS enzyme II CmtBA	an [HPr protein]-Npi-phospho-L-histidine + D-mannitol[periplasm]  <-->  D-mannitol 1-phosphate[cytosol] + an [HPr]-L-histidine	1*CMTB-MONOMER,1*CMTA-MONOMER
+YIHO-MONOMER	putative sulfoquinovose transporter	6-sulfo-D-quinovose[periplasm]  <-->  6-sulfo-D-quinovose[cytosol]	1*YIHO-MONOMER
+YDGEF-CPLX	multidrug/spermidine efflux pump	nalidixate[cytosol] + H+[periplasm]  <-->  nalidixate[periplasm] + H+[cytosol]	1*B1600-MONOMER,1*B1599-MONOMER
+YGJE-MONOMER	L-tartrate:succinate antiporter	L-tartrate[periplasm] + succinate[cytosol]  <-->  L-tartrate[cytosol] + succinate[periplasm]	1*YGJE-MONOMER
+G6934-MONOMER	cystine/sulfocysteine:cation symporter	S-sulfo-L-cysteine[periplasm] + H+[periplasm]  <-->  S-sulfo-L-cysteine[cytosol] + H+[cytosol]	1*G6934-MONOMER
+		indole[cytosol]  <-->  indole[periplasm]	
+DCUC-MONOMER	anaerobic C4-dicarboxylate transporter DcuC	succinate[cytosol] + 3 H+[cytosol]  <-->  succinate[periplasm] + 3 H+[periplasm]	1*DCUC-MONOMER
+CPLX0-7952	ferric coprogen outer membrane transport complex	iron(III)-coprogen[extracellular space] + H+[periplasm]  <-->  iron(III)-coprogen[periplasm] + H+[cytosol]	1*EG10306-MONOMER,1*EG10272-MONOMER,1*EG10271-MONOMER,1*EG11012-MONOMER
+AT1G58360-MONOMER	amino acid permease 1	L-methionine[extracellular space] + H+[extracellular space]  <-->  L-methionine[cytosol] + H+[cytosol]	1*AT1G58360-MONOMER
+RHAT-MONOMER	rhamnose/lyxose:H<sup>+</sup> symporter	L-rhamnose[periplasm] + H+[periplasm]  <-->  L-rhamnose[cytosol] + H+[cytosol]	1*RHAT-MONOMER
+		hydrogen peroxide[periplasm]  <-->  hydrogen peroxide[cytosol]	
+ABC-18-CPLX	D-galactose / methyl-&beta;-D-galactoside ABC transporter	methyl-beta-D-galactoside[periplasm] + ATP + H2O  <-->  methyl-beta-D-galactoside[cytosol] + ADP + phosphate + H+	1*MGLA-MONOMER,2*MGLC-MONOMER,1*MGLB-MONOMER
+YGGA-MONOMER	L-arginine exporter	L-arginine[out]  <-->  L-arginine[in]	1*YGGA-MONOMER
+EG11902-MONOMER	cystine exporter	cystine[cytosol]  <-->  cystine[periplasm]	1*EG11902-MONOMER
+CHAA-MONOMER	Na<sup>+</sup>/K<sup>+</sup>:H<sup>+</sup> antiporter ChaA	Na+[cytosol] + H+[periplasm]  <-->  Na+[periplasm] + H+[cytosol]	1*CHAA-MONOMER
+		(3E,5Z)-tetradecadienoate[cytosol]  <-->  (3E,5Z)-tetradecadienoate[periplasm]	
+PUTP-MONOMER	proline:Na<sup>+</sup> symporter	propanoate[periplasm]  <-->  propanoate[cytosol]	1*PUTP-MONOMER
+GLPT-MONOMER	<i>sn</i>-glycerol 3-phosphate:phosphate antiporter	sn-glycerol 3-phosphate[periplasm] + phosphate[cytosol]  <-->  sn-glycerol 3-phosphate[cytosol] + phosphate[periplasm]	1*GLPT-MONOMER
+B0260-MONOMER	<i>S</i>-methyl-L-methionine transporter	S-methyl-L-methionine[periplasm]  <-->  S-methyl-L-methionine[cytosol]	1*B0260-MONOMER
+		a beta-D glucan[cytosol] + ATP + H2O  <-->  a beta-D glucan[extracellular space] + ADP + phosphate	
+MONOMER-14778	purine transporter	trans-zeatin[extracellular space] + H+[extracellular space]  <-->  trans-zeatin[cytosol] + H+[cytosol]	1*MONOMER-14778
+		5,6-dimethylbenzimidazole[periplasm]  <-->  5,6-dimethylbenzimidazole[cytosol]	
+MONOMER-14020	Fe(III)-phytosiderophore transporter	a siderophore-bound Fe(III)[extracellular space] + H+[cytosol]  <-->  a siderophore-bound Fe(III)[cytosol] + H+[extracellular space]	1*MONOMER-14020
+		ferrichrome[extracellular space]  <-->  ferrichrome[cytosol]	
+		an oligosaccharide[extracellular space] + ATP + H2O  <-->  an oligosaccharide[cytosol] + ADP + phosphate	
+		an [HPr protein]-Npi-phospho-L-histidine + D-glucose[periplasm]  <-->  D-glucose 6-phosphate[cytosol] + an [HPr]-L-histidine	
+		NAD+[extracellular space]  <-->  NAD+[periplasm]	
+		Ca2+[cytosol]  <-->  Ca2+[periplasm]	
+YHFM-MONOMER	fructoselysine/psicoselysine transporter	N6-(D-psicosyl)-L-lysine[periplasm]  <-->  N6-(D-psicosyl)-L-lysine[cytosol]	1*YHFM-MONOMER
+MALX-MONOMER	PTS enzyme IIBC component MalX	maltose[periplasm]  <-->  maltose[cytosol]	1*MALX-MONOMER
+		octanoate[periplasm]  <-->  octanoate[cytosol]	
+EG11639-MONOMER	cysteine/<i>O</i>-acetylserine exporter EamA	L-cysteine[cytosol]  <-->  L-cysteine[periplasm]	1*EG11639-MONOMER
+TRANS-CPLX-203	2,3-diketo-L-gulonate:Na<sup>+</sup> symporter	Na+[periplasm] + 2,3-dioxo-L-gulonate[periplasm]  <-->  Na+[cytosol] + 2,3-dioxo-L-gulonate[cytosol]	1*EG12283-MONOMER,1*EG12282-MONOMER,1*MONOMER0-422
+EXUT-MONOMER	hexuronate transporter	D-galacturonate[periplasm] + H+[periplasm]  <-->  D-galacturonate[cytosol] + H+[cytosol]	1*EXUT-MONOMER
+METNIQ-METHIONINE-ABC-CPLX	L-methionine/D-methionine ABC transporter	ATP + D-methionine[periplasm] + H2O  <-->  ADP + D-methionine[cytosol] + phosphate + H+	2*ABC-MONOMER,2*METI-MONOMER,1*METQ-MONOMER
+		2-oxobutanoate[periplasm]  <-->  2-oxobutanoate[cytosol]	
+AROP-MONOMER	aromatic amino acid:H<sup>+</sup> symporter AroP	L-tyrosine[periplasm] + H+[periplasm]  <-->  L-tyrosine[cytosol] + H+[cytosol]	1*AROP-MONOMER
+NUPC-MONOMER	nucleoside:H<sup>+</sup> symporter NupC	2'-deoxyinosine[periplasm] + H+[periplasm]  <-->  2'-deoxyinosine[cytosol] + H+[cytosol]	1*NUPC-MONOMER
+CPLX0-7654	glycerol facilitator	DL-glyceraldehyde[periplasm]  <-->  DL-glyceraldehyde[cytosol]	4*GLPF-MONOMER
+MELB-MONOMER	melibiose:H<sup>+</sup>/Na<sup>+</sup>/Li<sup>+</sup> symporter	methyl-alpha-D-galactopyranoside[periplasm] + H+[periplasm]  <-->  methyl-alpha-D-galactopyranoside[cytosol] + H+[cytosol]	1*MELB-MONOMER
+		dityrosine[out] + H+[in]  <-->  dityrosine[in] + H+[out]	
+		4-methylphenol[cytosol]  <-->  4-methylphenol[periplasm]	
+		an [HPr protein]-Npi-phospho-L-histidine + beta-L-sorbofuranose[out]  <-->  beta-L-sorbofuranose 1-phosphate[in] + an [HPr]-L-histidine	
+ABC-70-CPLX	sulfate/thiosulfate ABC transporter	ATP + thiosulfate[periplasm] + H2O  <-->  ADP + thiosulfate[cytosol] + phosphate + H+	1*SBP-MONOMER,1*CYSW-MONOMER,1*CYST-MONOMER,2*CYSA-MONOMER
+		4 H+[in]  <-->  4 H+[out]	
+CPLX0-8263	guanidinium exporter	guanidinium[cytosol] + 2 H+[periplasm]  <-->  guanidinium[periplasm] + 2 H+[cytosol]	2*SUGE-MONOMER
+		ethanolamine[periplasm]  <-->  ethanolamine[cytosol]	
+		an [HPr protein]-Npi-phospho-L-histidine + alpha-lactose[periplasm]  <-->  alpha-lactose 6'-phosphate[cytosol] + an [HPr]-L-histidine	
+		ATP + Mn2+[extracellular space] + H2O  <-->  ADP + Mn2+[cytosol] + phosphate + H+	
+ABC-26-CPLX	glycine betaine ABC transporter	ATP + L-proline[periplasm] + H2O  <-->  ADP + L-proline[cytosol] + phosphate + H+	2*PROV-MONOMER,2*PROW-MONOMER,1*PROX-MONOMER
+MHPT-MONOMER	3-hydroxyphenylpropionate/3-hydroxycinnamate:H<sup>+</sup> symporter	3-hydroxycinnamate[periplasm] + H+[periplasm]  <-->  3-hydroxycinnamate[cytosol] + H+[cytosol]	1*MHPT-MONOMER
+G185E-5445-MONOMER	drugs-transport transmembrane ATP-binding protein ABC transporter	ATP + trehalose-cis-keto-mono-mycolate[cytosol] + H2O  <-->  ADP + trehalose-cis-keto-mono-mycolate[periplasm] + phosphate + H+	1*G185E-5445-MONOMER
+CPLX66-230	gastric H<sup>+</sup>/K<sup>+</sup> ATPase	ATP + K+[out] + H2O + H+[in]  <-->  ADP + K+[in] + phosphate + H+[in] + H+[in]	1*G66-33511-MONOMER,1*HS02790-MONOMER
+TRANS-CPLX-202	multidrug efflux pump MdtABC-TolC	deoxycholate[periplasm] + H+[periplasm]  <-->  deoxycholate[extracellular space] + H+[cytosol]	3*EG11009-MONOMER,1*B2076-MONOMER,2*B2075-MONOMER,1*MDTA
+CPLX0-1924	vitamin B12 outer membrane transport complex	cob(I)inamide[extracellular space] + H+[periplasm]  <-->  cob(I)inamide[periplasm] + H+[cytosol]	1*EG10272-MONOMER,1*EG10271-MONOMER,1*EG11012-MONOMER,1*EG10126-MONOMER
+CYCA-MONOMER	D-serine/alanine/glycine/:H<sup>+</sup>symporter	beta-alanine[periplasm] + H+[periplasm]  <-->  beta-alanine[cytosol] + H+[cytosol]	1*CYCA-MONOMER
+YJIO-MONOMER	multidrug efflux pump / bile salt:H<sup>+</sup> antiporter / Na<sup>+</sup>:H<sup>+</sup> antiporter / K<sup>+</sup>:H<sup>+</sup> antiporter	K+[cytosol] + 2 H+[periplasm]  <-->  K+[periplasm] + 2 H+[cytosol]	1*YJIO-MONOMER
+		hydrogen sulfide[cytosol]  <-->  hydrogen sulfide[periplasm]	
+ABC-13-CPLX	glutamate / aspartate ABC transporter	ATP + L-aspartate[periplasm] + H2O  <-->  ADP + L-aspartate[cytosol] + phosphate + H+	1*G6359-MONOMER,1*GLTK-MONOMER,1*GLTJ-MONOMER,2*GLTL-MONOMER
+		2 L-glutamate[out] + 2 H+[out]  <-->  2 L-glutamate[in] + 2 H+[in]	
+G6934-MONOMER	cystine/sulfocysteine:cation symporter	L,L-homocystine[periplasm] + H+[periplasm]  <-->  L,L-homocystine[cytosol] + H+[cytosol]	1*G6934-MONOMER
+RHTC-MONOMER	L-threonine exporter	L-threonine[cytosol] + H+[periplasm]  <-->  L-threonine[periplasm] + H+[cytosol]	1*RHTC-MONOMER
+SHIA-MONOMER	shikimate:H<sup>+</sup> symporter	shikimate[periplasm] + H+[periplasm]  <-->  shikimate[cytosol] + H+[cytosol]	1*SHIA-MONOMER
+RHTB-MONOMER	L-homoserine/L-homoserine lactone/L-threonine exporter	L-homoserine[cytosol] + H+[periplasm]  <-->  L-homoserine[periplasm] + H+[cytosol]	1*RHTB-MONOMER
+MHPT-MONOMER	3-hydroxyphenylpropionate/3-hydroxycinnamate:H<sup>+</sup> symporter	3-(3-hydroxyphenyl)propanoate[periplasm] + H+[periplasm]  <-->  3-(3-hydroxyphenyl)propanoate[cytosol] + H+[cytosol]	1*MHPT-MONOMER
+MONOMER-17399	oxaloacetate/malate antiporter / malate/oxaloacetate antiporter	(S)-malate[cytosol]  <-->  (S)-malate[mitochondrial lumen]	1*MONOMER-17399
+CPLX0-7534	outer membrane porin F	a beta-lactam[extracellular space]  <-->  a beta-lactam[periplasm]	3*EG10671-MONOMER
+MONOMER-14768	purine permease	caffeine[extracellular space] + H+[extracellular space]  <-->  caffeine[cytosol] + H+[cytosol]	1*MONOMER-14768
+		an [HPr protein]-Npi-phospho-L-histidine + alpha-D-galactopyranose[out]  <-->  alpha-D-galactose 6-phosphate[in] + an [HPr]-L-histidine	
+MONOMER-14503	copper-transporting ATPase	Cu2+[in] + ATP + H2O  <-->  Cu2+[out] + ADP + phosphate + H+	1*MONOMER-14503
+RFBX-MONOMER	polyisoprenol-linked <i>O</i>-antigen repeat unit flippase	E. coli O16 antigen monomer-diphosphoundecaprenol[cytosol]  <-->  E. coli O16 antigen monomer-diphosphoundecaprenol[periplasm]	1*RFBX-MONOMER
+ABC-42-CPLX	D-allose ABC transporter	D-allose[periplasm] + ATP + H2O  <-->  D-allose[cytosol] + ADP + phosphate + H+	1*YJCW-MONOMER,2*YJCV-MONOMER,1*YJCX-MONOMER
+CPLX0-2121	multidrug efflux pump EmrAB-TolC	nalidixate[cytosol] + H+[periplasm]  <-->  nalidixate[extracellular space] + H+[cytosol]	3*EG11009-MONOMER,1*EG11354-MONOMER,1*EMRB-MONOMER
+EG11691-MONOMER	adenine transporter	adenine[periplasm]  <-->  adenine[cytosol]	1*EG11691-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + D-fructofuranose[periplasm]  <-->  D-fructofuranose 1-phosphate[cytosol] + an [HPr]-L-histidine	
+CPLX0-7955	acetate/glycolate:cation symporter	acetate[periplasm] + Na+[periplasm]  <-->  acetate[cytosol] + Na+[cytosol]	2*YJCG-MONOMER
+BRNQ-MONOMER	branched chain amino acid transporter BrnQ	Na+[periplasm] + L-isoleucine[periplasm]  <-->  Na+[cytosol] + L-isoleucine[cytosol]	1*BRNQ-MONOMER
+ABC-2-CPLX	arabinose ABC transporter	ATP + L-arabinose[periplasm] + H2O  <-->  ADP + L-arabinose[cytosol] + phosphate + H+	2*ARAG-MONOMER,2*ARAH-MONOMER,1*ARAF-MONOMER
+		uracil[cytosol]  <-->  uracil[periplasm]	
+YDHE-MONOMER	multidrug efflux pump MdtK	tetraphenylphosphonium[cytosol] + Na+[periplasm]  <-->  tetraphenylphosphonium[periplasm] + Na+[cytosol]	1*YDHE-MONOMER
+CPLX0-1943	ferric citrate outer membrane transport complex	iron(III) dicitrate[extracellular space] + H+[periplasm]  <-->  iron(III) dicitrate[periplasm] + H+[cytosol]	1*EG10286-MONOMER,1*EG10272-MONOMER,1*EG10271-MONOMER,1*EG11012-MONOMER
+YGGA-MONOMER	L-arginine exporter	L-canavanine[cytosol]  <-->  L-canavanine[periplasm]	1*YGGA-MONOMER
+NUPC-MONOMER	nucleoside:H<sup>+</sup> symporter NupC	inosine[periplasm] + H+[periplasm]  <-->  inosine[cytosol] + H+[cytosol]	1*NUPC-MONOMER
+CPLX0-7642	osmolyte:H<sup>+</sup> symporter ProP	glycine betaine[periplasm] + H+[periplasm]  <-->  glycine betaine[cytosol] + H+[cytosol]	2*PROP-MONOMER
+		pseudouridine[periplasm] + H+[periplasm]  <-->  pseudouridine[cytosol] + H+[cytosol]	
+		an [HPr protein]-Npi-phospho-L-histidine + L-sorbose[periplasm]  <-->  an L-sorbose 1-phosphate[cytosol] + an [HPr]-L-histidine	
+EG11167-MONOMER	heavy metal divalent cation transporter ZupT	Zn2+[periplasm]  <-->  Zn2+[cytosol]	1*EG11167-MONOMER
+AT1G58360-MONOMER	amino acid permease 1	2 L-leucine[out] + 2 H+[out]  <-->  2 L-leucine[in] + 2 H+[in]	1*AT1G58360-MONOMER
+CPLX66-226	large neutral amino acid transporter 1	L-phenylalanine[out]  <-->  L-phenylalanine[in]	1*ENSG00000168003-MONOMER,1*ENSG00000103257-MONOMER
+B4141-MONOMER	L-methionine/branched chain amino acid exporter	L-isoleucine[cytosol] + H+[periplasm]  <-->  L-isoleucine[periplasm] + H+[cytosol]	1*B4141-MONOMER
+XASA-MONOMER	L-glutamate:4-aminobutyrate antiporter	4-aminobutanoate[cytosol] + L-glutamate[periplasm]  <-->  L-glutamate[cytosol] + 4-aminobutanoate[periplasm]	1*XASA-MONOMER
+FOCB-MONOMER	formate channel FocB	formate[cytosol]  <-->  formate[periplasm]	1*FOCB-MONOMER
+ABC-23-CPLX	cryptic phosphonate/phosphate ABC transporter	ATP + an (aminoalkyl)phosphonate[periplasm] + H2O  <-->  ADP + an (aminoalkyl)phosphonate[cytosol] + phosphate + H+	2*PHNC-MONOMER,1*PHND-MONOMER
+		D-galactono-1,4-lactone[periplasm]  <-->  D-galactono-1,4-lactone[cytosol]	
+MONOMER-16176	oxalate:formate antiporter	formate[in] + oxalate[out]  <-->  formate[out] + oxalate[in]	1*MONOMER-16176
+UHPT-MONOMER	hexose-6-phosphate:phosphate antiporter	D-mannopyranose 6-phosphate[periplasm] + phosphate[cytosol]  <-->  D-mannopyranose 6-phosphate[cytosol] + phosphate[periplasm]	1*UHPT-MONOMER
+G3O-29654-MONOMER	P-type Na<sup>+</sup> transporter	ATP + Na+[cytosol] + H2O  <-->  ADP + Na+[extracellular space] + phosphate + H+	1*G3O-29654-MONOMER
+MONOMER-14768	purine permease	cytosine[extracellular space] + H+[extracellular space]  <-->  cytosine[cytosol] + H+[cytosol]	1*MONOMER-14768
+MONOMER-20875	ABC-type myristoylated ferribactin transporter	myristoylated ferribactin[cytosol] + ATP + H2O  <-->  myristoylated ferribactin[periplasm] + ADP + phosphate + H+	1*MONOMER-20875
+ABC-70-CPLX	sulfate/thiosulfate ABC transporter	selenite[periplasm] + ATP + H2O  <-->  selenite[cytosol] + ADP + phosphate + H+	1*SBP-MONOMER,1*CYSW-MONOMER,1*CYST-MONOMER,2*CYSA-MONOMER
+NANT-MONOMER	<i>N</i>-acetylneuraminate:H<sup>+</sup> symporter	N-acetyl-beta-neuraminate[periplasm] + H+[periplasm]  <-->  N-acetyl-beta-neuraminate[cytosol] + H+[cytosol]	1*NANT-MONOMER
+CPLX-168	trehalose-specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + alpha,alpha-trehalose[periplasm]  <-->  alpha,alpha-trehalose 6-phosphate[cytosol] + an [HPr]-L-histidine	2*TREB-MONOMER,1*CRR-MONOMER
+		a capsular polysaccharide[in] + ATP + H2O  <-->  a capsular polysaccharide[out] + ADP + phosphate	
+		iron(III)-enterobactin complex[extracellular space]  <-->  iron(III)-enterobactin complex[cytosol]	
+CPLX0-7654	glycerol facilitator	urea[cytosol]  <-->  urea[periplasm]	4*GLPF-MONOMER
+CPLX-7655	V-type Na<sup>+</sup>-translocating ATPase	n Na+[in] + ATP + H2O  <-->  n Na+[out] + ADP + phosphate + H+	1*MONOMER-14152,1*MONOMER-14151,1*MONOMER-14150,1*MONOMER-14149,1*MONOMER-14148,3*MONOMER-14147,3*MONOMER-14146,1*MONOMER-14154,10*MONOMER-14153
+MONOMER-21008	trivalent organoarsenicals efflux protein ArsP	methylarsonite[in] + H+[out]  <-->  methylarsonite[out] + H+[in]	1*MONOMER-21008
+CORA-MONOMER	Ni<sup>2+</sup>/Co<sup>2+</sup>/Mg<sup>2+</sup> transporter	Co2+[periplasm]  <-->  Co2+[cytosol]	1*CORA-MONOMER
+G6561-MONOMER	lipid II flippase MurJ	ditrans,octacis-undecaprenyldiphospho-[(N-acetyl-beta-D-glucosaminyl)-(1,4)-]-N-acetyl-alpha-D-muramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine[cytosol]  <-->  ditrans,octacis-undecaprenyldiphospho-[(N-acetyl-beta-D-glucosaminyl)-(1,4)-]-N-acetyl-alpha-D-muramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine[periplasm]	1*G6561-MONOMER
+		hydrogen peroxide[periplasm]  <-->  hydrogen peroxide[extracellular space]	
+CPLX0-3970	murein tripeptide ABC transporter	ATP + L-alanyl-gamma-D-glutamyl-meso-diaminopimelate[periplasm] + H2O  <-->  L-alanyl-gamma-D-glutamyl-meso-diaminopimelate[cytosol] + ADP + phosphate + H+	1*OPPF-MONOMER,1*OPPD-MONOMER,1*OPPC-MONOMER,1*OPPB-MONOMER,1*G6665-MONOMER
+YJIZ-MONOMER	galactonate:H+ symporter	aldehydo-L-galactonate[periplasm] + H+[periplasm]  <-->  aldehydo-L-galactonate[cytosol] + H+[cytosol]	1*YJIZ-MONOMER
+TATABCE-CPLX	twin arginine protein translocation system	a protein[cytosol]  <-->  a protein[periplasm]	1*G7808-MONOMER,1*EG11479-MONOMER,1*EG11305-MONOMER,1*TATA
+DCTA-MONOMER	C4 dicarboxylate/orotate:H<sup>+</sup> symporter	orotate[periplasm] + 2 H+[periplasm]  <-->  orotate[cytosol] + 2 H+[cytosol]	1*DCTA-MONOMER
+SDAC-MONOMER	serine:H<sup>+</sup> symporter SdaC	L-serine[periplasm] + H+[periplasm]  <-->  L-serine[cytosol] + H+[cytosol]	1*SDAC-MONOMER
+YCHM-MONOMER	aerobic C4-dicarboxylate transporter DauA	fumarate[periplasm] + 2 H+[periplasm]  <-->  fumarate[cytosol] + 2 H+[cytosol]	1*YCHM-MONOMER
+CYCA-MONOMER	D-serine/alanine/glycine/:H<sup>+</sup>symporter	glycine[periplasm] + H+[periplasm]  <-->  glycine[cytosol] + H+[cytosol]	1*CYCA-MONOMER
+EG11167-MONOMER	heavy metal divalent cation transporter ZupT	Mn2+[periplasm]  <-->  Mn2+[cytosol]	1*EG11167-MONOMER
+NUPC-MONOMER	nucleoside:H<sup>+</sup> symporter NupC	cytidine[periplasm] + H+[periplasm]  <-->  cytidine[cytosol] + H+[cytosol]	1*NUPC-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + keto-L-sorbose[out]  <-->  keto-L-sorbose 1-phosphate[in] + an [HPr]-L-histidine	
+CPLX0-7963	multidrug efflux pump EmrE / betaine:H<sup>+</sup> antiporter / choline:H<sup>+</sup> antiporter	choline[cytosol] + H+[periplasm]  <-->  choline[periplasm] + H+[cytosol]	2*EMRE-MONOMER
+ABC-56-CPLX	aliphatic sulfonate ABC transporter	ATP + an aliphatic sulfonate[periplasm] + H2O  <-->  an aliphatic sulfonate[cytosol] + ADP + phosphate + H+	1*G6478-MONOMER,2*YCBM-MONOMER,2*YCBE-MONOMER
+G7921-MONOMER	<i>N</i>-acetylneuraminic acid outer membrane channel	N-acetylneuraminate[extracellular space]  <-->  N-acetylneuraminate[periplasm]	1*G7921-MONOMER
+CPLX1QP9-157	fructoselysine/glucoselysine PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + N6-(D-glucosyl)-L-lysine[periplasm]  <-->  an [HPr]-L-histidine + N6-(6-phospho-D-glucosyl)-L-lysine[cytosol]	1*STM14_RS23780-MONOMER,1*STM14_RS23775-MONOMER,1*STM14_RS23770-MONOMER,1*STM14_RS23765-MONOMER
+		D-cystine[cytosol]  <-->  D-cystine[periplasm]	
+CPLX0-2121	multidrug efflux pump EmrAB-TolC	deoxycholate[cytosol] + H+[periplasm]  <-->  deoxycholate[extracellular space] + H+[cytosol]	3*EG11009-MONOMER,1*EG11354-MONOMER,1*EMRB-MONOMER
+MELB-MONOMER	melibiose:H<sup>+</sup>/Na<sup>+</sup>/Li<sup>+</sup> symporter	melibionate[periplasm] + H+[periplasm]  <-->  melibionate[cytosol] + H+[cytosol]	1*MELB-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + beta-D-fructofuranose[out]  <-->  beta-D-fructofuranose 1-phosphate[in] + an [HPr]-L-histidine	
+		Ca2+[periplasm]  <-->  Ca2+[cytosol]	
+ABC-23-CPLX	cryptic phosphonate/phosphate ABC transporter	ATP + an alkylphosphonate[periplasm] + H2O  <-->  ADP + an alkylphosphonate[cytosol] + phosphate + H+	2*PHNC-MONOMER,1*PHND-MONOMER
+		1-O-acetyl-alpha-maltose[cytosol]  <-->  1-O-acetyl-alpha-maltose[extracellular space]	
+		a polyamine[extracellular space] + ATP + H2O  <-->  a polyamine[cytosol] + ADP + phosphate	
+EXUT-MONOMER	hexuronate transporter	D-glucuronate[periplasm] + H+[periplasm]  <-->  D-glucuronate[cytosol] + H+[cytosol]	1*EXUT-MONOMER
+ABGT-MONOMER	<i>p</i>-aminobenzoyl glutamate:H<sup>+</sup> symporter	N-(4-aminobenzoyl)-L-glutamate[periplasm] + H+[periplasm]  <-->  N-(4-aminobenzoyl)-L-glutamate[cytosol] + H+[cytosol]	1*ABGT-MONOMER
+UHPT-MONOMER	hexose-6-phosphate:phosphate antiporter	D-glucopyranose 6-phosphate[periplasm] + phosphate[cytosol]  <-->  D-glucopyranose 6-phosphate[cytosol] + phosphate[periplasm]	1*UHPT-MONOMER
+MONOMER-20449	transport of &alpha;-ribazole	alpha-ribazole[out] + ATP + H2O  <-->  alpha-ribazole[in] + ADP + phosphate + H+	1*MONOMER-20449
+CPLX0-1721	copper/silver export system	Cu+[cytosol] + H+[periplasm]  <-->  Cu+[extracellular space] + H+[cytosol]	3*G6320-MONOMER,6*G6322-MONOMER,1*G6321-MONOMER,3*YBDE-MONOMER
+XYLE-MONOMER	D-xylose:H<sup>+</sup> symporter	D-xylose[periplasm] + H+[periplasm]  <-->  D-xylose[cytosol] + H+[cytosol]	1*XYLE-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + chitobiose[periplasm]  <-->  chitobiose 6'-phosphate[cytosol] + an [HPr]-L-histidine	
+YDGEF-CPLX	multidrug/spermidine efflux pump	spermidine[cytosol] + H+[periplasm]  <-->  spermidine[periplasm] + H+[cytosol]	1*B1600-MONOMER,1*B1599-MONOMER
+AT1G58360-MONOMER	amino acid permease 1	2 glycine[out] + 2 H+[out]  <-->  2 glycine[in] + 2 H+[in]	1*AT1G58360-MONOMER
+ABC-40-CPLX	glycine betaine ABC transporter, non-osmoregulatory	glycine betaine[periplasm] + ATP + H2O  <-->  glycine betaine[cytosol] + ADP + phosphate + H+	1*YEHZ-MONOMER,1*YEHY-MONOMER,1*YEHX-MONOMER,1*YEHW-MONOMER
+CADB-MONOMER	lysine:cadaverine antiporter	cadaverine[periplasm] + H+[periplasm]  <-->  cadaverine[cytosol] + H+[cytosol]	1*CADB-MONOMER
+MELB-MONOMER	melibiose:H<sup>+</sup>/Na<sup>+</sup>/Li<sup>+</sup> symporter	Li+[periplasm] + melibiose[periplasm]  <-->  Li+[cytosol] + melibiose[cytosol]	1*MELB-MONOMER
+		an aromatic amino acid[cytosol]  <-->  an aromatic amino acid[periplasm]	
+PHEP-MONOMER	phenylalanine:H<sup>+</sup> symporter PheP	L-phenylalanine[periplasm] + H+[periplasm]  <-->  L-phenylalanine[cytosol] + H+[cytosol]	1*PHEP-MONOMER
+LACY-MONOMER	lactose permease	alpha-lactose[periplasm] + H+[periplasm]  <-->  alpha-lactose[cytosol] + H+[cytosol]	1*LACY-MONOMER
+TRANS-200-CPLX	ABC-type tripartite efflux pump	bacitracin[periplasm] + ATP + H2O  <-->  bacitracin[extracellular space] + ADP + phosphate + H+	3*EG11009-MONOMER,2*MACB,6*MACA
+		2 H+[in]  <-->  2 H+[out]	
+		an [HPr protein]-Npi-phospho-L-histidine + beta-maltose[periplasm]  <-->  beta-maltose 6'-phosphate[cytosol] + an [HPr]-L-histidine	
+		an [HPr protein]-Npi-phospho-L-histidine + D-cellobiose[out]  <-->  D-cellobiose 6'-phosphate[in] + an [HPr]-L-histidine	
+FUCP-MONOMER	L-fucose:H+ symporter	L-fucose[periplasm] + H+[periplasm]  <-->  L-fucose[cytosol] + H+[cytosol]	1*FUCP-MONOMER
+ABC-15-CPLX	branched chain amino acid / phenylalanine ABC transporter	ATP + L-valine[periplasm] + H2O  <-->  ADP + L-valine[cytosol] + phosphate + H+	1*LIVM-MONOMER,1*LIVH-MONOMER,1*LIVG-MONOMER,1*LIVF-MONOMER,1*LIVJ-MONOMER
+		alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc-diphosphodolichol[cytosol]  <-->  alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc-diphosphodolichol[rough endoplasmic reticulum lumen]	
+AT4G19680-MONOMER	iron regulated transporter	2 Fe2+[extracellular space]  <-->  2 Fe2+[cytosol]	1*AT4G19680-MONOMER
+CPLX1G01-200	CzcCBA1 chemiosmotic transporter	Pb2+[in] + H+[out]  <-->  Pb2+[out] + H+[in]	1*G1G01-46-MONOMER,1*G1G01-45-MONOMER,1*G1G01-44-MONOMER
+MTR-MONOMER	tryptophan:H<sup>+</sup> symporter Mtr	indole[periplasm] + H+[periplasm]  <-->  indole[cytosol] + H+[cytosol]	1*MTR-MONOMER
+CPLX0-3932	multidrug efflux pump AcrAD-TolC	a gentamicin[periplasm] + H+[periplasm]  <-->  a gentamicin[extracellular space] + H+[cytosol]	3*EG11009-MONOMER,3*ACRD-MONOMER,6*EG11703-MONOMER
+MALX-MONOMER	PTS enzyme IIBC component MalX	D-glucopyranose[periplasm]  <-->  D-glucopyranose[cytosol]	1*MALX-MONOMER
+ABC-16-CPLX	maltose ABC transporter	maltose[out] + ATP + H2O  <-->  maltose[in] + ADP + phosphate + H+	2*MALK-MONOMER,1*MALF-MONOMER,1*MALG-MONOMER,1*MALE-MONOMER
+EG11639-MONOMER	cysteine/<i>O</i>-acetylserine exporter EamA	O-acetyl-L-serine[cytosol]  <-->  O-acetyl-L-serine[periplasm]	1*EG11639-MONOMER
+CPLX0-7963	multidrug efflux pump EmrE / betaine:H<sup>+</sup> antiporter / choline:H<sup>+</sup> antiporter	ethidium[cytosol] + 2 H+[periplasm]  <-->  ethidium[periplasm] + 2 H+[cytosol]	2*EMRE-MONOMER
+CPLX8J2-161	teichoic acid ABC transporter	a polyisoprenyl-minor wall teichoic acid (B. subtilis 168)[cytosol]  <-->  a polyisoprenyl-minor wall teichoic acid (B. subtilis 168)[extracellular space]	1*BSU35700-MONOMER,1*BSU35710-MONOMER
+ABC-11-CPLX	iron(III) hydroxamate ABC transporter	iron(III)-coprogen[periplasm] + ATP + H2O  <-->  iron(III)-coprogen[cytosol] + ADP + phosphate + H+	2*FHUC-MONOMER,1*FHUB-MONOMER,1*FHUD-MONOMER
+GLTP-MONOMER	glutamate/aspartate : H<sup>+</sup> symporter GltP	L-aspartate[periplasm] + 2 H+[periplasm]  <-->  L-aspartate[cytosol] + 2 H+[cytosol]	1*GLTP-MONOMER
+AT1G58360-MONOMER	amino acid permease 1	L-phenylalanine[out] + H+[out]  <-->  L-phenylalanine[in] + H+[in]	1*AT1G58360-MONOMER
+		allantoin[periplasm]  <-->  allantoin[cytosol]	
+PITB-MONOMER	metal phosphate:H<sup>+</sup> symporter PitB	calcium hydrogenphosphate[periplasm] + H+[periplasm]  <-->  calcium hydrogenphosphate[cytosol] + H+[cytosol]	1*PITB-MONOMER
+CPLX8J2-78	ABC-type Na<sup>+</sup> transporter	ATP + Na+[cytosol] + H2O  <-->  ADP + Na+[extracellular space] + phosphate + H+	1*BSU02750-MONOMER,1*BSU02760-MONOMER
+CPLX0-7534	outer membrane porin F	an aromatic compound[periplasm]  <-->  an aromatic compound[extracellular space]	3*EG10671-MONOMER
+NANT-MONOMER	<i>N</i>-acetylneuraminate:H<sup>+</sup> symporter	N-acetylneuraminate[periplasm] + H+[periplasm]  <-->  N-acetylneuraminate[cytosol] + H+[cytosol]	1*NANT-MONOMER
+NUPC-MONOMER	nucleoside:H<sup>+</sup> symporter NupC	2'-deoxycytidine[periplasm] + H+[periplasm]  <-->  2'-deoxycytidine[cytosol] + H+[cytosol]	1*NUPC-MONOMER
+MONOMER-17461	glutamine-glutamate antiporter	L-glutamate[chloroplast stroma]  <-->  L-glutamate[cytosol]	1*MONOMER-17461
+		L-glyceraldehyde 3-phosphate[periplasm]  <-->  L-glyceraldehyde 3-phosphate[cytosol]	
+GALP-MONOMER	galactose:H<sup>+</sup> symporter	D-galactopyranose[periplasm] + H+[periplasm]  <-->  D-galactopyranose[cytosol] + H+[cytosol]	1*GALP-MONOMER
+DCTA-MONOMER	C4 dicarboxylate/orotate:H<sup>+</sup> symporter	a C4-dicarboxylate[periplasm] + 2 H+[periplasm]  <-->  a C4-dicarboxylate[cytosol] + 2 H+[cytosol]	1*DCTA-MONOMER
+MONOMER-14612	plastid envelope ATPase	Ca2+[in] + ATP + H2O  <-->  Ca2+[out] + ADP + phosphate + H+	1*MONOMER-14612
+DCUB-MONOMER	anaerobic C4-dicarboxylate transporter DcuB	D-tartrate[periplasm] + succinate[cytosol]  <-->  succinate[periplasm] + D-tartrate[cytosol]	1*DCUB-MONOMER
+CPLX0-7961	chloride:H<sup>+</sup> antiporter ClcA	2 chloride[periplasm] + H+[cytosol]  <-->  2 chloride[cytosol] + H+[periplasm]	2*YADQ-MONOMER
+CPLX-165	mannose-specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + D-mannopyranose[periplasm]  <-->  an [HPr]-L-histidine[cytosol] + D-mannopyranose 6-phosphate	2*MANZ-MONOMER,1*MANY-MONOMER,2*MANX-MONOMER
+		d-biotin d-sulfoxide[periplasm]  <-->  d-biotin d-sulfoxide[cytosol]	
+G6934-MONOMER	cystine/sulfocysteine:cation symporter	D-cystine[periplasm] + H+[periplasm]  <-->  D-cystine[cytosol] + H+[cytosol]	1*G6934-MONOMER
+		a siderophore-bound Fe(III)[extracellular space] + ATP + H2O  <-->  a siderophore-bound Fe(III)[cytosol] + ADP + phosphate + H+	
+NIRC-MONOMER	nitrite transporter NirC	nitrite[cytosol]  <-->  nitrite[periplasm]	1*NIRC-MONOMER
+ABC-58-CPLX	Autoinducer-2 ABC transporter	(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran[periplasm] + ATP + H2O  <-->  (2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran[cytosol] + ADP + phosphate + H+	1*YNEA-MONOMER,1*YDEZ-MONOMER,1*YDEY-MONOMER,2*YDEX-MONOMER
+		a phospholipid[in] + ATP + H2O  <-->  a phospholipid[out] + ADP + phosphate + H+	
+G6458-MONOMER	L-lysine exporter	L-lysine[cytosol]  <-->  L-lysine[periplasm]	1*G6458-MONOMER
+		3-phenylpropanoate[periplasm]  <-->  3-phenylpropanoate[cytosol]	
+PUTP-MONOMER	proline:Na<sup>+</sup> symporter	Na+[periplasm] + L-proline[periplasm]  <-->  Na+[cytosol] + L-proline[cytosol]	1*PUTP-MONOMER
+MONOMER0-2799	transport of pyridoxal	pyridoxal[periplasm]  <-->  pyridoxal[cytosol]	1*MONOMER0-2799
+CPLX0-7994	poly-<i>N</i>-acetyl-D-glucosamine synthase	poly-beta-1,6-N-acetyl-D-glucosamine[cytosol]  <-->  poly-beta-1,6-N-acetyl-D-glucosamine[periplasm]	1*G6528-MONOMER,1*G6529-MONOMER
+		acetylcholine[cytosol]  <-->  acetylcholine[vesicle]	
+DCUA-MONOMER	C4-dicarboxylate transporter DcuA	succinate[cytosol] + (S)-malate[periplasm]  <-->  (S)-malate[cytosol] + succinate[periplasm]	1*DCUA-MONOMER
+YGFU-MONOMER	urate:H<sup>+</sup> symporter	urate[periplasm] + H+[periplasm]  <-->  urate[cytosol] + H+[cytosol]	1*YGFU-MONOMER
+BETT-MONOMER	choline:H<sup>+</sup> symporter	choline[periplasm] + H+[periplasm]  <-->  choline[cytosol] + H+[cytosol]	1*BETT-MONOMER
+METNIQ-METHIONINE-ABC-CPLX	L-methionine/D-methionine ABC transporter	L-methionine S-oxide[periplasm] + ATP + H2O  <-->  L-methionine S-oxide[cytosol] + ADP + phosphate + H+	2*ABC-MONOMER,2*METI-MONOMER,1*METQ-MONOMER
+CPLX0-7963	multidrug efflux pump EmrE / betaine:H<sup>+</sup> antiporter / choline:H<sup>+</sup> antiporter	sulfadiazine[cytosol] + 2 H+[periplasm]  <-->  sulfadiazine[periplasm] + 2 H+[cytosol]	2*EMRE-MONOMER
+G3O-30531-MONOMER	H<sup>+</sup>-exporting ATPase PMA1	ATP + H+[cytosol] + H2O  <-->  ADP + phosphate + 2 H+[extracellular space]	1*G3O-30531-MONOMER
+		a protein[cytosol] + ATP + H2O  <-->  a protein[extracellular space] + ADP + phosphate + H+	
+EG11035-MONOMER	nucleoside-specific channel-forming protein Tsx	a nucleoside[extracellular space]  <-->  a nucleoside[periplasm]	1*EG11035-MONOMER
+		ATP + phosphonate[extracellular space] + H2O  <-->  ADP + phosphonate[cytosol] + phosphate + H+	
+		1-deoxy-D-xylulose[periplasm]  <-->  1-deoxy-D-xylulose[cytosol]	
+AMPG-MONOMER	muropeptide:H<sup>+</sup> symporter	N-acetyl-beta-D-glucosamine-1,6-anhydro-N-acetyl-beta-D-muramate[periplasm] + H+[periplasm]  <-->  N-acetyl-beta-D-glucosamine-1,6-anhydro-N-acetyl-beta-D-muramate[cytosol] + H+[cytosol]	1*AMPG-MONOMER
+AT5G16150-MONOMER	glucose transporter	glucose[chloroplast stroma]  <-->  glucose[cytosol]	1*AT5G16150-MONOMER
+G6260-MONOMER	Cu<sup>+</sup> exporting P-type ATPase	Cu+[cytosol] + ATP + H2O  <-->  Cu+[periplasm] + ADP + phosphate + H+	1*G6260-MONOMER
+TRANS-CPLX-202	multidrug efflux pump MdtABC-TolC	dodecyl sulfate[periplasm] + H+[periplasm]  <-->  dodecyl sulfate[extracellular space] + H+[cytosol]	3*EG11009-MONOMER,1*B2076-MONOMER,2*B2075-MONOMER,1*MDTA
+YDEA-MONOMER	L-arabinose exporter	L-arabinose[cytosol] + H+[periplasm]  <-->  L-arabinose[periplasm] + H+[cytosol]	1*YDEA-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + alpha-chitobiose[out]  <-->  alpha-chitobiose 6'-phosphate[in] + an [HPr]-L-histidine	
+		(S)-malate[side 1]  <-->  (S)-malate[side 2]	
+		an [HPr protein]-Npi-phospho-L-histidine + alpha-D-mannopyranose[out]  <-->  alpha-D-mannopyranose 6-phosphate[in] + an [HPr]-L-histidine	
+ABC-33-CPLX	xylose ABC transporter	ATP + D-xylose[periplasm] + H2O  <-->  ADP + D-xylose[cytosol] + phosphate + H+	1*XYLG-MONOMER,2*XYLH-MONOMER,1*XYLF-MONOMER
+TRANS-CPLX-201	multidrug efflux pump AcrAB-TolC	enterobactin[periplasm] + H+[periplasm]  <-->  enterobactin[extracellular space] + H+[cytosol]	6*EG11703-MONOMER,3*EG11009-MONOMER,3*ACRB-MONOMER
+ABC-13-CPLX	glutamate / aspartate ABC transporter	ATP + L-glutamate[periplasm] + H2O  <-->  ADP + L-glutamate[cytosol] + phosphate + H+	1*G6359-MONOMER,1*GLTK-MONOMER,1*GLTJ-MONOMER,2*GLTL-MONOMER
+YIDY-MONOMER	efflux pump MdtL	chloramphenicol[cytosol] + H+[periplasm]  <-->  chloramphenicol[periplasm] + H+[cytosol]	1*YIDY-MONOMER
+MONOMER-20019	type IV teichoic acid flippase	[(Chol-P-GalNAc)-(Chol-P-GalNAc)-(GalNAc-Rib-ol)-P-Glc-AATGal]n-PP-undecaprenol[cytosol]  <-->  [(Chol-P-GalNAc)-(Chol-P-GalNAc)-(GalNAc-Rib-ol)-P-Glc-AATGal]n-PP-undecaprenol[periplasm]	1*MONOMER-20019
+EG12455-MONOMER	lysophospholipid transporter	a 2-acyl-1-lyso-phosphatidylethanolamine[periplasm]  <-->  a 2-acyl-1-lyso-phosphatidylethanolamine[cytosol]	1*EG12455-MONOMER
+		ATP + L-tyrosine[out] + H2O  <-->  ADP + L-tyrosine[in] + phosphate + H+	
+		methyl-O-4-beta-D-glucuronosyl-(1->4)-alpha-D-galacturonosyl-(1->4)-beta-D-glucuronosyl-(1->4)-alpha-D-glucosyl-(C55 omega-saturated dolichyl phosphate)[cytosol]  <-->  methyl-O-4-beta-D-glucuronosyl-(1->4)-alpha-D-galacturonosyl-(1->4)-beta-D-glucuronosyl-(1->4)-alpha-D-glucosyl-(C55 omega-saturated dolichyl phosphate)[extracellular space]	
+AT1G71880-MONOMER	sucrose transporter	maltose[extracellular space] + H+[extracellular space]  <-->  maltose[cytosol] + H+[cytosol]	1*AT1G71880-MONOMER
+AT1G79900-MONOMER	ornithine/ornithine exchanger / arginine/citrulline exchanger	L-ornithine[cytosol]  <-->  L-ornithine[mitochondrial lumen]	1*AT1G79900-MONOMER
+MONOMER-12625	Enzyme II<sup>scr</sup>	an [HPr protein]-Npi-phospho-L-histidine + sucrose[extracellular space]  <-->  an [HPr]-L-histidine + sucrose 6G-phosphate[cytosol]	1*MONOMER-12625
+MONOMER-14782	leaf permease	urate[extracellular space] + H+[extracellular space]  <-->  urate[cytosol] + H+[cytosol]	1*MONOMER-14782
+G18NG-12646-MONOMER	gentisate transporter	gentisate[periplasm] + H+[periplasm]  <-->  gentisate[cytosol] + H+[cytosol]	1*G18NG-12646-MONOMER
+AT4G13510-MONOMER	ammonium transporter 1 member 1	ammonium[extracellular space]  <-->  ammonium[cytosol]	1*AT4G13510-MONOMER
+ABC-6-CPLX	glutathione / L-cysteine ABC exporter CydDC	ATP + L-cysteine[cytosol] + H2O  <-->  ADP + L-cysteine[periplasm] + phosphate + H+	1*CYDD-MONOMER,1*CYDC-MONOMER
+CPLX0-8263	guanidinium exporter	cetylpyridinium[cytosol] + H+[periplasm]  <-->  cetylpyridinium[periplasm] + H+[cytosol]	2*SUGE-MONOMER
+MONOMER-14579	potassium-sodium symporter	K+[extracellular space] + Na+[cytosol]  <-->  K+[cytosol] + Na+[extracellular space]	1*MONOMER-14579
+YFEP-MONOMER	Mn<sup>2+</sup>/Fe<sup>2+</sup>: H<sup>+</sup> symporter MntH	Fe2+[periplasm] + H+[periplasm]  <-->  Fe2+[cytosol] + H+[cytosol]	1*YFEP-MONOMER
+CPLX-9147	teichoic acid ABC transporter	[2-(betaGlcNac)-Rib-ol-P]n-[2-(alphaGlcNac)-Rib-ol-P]-Gro-P-Gro-P-ManNAc-GlcNAc-PP-undecaprenol[cytosol] + ATP + H2O  <-->  [2-(betaGlcNac)-Rib-ol-P]n-[2-(alphaGlcNac)-Rib-ol-P]-Gro-P-Gro-P-ManNAc-GlcNAc-PP-undecaprenol[extracellular space] + ADP + phosphate + H+	1*MONOMER-19989,1*MONOMER-19988
+YIDT-MONOMER	D-galactonate:H<sup>+</sup> symporter	D-galactonate[periplasm] + 2 H+[periplasm]  <-->  D-galactonate[cytosol] + 2 H+[cytosol]	1*YIDT-MONOMER
+		a protein[mitochondrial lumen] + ATP + H2O  <-->  a protein[cytosol] + ADP + phosphate + H+	
+CPLX0-8152	cystine ABC transporter	L-cystine[periplasm] + ATP + H2O  <-->  L-cystine[cytosol] + ADP + phosphate + H+	2*EG12347-MONOMER,2*G7037-MONOMER,1*G7039-MONOMER
+CPLX-9150	teichoic acid ABC transporter	(2-Glc-Rib-ol)n-Rib-ol-P-Gro-P-ManNAc-GlcNAc-PP-undecaprenol[cytosol] + ATP + H2O  <-->  (2-Glc-Rib-ol)n-Rib-ol-P-Gro-P-ManNAc-GlcNAc-PP-undecaprenol[extracellular space] + ADP + phosphate + H+	1*MONOMER-20000,1*MONOMER-19999
+NHAB-MONOMER	Na<sup>+</sup>:H<sup>+</sup> antiporter NhaB	2 Na+[cytosol] + 3 H+[periplasm]  <-->  2 Na+[periplasm] + 3 H+[cytosol]	1*NHAB-MONOMER
+		D-galactose[side 1] + ATP + H2O  <-->  D-galactose[side 2] + ADP + phosphate + H+	
+		GMP[cytosol]  <-->  GMP[periplasm]	
+		cystine[periplasm] + ATP + H2O  <-->  cystine[cytosol] + ADP + phosphate + H+	
+CPLX0-7655	maltose outer membrane channel / phage lambda receptor protein	maltose[extracellular space]  <-->  maltose[periplasm]	3*EG10528-MONOMER
+		a protein[plastid stroma] + ATP + H2O  <-->  a protein[plastid intermembrane space] + ADP + phosphate + H+	
+PITB-MONOMER	metal phosphate:H<sup>+</sup> symporter PitB	phosphate[periplasm] + H+[periplasm]  <-->  phosphate[cytosol] + H+[cytosol]	1*PITB-MONOMER
+ENSG00000103222-MONOMER	multidrug resistance-associated protein 1	3-(glutathion-S-yl)-3-methylhexan-1-ol[in] + ATP + H2O  <-->  3-(glutathion-S-yl)-3-methylhexan-1-ol[out] + ADP + phosphate + H+	1*ENSG00000103222-MONOMER
+		CO2[periplasm]  <-->  CO2[cytosol]	
+		D-ribose[side 1] + ATP + H2O  <-->  D-ribose[side 2] + ADP + phosphate + H+	
+B2975-MONOMER	glycolate/lactate:H<sup>+</sup> symporter GlcA	glycolate[periplasm] + H+[periplasm]  <-->  glycolate[cytosol] + H+[cytosol]	1*B2975-MONOMER
+		L-proline betaine[periplasm] + ATP + H2O  <-->  L-proline betaine[cytosol] + ADP + phosphate + H+	
+		cholate[periplasm]  <-->  cholate[cytosol]	
+		a protein[cytosol] + ATP + H2O  <-->  a protein[peroxisomal lumen] + ADP + phosphate + H+	
+CPLX0-8152	cystine ABC transporter	ATP + L-djenkolate[periplasm] + H2O  <-->  ADP + L-djenkolate[cytosol] + phosphate + H+	2*EG12347-MONOMER,2*G7037-MONOMER,1*G7039-MONOMER
+ABC-304-CPLX	leucine / L-phenylalanine ABC transporter	L-phenylalanine[periplasm] + ATP + H2O  <-->  L-phenylalanine[cytosol] + ADP + phosphate + H+	1*LIVK-MONOMER,1*LIVM-MONOMER,1*LIVH-MONOMER,1*LIVG-MONOMER,1*LIVF-MONOMER
+CPLX0-7534	outer membrane porin F	glycine betaine[extracellular space]  <-->  glycine betaine[periplasm]	3*EG10671-MONOMER
+		a protein[in] + ATP + H2O  <-->  a protein[out] + ADP + phosphate + H+	
+		alginate[extracellular space] + ATP + H2O  <-->  alginate[cytosol] + ADP + phosphate + H+	
+CPLX8J2-161	teichoic acid ABC transporter	[(2-Glc)-Gro-P]n-Gro-P-ManNAc-GlcNAc-PP-undecaprenol[cytosol] + ATP + H2O  <-->  [(2-Glc)-Gro-P]n-Gro-P-ManNAc-GlcNAc-PP-undecaprenol[extracellular space] + ADP + phosphate + H+	1*BSU35700-MONOMER,1*BSU35710-MONOMER
+		a long-chain fatty acyl-CoA[side 1] + ATP + H2O  <-->  a long-chain fatty acyl-CoA[side 2] + ADP + phosphate + H+	
+		D-galactofuranose[side 1] + ATP + H2O  <-->  D-galactofuranose[side 2] + ADP + phosphate + H+	
+		3-hydroxypropanoate[cytosol]  <-->  3-hydroxypropanoate[extracellular space]	
+CPLX-7676	biotin-dependent malonate decarboxylase	malonate + n Na+[in] + H+  <-->  acetate + CO2 + n Na+[out]	1*MONOMER-14253,1*MONOMER-14254,1*MONOMER-14256,1*MONOMER-14255,1*MONOMER-14257,1*MONOMER-14282,1*MONOMER-14283
+		a non-polar amino acid[extracellular space] + ATP + H2O  <-->  a non-polar amino acid[cytosol] + ADP + phosphate	
+		oxaloacetate + 2 Na+[in] + H+  <-->  pyruvate + CO2 + 2 Na+[out]	
+		(S)-(+)-allantoin[periplasm]  <-->  (S)-(+)-allantoin[cytosol]	
+MONOMER-20943	(<i>S</i>)-methylmalonyl-CoA decarboxylase	(S)-methylmalonyl-CoA + Na+[side 1] + H+[side 2]  <-->  CO2 + propanoyl-CoA[side 1] + Na+[side 2]	1*MONOMER-20943
+CPLX-969	glutaconyl-CoA decarboxylase	(E)-glutaconyl-CoA + Na+[side 1] + H+  <-->  CO2 + crotonyl-CoA + Na+[side 2]	2*MONOMER-1054,2*MONOMER-1055,2*MONOMER-1056,2*MONOMER-1057
+		4-hydroxybenzyl alcohol[cytosol]  <-->  4-hydroxybenzyl alcohol[periplasm]	
+MONOMER-16640	vacuolar H+-PPase	diphosphate[in] + H2O  <-->  2 phosphate + H+[out]	1*MONOMER-16640
+NARU-MONOMER	nitrate/nitrite transporter NarU	nitrate[periplasm] + nitrite[cytosol]  <-->  nitrate[cytosol] + nitrite[periplasm]	1*NARU-MONOMER
+YHAU-MONOMER	galactarate/D-glucarate transporter GarP	D-glucarate[periplasm] + H+[periplasm]  <-->  D-glucarate[cytosol] + H+[cytosol]	1*YHAU-MONOMER
+CPLX0-7641	Zn<sup>2+</sup>/Fe<sup>2+</sup>/Cd<sup>2+</sup> exporter	Fe2+[cytosol] + H+[periplasm]  <-->  Fe2+[periplasm] + H+[cytosol]	2*YIIP-MONOMER
+GNTP-MONOMER	fructuronate transporter	D-fructuronate[periplasm] + H+[periplasm]  <-->  D-fructuronate[cytosol] + H+[cytosol]	1*GNTP-MONOMER
+YICE-MONOMER	xanthine:H<sup>+</sup> symporter XanP	xanthine[periplasm] + H+[periplasm]  <-->  xanthine[cytosol] + H+[cytosol]	1*YICE-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + alpha-L-sorbopyranose[periplasm]  <-->  alpha-L-sorbopyranose 1-phosphate[cytosol] + an [HPr]-L-histidine	
+ABC-8-CPLX	dipeptide ABC transporter	ATP + a dipeptide[periplasm] + H2O  <-->  ADP + a dipeptide[cytosol] + phosphate + H+	1*DPPD-MONOMER,1*DPPF-MONOMER,1*DPPB-MONOMER,1*DPPC-MONOMER,1*DPPA-MONOMER
+		2,4-dinitrophenyl-S-glutathione[cytosol] + ATP + H2O  <-->  2,4-dinitrophenyl-S-glutathione[periplasm] + ADP + phosphate + H+	
+		an [HPr protein]-Npi-phospho-L-histidine + alpha-D-cellobiose[out]  <-->  alpha-D-cellobiose 6'-phosphate[in] + an [HPr]-L-histidine	
+ABC-28-CPLX	ribose ABC transporter	ATP + D-ribopyranose[periplasm] + H2O  <-->  ADP + D-ribopyranose[cytosol] + phosphate + H+	1*RBSA-MONOMER,2*RBSC-MONOMER,1*RBSB-MONOMER
+TRANS-CPLX-201	multidrug efflux pump AcrAB-TolC	3,6-diamino-10-methylacridinium[periplasm] + H+[periplasm]  <-->  3,6-diamino-10-methylacridinium[extracellular space] + H+[cytosol]	6*EG11703-MONOMER,3*EG11009-MONOMER,3*ACRB-MONOMER
+CYCA-MONOMER	D-serine/alanine/glycine/:H<sup>+</sup>symporter	D-cycloserine[periplasm] + H+[periplasm]  <-->  D-cycloserine[cytosol] + H+[cytosol]	1*CYCA-MONOMER
+ABC-10-CPLX	ferric enterobactin ABC transporter	ATP + iron(III)-enterobactin complex[periplasm] + H2O  <-->  ADP + iron(III)-enterobactin complex[cytosol] + phosphate + H+	2*FEPC-MONOMER,1*FEPD-MONOMER,1*FEPG-MONOMER,1*FEPB-MONOMER
+CMR-MONOMER	multidrug efflux pump MdfA / Na<sup>+</sup>:H<sup>+</sup> antiporter / K<sup>+</sup>:H<sup>+</sup> antiporter	ethidium[cytosol] + H+[periplasm]  <-->  ethidium[periplasm] + H+[cytosol]	1*CMR-MONOMER
+MONOMER-20003	diglucosyl-diacylglycerol permease	a 1,2-diacyl-3-O-[beta-D-glucopyranosyl-(1->6)-O-beta-D-glucopyranosyl]-sn-glycerol[cytosol]  <-->  a 1,2-diacyl-3-O-[beta-D-glucopyranosyl-(1->6)-O-beta-D-glucopyranosyl]-sn-glycerol[extracellular space]	1*MONOMER-20003
+CPLX0-7955	acetate/glycolate:cation symporter	glycolate[periplasm] + Na+[periplasm]  <-->  glycolate[cytosol] + Na+[cytosol]	2*YJCG-MONOMER
+CPLX0-8152	cystine ABC transporter	D-cystine[periplasm] + ATP + H2O  <-->  D-cystine[cytosol] + ADP + phosphate + H+	2*EG12347-MONOMER,2*G7037-MONOMER,1*G7039-MONOMER
+		an [HPr protein]-Npi-phospho-L-histidine + lactose[periplasm]  <-->  lactose 6'-phosphate[cytosol] + an [HPr]-L-histidine	
+ABC-26-CPLX	glycine betaine ABC transporter	a quaternary amine[out] + ATP + H2O  <-->  a quaternary amine[in] + ADP + phosphate + H+	2*PROV-MONOMER,2*PROW-MONOMER,1*PROX-MONOMER
+MONOMER-19201	AlgI	an acetylated acetyl acceptor donor[cytosol]  <-->  an acetylated acetyl acceptor donor[periplasm]	1*MONOMER-19201
+CPLX-8235	Na(+)-translocating NADH-quinone reductase	Na+[in] + NADH + a ubiquinone + H+  <-->  Na+[out] + NAD+ + an ubiquinol	1*MONOMER-16202,1*MONOMER-16201,1*MONOMER-16200,1*MONOMER-16199,1*MONOMER-16198,1*MONOMER-16197
+		tungstate[periplasm] + ATP + H2O  <-->  tungstate[cytosol] + ADP + phosphate + H+	
+MONOMER-17407	malate-oxaloacetate antiporter / oxaloacetate-malate antiporter	oxaloacetate[cytosol]  <-->  oxaloacetate[chloroplast stroma]	1*MONOMER-17407
+		Na+[in] + diphosphate + H2O  <-->  Na+[out] + 2 phosphate + H+	
+MONOMER-14768	purine permease	trans-zeatin riboside[extracellular space] + H+[extracellular space]  <-->  trans-zeatin riboside[cytosol] + H+[cytosol]	1*MONOMER-14768
+MONOMER-14554	calcium-activated outward-rectifying potassium channel	K+[extracellular space]  <-->  K+[cytosol]	1*MONOMER-14554
+CPLX-155	<I>N,N'</I>-diacetylchitobiose-specific PTS enzyme II	an [HPr protein]-Npi-phospho-L-histidine + N,N'-diacetylchitobiose[periplasm]  <-->  N,N'-diacetylchitobiose 6'-phosphate[cytosol] + an [HPr]-L-histidine	1*CELC-MONOMER,1*CELB-MONOMER,1*CELA-MONOMER
+		hypoxanthine[cytosol]  <-->  hypoxanthine[periplasm]	
+BRNQ-MONOMER	branched chain amino acid transporter BrnQ	Na+[periplasm] + L-leucine[periplasm]  <-->  Na+[cytosol] + L-leucine[cytosol]	1*BRNQ-MONOMER
+EG11939-MONOMER	guanine/hypoxanthine transporter GhxP	hypoxanthine[cytosol]  <-->  hypoxanthine[periplasm]	1*EG11939-MONOMER
+CPLX0-1942	ferrichrome outer membrane transport complex	ferrichrome[extracellular space] + H+[periplasm]  <-->  ferrichrome[periplasm] + H+[cytosol]	1*EG10272-MONOMER,1*EG10271-MONOMER,1*EG11012-MONOMER,1*EG10302-MONOMER

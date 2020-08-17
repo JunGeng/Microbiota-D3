@@ -1,0 +1,19 @@
+  	Constituents                      	Link                                          	Concentration_E.coli MM1	Role_E.coli MM1
+0
+1 	chloride                          	/compound?orgid=META&id=CL-                   	61.513 mM
+2 	Na+                               	/compound?orgid=META&id=NA%2b                 	49.96 mM
+3 	D-glucose                         	/META/NEW-IMAGE?type=COMPOUND&object=D-Glucose	22 mM
+4 	ammonium                          	/compound?orgid=META&id=AMMONIUM              	9.497 mM
+5 	K+                                	/compound?orgid=META&id=K%2b                  	3.1918 mM
+6 	phosphate                         	/compound?orgid=META&id=Pi                    	1.3199 mM
+7 	N-tris(hydroxymethyl)methylglycine	/compound?orgid=META&id=CPD0-2399             	1.2831 mM
+8 	Mg2+                              	/compound?orgid=META&id=MG%2b2                	527.99 µM
+9 	Ca2+                              	/compound?orgid=META&id=CA%2b2                	500.1 µM
+10	sulfate                           	/compound?orgid=META&id=SULFATE               	286.02 µM
+11	Fe2+                              	/compound?orgid=META&id=FE%2b2                	10 µM
+12	borate                            	/compound?orgid=META&id=BORATE                	399.99 nM
+13	molybdate                         	/compound?orgid=META&id=CPD-3                 	323.27 nM
+14	Mn2+                              	/compound?orgid=META&id=MN%2b2                	97.463 nM
+15	Co2+                              	/compound?orgid=META&id=CO%2b2                	35.205 nM
+16	Cu2+                              	/compound?orgid=META&id=CU%2b2                	9.9997 nM
+17	Zn2+                              	/compound?orgid=META&id=ZN%2b2                	8.8265 nM

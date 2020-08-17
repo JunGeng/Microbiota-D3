@@ -1,0 +1,201 @@
+# Copyright SRI International 1999-2019, Marine Biological Laboratory 1998-2001, DoubleTwist Inc 1998-1999.  All Rights Reserved.
+#
+# Authors:
+#    Ron Caspi
+#    Carol A Fulcher
+#    Anamika Kothari
+#    Markus Krummenacker
+#    Mario Latendresse
+#    Suzanne Paley
+#    Pallavi Subhraveti
+#    Peifen Zhang
+#    Sue Rhee
+#    Hartmut Foerster
+#    Lukas Mueller
+#    Peter D Karp
+#
+# Please see the license agreement regarding the use of and distribution of this file.
+# The format of this file is defined at http://bioinformatics.ai.sri.com/ptools/flatfile-format.html .
+#
+# Filename: /homedir/brg/aic/pgdbs/tier1/metacyc/23.5/data/protligandcplxes.dat
+#
+# Organism: MetaCyc
+# Database: MetaCyc
+# Version: 23.5
+# Date and time generated: December 11, 2019, 16:53:03
+#
+# Attributes:
+#    UNIQUE-ID
+#    TYPES
+#    COMMON-NAME
+#    ABBREV-NAME
+#    AROMATIC-RINGS
+#    ATOM-CHARGES
+#    CATALYZES
+#    CELL-TYPES
+#    CHEMICAL-FORMULA
+#    CITATIONS
+#    COFACTORS-OF
+#    COMMENT
+#    COMPONENT-COEFFICIENTS
+#    COMPONENT-OF
+#    COMPONENTS
+#    CONSENSUS-SEQUENCE
+#    COPY-NUMBER
+#    CREDITS
+#    DATA-SOURCE
+#    DBLINKS
+#    DNA-FOOTPRINT-SIZE
+#    DOCUMENTATION
+#    ENZYME-NOT-USED-IN
+#    FEATURES
+#    GIBBS-0
+#    GO-TERMS
+#    HAS-NO-STRUCTURE?
+#    HIDE-SLOT?
+#    IN-MIXTURE
+#    INSTANCE-NAME-TEMPLATE
+#    ISOZYME-SEQUENCE-SIMILARITY
+#    LOCATIONS
+#    MEMBER-SORT-FN
+#    MODIFIED-FORM
+#    MOLECULAR-WEIGHT
+#    MOLECULAR-WEIGHT-EXP
+#    MOLECULAR-WEIGHT-KD
+#    MOLECULAR-WEIGHT-SEQ
+#    N+1-NAME
+#    N-1-NAME
+#    N-NAME
+#    NEIDHARDT-SPOT-NUMBER
+#    NON-STANDARD-INCHI
+#    PATHOLOGIC-NAME-MATCHER-EVIDENCE
+#    PATHOLOGIC-PWY-EVIDENCE
+#    PI
+#    RADICAL-ATOMS
+#    REGULATED-BY
+#    REGULATES
+#    SPECIES
+#    STRUCTURE-BONDS
+#    SUPERATOMS
+#    SYMMETRY
+#    SYNONYMS
+#    UNMODIFIED-FORM
+#
+UNIQUE-ID - CPLX0-7761
+TYPES - Protein-Small-Molecule-Complexes
+COMMON-NAME - bifunctional aconitate hydratase B and 2-methylisocitrate dehydratase
+CATALYZES - ACONITATEHYDRB-ENZRXN
+CATALYZES - ACONITATEDEHYDRB-ENZRXN
+CATALYZES - ENZRXN0-1505
+COMPONENTS - CPD-7
+^COEFFICIENT - 2
+COMPONENTS - ACONITATEDEHYDRB-MONOMER
+^COEFFICIENT - 2
+CREDITS - paley
+CREDITS - SRI
+CREDITS - keseler
+MOLECULAR-WEIGHT-EXP - 180.    
+MOLECULAR-WEIGHT-KD - 180.    
+SPECIES - TAX-511145
+SYNONYMS - bifunctional aconitate hydratase 2 and 2-methylisocitrate dehydratase
+//
+UNIQUE-ID - CPLX-123
+TYPES - Protein-Small-Molecule-Complexes
+COMMON-NAME - PurR-Hypoxanthine DNA-binding transcriptional repressor
+CITATIONS - 12598694
+CITATIONS - 3058704
+CITATIONS - 1971620
+CITATIONS - 1729205
+CITATIONS - 12598694:EV-COMP-HINF-FN-FROM-SEQ:3491338560:asantos
+CITATIONS - 3058704:EV-COMP-HINF-FN-FROM-SEQ:3491338560:asantos
+CITATIONS - 8106311:EV-EXP-IDA-PURIFIED-PROTEIN-NH:3491338560:asantos
+CITATIONS - 1729205:EV-EXP-IDA-PURIFIED-PROTEIN-NH:3491338560:asantos
+CITATIONS - 1971620:EV-EXP-IDA-PURIFIED-PROTEIN-NH:3491338560:asantos
+COMPONENTS - PC00033
+COMPONENTS - HYPOXANTHINE
+SPECIES - TAX-511145
+SYNONYMS - PurR-hypoxanthine
+//
+UNIQUE-ID - MONOMER-48
+TYPES - Protein-Small-Molecule-Complexes
+COMMON-NAME - BirA-bio-5'-AMP DNA-binding transcriptional repressor / biotin-[acetyl-CoA-carboxylase] ligase
+CITATIONS - 3536662:EV-COMP-HINF-FN-FROM-SEQ:3491258934:asantos
+COMMENT - The "<b>b</b>iotin <b>r</b>epressor," BirA, coordinately represses transcription of the divergent genes that are necessary for the synthesis of biotin |CITS:[6177001][366433]|. BirA is a bifunctional protein that possesses both regulatory and enzymatic activities: it acts as the DNA-binding transcriptional repressor of the biotin operon and also exhibits biotin ligase activity |CITS:[6129246]|.
+/
+/The specific inducer for BirA is  biotinyl-5'-adenylate (bio-5'-AMP). In the presence of bio-5'-AMP, BirA binds to 40-nucleotide-long DNA target sites in the <i>bioA</i>/<i>bioBFCD</i> intergenic region to coordinately repress transcription of <i>bioA</i>p and <i>bioB</i>p |CITS:[9485476][1659455]|. BirA-bio-5'-AMP has been observed to be predominantly monomeric in solution |CITS:[6129246][8373769][9485476]|, whereas more recent studies indicate that dimerization occurs before DNA binding |CITS:[12527300]|. Biotinyl-5'-adenylate |CITS:[10529178]| and biotin |CITS:[11353844][350835]| stimulate dimerization and DNA binding. 
+/
+/The effector bio-5'-AMP is also a substrate in the BirA-mediated biotinylation of the biotin carboxyl carrier protein monomer (apoBCCP), and this relationship results in repression of the biotin operon when the abundance of apoBCCP (and therefore the cellular demand for biotin) is reduced |CITS:[9750231]|. This repression is controlled by the rate of the competing protein:protein interaction. The rate of heterodimerization with apoBCCP controls the holoBirA monomer supply, and the equilibrium constant of homodimerization tunes the bioO occupancy and, consequently, transcription initiation at the biotin operon |CITS: [23896299]|.
+/
+/The crystal structure of BirA has been determined by X-ray crystallography to a resolution of 2.3 &Aring; |CITS:[1409631]|, and that of a BirA-biotin complex |CITS:[11353844]| has been solved by several research groups. Crystallization has been described |CITS:[2642476]|, and the implications of the structure with respect to the binding of biotin and ATP have been discussed |CITS:[1409631]|.  
+/
+/The BirA monomer contains three domains: an amino-terminal domain that contains a helix-turn-helix DNA-binding motif; the central domain, which is important for DNA binding and catalysis and contains the binding site for bio-5'-AMP; and the C-terminal domain, the funtion of which has yet to be determinded. Disordered loop structures on the protein surface appear to be involved in binding to biotin, bio-5'-AMP, and/or DNA |CITS:[10497026]| and in protein dimerization |CITS:[11353844]|. A model of binding and reaction progression is presented elsewhere |CITS:[11847279]|.
+COMPONENTS - BIOTINLIG-MONOMER
+COMPONENTS - BIO-5-AMP
+CONSENSUS-SEQUENCE - GACTTGTAAACCtAAaTcttttcAaTTtGGTTTACAAGTC
+CREDITS - SRI
+CREDITS - paley
+DBLINKS - (PDB "1HXD" |Structure| |paley| 3439827725 NIL NIL)
+DNA-FOOTPRINT-SIZE - 40
+GO-TERMS - GO:0005829
+LOCATIONS - CCO-CYTOSOL
+MOLECULAR-WEIGHT-KD - 35.31194799999994    
+MOLECULAR-WEIGHT-SEQ - 35.31194799999994    
+SPECIES - TAX-511145
+SYMMETRY - :INVERTED-REPEAT
+SYNONYMS - DhbB
+SYNONYMS - BioR
+SYNONYMS - BirA
+SYNONYMS - BirA-bio-5'-AMP
+//
+UNIQUE-ID - CPLX0-2781
+TYPES - Protein-Small-Molecule-Complexes
+COMMON-NAME - CysB-O-acetyl-L-serine DNA-binding transcriptional dual regulator
+CITATIONS - 15255893:EV-EXP-IMP:3491338267:martin
+CITATIONS - 15255893:EV-EXP-IDA-PURIFIED-PROTEIN:3491338267:martin
+CITATIONS - 15255893:EV-COMP-HINF-FN-FROM-SEQ:3491338267:martin
+CITATIONS - 15255893:EV-EXP-IEP:3491338267:martin
+CITATIONS - 9401024:EV-EXP-IDA-PURIFIED-PROTEIN:3491338267:martin
+CITATIONS - 3032952:EV-COMP-HINF-FN-FROM-SEQ:3491338267:martin
+CITATIONS - 6792186:EV-EXP-IEP:3491338267:martin
+CITATIONS - 14663078:EV-COMP-HINF-FN-FROM-SEQ:3491338267:martin
+CITATIONS - 14663078:EV-EXP-IEP:3491338267:martin
+CITATIONS - 14663078:EV-EXP-IDA-PART-PURIFIED-PROTEIN:3491338267:martin
+CITATIONS - 2182030:EV-COMP-HINF-FN-FROM-SEQ:3491338267:martin
+COMPONENTS - PC00040
+COMPONENTS - ACETYLSERINE
+DNA-FOOTPRINT-SIZE - 42
+SPECIES - TAX-511145
+//
+UNIQUE-ID - CPLX0-7541
+TYPES - Protein-Small-Molecule-Complexes
+COMMON-NAME - AlaS-L-alanine DNA-binding transcriptional repressor
+CITATIONS - 6264314
+CITATIONS - 6264314:EV-COMP-HINF-FN-FROM-SEQ:3491319298:asantos
+CITATIONS - 6264314:EV-EXP-IDA-PURIFIED-PROTEIN-NH:3491319298:asantos
+CITATIONS - 6264314:EV-EXP-IEP:3491319298:asantos
+COMPONENTS - ALAS-MONOMER
+COMPONENTS - L-ALPHA-ALANINE
+SPECIES - TAX-511145
+SYMMETRY - :INVERTED-REPEAT
+//
+UNIQUE-ID - MONOMER-20289
+TYPES - Aequorins
+TYPES - Protein-Complexes
+COMMON-NAME - aequorin-1
+CATALYZES - ENZRXN-25798
+CATALYZES - ENZRXN-25797
+COMMENT - The key enzyme in the jellyfish bioluminescence system is the single protein |FRAME: Aequorins aequorin|, also known as Ca<sup>2+</sup>-regulated photoprotein. The name |FRAME: Aequorins aequorin| refers not to the gene product, which is named |FRAME: Apoaequorins aopaequorin|, but rather to the non-covalent complex formed by apoaequorin and a |FRAME: CPD-20222 hydroperoxide of coelenterazine"|. This complex is formed by binding of the coelenterazine chromophore, followed by its peroxidation with molecular oxygen. In the absence of calcium ions, this complex is stable, explaining why oxygen is not needed for the downstream light-emitting step. When calcium ions become available, they bind to three calcium-binding sites, triggering the aequorin luminescence reaction. During the reaction, a change in the conformation of aequorin takes place, leading to cyclization of the peroxide into a dioxetanone structure, which collapses, releasing a CO<sub>2</sub> molecule. The spontaneous breakdown of the dioxetanone releases the energy (about 60 kcal/mole) that is necessary to generate an |FRAME: CPD-20235 "excited state of coelentramide|. <i>In vitro</i> this decarboxylation is accompanied by the emission of blue light, while <i>in vivo</i> the energy is transferred to excite |FRAME: GFP "a green fluorescent protein"| by <A href="https://en.wikipedia.org/wiki/F%C3%B6rster_resonance_energy_transfer">F&ouml;rster resonance energy transfer</A> (FRET) |CITS: [4151620]|.
+/
+/During the luminescence reaction aequorin is converted into a |FRAME: Excited-blue-fluorescent-proteins "blue fluorescent protein"| (BFP), a dissociable complex of Ca<sup>2+</sup>-bound apoaequorin and coelenteramide. It has been shown that BFP has the activity of luciferase and can catalyze the oxidation of coelenterazine to coelenteramide on its own |CITS: [15527769][16545379][19549504]|.
+/
+/The enzyme was first purified in 1962 from the jellyfish |FRAME: TAX-168712|. The purification involved the painstaking collection and processing of more than 10,000 jellyfish, and resulted in 5 mg of purified protein |CITS: [Shimomura62][13911999][7654844]|. Cloning and expression of the complementary DNA for aequorin were first reported in 1985 |CITS: [3858813][2579647]|. Sequence analysis showed the presence of three E-F hand structures that are characteristic for Ca<sup>2+</sup>-binding sites, and an overall structure similar to that of calmoduline.
+/
+/Crystals of the recombinant protein were prepared in 1993, but their quality was not sufficient for X-ray analysis |CITS: [8451237]|. Higher quality crystals were generated later and used for obtaining the full crystal structure  at 2.3 &Aring; resolution. The protein scaffold consists of four EF-hand domains arranged in pairs to form the globular molecule, with each pair of 'hands' arranged back-to-back, forming short stretches of beta-sheet, as seen in other EF-hand proteins. The crystal structure also confirmed that coelenterazine and oxygen are bound in the form of coelenterazine-2-hydroperoxide |CITS: [10830969]|. A crystal structure of calcium-loaded apo-aequorin has shown that all three Ca<sup>2+</sup>-binding loops bind calcium ions |CITS: [15689515]|.
+/
+/Aequorin has become important tools for molecular biology, where it provides a highly sensitive and rapid assay for measuring intra-organellar Ca<sup>2+</sup> and assessing its role in physiological and pathological functions |CITS: [7042960][1917380][8531755][11256942][12690959][24382647]|.
+COMPONENTS - MONOMER-20293
+CREDITS - SRI
+CREDITS - caspi
+SPECIES - TAX-6100
+UNMODIFIED-FORM - MONOMER-20288
+//

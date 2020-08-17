@@ -312,3 +312,5 @@ octave-workspace
 
 ### Misc
 .DS_Store
+sequences/
+archive/

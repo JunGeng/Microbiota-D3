@@ -1,0 +1,94 @@
+# Copyright SRI International 1999-2019, Marine Biological Laboratory 1998-2001, DoubleTwist Inc 1998-1999.  All Rights Reserved.
+#
+# Authors:
+#    Ron Caspi
+#    Carol A Fulcher
+#    Anamika Kothari
+#    Markus Krummenacker
+#    Mario Latendresse
+#    Suzanne Paley
+#    Pallavi Subhraveti
+#    Peifen Zhang
+#    Sue Rhee
+#    Hartmut Foerster
+#    Lukas Mueller
+#    Peter D Karp
+#
+# Please see the license agreement regarding the use of and distribution of this file.
+# The format of this file is defined at http://bioinformatics.ai.sri.com/ptools/flatfile-format.html .
+#
+# Filename: /homedir/brg/aic/pgdbs/tier1/metacyc/23.5/data/species.dat
+#
+# Organism: MetaCyc
+# Database: MetaCyc
+# Version: 23.5
+# Date and time generated: December 11, 2019, 16:52:13
+#
+# Attributes:
+#    UNIQUE-ID
+#    TYPES
+#    COMMON-NAME
+#    BIOMASS-TEMPLATES
+#    CCO-INSTANCES
+#    CITATIONS
+#    COMMENT
+#    CONTACT-EMAIL
+#    CREDITS
+#    DATA-SOURCE
+#    DBLINKS
+#    DOCUMENTATION
+#    GENETIC-CODE
+#    GENOME
+#    GENOME-UPDATE-DATE
+#    HIDDEN-NAMES
+#    HIDE-SLOT?
+#    INFERENCE-STATS
+#    INSTANCE-NAME-TEMPLATE
+#    MEMBER-SORT-FN
+#    MITOCHONDRIAL-GENETIC-CODE
+#    PATHOLOGIC-NAME-MATCHER-EVIDENCE
+#    PATHOLOGIC-PWY-EVIDENCE
+#    PGDB-AUTHORS
+#    PGDB-COPYRIGHT
+#    PGDB-FOOTER-CITATION
+#    PGDB-HOME-PAGE
+#    PGDB-LAST-CONSISTENCY-CHECK
+#    PGDB-NAME
+#    PGDB-TIER
+#    PGDB-TYPE
+#    PGDB-UNIQUE-ID
+#    RANK
+#    SEQUENCE-SOURCE
+#    STRAIN-NAME
+#    SUBSPECIES-NAME
+#    SYNONYMS
+#
+UNIQUE-ID - META
+TYPES - Multi-Organism-Groupings
+COMMON-NAME - MetaCyc
+CITATIONS - 31586394
+COMMENT - The MetaCyc database contains a collection of metabolic pathways and enzymes from a variety of organisms.
+/MetaCyc is curated on an ongoing basis.
+/
+/See the <A href="http://www.metacyc.org">MetaCyc home page</A> for more information.
+CONTACT-EMAIL - pkarp@ai.sri.com
+PGDB-AUTHORS - caspi
+PGDB-AUTHORS - fulcher
+PGDB-AUTHORS - kothari
+PGDB-AUTHORS - kr
+PGDB-AUTHORS - latendre
+PGDB-AUTHORS - paley
+PGDB-AUTHORS - kaipa
+PGDB-AUTHORS - zhang
+PGDB-AUTHORS - rhee
+PGDB-AUTHORS - hartmut
+PGDB-AUTHORS - Mueller
+PGDB-AUTHORS - pkarp
+PGDB-COPYRIGHT - Copyright SRI International 1999-2019, Marine Biological Laboratory 1998-2001, DoubleTwist Inc 1998-1999.  All Rights Reserved.
+PGDB-FOOTER-CITATION - <A HREF=https://academic.oup.com/nar/article/46/D1/D633/4559117> Caspi et al, Nucleic Acids Research 46(D1):D633-D639 2018</A>
+PGDB-HOME-PAGE - http://metacyc.org/
+PGDB-LAST-CONSISTENCY-CHECK - 3781295041
+PGDB-NAME - MetaCyc
+PGDB-TIER - 1
+PGDB-TYPE - :MULTI-ORGANISM
+NCBI-TAXONOMY-ID - NIL
