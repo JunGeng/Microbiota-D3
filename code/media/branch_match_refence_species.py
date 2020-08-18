@@ -27,6 +27,7 @@ species_df = pd.read_csv(species_table, sep='\t', header=0)
 
 ref_species_df = pd.read_csv(reference_species_table, sep='\t', header=0)
 
+out_put = 'species.tsv'
 # species_df = species_df.fillna('')
 # ref_species_df = ref_species_df.fillna('')
 
@@ -60,8 +61,10 @@ ref_species_taxid = set(ref_species_df_extend['species_taxid'].dropna()) - {''}
 print('matched species_taxid/ref_species_taxid/our_species_taxid:',
       '%d/%d/%d' % (len(species_taxid & ref_species_taxid), len(ref_species_taxid), len(species_taxid)))
 
-
-
-
 print('matched species:', species & ref_species)
 print('matched strains:', strains & ref_strains)
+
+species_df.loc[(species_df['taxid'].isin(taxid & ref_taxid)), 'taxid_matched'] = True
+species_df.loc[(species_df['species_taxid'].isin(species_taxid & ref_species_taxid)), 'species_taxid_matched'] = True
+
+species_df.to_csv(out_put, sep='\t', index=False)
