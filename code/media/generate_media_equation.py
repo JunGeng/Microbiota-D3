@@ -34,7 +34,9 @@ def get_media_dic_form_df(media_i_df, media_name):
     media_i_df.loc[:, media_name] = media_i_df[media_name].str.replace(' ', '')  # get dict
     media_i_df.loc[:, 'Constituents'] = media_i_df['Constituents'].str.replace(' ', '')
     media_i_df = media_i_df[media_i_df[media_name] != '']
-    media_i_df = media_i_df.dropna(subset=[media_name])
+    # media_i_df = media_i_df.dropna(subset=[media_name])
+    media_i_df = media_i_df.fillna('0mM')
+    media_i_df.loc[media_i_df['Constituents'] == '', 'Constituents'] = '0mM'
     media_i_df.loc[:, 'coefficient'] = media_i_df[media_name].str.extract(r'([0-9\.]+)', expand=True)[0]
     media_i_df.loc[:, 'unit'] = media_i_df[media_name].str.extract(r'([µMnm]+)', expand=True)[0]
 
@@ -46,6 +48,60 @@ def get_media_dic_form_df(media_i_df, media_name):
     media_i_dic = media_i_df[['Constituents', 'coefficient']].set_index('Constituents').T.to_dict('list')
 
     return media_i_dic
+
+
+def check_meida_mets_in_model(model, met_id):
+    '''get met_c, met_e from model
+        if not in model, creat a new metabolite
+    '''
+
+    try:
+        met_c = model.metabolites.get_by_id(met_id + '_c')
+        met_e = model.metabolites.get_by_id(met_id + '_e')
+    except:  # build metabolites
+        met_c = cobra.Metabolite(met_id + '_c')
+        met_e = cobra.Metabolite(met_id + '_e')
+    met_c.compartment = 'c'
+    met_e.compartment = 'e'
+    return met_c, met_e
+
+
+def check_exchange_transport_rxns_in_model(model, met_id, lower_bound, met_c, met_e):
+    '''get teansport_reaction_i, exchange_reaction_i from model
+        if not in model, creat a new reactions
+        set lower_bound
+    '''
+    try:
+        teansport_reaction_i = model.reactions.get_by_id('TRANS_' + met_id)
+        exchange_reaction_i = model.reactions.get_by_id('Ex_' + met_id)
+    except:  # build reactions
+
+        teansport_reaction_i = cobra.Reaction('TRANS_' + met_id)
+        teansport_reaction_i.add_metabolites({met_c: -1, met_e: 1})
+
+        exchange_reaction_i = cobra.Reaction('Ex_' + met_id)
+        exchange_reaction_i.add_metabolites({met_e: -1})
+        model.add_reactions([teansport_reaction_i, exchange_reaction_i])
+    exchange_reaction_i.lower_bound = lower_bound
+
+
+def changeout_media_from_dic(model_, media_i_dic):
+    model = model_.copy()
+    exchange_rxns_list = [i.id for i in model.reactions if i.id.startswith('Ex_')]
+    # transport_rxns_list = [i.id for i in model.reactions if i.id.startswith('TRANS_')]
+    # rest media to nothing
+    for rxn_i in exchange_rxns_list:
+        model.reactions.get_by_id(rxn_i).lower_bound = 0
+        print('media rested')
+
+    for met_id, v in media_i_dic.items():
+        # print(k)
+        # build metabolites
+        met_c, met_e = check_meida_mets_in_model(model, met_id)
+        lower_bound = -float(v[0])
+        check_exchange_transport_rxns_in_model(model, met_id, lower_bound, met_c, met_e)
+
+    return model
 
 
 def get_media_model_from_dic(media_i_dic):
@@ -62,27 +118,7 @@ def get_media_model_from_dic(media_i_dic):
     media_model = cobra.Model('model')  # get a Model
 
     # %% <exchange and transport reactions>
-
-    for k, v in media_i_dic.items():
-        # print(k)
-        try:  # build metabolites
-            met_c = media_model.metabolites.get_by_id(k + '_c')
-            met_e = media_model.metabolites.get_by_id(k + '_e')
-        except:
-            met_c = cobra.Metabolite(k + '_c')
-            met_e = cobra.Metabolite(k + '_e')
-        try:  # build reactions
-            teansport_reaction_i = cobra.Reaction('TRANS_' + k)
-            teansport_reaction_i.add_metabolites({met_c: -1, met_e: 1})
-
-            exchange_reaction_i = cobra.Reaction('Ex_' + k)
-            exchange_reaction_i.add_metabolites({met_e: -1})
-            exchange_reaction_i.lower_bound = -float(v[0])
-
-            media_model.add_reactions([teansport_reaction_i, exchange_reaction_i])
-
-        except:
-            print(k, v, 'Error')
+    media_model = changeout_media_from_dic(media_model, media_i_dic)
 
     return media_model
 
@@ -102,5 +138,4 @@ media_i_dic = get_media_dic_form_df(media_i_df, media_name)
 model_i = get_media_model_from_dic(media_i_dic)
 
 # %% <write model>
-
 cobra.io.save_json_model(model_i, output_file)  # write json model, easy import by python to
