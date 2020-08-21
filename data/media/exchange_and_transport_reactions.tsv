@@ -1,0 +1,435 @@
+	id	exchange_rxns_iML1515	transport_rxns_iML1515	exchange_rxns_iYO844	transport_rxns_iYO844	exchange_rxns_iAF692	transport_rxns_iAF692	exchange_rxns	transport_rxns
+0	Pi	TRANS-RXN0-470		TRANS-RXN0-470		TRANS-RXN0-470		TRANS-RXN0-470	
+1	CARBON-DIOXIDE	TRANS-RXN0-545		EX_co2_e	TRANS-RXN0-545	EX_co2_e	TRANS-RXN0-545	EX_co2_e	TRANS-RXN0-545
+2	MET	EX_met__L_e		EX_met__L_e	RXN0-4522; RXN0-7050			EX_met__L_e	RXN0-4522; RXN0-7050
+3	L-Methionine-sulfoxides	EX_metsox_S__L_e		EX_metox_e	TRANS-RXN0-511			EX_metsox_S__L_e	TRANS-RXN0-511
+4	N-acetyl-D-glucosamine	EX_acgam_e		EX_acgam_e				EX_acgam_e	
+5	CELLOBIOSE	EX_cellb_e		EX_cellb_e				EX_cellb_e	
+6	CARNITINE	EX_crn_e		EX_crn_e	CRNabc			EX_crn_e	CRNabc
+7	HYPOXANTHINE	EX_hxan_e		EX_hxan_e	HXANt2r			EX_hxan_e	HXANt2r
+8	ILE	EX_ile__L_e		EX_ile__L_e	ILEt2r	EX_ile__L_e	ILEt2r	EX_ile__L_e	ILEt2r
+9	CHOLINE	TRANS-RXN-319		TRANS-RXN-319	CHLabc			TRANS-RXN-319	CHLabc
+10	FE+3	EX_fe3_e		EX_fe3_e	FEDCabc; FE3t	EX_fe3_e	FEDCabc; 3.6.3.30-RXN	EX_fe3_e	FEDCabc; FE3t
+11	L-LACTATE	EX_lac__L_e		EX_lac__L_e	MALt10; TRANS-RXN-104			EX_lac__L_e	MALt10; TRANS-RXN-104
+12	LEU	RXN66-447		RXN66-447	RXN-14649	RXN66-447	RXN-14649	RXN66-447	RXN-14649
+13	GLUCONATE	EX_glcn_e		EX_glcn__D_e	TRANS-RXN0-209	EX_glcn_e	TRANS-RXN0-209	EX_glcn_e	TRANS-RXN0-209
+14	no3	EX_no3_e		EX_no3_e	NO3t2			EX_no3_e	NO3t2
+15	PROTON	RXN-14452		RXN-14452		RXN-14452		RXN-14452	
+16	L-ORNITHINE	EX_orn_e		TRANS-RXN-230	ORNt2			EX_orn_e	ORNt2
+17	GLN	TRANS-RXN-233		TRANS-RXN-233	ABC-12-RXN			TRANS-RXN-233	ABC-12-RXN
+18	PRO	EX_pro__L_e		EX_pro__L_e	TRANS-RXN-29	EX_pro__L_e	ABC-26-RXN; TRANS-RXN-29	EX_pro__L_e	TRANS-RXN-29
+19	GLYCEROL	TRANS-RXN-131		TRANS-RXN-131	GLYCt	TRANS-RXN-131	GLYCt	TRANS-RXN-131	GLYCt
+20	D-mannopyranose	EX_man_e		EX_man_e	MANt2			EX_man_e	MANt2
+21	ade	TRANS-RXN0-577		TRANS-RXN0-577	ADEt2			TRANS-RXN0-577	ADEt2
+22	MN+2	EX_mn2_e		EX_mn2_e	CITt11; 3.6.3.35-RXN; TRANS-RXN-241	EX_mn2_e	3.6.3.35-RXN	EX_mn2_e	CITt11; 3.6.3.35-RXN; TRANS-RXN-241
+23	4-AMINO-BUTYRATE	EX_4abut_e		EX_4abut_e	TRANS-RXN-57			EX_4abut_e	TRANS-RXN-57
+24	ACET	EX_ac_e		EX_ac_e	TRANS-RXN0-571	EX_ac_e	TRANS-RXN0-571	EX_ac_e	TRANS-RXN0-571
+25	2-KETOGLUTARATE	EX_akg_e		EX_akg_e	TRANS-RXN-23			EX_akg_e	TRANS-RXN-23
+26	L-ALPHA-ALANINE	EX_ala__L_e		EX_ala__L_e	RXN0-5202	EX_ala__L_e	TRANS-RXN-125	EX_ala__L_e	RXN0-5202
+27	ARG	RXN66-448		RXN66-448	ABC-4-RXN; ARGt2r			RXN66-448	ABC-4-RXN; ARGt2r
+28	L-ASPARTATE	TRANS-RXN0-554		TRANS-RXN0-554	ASPt2r			TRANS-RXN0-554	ASPt2r
+29	PYRUVATE	EX_pyr_e		EX_pyr_e	TRANS-RXN-335	EX_pyr_e	TRANS-RXN-335	EX_pyr_e	TRANS-RXN-335
+30	SUC	TRANS-RXN0-552		TRANS-RXN0-552	SUCCt2r			TRANS-RXN0-552	SUCCt2r
+31	THYMIDINE	EX_thymd_e		EX_thymd_e	TRANS-RXN-108H			EX_thymd_e	TRANS-RXN-108H
+32	rib__D	EX_rib__D_e		EX_rib__D_e	RIBabc1; ABC-28-RXN			EX_rib__D_e	RIBabc1; ABC-28-RXN
+33	TYR	RXN66-446		RXN66-446	TRANS-RXN-77			RXN66-446	TRANS-RXN-77
+34	CYTIDINE	EX_cytd_e		EX_cytd_e	TRANS-RXN-108B			EX_cytd_e	TRANS-RXN-108B
+35	DEOXYCYTIDINE	EX_dcyt_e		EX_dcyt_e	TRANS-RXN-108D			EX_dcyt_e	TRANS-RXN-108D
+36	FUM	TRANS-RXN0-553		TRANS-RXN0-553	FUMt2r			TRANS-RXN0-553	FUMt2r
+37	SORBITOL	EX_sbt__D_e		EX_sbt__D_e	SBTt2			EX_sbt__D_e	SBTt2
+38	GLT	EX_glu__L_e		EX_glu__L_e	GLUt4; GLUt2r	EX_glu__L_e	GLUt2r	EX_glu__L_e	GLUt4; GLUt2r
+39	GUANINE	TRANS-RXN0-578		TRANS-RXN0-578	GUAt2r			TRANS-RXN0-578	GUAt2r
+40	BIOTIN	EX_btn_e				TRANS-RXN0-240	BTNt2i	EX_btn_e	
+41	PUTRESCINE	EX_ptrc_e						EX_ptrc_e	
+42	SPERMIDINE	EX_spmd_e		EX_spmd_e	TRANS-RXN0-266			EX_spmd_e	TRANS-RXN0-266
+43	THYMINE	TRANS-RXN0-524		TRANS-RXN0-524	TRANS-RXN-362			TRANS-RXN0-524	TRANS-RXN-362
+44	XANTHOSINE	EX_xtsn_e		EX_xtsn_e	TRANS-RXN-31			EX_xtsn_e	TRANS-RXN-31
+45	FE+2	TRANS-RXN-8		TRANS-RXN-8	FE2abc	TRANS-RXN-8	FE2abc	TRANS-RXN-8	FE2abc
+46	Glucopyranose	TRANS-RXN0-574		TRANS-RXN0-574	RXN0-7077			TRANS-RXN0-574	RXN0-7077
+47	ALLANTOIN	TRANS-RXN0-557		TRANS-RXN0-557	ALLTNt2r			TRANS-RXN0-557	ALLTNt2r
+48	URACIL	TRANS-RXN0-560		TRANS-RXN0-560	TRANS-RXN-132			TRANS-RXN0-560	TRANS-RXN-132
+49	VAL	TRANS-RXN0-269		TRANS-RXN0-269	VALt2r	TRANS-RXN0-269	VALt2r	TRANS-RXN0-269	VALt2r
+50	XANTHINE	TRANS-RXN0-561		TRANS-RXN0-561	XANt2			TRANS-RXN0-561	XANt2
+51	DEOXYGUANOSINE	EX_dgsn_e						EX_dgsn_e	
+52	arab__L	EX_arab__L_e		EX_arab__L_e	ABC-2-RXN; TRANS-RXN-10			EX_arab__L_e	ABC-2-RXN; TRANS-RXN-10
+53	fru	EX_fru_e		EX_fru_e				EX_fru_e	
+54	gal	EX_gal_e		EX_gal_e	TRANS-RXN-21			EX_gal_e	TRANS-RXN-21
+55	D-Xylopyranose	EX_xyl__D_e		EX_xyl__D_e	XYLt2			EX_xyl__D_e	XYLt2
+56	DEOXYURIDINE	EX_duri_e						EX_duri_e	
+57	for	TRANS-RXN-1		TRANS-RXN-1	FORt2			TRANS-RXN-1	FORt2
+58	GLY	TRANS-RXN0-537		TRANS-RXN0-537	TRANS-RXN-62B	TRANS-RXN0-537	GLYt4	TRANS-RXN0-537	TRANS-RXN-62B
+59	HYDROGEN-MOLECULE	EX_h2_e				EX_h2_e	H2td	EX_h2_e	
+60	LYS	TRANS-RXN0-569		TRANS-RXN0-569	LYSt3r	TRANS-RXN0-569	LYSt3r	TRANS-RXN0-569	LYSt3r
+61	SER	EX_ser__L_e		EX_ser__L_e	TRANS-RXN-71			EX_ser__L_e	TRANS-RXN-71
+62	THIAMINE	EX_thm_e				EX_thm_e	ABC-32-RXN	EX_thm_e	
+63	TRP	RXN66-449		RXN66-449	TRANS-RXN-76			RXN66-449	TRANS-RXN-76
+64	DEOXYINOSINE	EX_din_e						EX_din_e	
+65	FMN	EX_fmn_e						EX_fmn_e	
+66	OXIDIZED-GLUTATHIONE	EX_gthox_e		EX_gthox_e				EX_gthox_e	
+67	TRIMETHYLAMINE-N-O	EX_tmao_e						EX_tmao_e	
+68	ACETALD	EX_acald_e						EX_acald_e	
+69	MELIBIOSE	EX_melib_e		EX_melib_e	TRANS-RXN-94			EX_melib_e	TRANS-RXN-94
+70	SUCROSE	EX_sucr_e		EX_sucr_e				EX_sucr_e	
+71	tre	EX_tre_e		EX_tre_e				EX_tre_e	
+72	ZN+2	RXN0-12		RXN0-12	CITt15; ZN2t4; ABC-63-RXN	RXN0-12	ABC-63-RXN	RXN0-12	CITt15; ZN2t4; ABC-63-RXN
+73	CPD-9245	EX_hdcea_e						EX_hdcea_e	
+74	D-LACTATE	EX_lac__D_e						EX_lac__D_e	
+75	CPD-20392	EX_ttdcea_e						EX_ttdcea_e	
+76	h2s	EX_h2s_e				TRANS-RXN-310	H2St1	EX_h2s_e	
+77	GLUTATHIONE	EX_gthrd_e		EX_gthrd_e				EX_gthrd_e	
+78	MESO-DIAMINOPIMELATE	EX_26dap__M_e						EX_26dap__M_e	
+79	acnam	EX_acnam_e		EX_acnam_e	ACNAMt2			EX_acnam_e	ACNAMt2
+80	AMP	EX_amp_e		EX_amp_e	AMPt6			EX_amp_e	AMPt6
+81	DIHYDROXYACETONE	TRANS-RXN0-559		EX_dha_e	TRANS-RXN0-559			EX_dha_e	TRANS-RXN0-559
+82	fuc__L	EX_fuc__L_e						EX_fuc__L_e	
+83	CPD-218	EX_met__D_e		EX_met__D_e	TRANS-RXN0-202			EX_met__D_e	TRANS-RXN0-202
+84	TARTRATE	EX_tartr__L_e						EX_tartr__L_e	
+85	TAURINE	EX_taur_e		EX_taur_e	TAURabc			EX_taur_e	TAURabc
+86	MALTOPENTAOSE	EX_maltpt_e						EX_maltpt_e	
+87	GLYCERALD	EX_glyald_e				EX_glyald_e	GLYALDt	EX_glyald_e	
+88	D-Glucopyranuronate	EX_glcur_e		EX_glcur_e	GLCURt2r			EX_glcur_e	GLCURt2r
+89	NICOTINAMIDE_NUCLEOTIDE	EX_nmn_e						EX_nmn_e	
+90	UREA	TRANS-RXN0-460		TRANS-RXN0-460	UREAt	TRANS-RXN0-460	UREAt	TRANS-RXN0-460	UREAt
+91	FRUCTOSE-6P	EX_f6p_e		EX_f6p_e	F6Pt6_2			EX_f6p_e	F6Pt6_2
+92	rmn	EX_rmn_e		EX_rmn_e	TRANS-RXN-112			EX_rmn_e	TRANS-RXN-112
+93	CPD-7836	EX_ttdca_e						EX_ttdca_e	
+94	GLYCOLLATE	RXN0-5111		RXN0-5111	TRANS-RXN-105			RXN0-5111	TRANS-RXN-105
+95	D-glucopyranose-6-phosphate	EX_g6p_e		EX_g6p_e	G6Pt6_2			EX_g6p_e	G6Pt6_2
+96	2-DEHYDRO-3-DEOXY-D-GLUCONATE	EX_2ddglcn_e		EX_2ddglcn_e	TRANS-RXN-113			EX_2ddglcn_e	TRANS-RXN-113
+97	CPD-397	EX_mmet_e						EX_mmet_e	
+98	D-GALACTARATE	EX_galct__D_e		TRANS-RXN0-203	GALCTRt2			EX_galct__D_e	GALCTRt2
+99	L-IDONATE	EX_idon__L_e						EX_idon__L_e	
+100	INDOLE	EX_indole_e						EX_indole_e	
+101	CPD-10797	EX_3hcinnm_e						EX_3hcinnm_e	
+102	3-KETOBUTYRATE	TRANS-RXN0-281		TRANS-RXN0-281	ACACt2			TRANS-RXN0-281	ACACt2
+103	N-acetyl-D-mannosamine	EX_acmana_e		EX_acmana_e	ACMANAt2			EX_acmana_e	ACMANAt2
+104	D-Galactopyranuronate	EX_galur_e		EX_galur_e	TRANS-RXN-123			EX_galur_e	TRANS-RXN-123
+105	S-ADENOSYL-4-METHYLTHIO-2-OXOBUTANOATE	DM_amob_c						DM_amob_c	
+106	ADENOSINE	EX_adn_e		EX_adn_e	ADNt2			EX_adn_e	ADNt2
+107	INOSINE	EX_ins_e		EX_ins_e	TRANS-RXN-108G			EX_ins_e	TRANS-RXN-108G
+108	MG+2	TRANS-RXN-141		TRANS-RXN-141	MGt5; ICITt10; CITt10	TRANS-RXN-141	MGt5; MG2abc	TRANS-RXN-141	MGt5; ICITt10; CITt10
+109	GLYCEROL-3P	EX_glyc3p_e		EX_glyc3p_e	GLY3Pt2			EX_glyc3p_e	GLY3Pt2
+110	BUTYRIC_ACID	EX_but_e						EX_but_e	
+111	lcts	EX_lcts_e		EX_lcts_e	LCTSabc			EX_lcts_e	LCTSabc
+112	STEARIC_ACID	EX_ocdca_e						EX_ocdca_e	
+113	COB-I-ALAMIN	EX_cbl1_e	CBL1tonex			RXN0-1565	ABC-5-RXN	EX_cbl1_e	
+114	NIACINE	EX_nac_e		EX_nac_e	NACt	EX_nac_e	NACt	EX_nac_e	NACt
+115	DEOXYADENOSINE	EX_dad_2_e		EX_dad_2_e	TRANS-RXN-108C			EX_dad_2_e	TRANS-RXN-108C
+116	D-SERINE	TRANS-RXN0-495		TRANS-RXN0-495	RXN0-5130			TRANS-RXN0-495	RXN0-5130
+117	D-GLUCOSAMINE-6-P	EX_gam6p_e		EX_gam6p_e	GAM6Pt			EX_gam6p_e	GAM6Pt
+118	CADAVERINE	EX_15dap_e						EX_15dap_e	
+119	OLEATE-CPD	EX_ocdcea_e						EX_ocdcea_e	
+120	CPD-69	EX_cynt_e						EX_cynt_e	
+121	D-GALACTONATE	EX_galctn__D_e						EX_galctn__D_e	
+122	BETAINE	TRANS-RXN0-490		TRANS-RXN0-490	TRANS-RXN-283; TRANS-RXN-29A	TRANS-RXN0-490	TRANS-RXN-283	TRANS-RXN0-490	TRANS-RXN-283; TRANS-RXN-29A
+123	CA+2	EX_ca2_e		EX_ca2_e	CAt4; CA2abc1; CITt14	EX_ca2_e	CAt6; TRANS-RXN-193	EX_ca2_e	CAt4; CA2abc1; CITt14
+124	so3	EX_so3_e				EX_so3_e	SO3t	EX_so3_e	
+125	ASCORBATE	EX_ascb__L_e						EX_ascb__L_e	
+126	B-ALANINE	EX_ala_B_e		EX_ala_B_e	RXN0-5201			EX_ala_B_e	RXN0-5201
+127	AGMATHINE	EX_agm_e						EX_agm_e	
+128	MI-HEXAKISPHOSPHATE	EX_minohp_e						EX_minohp_e	
+129	ppt	EX_ppt_e						EX_ppt_e	
+130	HEXANOATE	EX_hxa_e						EX_hxa_e	
+131	CPD-15867	EX_lyx__L_e						EX_lyx__L_e	
+132	NACMUR	EX_acmum_e						EX_acmum_e	
+133	CPD-3617	EX_dca_e						EX_dca_e	
+134	all__D	EX_all__D_e						EX_all__D_e	
+135	CPD-195	EX_octa_e						EX_octa_e	
+136	GAMMA-BUTYROBETAINE	EX_gbbtn_e		EX_gbbtn_e	GBBTNabc			EX_gbbtn_e	GBBTNabc
+137	L-XYLULOSE	EX_xylu__L_e						EX_xylu__L_e	
+138	GDP	EX_gdp_e						EX_gdp_e	
+139	GTP	EX_gtp_e						EX_gtp_e	
+140	TRIMETHYLAMINE	EX_tma_e				EX_tma_e	TMAt2	EX_tma_e	
+141	FRUCTURONATE	EX_fruur_e						EX_fruur_e	
+142	MALTOTRIOSE	EX_malttr_e		EX_malttr_e	TRANS-RXN0-503			EX_malttr_e	TRANS-RXN0-503
+143	COBINAMIDE	EX_cbi_e	CBItonex			TRANS-RXN0-283	TRANS-RXN-296	EX_cbi_e	
+144	arbtn_fe3	EX_arbtn_fe3_e	ARBTNtonex					EX_arbtn_fe3_e	
+145	cpgn	EX_cpgn_e	CPGNtonex					EX_cpgn_e	
+146	ch4	EX_ch4_e				EX_ch4_e	TRANS-RXN0-526	EX_ch4_e	
+147	ADENOSYLCOBALAMIN	EX_adocbl_e	ADOCBLtonex					EX_adocbl_e	
+148	PROPIONATE	TRANS-RXN0-505		TRANS-RXN0-505	PPAt6			TRANS-RXN0-505	PPAt6
+149	NI+2	TRANS-RXN-141B		TRANS-RXN-141B	CITt12	TRANS-RXN-141B	NIt5; NIabc	TRANS-RXN-141B	CITt12
+150	NITRIC-OXIDE	EX_no_e						EX_no_e	
+151	FAD	EX_fad_e						EX_fad_e	
+152	meoh	TRANS-RXN0-459		TRANS-RXN0-459		TRANS-RXN0-459	MEOHt2	TRANS-RXN0-459	
+153	fe3dcit	EX_fe3dcit_e	FE3DCITtonex					EX_fe3dcit_e	
+154	CPD0-2114	EX_fe3hox_e	FE3HOXtonex					EX_fe3hox_e	
+155	CPD0-2241	EX_fecrm_e	FECRMtonex					EX_fecrm_e	
+156	feenter	EX_feenter_e	FEENTERtonex					EX_feenter_e	
+157	CPD0-2124	EX_feoxam_e	FEOXAMtonex					EX_feoxam_e	
+158	CPD-3706	EX_3amp_e		EX_3amp_e	3AMPt6			EX_3amp_e	3AMPt6
+159	CPD-3708	EX_3gmp_e		EX_3gmp_e	3GMPt6			EX_3gmp_e	3GMPt6
+160	CPD-3724	EX_3ump_e		EX_3ump_e	3UMPt6			EX_3ump_e	3UMPt6
+161	CU+2	RXN0-14		RXN0-14	Cut1	RXN0-14	Cuabc; Cut1	RXN0-14	Cut1
+162	GLYCERATE	EX_glyc__R_e						EX_glyc__R_e	
+163	eca4colipa	EX_eca4colipa_e	ECA4COLIPAabctex					EX_eca4colipa_e	
+164	CPD-660	EX_mal__D_e		EX_mal__D_e	MAL_Dt2			EX_mal__D_e	MAL_Dt2
+165	SELENATE	EX_sel_e						EX_sel_e	
+166	HG+2	EX_hg2_e		EX_hg2_e	HGt			EX_hg2_e	HGt
+167	CO+2	TRANS-RXN-141A		TRANS-RXN-141A	CITt13	EX_cobalt2_e	TRANS-RXN-141A; COabc	TRANS-RXN-141A	CITt13
+168	PROTOHEME	EX_pheme_e						EX_pheme_e	
+169	CPD-3746	EX_mso3_e		EX_mso3_e	MSO3abc			EX_mso3_e	MSO3abc
+170	CPD-3707	EX_23camp_e						EX_23camp_e	
+171	CPD-3709	EX_23cgmp_e						EX_23cgmp_e	
+172	CPD-3725	EX_23cump_e						EX_23cump_e	
+173	CPD-10246	EX_sulfac_e		EX_sula_e	SULAabc			EX_sulfac_e	SULAabc
+174	CPD-3744	EX_butso3_e						EX_butso3_e	
+175	CPD-10434	EX_ethso3_e		EX_eths_e	ETHSabc			EX_ethso3_e	ETHSabc
+176	TYRAMINE	EX_tym_e						EX_tym_e	
+177	IMP	EX_imp_e						EX_imp_e	
+178	CPD0-2175	EX_fe3hox_un_e	FE3HOXUtpp					EX_fe3hox_un_e	
+179	23dappa	EX_23dappa_e						EX_23dappa_e	
+180	CD+2	RXN0-10		RXN0-10	CD2t4; CD2abc1	RXN0-10	CD2abc2; CD2abc1	RXN0-10	CD2t4; CD2abc1
+181	ENTEROBACTIN	EX_enter_e	FEENTERtex					EX_enter_e	
+182	CPD0-2205	EX_fecrm_un_e	FECRMUtex					EX_fecrm_un_e	
+183	CYS-GLY	EX_cgly_e		EX_cgly_e	CYSGLYt2ir; DIPEPabc15			EX_cgly_e	CYSGLYt2ir; DIPEPabc15
+184	chtbs	EX_chtbs_e						EX_chtbs_e	
+185	GMP	TRANS-RXN0-565		TRANS-RXN0-565	GMPt6			TRANS-RXN0-565	GMPt6
+186	HYDROGEN-PEROXIDE	EX_h2o2_e		EX_h2o2_e				EX_h2o2_e	
+187	UMP	EX_ump_e		EX_ump_e	UMPt6			EX_ump_e	UMPt6
+188	PYRIDOXAMINE	EX_pydam_e						EX_pydam_e	
+189	FRUCTOSELYSINE	EX_frulys_e						EX_frulys_e	
+190	enlipa	EX_enlipa_e	ENLIPAabctex					EX_enlipa_e	
+191	hacolipa	EX_hacolipa_e						EX_hacolipa_e	
+192	ETHANOL-AMINE	TRANS-RXN0-476		TRANS-RXN0-476	ETHAt6	TRANS-RXN0-476	ETHAt6	TRANS-RXN0-476	ETHAt6
+193	PALMITATE	EX_hdca_e						EX_hdca_e	
+194	D-GLUCARATE	TRANS-RXN0-204		TRANS-RXN0-204	GLCRt2r			TRANS-RXN0-204	GLCRt2r
+195	WATER	EX_h2o_e		EX_h2o_e	H2Ot	EX_h2o_e	H2Ot	EX_h2o_e	H2Ot
+196	D-ALANINE	EX_ala__D_e		EX_ala__D_e	TRANS-RXN-62A			EX_ala__D_e	TRANS-RXN-62A
+197	MANNITOL	EX_mnl_e		EX_mnl_e				EX_mnl_e	
+198	malt	EX_malt_e		EX_malt_e	MALTabc			EX_malt_e	MALTabc
+199	PANTOTHENATE	EX_pnto__R_e		EX_pnto__R_e	PNTOt2	EX_pnto__R_e	PNTOt2	EX_pnto__R_e	PNTOt2
+200	ASN	EX_asn__L_e		EX_asn__L_e	TRANS-RXN-262			EX_asn__L_e	TRANS-RXN-262
+201	CIT	EX_cit_e		EX_cit_e	CITt2r; CITt10; CITt11; FEDCabc; CITt14; CITt15; CITt12; CITt13	EX_cit_e	FEDCabc	EX_cit_e	CITt2r; CITt10; CITt11; FEDCabc; CITt14; CITt15; CITt12; CITt13
+202	MAL	EX_mal__L_e		EX_mal__L_e	MALt4; MALt10; MALt2r			EX_mal__L_e	MALt4; MALt10; MALt2r
+203	NITRITE	TRANS-RXN-137		TRANS-RXN-137	NO2t2r; TRANS-RXN-26			TRANS-RXN-137	NO2t2r; TRANS-RXN-26
+204	GLUCOSAMINE	EX_gam_e		EX_gam_e				EX_gam_e	
+205	inost	EX_inost_e		EX_inost_e	INSTt2			EX_inost_e	INSTt2
+206	CPD-3	EX_mobd_e		EX_mobd_e	MOBDabc	EX_mobd_e	MOBDabc	EX_mobd_e	MOBDabc
+207	SULFATE	EX_so4_e		EX_so4_e	SO4t2	EX_so4_e	SULabc; SO4t2	EX_so4_e	SO4t2
+208	PHE	RXN66-445		RXN66-445	TRANS-RXN-56			RXN66-445	TRANS-RXN-56
+209	THR	EX_thr__L_e		EX_thr__L_e	TRANS-RXN-72			EX_thr__L_e	TRANS-RXN-72
+210	URIDINE	EX_uri_e		EX_uri_e	TRANS-RXN-108I			EX_uri_e	TRANS-RXN-108I
+211	AMMONIUM	EX_nh4_e		EX_nh4_e	NH4t	EX_nh4_e	NH4t	EX_nh4_e	NH4t
+212	DODECANOATE	EX_ddca_e						EX_ddca_e	
+213	CPD-15318	EX_r5p_e						EX_r5p_e	
+214	CPD-536	EX_glyc2p_e						EX_glyc2p_e	
+215	halipa	EX_halipa_e						EX_halipa_e	
+216	CMP	EX_cmp_e		EX_cmp_e	CMPt6			EX_cmp_e	CMPt6
+217	MALTOHEXAOSE	EX_malthx_e						EX_malthx_e	
+218	CYTOSINE	EX_csn_e		EX_csn_e	CSNt2			EX_csn_e	CSNt2
+219	ETOH	TRANS-RXN0-546		TRANS-RXN0-546	ETOHt3			TRANS-RXN0-546	ETOHt3
+220	L-1-GLYCEROPHOSPHORYLETHANOL-AMINE	EX_g3pe_e						EX_g3pe_e	
+221	PHENYLACETALDEHYDE	EX_pacald_e						EX_pacald_e	
+222	HIS	EX_his__L_e		EX_his__L_e	RXN-14653			EX_his__L_e	RXN-14653
+223	K+	EX_k_e		EX_k_e	Kt1; ZN2t4; CD2t4; TRANS-RXN-42; TRANS-RXN-3	EX_k_e	Kt2r_copy2; NaKt_1; HKt; TRANS-RXN-3	EX_k_e	Kt1; ZN2t4; CD2t4; TRANS-RXN-42; TRANS-RXN-3
+224	NA+	TRANS-RXN-189		TRANS-RXN-189	NAabcO; MALt10; TRANS-RXN-101; MALt4; PIt7; GLUt4; BILEt4	TRANS-RXN-189	TRANS-RXN-125; NaKt_1; TRANS-RXN-101; CAt6; GLYt4; MTSPCMMT	TRANS-RXN-189	NAabcO; MALt10; TRANS-RXN-101; MALt4; PIt7; GLUt4; BILEt4
+225	DMSO	EX_dmso_e						EX_dmso_e	
+226	PROPANE-1-2-DIOL	EX_12ppd__S_e						EX_12ppd__S_e	
+227	3-PHENYLPROPIONATE	EX_pppn_e						EX_pppn_e	
+228	acgam1p	EX_acgam1p_e						EX_acgam1p_e	
+229	GALACTITOL	EX_galt_e		EX_galt_e				EX_galt_e	
+230	CPD-510	EX_glcur1p_e						EX_glcur1p_e	
+231	L-THREONINE-O-3-PHOSPHATE	EX_thrp_e						EX_thrp_e	
+232	fald	EX_fald_e						EX_fald_e	
+233	PYRIDOXINE	EX_pydxn_e						EX_pydxn_e	
+234	N-acetyl-D-galactosamine	EX_acgal_e						EX_acgal_e	
+235	SULFUR-DIOXIDE	EX_so2_e						EX_so2_e	
+236	CPD-7670	EX_dms_e				EX_dms_e	DMSt	EX_dms_e	
+237	CPD-7246	EX_acgal1p_e						EX_acgal1p_e	
+238	cyan	EX_cyan_e						EX_cyan_e	
+239	CPD-3728	EX_tyrp_e						EX_tyrp_e	
+240	UDP-N-ACETYL-D-GLUCOSAMINE	EX_uacgam_e						EX_uacgam_e	
+241	UDP-N-ACETYL-GALACTOSAMINE	EX_udpacgal_e						EX_udpacgal_e	
+242	CPD-12575	EX_udpg_e						EX_udpg_e	
+243	CPD-14553	EX_udpgal_e						EX_udpgal_e	
+244	UDP-GLUCURONATE	EX_udpglcur_e						EX_udpglcur_e	
+245	1-4-alpha-D-Glucan	EX_14glucan_e						EX_14glucan_e	
+246	3-P-SERINE	EX_pser__L_e		EX_pser__L_e	PSER_Lt6			EX_pser__L_e	PSER_Lt6
+247	XANTHOSINE-5-PHOSPHATE	EX_xmp_e						EX_xmp_e	
+248	DAMP	EX_damp_e						EX_damp_e	
+249	DIMP	EX_dimp_e						EX_dimp_e	
+250	CPD-3745	EX_isetac_e		EX_istnt_e	ISTNTabc			EX_isetac_e	ISTNTabc
+251	aso3	EX_aso3_e						EX_aso3_e	
+252	HSCN	EX_tcynt_e						EX_tcynt_e	
+253	fe3dhbzs	EX_fe3dhbzs_e	FE3DHBZStonex					EX_fe3dhbzs_e	
+254	feoxam_un	EX_feoxam_un_e	FEOXAMUtex					EX_feoxam_un_e	
+255	L-1-GLYCERO-PHOSPHORYLCHOLINE	EX_g3pc_e						EX_g3pc_e	
+256	GLYCEROPHOSPHOGLYCEROL	EX_g3pg_e						EX_g3pg_e	
+257	CPD-541	EX_g3pi_e						EX_g3pi_e	
+258	CPD0-2030	EX_g3ps_e						EX_g3ps_e	
+259	PHENYLETHYLAMINE	EX_peamn_e						EX_peamn_e	
+260	34-DIHYDROXYPHENYLACETALDEHYDE	EX_34dhpac_e						EX_34dhpac_e	
+261	CYS	RXN0-1924		RXN0-1924	TRANS-RXN-265	RXN0-1924	TRANS-RXN-287	RXN0-1924	TRANS-RXN-265
+262	GUANOSINE	EX_gsn_e		EX_gsn_e	GSNt2			EX_gsn_e	GSNt2
+263	OROTATE	EX_orot_e						EX_orot_e	
+264	2-O-ALPHA-MANNOSYL-D-GLYCERATE	EX_manglyc_e						EX_manglyc_e	
+265	CPD-8990	EX_metsox_R__L_e						EX_metsox_R__L_e	
+266	CL-	EX_cl_e				EX_cl_e	TRANS-RXN-139	EX_cl_e	
+267	DGMP	EX_dgmp_e						EX_dgmp_e	
+268	HYDRPHENYLAC-CPD	EX_4hoxpacd_e						EX_4hoxpacd_e	
+269	3-HYDROXYPHENYL-PROPIONATE	EX_3hpppn_e						EX_3hpppn_e	
+270	man6p	EX_man6p_e		EX_man6p_e	MAN6Pt6			EX_man6p_e	MAN6Pt6
+271	S2O3	EX_tsul_e				EX_tsul_e	ABC-7-RXN	EX_tsul_e	
+272	NITROUS-OXIDE	EX_n2o_e						EX_n2o_e	
+273	maltttr	EX_maltttr_e						EX_maltttr_e	
+274	D-ALA-D-ALA	EX_alaala_e		EX_alaala_e				EX_alaala_e	
+275	TMP	EX_dtmp_e		EX_dtmp_e	DTMPt6			EX_dtmp_e	DTMPt6
+276	CPD0-2167	DM_5drib_c						DM_5drib_c	
+277	LIPOIC-ACID	EX_lipoate_e		TRANS-RXN0-278	LIPTabc			EX_lipoate_e	LIPTabc
+278	PYRIDOXAL	EX_pydx_e						EX_pydx_e	
+279	g1p	EX_g1p_e		EX_g1p_e	G1Pt6_2			EX_g1p_e	G1Pt6_2
+280	OXAMATE	DM_oxam_c						DM_oxam_c	
+281	OXYGEN-MOLECULE	TRANS-RXN0-474		TRANS-RXN0-474	O2t			TRANS-RXN0-474	O2t
+282	CPD0-2182	EX_progly_e						EX_progly_e	
+283	GALACTOSE	EX_gal_bD_e						EX_gal_bD_e	
+284	DUMP	EX_dump_e						EX_dump_e	
+285	CPD-8891	EX_12ppd__R_e						EX_12ppd__R_e	
+286	SUPER-OXIDE	EX_o2s_e						EX_o2s_e	
+287	GALACTOSE-1P	EX_gal1p_e						EX_gal1p_e	
+288	DCMP	EX_dcmp_e						EX_dcmp_e	
+289	CPD-3713	EX_23ccmp_e						EX_23ccmp_e	
+290	CPD-3711	EX_3cmp_e		EX_3cmp_e	3CMPt6			EX_3cmp_e	3CMPt6
+291	urate	EX_urate_e		EX_urate_e	URATEt_1			EX_urate_e	URATEt_1
+292	SHIKIMATE	EX_skm_e						EX_skm_e	
+293	CPD0-2262	EX_cpgn_un_e	CPGNUtex					EX_cpgn_un_e	
+294	AG+	EX_ag_e	AGt3					EX_ag_e	
+295	D-CYSTEINE	EX_cys__D_e		EX_cys__D_e				EX_cys__D_e	
+296	ACETYLSERINE	EX_acser_e						EX_acser_e	
+297	CU+	EX_cu_e	CUt3					EX_cu_e	
+298	arbtn	EX_arbtn_e	ARBTNtex					EX_arbtn_e	
+299	DOPAMINE	EX_dopa_e						EX_dopa_e	
+300	D-TARTRATE	EX_tartr__D_e						EX_tartr__D_e	
+301	CPD0-1083	EX_galctn__L_e						EX_galctn__L_e	
+302	HOMO-SER	EX_hom__L_e						EX_hom__L_e	
+303	TUNGSTATE	EX_tungs_e						EX_tungs_e	
+304	D-CARNITINE	EX_crn__D_e						EX_crn__D_e	
+305	LalaDgluMdapDala	EX_LalaDgluMdapDala_e						EX_LalaDgluMdapDala_e	
+306	5-DEHYDROGLUCONATE	EX_5dglcn_e						EX_5dglcn_e	
+307	LalaDgluMdap	EX_LalaDgluMdap_e						EX_LalaDgluMdap_e	
+308	PSICOSELYSINE	EX_psclys_e						EX_psclys_e	
+309	anhgm	EX_anhgm_e						EX_anhgm_e	
+310	CPD-1772	DM_aacald_c						DM_aacald_c	
+311	CPD-665	EX_ppal_e						EX_ppal_e	
+312	SELENITE	EX_slnt_e						EX_slnt_e	
+313	CPD0-2190	EX_LalaDglu_e						EX_LalaDglu_e	
+314	CPD-560	TRANS-RXN0-461		TRANS-RXN0-461	5MTRt2			TRANS-RXN0-461	5MTRt2
+315	CPD0-1445	EX_LalaLglu_e						EX_LalaLglu_e	
+316	CPD0-1414	EX_ttrcyc_e	TTRCYCtpp					EX_ttrcyc_e	
+317	CPD-19259	EX_mincyc_e	MINCYCtpp					EX_mincyc_e	
+318	CPD-108	DM_4crsol_c						DM_4crsol_c	
+319	HYDROQUINONE-O-BETA-D-GLUCOPYRANOSIDE	EX_arbt_e		EX_arbt_e				EX_arbt_e	
+320	dxylnt	EX_dxylnt_e						EX_dxylnt_e	
+321	CPD-10774	EX_mththf_e; DM_mththf_c						EX_mththf_e; DM_mththf_c	
+322	CPD-13973	EX_doxrbcn_e	DOXRBCNtpp					EX_doxrbcn_e	
+323	dhps	EX_dhps_e						EX_dhps_e	
+324	cs1	EX_cs1_e						EX_cs1_e	
+325	CPD0-1606	EX_fusa_e	FUSAtpp					EX_fusa_e	
+326	mepn	EX_mepn_e						EX_mepn_e	
+327	CHLORAMPHENICOL	EX_cm_e	CMtpp					EX_cm_e	
+328	CPD-15417	EX_novbcn_e	NOVBCNtpp					EX_novbcn_e	
+329	2-DEOXY-D-GLUCOSE	EX_2dglc_e						EX_2dglc_e	
+330	sq	EX_sq_e						EX_sq_e	
+331	4abzglu	EX_4abzglu_e						EX_4abzglu_e	
+332	CPD-18727	EX_rfamp_e	RFAMPtpp					EX_rfamp_e	
+333	metglcur	EX_metglcur_e						EX_metglcur_e	
+334	QUINATE	EX_quin_e						EX_quin_e	
+335	3-HYDROXY-PROPIONATE	EX_3hpp_e						EX_3hpp_e	
+336	KDO2-LIPID-IVA		K2L4Aabctex						
+337	o16a4colipa		O16A4COLIPAabctex						
+338	CPD0-2271		COLIPAabctex						
+339	CPD0-2293		ACOLIPAabctex						
+340	colipap		COLIPAPabctex						
+341	lipa		LIPAabctex						
+342	KDO2-LIPID-IVA-COLD		CLIPAabctex						
+343	drib			EX_drib_e	DRIBabc				DRIBabc
+344	CPD-2961			EX_6pgc_e	6PGCt6				6PGCt6
+345	CROTONO-BETAINE			EX_ctbt_e	CTBTabc				CTBTabc
+346	Larab			EX_Larab_e					
+347	ECTOINE			EX_ectoine_e	ECTOINEabc				ECTOINEabc
+348	L-CYSTATHIONINE			TRANS-RXN0-512	CYSTabc				CYSTabc
+349	L-CYSTEATE			EX_Lcyst_e	LCYSTabc				LCYSTabc
+350	L-ARABITOL			EX_abt__L_e	ABTt_1				ABTt_1
+351	dextrin			EX_dextrin_e	DEXTRINt2				DEXTRINt2
+352	ferrich			EX_ferrich_e	FERRICHabc				FERRICHabc
+353	DIACETYL			EX_diact_e					
+354	CPD-3740			EX_djenk_e	TRANS-RXN0-508				TRANS-RXN0-508
+355	ferxa			EX_ferxa_e	FERXAabc				FERXAabc
+356	CPD-12826			EX_fol_e	FOLt	EX_fol_e	FOLt		FOLt
+357	CPD-10353			EX_actn__R_e	ACTNabc1; ACTNabc	EX_actn__R_e	ACTNt2r		ACTNabc1; ACTNabc
+358	ala_L_Thr__L			EX_ala_L_Thr__L_e	DIPEPabc7				DIPEPabc7
+359	CPD-13404			EX_ala_L_asp__L_e	DIPEPabc1				DIPEPabc1
+360	CPD-13403			EX_ala_L_gln__L_e	DIPEPabc2				DIPEPabc2
+361	ala_L_glu__L			EX_ala_L_glu__L_e	DIPEPabc3				DIPEPabc3
+362	ALA-GLY			EX_L_alagly_e	DIPEPabc4				DIPEPabc4
+363	ala_L_his__L			EX_ala_L_his__L_e	DIPEPabc5				DIPEPabc5
+364	CPD-13398			EX_ala_L_leu__L_e	DIPEPabc6				DIPEPabc6
+365	D-GLT			EX_glu__D_e	GLU_Dt2				GLU_Dt2
+366	amylase			EX_amylase_e					
+367	antim			EX_antim_e	ANTIMt1				ANTIMt1
+368	D-arabinopyranose			EX_arab__D_e	ARAB_Dt				ARAB_Dt
+369	L-ARGININE-P			EX_argp_e	ARGPt6				ARGPt6
+370	arsenb			EX_arsenb_e	ARSENBt2; ARSENBabc				ARSENBt2; ARSENBabc
+371	arsna			EX_arsna_e	ARSNAt1				ARSNAt1
+372	arsni2			EX_arsni2_e	ARSt1				ARSt1
+373	bilea			EX_bilea_e	BILEt4				BILEt4
+374	BUTANEDIOL			EX_btd_RR_e	BTDt6_RR				BTDt6_RR
+375	GLYOX			RXN0-1982	GLXt2				GLXt2
+376	buts			EX_buts_e	BUTSabc				BUTSabc
+377	CPD-1829			EX_cbl2_e	CBL2abc				CBL2abc
+378	PUROMYCIN			EX_pur_e	PURabc1				PURabc1
+379	gly_asn__L			EX_gly_asn__L_e	DIPEPabc8				DIPEPabc8
+380	CPD-1099			EX_raffin_e	RAFFINt2				RAFFINt2
+381	CPD-13406			EX_gly_asp__L_e	DIPEPabc13				DIPEPabc13
+382	RIBOFLAVIN			EX_ribflv_e	RIBFLVt2	EX_ribflv_e	RIBFLVt2		RIBFLVt2
+383	CHITOBIOSE			TRANS-RXN0-445					
+384	CPD-13394			EX_gly_gln__L_e	DIPEPabc9				DIPEPabc9
+385	CPD-543			EX_chols_e	CHOLSabc_1				CHOLSabc_1
+386	CHORISMATE			EX_chor_e	CHORt2				CHORt2
+387	CPD-1142			EX_salcn_e					
+388	gly_glu__L			EX_gly_glu__L_e	DIPEPabc10				DIPEPabc10
+389	L-CITRULLINE			TRANS-RXN-227	CITRt2r				CITRt2r
+390	CPD-13393			EX_gly_met__L_e	DIPEPabc11				DIPEPabc11
+391	CPD-4422			EX_cro4_e	CRO4t3				CRO4t3
+392	srb__L			EX_srb__L_e	SRB_Lt				SRB_Lt
+393	starch			EX_starch_e					
+394	subtilisin			EX_subtilisin_e					
+395	gly_pro__L			EX_gly_pro__L_e	DIPEPabc14				DIPEPabc14
+396	THIOGLYCOLATE			EX_thiog_e	THIOGabc				THIOGabc
+397	Glycogens			EX_glycogen_e	GLYCOGENt				GLYCOGENt
+398	tmp			EX_tmp_e	TMPt6				TMPt6
+399	CPD0-2074			EX_hexs_e	HEXSabc				HEXSabc
+400	HYDROQUINONE			TRANS-RXN0-529	HQNt6				HQNt6
+401	icit			EX_icit_e	ICITt10; ICITt2				ICITt10; ICITt2
+402	CPD-3736			EX_lanth_e	TRANS-RXN0-513				TRANS-RXN0-513
+403	CPD-3582			EX_madg_e					
+404	MANNOSE-1P			EX_man1p_e	MAN1Pt6				MAN1Pt6
+405	mbdg			EX_mbdg_e					
+406	met_L_ala__L			EX_met_L_ala__L_e	DIPEPabc12				DIPEPabc12
+407	metox__R			EX_metox__R_e	METSRabc				METSRabc
+408	mops			EX_mops_e	MOPSabc				MOPSabc
+409	CPD-230			EX_pala_e	PALAt2				PALAt2
+410	PHOSPHO-ENOL-PYRUVATE			EX_pep_e	PEPt6				PEPt6
+411	PPI			EX_ppi_e	PPIabc				PPIabc
+412	CPD-821			EX_prolb_e	TRANS-RXN-324				TRANS-RXN-324
+413	CPD-3722			EX_pser__D_e	PSER_Dt6				PSER_Dt6
+414	CPD-173			TRANS-RXN0-528	2HXMPt6				2HXMPt6
+415	2-PG			EX_2pg_e	2PGt6				2PGt6
+416	CPD-67			EX_2pglyc_e	2PGLYCt6				2PGLYCt6
+417	CPD-4748			EX_3amba_e	3AMBAt2				3AMBAt2
+418	G3P			EX_3pg_e	3PGt6				3PGt6
+419	unknown_rbfdeg					EX_unknown_rbfdeg_e	UNK_RBFDEGt		
+420	Elemental-Sulfur					EX_s_e	St		
+421	P-AMINO-BENZOATE					EX_4abz_e	4ABZt2r		
+422	4-HYDROXYPHENYLACETATE					EX_4hphac_e	HPACt2r		
+423	2-ACETO-LACTATE					EX_alac__S_e	ALACt2r		
+424	cbl1hbi					EX_cbl1hbi_e	CBL1HBIabc		
+425	CPD-7671					EX_ch4s_e	CH4St		
+426	CARBON-MONOXIDE					EX_co_e	TRANS-RXN0-556		
+427	DIMETHYLAMINE					EX_dma_e	DMAt		
+428	GLYCOLALDEHYDE					EX_gcald_e	GCALDt		
+429	INDOLE_ACETATE_AUXIN					EX_ind3ac_e	IND3ACt2r		
+430	METHYLAMINE					EX_mma_e	MMAt		
+431	NITROGEN-MOLECULE					EX_n2_e	N2tr		
+432	PHENYLACETATE					EX_pac_e			
+433	unknown_cbl1deg					EX_unknown_cbl1deg_e	UNK_CBL1DEGt		
