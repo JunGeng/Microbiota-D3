@@ -78,54 +78,56 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 ua = UserAgent()
 print(ua.chrome)
-headers = {'User-Agent': str(ua.chrome)}
-
 host_link = 'https://metacyc.org'
-for index_i in summary_df.index[1:]:  # summary_df.index:
-    # index_i = 1
-    print(index_i)
-    name_i = summary_df['Medium Name'].loc[index_i]
-    url_i = host_link + summary_df['Link'].loc[index_i]
+headers = {'User-Agent': str(ua.chrome)}
+download = False
+if download:
 
-    response = requests.get(url_i, headers=headers)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    tables = soup.findAll('table')
+    for index_i in summary_df.index[1:]:  # summary_df.index:
+        # index_i = 1
+        print(index_i)
+        name_i = summary_df['Medium Name'].loc[index_i]
+        url_i = host_link + summary_df['Link'].loc[index_i]
 
-    if 'Substances' in str(tables[5]):
-        records = get_records(tables[5])
-        columns = ['Substances', 'Link', 'Concentration_' + name_i, 'Role_' + name_i]
-        for i in range(len(records)):
-            record = records[i]
-            if len(record) == 4:
-                continue
-            elif len(record) < 4:
-                records[i] = record + [''] * (4 - len(record))
-            elif len(record) > 4:
-                print(i)
-        substances_df_i = pd.DataFrame(data=records[1:], columns=columns)
-        substances_df_i.to_csv('substances_df_' + str(index_i) + '_.tsv', sep='\t', )
-        substances_df = substances_df.merge(substances_df_i, how='outer', on=['Substances', 'Link'])
-    else:
-        print(name_i, index_i, 'Substances', 'failure')
+        response = requests.get(url_i, headers=headers)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        tables = soup.findAll('table')
 
-    if 'Constituents' in str(tables[6]):
-        records = get_records(tables[6])
-        columns = ['Constituents', 'Link', 'Concentration_' + name_i, 'Role_' + name_i]
-        for i in range(len(records)):
-            record = records[i]
-            if len(record) == 3:
-                continue
-            elif len(record) < 3:
-                records[i] = record + [''] * (4 - len(record))
-            elif len(record) > 3:
-                print(i)
-        composition_df_i = pd.DataFrame(data=records[1:], columns=columns)
-        composition_df_i.to_csv('composition_df_' + str(index_i) + '_.tsv', sep='\t', )
-        composition_df = composition_df.merge(composition_df_i, how='outer', on=['Constituents', 'Link'])
+        if 'Substances' in str(tables[5]):
+            records = get_records(tables[5])
+            columns = ['Substances', 'Link', 'Concentration_' + name_i, 'Role_' + name_i]
+            for i in range(len(records)):
+                record = records[i]
+                if len(record) == 4:
+                    continue
+                elif len(record) < 4:
+                    records[i] = record + [''] * (4 - len(record))
+                elif len(record) > 4:
+                    print(i)
+            substances_df_i = pd.DataFrame(data=records[1:], columns=columns)
+            substances_df_i.to_csv('substances_df_' + str(index_i) + '_.tsv', sep='\t', )
+            substances_df = substances_df.merge(substances_df_i, how='outer', on=['Substances', 'Link'])
+        else:
+            print(name_i, index_i, 'Substances', 'failure')
 
-    else:
-        print(name_i, index_i, 'Constituents', 'failure')
-    time.sleep(200)
+        if 'Constituents' in str(tables[6]):
+            records = get_records(tables[6])
+            columns = ['Constituents', 'Link', 'Concentration_' + name_i, 'Role_' + name_i]
+            for i in range(len(records)):
+                record = records[i]
+                if len(record) == 3:
+                    continue
+                elif len(record) < 3:
+                    records[i] = record + [''] * (4 - len(record))
+                elif len(record) > 3:
+                    print(i)
+            composition_df_i = pd.DataFrame(data=records[1:], columns=columns)
+            composition_df_i.to_csv('composition_df_' + str(index_i) + '_.tsv', sep='\t', )
+            composition_df = composition_df.merge(composition_df_i, how='outer', on=['Constituents', 'Link'])
+
+        else:
+            print(name_i, index_i, 'Constituents', 'failure')
+        time.sleep(200)
 
 # %% due to the anti-reptile of metacyc, the scrips is unstable
 sub_columns = ['Substances', 'Link', ]
@@ -136,21 +138,30 @@ composition_df = pd.DataFrame(columns=com_columns)  # 'Constituents'
 
 for index_i in summary_df.index:
     substances_df_i = pd.read_csv('substances_df_' + str(index_i) + '_.tsv', sep='\t', index_col=0)
+    substances_df_i.columns = [i.replace(' ', '') for i in substances_df_i.columns[0:2]] + [i for i in
+                                                                                            substances_df_i.columns[2:]]
     substances_df_i = substances_df_i.dropna(how='all', axis=0)
     substances_df_i = substances_df_i.dropna(how='all', axis=1)
-
-    substances_df = substances_df.merge(substances_df_i, how='outer', on=['Substances', 'Link', ])
+    substances_df_i['Substances'] = substances_df_i['Substances'].str.replace(' ', '')
+    substances_df_i['Link'] = substances_df_i['Link'].str.replace(' ', '')
+    substances_df = substances_df.merge(substances_df_i, how='outer', on=['Substances', 'Link'])
 
     composition_df_i = pd.read_csv('composition_df_' + str(index_i) + '_.tsv', sep='\t', index_col=0)
+    composition_df_i.columns = [i.replace(' ', '') for i in composition_df_i.columns[0:2]] + [i for i in
+                                                                                              composition_df_i.columns[
+                                                                                              2:]]
+
     composition_df_i = composition_df_i.dropna(how='all', axis=0)
     composition_df_i = composition_df_i.dropna(how='all', axis=1)
-
+    composition_df_i['Constituents'] = composition_df_i['Constituents'].str.replace(' ', '')
+    composition_df_i['Link'] = composition_df_i['Link'].str.replace(' ', '')
     composition_df = composition_df.merge(composition_df_i, how='outer', on=['Constituents', 'Link'])
 
 substances_df['metacyc_id'] = substances_df['Link'].str.split('=', expand=True)[2]
 substances_df['class'] = substances_df['Link'].str.split('=', expand=True)[1]
 substances_df['Link'] = host_link + substances_df['Link']
 composition_df['metacyc_id'] = composition_df['Link'].str.split('=', expand=True)[2]
+composition_df['metacyc_id'] = composition_df['metacyc_id'].str.replace('%2b', '+')
 composition_df['class'] = composition_df['Link'].str.split('=', expand=True)[1]
 composition_df['Link'] = host_link + composition_df['Link']
 
@@ -162,26 +173,3 @@ substances_df = substances_df[columns]
 
 substances_df.to_csv('metacyc_growth_media_substances_df.tsv', sep='\t', )
 composition_df.to_csv('metacyc_growth_media_composition_df.tsv', sep='\t', )
-
-#
-# url = 'https://metacyc.org/META/NEW-IMAGE?type=Growth-Media&object=MIX-13'
-#
-# response = requests.get(url)
-# soup = BeautifulSoup(response.text, 'html.parser')
-# tables = soup.findAll('table')
-#
-# if 'Substances' in str(tables[5]) :
-#     records = get_records(tables[5])
-#     columns = ['Substances','Link','Concentration' ,'Role' ]
-#     recipe_substances_df_ = pd.DataFrame(data=records[1:],columns = columns )
-# else:
-#     for i in range(len(tables)):
-#         print(i)
-#
-# if 'Constituents' in str(tables[6]) :
-#     records = get_records(tables[6])
-#     columns = ['Constituents','Link','Concentration'  ]
-#     composition_df_i = pd.DataFrame(data=records[1:],columns = columns )
-# else:
-#     for i in range(len(tables)):
-#         print(i)
