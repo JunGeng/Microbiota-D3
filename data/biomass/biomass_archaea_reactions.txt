@@ -1,9 +1,9 @@
-Biomass_dna_c	0.03312 DATP + 0.02153 DCTP + 0.02153 DGTP + 0.03312 TTP --> dna_c	0	0.0	1000.0		{}
-Biomass_rna_c	0.1379 CTP + 0.2222 GTP + 0.1489 UTP --> rna_c	0	0.0	1000.0		{}
-Biomass_protein_c	0.3237 ARG + 0.2638 ASN + 0.1002 CYS + 0.28800000000000003 GLN + 0.28800000000000003 GLT + 0.6704 GLY + 0.1037 HIS + 0.3179 ILE + 0.5621 L-ALPHA-ALANINE + 0.2638 L-ASPARTATE + 0.493 LEU + 0.3755 LYS + 0.1682 MET + 0.2027 PHE + 0.2419 PRO + 0.2361 SER + 0.2776 THR + 0.0622 TRP + 0.1509 TYR --> protein_c	0	0.0	1000.0		{}
-Biomass_lipid_c	0.001349 CPD-15257 + 0.000674 CPD-15258 + 0.000674 CPD-17766 + 0.01349 CPD-19667 --> lipid_c	0	0.0	1000.0		{}
-Biomass_carbohydrate_c	0.015430000000000001 Glycogens --> carbohydrate_c	0	0.0	1000.0		{}
-Biomass_cofactor_c	5e-05 ACETYL-COA + 0.001 AMP + 6e-06 CO-A + 5e-06 CPD-10017 + 0.0005 CPD-1281 + 5e-06 CPD-19661 + 0.002 CPD-7425 + 0.02362 CPD-8 + 0.02056 CoM + 0.00215 NAD + 5e-05 NADH + 0.00013000000000000002 NADP + 0.0004 NADPH + 4.3e-05 OX-COENZYME-F420 + 3e-06 SUC-COA + 6.1e-05 THF --> 29.998 ADP + 0.799 PPI + 30.0 Pi + cofactor_c	0	0.0	1000.0		{}
-Biomass_ion_c	 --> ion_c	0	0.0	1000.0		{}
-Biomass_other_c	30.1846 ATP + 0.0047 CPD-1821 + 0.0262 PUTRESCINE + 30.0 WATER --> 29.99755 PROTON + other_c	0	0.0	1000.0		{}
-Biomass	carbohydrate_c + cofactor_c + dna_c + ion_c + lipid_c + other_c + protein_c + rna_c --> Biomass	0	0.0	1000.0		{}
+Biomass_dna	0.03312 DATP_c + 0.02153 DCTP_c + 0.02153 DGTP_c + 0.03312 TTP_c --> dna_c	0	0.0	1000.0		{}
+Biomass_rna	0.1379 CTP_c + 0.2222 GTP_c + 0.1489 UTP_c --> rna_c	0	0.0	1000.0		{}
+Biomass_protein	0.3237 ARG_c + 0.2638 ASN_c + 0.1002 CYS_c + 0.28800000000000003 GLN_c + 0.28800000000000003 GLT_c + 0.6704 GLY_c + 0.1037 HIS_c + 0.3179 ILE_c + 0.5621 L-ALPHA-ALANINE_c + 0.2638 L-ASPARTATE_c + 0.493 LEU_c + 0.3755 LYS_c + 0.1682 MET_c + 0.2027 PHE_c + 0.2419 PRO_c + 0.2361 SER_c + 0.2776 THR_c + 0.0622 TRP_c + 0.1509 TYR_c + 0.4631 VAL_c --> protein_c	0	0.0	1000.0		{}
+Biomass_lipid	0.001349 CPD-15257_c + 0.000674 CPD-15258_c + 0.000674 CPD-17766_c + 0.01349 CPD-19667_c --> lipid_c	0	0.0	1000.0		{}
+Biomass_carbohydrate	0.01543 Glycogens_c --> carbohydrate_c	0	0.0	1000.0		{}
+Biomass_cofactor	5e-05 ACETYL-COA_c + 0.001 AMP_c + 6e-06 CO-A_c + 5e-06 CPD-10017_c + 0.0005 CPD-1281_c + 5e-06 CPD-19661_c + 0.002 CPD-7425_c + 0.02362 CPD-8_c + 0.02056 CoM_c + 5e-05 NADH_c + 0.0004 NADPH_c + 0.00013000000000000002 NADP_c + 0.00215 NAD_c + 4.3e-05 OX-COENZYME-F420_c + 3e-06 SUC-COA_c + 6.1e-05 THF_c --> 29.998 ADP_c + 0.799 PPI_c + 30.0 Pi_c + cofactor_c	0	0.0	1000.0		{}
+Biomass_ion	 --> ion_c	0	0.0	1000.0		{}
+Biomass_other	30.1846 ATP_c + 0.0047 CPD-1821_c + 0.0262 PUTRESCINE_c + 30.0 WATER_c --> 29.99755 PROTON_c + other_c	0	0.0	1000.0		{}
+Biomass	carbohydrate_c + cofactor_c + dna_c + ion_c + lipid_c + other_c + protein_c + rna_c --> Biomass_c	0	0.0	1000.0		{}
