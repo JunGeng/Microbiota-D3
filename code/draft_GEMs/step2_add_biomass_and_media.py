@@ -14,7 +14,7 @@ import sys
 import cobra
 import pandas as pd
 
-sys.path.append('../../code/biomass/')
+sys.path.append('../../code/Functions/')
 import dna
 import rna
 
@@ -29,7 +29,7 @@ species_table = '../sequences_processing/species_final.txt'
 gram_table = '../initial_data/mostAbundantSpecies.tsv'
 
 biomass_model_list = ['biomass_negative_reactions.json',
-                      'biomass_positive_reactions.json',
+                      'biomass_positive_reactions_iYO844.json',
                       'biomass_archaea_reactions.json'
                       ]
 
@@ -52,87 +52,125 @@ species_dic = species_df[['Name_trimmed', 'organism_name', 'bofTemplateType']].s
 name_list = list(species_dic.keys())
 
 index = 0  # try one model first
-name_i = name_list[index].replace(' ', '_')
 
-# %% <load draft model i>
-model_path_i = 'draft_from_RAVEN_metacyc23_5/' + name_i + '_Metacyc.mat'
+opt_dic = {}
+for index in range(0, len(name_list)):
+    # print(index)
+    name_i = name_list[index].replace(' ', '_')
+    name_i = name_i.replace('/', '_')
 
-model_i = cobra.io.load_matlab_model(model_path_i)
+    if name_i + '.json' in os.listdir(output_file_dir):
+        continue
+    print(index)
+    # %% <load draft model i>
+    model_path_i = 'draft_from_RAVEN_metacyc23_5/' + name_i + '_Metacyc.mat'
+    try:
+        model_i = cobra.io.load_matlab_model(model_path_i)
+    except:
+        model_i = cobra.io.load_matlab_model(model_path_i.replace('.mat', ''))
+        # model_i = cobra.io.load_yaml_model(model_path_i.replace('.mat',''))
+        # model_i = cobra.io.read_sbml_model(model_path_i.replace('.mat','.xml'))
+        # print(index, )
+        print(name_i, 'Error!!!!')
+        continue
 
-# %% <load biomass reactions type: model>
+    # %% <load biomass reactions type: model>
 
-biomass_n_model = cobra.io.load_json_model('../biomass/' + biomass_model_list[0])
-biomass_p_model = cobra.io.load_json_model('../biomass/' + biomass_model_list[1])
-biomass_a_model = cobra.io.load_json_model('../biomass/' + biomass_model_list[2])
+    biomass_n_model = cobra.io.load_json_model('../biomass/' + biomass_model_list[0])
+    biomass_p_model = cobra.io.load_json_model('../biomass/' + biomass_model_list[1])
+    biomass_a_model = cobra.io.load_json_model('../biomass/' + biomass_model_list[2])
 
-gram = species_dic[name_list[index]][1]
+    gram = species_dic[name_list[index]][1]
 
-if gram == 'GramNegative':
-    biomass_model = biomass_n_model
-    DNA_WEIGHT_FRACTION = 0.032754653286106
-    RNA_WEIGHT_FRACTION = 0.2173669926367441
-elif gram == 'GramPositive':
-    biomass_model = biomass_p_model
-    DNA_WEIGHT_FRACTION = 0.024836038302619
-    RNA_WEIGHT_FRACTION = 0.06834193130139973
-elif gram == 'Archaea':
-    biomass_model = biomass_a_model
-    DNA_WEIGHT_FRACTION = 0.03365199989709999
-    RNA_WEIGHT_FRACTION = 0.22444954697759986
-else:
-    print('Error')
+    if gram == 'GramNegative':
+        biomass_model = biomass_n_model
+        DNA_WEIGHT_FRACTION = 0.032754653286106
+        RNA_WEIGHT_FRACTION = 0.2173669926367441
+    elif gram == 'GramPositive':
+        biomass_model = biomass_p_model
+        DNA_WEIGHT_FRACTION = 0.024836038302619
+        RNA_WEIGHT_FRACTION = 0.06834193130139973
+    elif gram == 'Archaea':
+        biomass_model = biomass_a_model
+        DNA_WEIGHT_FRACTION = 0.03365199989709999
+        RNA_WEIGHT_FRACTION = 0.22444954697759986
+    else:
+        print('Error')
 
-# %% <load media reactions type: model>
+    # %% <load media reactions type: model>
 
-media_model_path = '../media/' + media_model_list[0]
-media_model = cobra.io.load_json_model(media_model_path)
+    media_model_path = '../media/' + media_model_list[0]
+    media_model = cobra.io.load_json_model(media_model_path)
 
-# %% <generate new dna and rna coefficients based on seq>
+    # %% <add compartments>
+    model_i.id = name_i
+    model_i.compartments = {'c': 'cytosol',
+                            'e': 'extracellular space'}
 
-fna_i = '../sequences_processing/genomic_sequences/' + name_i + '_genomic.fna'
-gbff_i = '../sequences_processing/gbff_sequences/' + name_i + '_genomic.gbff'
-DNA_coefficients = dna.generate_coefficients(fna_i, DNA_WEIGHT_FRACTION=1)
-RNA_coefficients, _ratios = rna.generate_coefficients(gbff_i,
-                                                      RNA_WEIGHT_FRACTION=1,
-                                                      rRNA_WEIGHT_FRACTION=0.9,
-                                                      tRNA_WEIGHT_FRACTION=0.05,
-                                                      mRNA_WEIGHT_FRACTION=0.05,
-                                                      identifier='locus_tag')
-dna_reaction = biomass_model.reactions.get_by_id('Biomass_dna_c')
-# dna_reaction = cobra.Reaction('Biomass_dna_c')
-dna_reaction.reaction = ' --> '
-dna_reaction.add_metabolites({biomass_model.metabolites.get_by_id('DATP'): DNA_coefficients['dATP'],
-                              biomass_model.metabolites.get_by_id('TTP'): DNA_coefficients['dTTP'],
-                              biomass_model.metabolites.get_by_id('DCTP'): DNA_coefficients['dCTP'],
-                              biomass_model.metabolites.get_by_id('DGTP'): DNA_coefficients['dGTP'],
-                              biomass_model.metabolites.get_by_id('PPI'): DNA_coefficients['ppi_c'],
-                              })
-
-rna_reaction = biomass_model.reactions.get_by_id('Biomass_dna_c')
-rna_reaction.reaction = ' --> '
-rna_reaction.add_metabolites({biomass_model.metabolites.get_by_id('ATP'): RNA_coefficients['atp_c'],
-                              biomass_model.metabolites.get_by_id('UTP'): RNA_coefficients['utp_c'],
-                              biomass_model.metabolites.get_by_id('CTP'): RNA_coefficients['ctp_c'],
-                              biomass_model.metabolites.get_by_id('GTP'): RNA_coefficients['gtp_c'],
-                              biomass_model.metabolites.get_by_id('PPI'): RNA_coefficients['ppi_c'],
-                              })
-
-# %% <merge draft model and biomass model>
-model_i = model_i.merge(biomass_model)
-
-# %% <add compartments>
-model_i.id = name_i
-model_i.compartments = {'c': 'cytosol',
-                        'e': 'extracellular space'}
-
-for met_i in model_i.metabolites:
-    if not met_i.id.endswith('_c'):
-        met_i.id = met_i.id + '_c'
+    for met_i in model_i.metabolites:
+        if not met_i.id.endswith('_c'):
+            met_i.id = met_i.id + '_c'
+        else:
+            print(met_i)
         met_i.compartment = 'c'
 
-# %% <merge draft model and biomass model>
-model_i = model_i.merge(media_model)
+    # %% <generate new dna and rna coefficients based on seq>
 
-# %% <write model>
-cobra.io.save_json_model(model_i, output_file_dir + model_i.id + '.json')
-cobra.io.save_matlab_model(model_i, output_file_dir + model_i.id + '.mat')
+    fna_i = '../sequences_processing/genomic_sequences/' + name_i + '_genomic.fna'
+    gbff_i = '../sequences_processing/gbff_sequences/' + name_i + '_genomic.gbff'
+    DNA_coefficients = dna.generate_coefficients(fna_i, DNA_WEIGHT_FRACTION=1)
+
+    dna_reaction = biomass_model.reactions.get_by_id('Biomass_dna')
+    # dna_reaction = cobra.Reaction('Biomass_dna_c')
+    dna_reaction.reaction = ' --> '
+    dna_reaction.add_metabolites({biomass_model.metabolites.get_by_id('DATP_c'): DNA_coefficients['dATP'],
+                                  biomass_model.metabolites.get_by_id('TTP_c'): DNA_coefficients['dTTP'],
+                                  biomass_model.metabolites.get_by_id('DCTP_c'): DNA_coefficients['dCTP'],
+                                  biomass_model.metabolites.get_by_id('DGTP_c'): DNA_coefficients['dGTP'],
+                                  biomass_model.metabolites.get_by_id('PPI_c'): DNA_coefficients['ppi_c'],
+                                  })
+    if name_i not in ['Ruminococcus_sp._SR1_5',
+                      'butyrate-producing_bacterium_SS3_4']:  # NOTE: Ruminococcus_sp._SR1_5 skiped (error), butyrate-producing_bacterium_SS3_4
+        RNA_coefficients, _ratios = rna.generate_coefficients(gbff_i,
+                                                              RNA_WEIGHT_FRACTION=1,
+                                                              rRNA_WEIGHT_FRACTION=0.9,
+                                                              tRNA_WEIGHT_FRACTION=0.05,
+                                                              mRNA_WEIGHT_FRACTION=0.05,
+                                                              identifier='locus_tag')
+        rna_reaction = biomass_model.reactions.get_by_id('Biomass_rna')
+
+        rna_reaction.reaction = ' --> '
+        rna_reaction.add_metabolites({biomass_model.metabolites.get_by_id('ATP_c'): RNA_coefficients['atp_c'],
+                                      biomass_model.metabolites.get_by_id('UTP_c'): RNA_coefficients['utp_c'],
+                                      biomass_model.metabolites.get_by_id('CTP_c'): RNA_coefficients['ctp_c'],
+                                      biomass_model.metabolites.get_by_id('GTP_c'): RNA_coefficients['gtp_c'],
+                                      biomass_model.metabolites.get_by_id('PPI_c'): RNA_coefficients['ppi_c'],
+                                      })
+
+    # %% <merge draft model and biomass model>
+    model_i = model_i.merge(biomass_model)
+
+    # %% <merge draft model and biomass model>
+    model_i = model_i.merge(media_model)
+
+    # %% <check model>
+    for met_i in model_i.metabolites:
+        if met_i.id.endswith('_c'):
+            if met_i.compartment != 'c':
+                print(met_i)
+                met_i.compartment = 'c'
+
+        elif met_i.id.endswith('_e'):
+            if met_i.compartment != 'e':
+                print(met_i)
+                met_i.compartment = 'e'
+        else:
+            print(met_i)
+    model_i.objects = 'Biomass'
+    f = model_i.optimize().objective_value
+    print(name_i, ': ', f)
+    opt_dic[name_i] = f
+
+    # %% <write model>
+    cobra.io.save_json_model(model_i, output_file_dir + model_i.id + '.json')
+    cobra.io.save_matlab_model(model_i, output_file_dir + model_i.id + '.mat')
