@@ -140,7 +140,7 @@ def check_exchange_transport_rxns_in_model(model, met_id, lower_bound, met_c, me
     exchange_reaction_i.lower_bound = lower_bound
 
 
-def changeout_media_from_dic(model_, media_i_dic):
+def update_media_from_dic(model_, media_i_dic):
     model = model_.copy()
     exchange_rxns_list = [i.id for i in model.reactions if i.id.startswith('Ex_')]
     # transport_rxns_list = [i.id for i in model.reactions if i.id.startswith('TRANS_')]

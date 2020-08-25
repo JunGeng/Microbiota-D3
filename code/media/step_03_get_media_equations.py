@@ -49,7 +49,7 @@ media_i_df = media_m2_df.copy()
 media_i_df.columns = ['Constituents', 'Concentration', 'exchange_rxns', 'transport_rxns']
 media_i_dic = media.get_media_dic_form_df(media_i_df, media_name)
 model_i = model.copy()
-media_model = media.changeout_media_from_dic(model_i, media_i_dic)
+media_model = media.update_media_from_dic(model_i, media_i_dic)
 
 # %% <write model>
 cobra.io.save_json_model(model_i, output_file)  # write json model, easy import by python to
