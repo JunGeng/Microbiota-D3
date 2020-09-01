@@ -46892,56 +46892,11 @@
 "cpd15643"
 ]
 }
-},
-{
-"id":"dna_c",
-"name":"",
-"compartment":"c"
-},
-{
-"id":"rna_c",
-"name":"",
-"compartment":"c"
-},
-{
-"id":"protein_c",
-"name":"",
-"compartment":"c"
-},
-{
-"id":"lipid_c",
-"name":"",
-"compartment":"c"
-},
-{
-"id":"carbohydrate_c",
-"name":"",
-"compartment":"c"
-},
-{
-"id":"cofactor_c",
-"name":"",
-"compartment":"c"
-},
-{
-"id":"ion_c",
-"name":"",
-"compartment":"c"
-},
-{
-"id":"other_c",
-"name":"",
-"compartment":"c"
-},
-{
-"id":"Biomass_c",
-"name":"",
-"compartment":"c"
 }
 ],
 "reactions":[
 {
-"id":"TRANS-RXN0-476",
+"id":"EX_etha_e",
 "name":"Ethanolamine exchange",
 "metabolites":{
 "ETHANOL-AMINE_e":-1.0
@@ -47032,7 +46987,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-461",
+"id":"EX_5mtr_e",
 "name":"5-Methylthio-D-ribose exchange",
 "metabolites":{
 "CPD-560_e":-1.0
@@ -47144,7 +47099,7 @@
 }
 },
 {
-"id":"RXN0-14",
+"id":"EX_cu2_e",
 "name":"Cu2+ exchange",
 "metabolites":{
 "CU+2_e":-1.0
@@ -47281,7 +47236,7 @@
 }
 },
 {
-"id":"RXN0-1924",
+"id":"EX_cys__L_e",
 "name":"L-Cysteine exchange",
 "metabolites":{
 "CYS_e":-1.0
@@ -47351,7 +47306,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-512",
+"id":"EX_cyst__L_e",
 "name":"L Cystine exchange",
 "metabolites":{
 "L-CYSTATHIONINE_e":-1.0
@@ -47462,7 +47417,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-546",
+"id":"EX_etoh_e",
 "name":"Ethanol exchange",
 "metabolites":{
 "ETOH_e":-1.0
@@ -47559,7 +47514,7 @@
 }
 },
 {
-"id":"TRANS-RXN-8",
+"id":"EX_fe2_e",
 "name":"Fe2+ exchange",
 "metabolites":{
 "FE+2_e":-1.0
@@ -47701,7 +47656,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-281",
+"id":"EX_acac_e",
 "name":"Acetoacetate exchange",
 "metabolites":{
 "3-KETOBUTYRATE_e":-1.0
@@ -48036,7 +47991,7 @@
 }
 },
 {
-"id":"TRANS-RXN-1",
+"id":"EX_for_e",
 "name":"Formate exchange",
 "metabolites":{
 "for_e":-1.0
@@ -48156,7 +48111,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-577",
+"id":"EX_ade_e",
 "name":"Adenine exchange",
 "metabolites":{
 "ade_e":-1.0
@@ -48588,7 +48543,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-203",
+"id":"EX_galctr__D_e",
 "name":"D Galactarate exchange",
 "metabolites":{
 "D-GALACTARATE_e":-1.0
@@ -48780,7 +48735,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-574",
+"id":"EX_glc__D_e",
 "name":"D-Glucose exchange",
 "metabolites":{
 "Glucopyranose_e":-1.0
@@ -48849,7 +48804,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-204",
+"id":"EX_glcr_e",
 "name":"D-Glucarate exchange",
 "metabolites":{
 "D-GLUCARATE_e":-1.0
@@ -48915,7 +48870,7 @@
 }
 },
 {
-"id":"TRANS-RXN-233",
+"id":"EX_gln__L_e",
 "name":"L-Glutamine exchange",
 "metabolites":{
 "GLN_e":-1.0
@@ -49015,7 +48970,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-557",
+"id":"EX_alltn_e",
 "name":"Allantoin exchange",
 "metabolites":{
 "ALLANTOIN_e":-1.0
@@ -49101,7 +49056,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-553",
+"id":"EX_fum_e",
 "name":"Fumarate exchange",
 "metabolites":{
 "FUM_e":-1.0
@@ -49324,7 +49279,7 @@
 }
 },
 {
-"id":"RXN66-448",
+"id":"EX_arg__L_e",
 "name":"L-Arginine exchange",
 "metabolites":{
 "ARG_e":-1.0
@@ -49497,7 +49452,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-554",
+"id":"EX_asp__L_e",
 "name":"L-Aspartate exchange",
 "metabolites":{
 "L-ASPARTATE_e":-1.0
@@ -49583,7 +49538,7 @@
 }
 },
 {
-"id":"RXN0-1982",
+"id":"EX_glx_e",
 "name":"Glyoxylate exchange",
 "metabolites":{
 "GLYOX_e":-1.0
@@ -49938,7 +49893,7 @@
 }
 },
 {
-"id":"RXN0-10",
+"id":"EX_cd2_e",
 "name":"Cadmium exchange",
 "metabolites":{
 "CD+2_e":-1.0
@@ -50187,7 +50142,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-445",
+"id":"EX_chitob_e",
 "name":"Chitobiose exchange",
 "metabolites":{
 "CHITOBIOSE_e":-1.0
@@ -50221,7 +50176,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-537",
+"id":"EX_gly_e",
 "name":"Glycine exchange",
 "metabolites":{
 "GLY_e":-1.0
@@ -50269,7 +50224,7 @@
 }
 },
 {
-"id":"TRANS-RXN-319",
+"id":"EX_chol_e",
 "name":"Choline exchange",
 "metabolites":{
 "CHOLINE_e":-1.0
@@ -50565,7 +50520,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-495",
+"id":"EX_ser__D_e",
 "name":"D-Serine exchange",
 "metabolites":{
 "D-SERINE_e":-1.0
@@ -50603,7 +50558,7 @@
 }
 },
 {
-"id":"TRANS-RXN-227",
+"id":"EX_citr__L_e",
 "name":"L-Citrulline exchange",
 "metabolites":{
 "L-CITRULLINE_e":-1.0
@@ -50932,7 +50887,7 @@
 }
 },
 {
-"id":"TRANS-RXN-141A",
+"id":"EX_cobalt2_e",
 "name":"Co2+ exchange",
 "metabolites":{
 "CO+2_e":-1.0
@@ -51120,7 +51075,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-552",
+"id":"EX_succ_e",
 "name":"Succinate exchange",
 "metabolites":{
 "SUC_e":-1.0
@@ -51265,7 +51220,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-490",
+"id":"EX_glyb_e",
 "name":"Glycine betaine exchange",
 "metabolites":{
 "BETAINE_e":-1.0
@@ -51370,7 +51325,7 @@
 }
 },
 {
-"id":"TRANS-RXN-131",
+"id":"EX_glyc_e",
 "name":"Glycerol exchange",
 "metabolites":{
 "GLYCEROL_e":-1.0
@@ -51467,7 +51422,7 @@
 }
 },
 {
-"id":"RXN0-5111",
+"id":"EX_glyclt_e",
 "name":"Glycolate exchange",
 "metabolites":{
 "GLYCOLLATE_e":-1.0
@@ -51537,7 +51492,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-565",
+"id":"EX_gmp_e",
 "name":"GMP exchange",
 "metabolites":{
 "GMP_e":-1.0
@@ -51665,7 +51620,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-524",
+"id":"EX_thym_e",
 "name":"Thymine exchange",
 "metabolites":{
 "THYMINE_e":-1.0
@@ -51758,7 +51713,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-578",
+"id":"EX_gua_e",
 "name":"Guanine exchange",
 "metabolites":{
 "GUANINE_e":-1.0
@@ -51854,7 +51809,7 @@
 }
 },
 {
-"id":"RXN66-449",
+"id":"EX_trp__L_e",
 "name":"L-Tryptophan exchange",
 "metabolites":{
 "TRP_e":-1.0
@@ -51927,7 +51882,7 @@
 }
 },
 {
-"id":"RXN66-446",
+"id":"EX_tyr__L_e",
 "name":"L-Tyrosine exchange",
 "metabolites":{
 "TYR_e":-1.0
@@ -52150,7 +52105,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-560",
+"id":"EX_ura_e",
 "name":"Uracil exchange",
 "metabolites":{
 "URACIL_e":-1.0
@@ -52222,7 +52177,7 @@
 }
 },
 {
-"id":"RXN-14452",
+"id":"EX_h_e",
 "name":"H+ exchange",
 "metabolites":{
 "PROTON_e":-1.0
@@ -52580,7 +52535,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-460",
+"id":"EX_urea_e",
 "name":"Urea exchange",
 "metabolites":{
 "UREA_e":-1.0
@@ -52688,7 +52643,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-269",
+"id":"EX_val__L_e",
 "name":"L-Valine exchange",
 "metabolites":{
 "VAL_e":-1.0
@@ -52729,7 +52684,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-561",
+"id":"EX_xan_e",
 "name":"Xanthine exchange",
 "metabolites":{
 "XANTHINE_e":-1.0
@@ -52819,7 +52774,7 @@
 }
 },
 {
-"id":"RXN0-12",
+"id":"EX_zn2_e",
 "name":"Zinc exchange",
 "metabolites":{
 "ZN+2_e":-1.0
@@ -53172,7 +53127,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-529",
+"id":"EX_hqn_e",
 "name":"Hydroquinone exchange",
 "metabolites":{
 "HYDROQUINONE_e":-1.0
@@ -55155,7 +55110,7 @@
 }
 },
 {
-"id":"RXN66-447",
+"id":"EX_leu__L_e",
 "name":"L-Leucine exchange",
 "metabolites":{
 "LEU_e":-1.0
@@ -55306,7 +55261,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-278",
+"id":"EX_lipt_e",
 "name":"Lipoate exchange",
 "metabolites":{
 "LIPOIC-ACID_e":-1.0
@@ -55403,7 +55358,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-569",
+"id":"EX_lys__L_e",
 "name":"L-Lysine exchange",
 "metabolites":{
 "LYS_e":-1.0
@@ -56732,7 +56687,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-459",
+"id":"EX_meoh_e",
 "name":"Methanol exchange",
 "metabolites":{
 "meoh_e":-1.0
@@ -57977,7 +57932,7 @@
 }
 },
 {
-"id":"TRANS-RXN-141",
+"id":"EX_mg2_e",
 "name":"Mg exchange",
 "metabolites":{
 "MG+2_e":-1.0
@@ -59814,7 +59769,7 @@
 }
 },
 {
-"id":"TRANS-RXN-189",
+"id":"EX_na1_e",
 "name":"Sodium exchange",
 "metabolites":{
 "NA+_e":-1.0
@@ -60543,7 +60498,7 @@
 }
 },
 {
-"id":"TRANS-RXN-141B",
+"id":"EX_ni2_e",
 "name":"Ni2+ exchange",
 "metabolites":{
 "NI+2_e":-1.0
@@ -61098,7 +61053,7 @@
 }
 },
 {
-"id":"TRANS-RXN-137",
+"id":"EX_no2_e",
 "name":"Nitrite exchange",
 "metabolites":{
 "NITRITE_e":-1.0
@@ -61451,7 +61406,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-474",
+"id":"EX_o2_e",
 "name":"O2 exchange",
 "metabolites":{
 "OXYGEN-MOLECULE_e":-1.0
@@ -61802,7 +61757,7 @@
 }
 },
 {
-"id":"TRANS-RXN-230",
+"id":"EX_orn__L_e",
 "name":"Ornithine exchange",
 "metabolites":{
 "L-ORNITHINE_e":-1.0
@@ -62490,7 +62445,7 @@
 }
 },
 {
-"id":"RXN66-445",
+"id":"EX_phe__L_e",
 "name":"L-Phenylalanine exchange",
 "metabolites":{
 "PHE_e":-1.0
@@ -62773,7 +62728,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-470",
+"id":"EX_pi_e",
 "name":"Phosphate exchange",
 "metabolites":{
 "Pi_e":-1.0
@@ -63104,7 +63059,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-505",
+"id":"EX_ppa_e",
 "name":"Propionate exchange",
 "metabolites":{
 "PROPIONATE_e":-1.0
@@ -66185,7 +66140,7 @@
 }
 },
 {
-"id":"TRANS-RXN0-528",
+"id":"EX_2hxmp_e",
 "name":"2  Hydroxymethyl phenol exchange",
 "metabolites":{
 "CPD-173_e":-1.0
@@ -69639,7 +69594,7 @@
 }
 },
 {
-"id":"GLCRt2r",
+"id":"TRANS-RXN0-204",
 "name":"D-glucarate transport via proton symport, reversible",
 "metabolites":{
 "D-GLUCARATE_c":1.0,
@@ -72451,7 +72406,7 @@
 }
 },
 {
-"id":"GLYCt",
+"id":"TRANS-RXN-131",
 "name":"Glycerol transport via channel",
 "metabolites":{
 "GLYCEROL_c":-1.0,
@@ -79436,7 +79391,7 @@
 }
 },
 {
-"id":"O2t",
+"id":"TRANS-RXN0-474",
 "name":"O2 transport  diffusion ",
 "metabolites":{
 "OXYGEN-MOLECULE_c":1.0,
@@ -80069,7 +80024,7 @@
 }
 },
 {
-"id":"MGt5",
+"id":"TRANS-RXN-141",
 "name":"Magnesium transport in/out via permease (no H+)",
 "metabolites":{
 "MG+2_c":-1.0,
@@ -90390,7 +90345,7 @@
 }
 },
 {
-"id":"UREAt",
+"id":"TRANS-RXN0-460",
 "name":"Urea transport via facilitate diffusion",
 "metabolites":{
 "UREA_c":1.0,
@@ -101789,151 +101744,6 @@
 ],
 "sbo":"SBO:0000176"
 }
-},
-{
-"id":"Biomass_dna",
-"name":"",
-"metabolites":{
-"DATP_c":-0.022982,
-"DCTP_c":-0.01738,
-"DGTP_c":-0.017398,
-"TTP_c":-0.022899,
-"dna_c":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":""
-},
-{
-"id":"Biomass_rna",
-"name":"",
-"metabolites":{
-"CTP_c":-0.038902,
-"GTP_c":-0.062667,
-"UTP_c":-0.041501,
-"rna_c":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":""
-},
-{
-"id":"Biomass_protein",
-"name":"",
-"metabolites":{
-"ARG_c":-0.193021,
-"ASN_c":-0.14798699999999998,
-"CYS_c":-0.05699,
-"GLN_c":-0.260335,
-"GLT_c":-0.260378,
-"GLY_c":-0.408288,
-"HIS_c":-0.08173899999999999,
-"ILE_c":-0.269905,
-"L-ALPHA-ALANINE_c":-0.266902,
-"L-ASPARTATE_c":-0.148014,
-"LEU_c":-0.346445,
-"LYS_c":-0.323093,
-"MET_c":-0.113326,
-"PHE_c":-0.175939,
-"PRO_c":-0.160642,
-"SER_c":-0.216213,
-"THR_c":-0.186317,
-"TRP_c":-0.054336,
-"TYR_c":-0.110824,
-"VAL_c":-0.306734,
-"protein_c":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":""
-},
-{
-"id":"Biomass_lipid",
-"name":"",
-"metabolites":{
-"lipid_c":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":""
-},
-{
-"id":"Biomass_carbohydrate",
-"name":"",
-"metabolites":{
-"carbohydrate_c":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":""
-},
-{
-"id":"Biomass_cofactor",
-"name":"",
-"metabolites":{
-"10-FORMYL-THF_c":-0.000367,
-"ADP_c":104.997414,
-"AMP_c":-0.0046700000000000005,
-"CDP_c":-0.000251,
-"CMP_c":-0.001042,
-"CPD-12125_c":-0.000266,
-"FE+3_c":-0.00345,
-"GDP_c":-0.00018,
-"GMP_c":-0.000503,
-"K+_c":-0.7063119999999999,
-"NADPH_c":-0.000216,
-"NADP_c":-0.000934,
-"NAD_c":-0.016163999999999998,
-"PPI_c":-0.000918,
-"Pi_c":104.985613,
-"cofactor_c":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":""
-},
-{
-"id":"Biomass_ion",
-"name":"",
-"metabolites":{
-"CA+2_c":-0.0032049999999999995,
-"MG+2_c":-0.101714,
-"ion_c":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":""
-},
-{
-"id":"Biomass_other",
-"name":"",
-"metabolites":{
-"ATP_c":-105.053483,
-"PROTON_c":105.0,
-"WATER_c":-105.0,
-"other_c":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":""
-},
-{
-"id":"Biomass",
-"name":"",
-"metabolites":{
-"Biomass_c":1,
-"carbohydrate_c":-1,
-"cofactor_c":-1,
-"dna_c":-1,
-"ion_c":-1,
-"lipid_c":-1,
-"other_c":-1,
-"protein_c":-1,
-"rna_c":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":""
 }
 ],
 "genes":[

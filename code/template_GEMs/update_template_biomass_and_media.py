@@ -97,8 +97,8 @@ print('iAF692_metacyc \topt:', iAF692.optimize().objective_value)
 print('iAF692_new \topt:', iAF692_.optimize().objective_value)
 
 # %% <write model>
-cobra.io.save_json_model(iML1515_, 'iML1515_metacyc.json')
-cobra.io.save_json_model(iYO844_, 'iYO844_metacyc.json')
-cobra.io.save_json_model(iAF692_, 'iAF692_metacyc.json')
+cobra.io.save_json_model(iML1515_, 'iML1515_metacyc_updated_biomass.json')
+cobra.io.save_json_model(iYO844_, 'iYO844_metacyc_updated_biomass.json')
+cobra.io.save_json_model(iAF692_, 'iAF692_metacyc_updated_biomass.json')
 # import gemstool
 # gemstool.io.solution2txt(iAF692_.optimize(),iAF692_,'temp.txt')
