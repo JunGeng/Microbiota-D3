@@ -49,7 +49,7 @@ def get_transport_rxns(model):
             if len(transported_mets) != 0:
                 add_bool = True
                 if len(transported_mets) > 1:
-                    print(rxn_i)
+                    print('len(transported_mets) > 1, Manual check or remove',rxn_i)
             elif rxn_reactants_ == rxn_products_:
                 add_bool = True
                 # print(rxn_i)
@@ -126,7 +126,8 @@ def check_exchange_transport_rxns_in_model(model, met_id, lower_bound, met_c, me
         transport_rxns_id = 'TRANS_' + met_id
         teansport_reaction_i = cobra.Reaction(transport_rxns_id)
         teansport_reaction_i.add_metabolites({met_c: -1, met_e: 1})
-        print(teansport_reaction_i)
+        teansport_reaction_i.lower_bound = -1000
+        print('new transport reaction added',teansport_reaction_i)
         model.add_reactions([teansport_reaction_i])
 
     try:

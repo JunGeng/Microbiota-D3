@@ -69,7 +69,7 @@ def update_biomass_from_dic(dic_i, observations_list=False, model=False):
     except:
         Biomass = cobra.Reaction('Biomass')
         biomass_model.add_reactions([Biomass])
-        Biomass.add_metabolites({cobra.Metabolite('Biomass_c'): 1})
+        # Biomass.add_metabolites({cobra.Metabolite('Biomass_c'): 1})
     [Biomass.add_metabolites({biomass_model.metabolites.get_by_id(met): -1}) for met in observations_list_mets]
     for met_i in biomass_model.metabolites:
         if met_i.id.endswith('_c'):
