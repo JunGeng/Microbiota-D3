@@ -44,7 +44,7 @@ gram_p_df = biomass_df[~biomass_df['metacyc_id'].isna() & ~biomass_df['iSMU'].is
 gram_p_df = gram_p_df[['metacyc_id', 'iSMU', 'observations_modified']].sort_values(by='observations_modified')
 gram_p_dic = gram_p_df.set_index('metacyc_id').T.to_dict('list')
 
-model_p_iSMU = biomass.changeout_biomass_from_dic(gram_p_dic, observations_list)
+model_p_iSMU = biomass.update_biomass_from_dic(gram_p_dic, observations_list)
 
 # %%<gram negative>
 gram_n_df = biomass_df[~biomass_df['metacyc_id'].isna() & ~biomass_df['iML1515'].isna()]

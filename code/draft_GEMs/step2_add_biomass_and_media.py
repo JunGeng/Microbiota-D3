@@ -17,16 +17,14 @@ import pandas as pd
 sys.path.append('../../code/Functions/')
 import dna
 import rna
+import gemstool
 
 os.chdir('../../data/draft_GEMs/')
 
 # %% <io>
-# model_list = os.listdir('draft_from_RAVEN_metacyc23_5')
-# fna_list = os.listdir('../sequences_processing/genomic_sequences')
-# gbff_list = os.listdir('../sequences_processing/gbff_sequences')
 
-species_table = '../sequences_processing/species_final.txt'
-gram_table = '../initial_data/mostAbundantSpecies.tsv'
+species_table = '../species.tsv'
+# gram_table = '../initial_data/mostAbundantSpecies.tsv'
 
 biomass_model_list = ['biomass_negative_reactions.json',
                       'biomass_positive_reactions_iYO844.json',
@@ -39,12 +37,11 @@ output_file_dir = 'draft_add_biomass_and_media/'
 
 # % <load species table> # get species name list
 species_df = pd.read_csv(species_table, sep='\t')
-gram_df = pd.read_csv(gram_table, sep='\t')
-
-species_df['merge_index'] = species_df['Index_initial'].astype(int)
-
-species_df = species_df.merge(gram_df[['id', 'bofTemplateType']], how='left', left_on=['merge_index'], right_on=['id'])
-
+# gram_df = pd.read_csv(gram_table, sep='\t')
+# species_df['merge_index'] = species_df['Index_initial'].astype(int)
+#
+# species_df = species_df.merge(gram_df[['id', 'bofTemplateType']], how='left', left_on=['merge_index'], right_on=['id'])
+# species_df.to_csv(species_table,sep = '\t',index = False)
 species_df = species_df.drop_duplicates(subset=['organism_name'], keep='first')  # NOTE:butyrate_producing_bacterium dup
 species_dic = species_df[['Name_trimmed', 'organism_name', 'bofTemplateType']].set_index('organism_name').T.to_dict(
     'list')
@@ -54,28 +51,20 @@ name_list = list(species_dic.keys())
 index = 0  # try one model first
 
 opt_dic = {}
-for index in range(0, len(name_list)):
-    # print(index)
+for index in range(0, len(name_list)):  # range(0, len(name_list)): [16]
+    print(index)
     name_i = name_list[index].replace(' ', '_')
     name_i = name_i.replace('/', '_')
 
-    if name_i + '.json' in os.listdir(output_file_dir):
-        continue
-    print(index)
+    # if name_i + '.json' in os.listdir(output_file_dir):
+    #     continue
+
     # %% <load draft model i>
-    model_path_i = 'draft_from_RAVEN_metacyc23_5/' + name_i + '_Metacyc.mat'
-    try:
-        model_i = cobra.io.load_matlab_model(model_path_i)
-    except:
-        model_i = cobra.io.load_matlab_model(model_path_i.replace('.mat', ''))
-        # model_i = cobra.io.load_yaml_model(model_path_i.replace('.mat',''))
-        # model_i = cobra.io.read_sbml_model(model_path_i.replace('.mat','.xml'))
-        # print(index, )
-        print(name_i, 'Error!!!!')
-        continue
+    model_path_i = 'draft_from_RAVEN_metacyc23_5/' + name_i + '_add_compartments.json'
+    model_i = cobra.io.load_json_model(model_path_i)
+    model_i.id = name_i
 
     # %% <load biomass reactions type: model>
-
     biomass_n_model = cobra.io.load_json_model('../biomass/' + biomass_model_list[0])
     biomass_p_model = cobra.io.load_json_model('../biomass/' + biomass_model_list[1])
     biomass_a_model = cobra.io.load_json_model('../biomass/' + biomass_model_list[2])
@@ -98,21 +87,8 @@ for index in range(0, len(name_list)):
         print('Error')
 
     # %% <load media reactions type: model>
-
     media_model_path = '../media/' + media_model_list[0]
     media_model = cobra.io.load_json_model(media_model_path)
-
-    # %% <add compartments>
-    model_i.id = name_i
-    model_i.compartments = {'c': 'cytosol',
-                            'e': 'extracellular space'}
-
-    for met_i in model_i.metabolites:
-        if not met_i.id.endswith('_c'):
-            met_i.id = met_i.id + '_c'
-        else:
-            print(met_i)
-        met_i.compartment = 'c'
 
     # %% <generate new dna and rna coefficients based on seq>
 
@@ -166,6 +142,12 @@ for index in range(0, len(name_list)):
                 met_i.compartment = 'e'
         else:
             print(met_i)
+    # %% <check bounds>
+    for rxn_i in model_i.reactions:
+        if rxn_i.upper_bound > 1000:
+            rxn_i.upper_bound = 1000
+        if rxn_i.lower_bound < -1000:
+            rxn_i.lower_bound = -1000
     model_i.objects = 'Biomass'
     f = model_i.optimize().objective_value
     print(name_i, ': ', f)
@@ -174,3 +156,4 @@ for index in range(0, len(name_list)):
     # %% <write model>
     cobra.io.save_json_model(model_i, output_file_dir + model_i.id + '.json')
     cobra.io.save_matlab_model(model_i, output_file_dir + model_i.id + '.mat')
+    gemstool.io.gem2txt(model_i, output_file_dir + model_i.id + '.txt')

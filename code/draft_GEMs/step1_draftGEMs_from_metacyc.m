@@ -15,12 +15,12 @@ for seq_index = 1:length(seqs_list)
         model_name
 
         MetaCycDraftModel_i=getMetaCycModelForOrganism(model_name,strcat(...
-                 'data/sequences_processing/protein_sequences/',seq_name),1);
+                 'data/sequences_processing/protein_sequences/',seq_name),0);
 
         file_name = strcat('data/draft_GEMs/draft_from_RAVEN_metacyc23_5/',model_name)
         exportModel(MetaCycDraftModel_i,file_name,true,false);
 
-        writeYaml(MetaCycDraftModel_i,strcat(file_name,'.yaml'))
+        %writeYaml(MetaCycDraftModel_i,strcat(file_name,'.yaml'))
 
         save(strcat(file_name,'.mat'),'MetaCycDraftModel_i')
     %end
