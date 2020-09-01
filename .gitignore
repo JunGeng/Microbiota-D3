@@ -314,3 +314,6 @@ octave-workspace
 .DS_Store
 sequences/
 archive/
+/code/Branchwork_check_draft/
+temp_*
+*_archive
