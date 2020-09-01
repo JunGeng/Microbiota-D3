@@ -53,3 +53,5 @@ media_model = media.update_media_from_dic(model_i, media_i_dic)
 
 # %% <write model>
 cobra.io.save_json_model(model_i, output_file)  # write json model, easy import by python to
+import gemstool
+gemstool.io.gem2txt(model_i,output_file.replace('json','txt'))

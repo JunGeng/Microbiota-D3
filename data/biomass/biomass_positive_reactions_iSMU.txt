@@ -6,4 +6,4 @@ Biomass_carbohydrate	 --> carbohydrate_c	0	0.0	1000.0		{}
 Biomass_cofactor	 --> 28.242 ADP_c + 0.0002 CO-A_c + 1e-05 FAD_c + 1e-05 FMN_c + 4.86 GDP_c + 0.0002 NADP_c + 0.0002 NAD_c + 0.3401 PPI_c + 1e-05 PYRIDOXAL_PHOSPHATE_c + 33.1 Pi_c + 1e-05 S-ADENOSYLMETHIONINE_c + 1e-05 THF_c + 1e-05 THIAMINE-PYROPHOSPHATE_c + cofactor_c	0	0.0	1000.0		{}
 Biomass_ion	 --> 1e-05 MG+2_c + ion_c	0	0.0	1000.0		{}
 Biomass_other	 --> 28.329 ATP_c + 0.0002 CHORISMATE_c + 0.758 CPD-12575_c + 0.129 CPD-14553_c + 33.1 PROTON_c + 0.293 UDP-N-ACETYL-D-GLUCOSAMINE_c + 33.129 WATER_c + other_c	0	0.0	1000.0		{}
-Biomass	carbohydrate_c + cofactor_c + dna_c + ion_c + lipid_c + other_c + protein_c + rna_c --> Biomass_c	0	0.0	1000.0		{}
+Biomass	carbohydrate_c + cofactor_c + dna_c + ion_c + lipid_c + other_c + protein_c + rna_c --> 	0	0.0	1000.0		{}
