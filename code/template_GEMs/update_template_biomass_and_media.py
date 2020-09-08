@@ -75,9 +75,46 @@ for model_i in [iML1515_, iYO844_, iAF692_]:
         else:
             pass
             # print(met_i)
+    # %% defaut bounds
+    for rxn in model_i.reactions:
+        if rxn.lower_bound<-1000:
+            rxn.lower_bound = -1000
+        if rxn.upper_bound>1000:
+            rxn.upper_bound = 1000
     model_i.objects = 'Biomass'
     f = model_i.optimize().objective_value
     print(model_i.id, ' opt:', ': ', f)
+
+    # %% other map
+    id_dic = {'hco3_c':'HCO3_c',
+              'D-GLUCOSAMINE-6-P_c':'CPD-13469_c',
+              'pan4p_c':'PANTETHEINE-P_c',
+              'ade_c':'ADENINE_c',
+              'for_c':'FORMATE_c',
+              'acgam1p_c':'N-ACETYL-D-GLUCOSAMINE-1-P_c',
+              'D-fructofuranose-1-phosphate_c':'FRU1P_c',
+              'gal_c':'ALPHA-D-GALACTOSE_c',
+              # 'CPD-13357_c':'2-ACETO-LACTATE_c',
+              'h2s_c':'HS_c',
+              'malt_c':'MALTOSE_c',
+              'g1p_c':'GLC-1-P_c',
+              'man6p_c':'CPD-15979_c',
+              'acgam6p_c':'N-ACETYL-D-GLUCOSAMINE-6-P_c',
+              'CPD-13469_c':'D-GLUCOSAMINE-6-P_c',
+              'ALPHA-D-GALACTOSE_c':'D-galactopyranose_c',
+              'fru_c':'BETA-D-FRUCTOSE_c',
+              'rib__D_c':'D-Ribofuranose_c',
+              'inost_c':'MYO-INOSITOL_c',
+              'maltttr_c':'MALTOTETRAOSE_c',
+              # 'BETA-D-FRUCTOSE_c ':'CPD-15382_c',
+              'so3_c':'SO3_c'
+    }
+
+    for k,v in id_dic.items():
+        try:
+            model_i.metabolites.get_by_id(k).id = v
+        except :
+            print(k,v)
 
     # %% <write model>
     # cobra.io.save_json_model(model_i, output_file_dir + model_i.id + '.json')
@@ -97,8 +134,11 @@ print('iAF692_metacyc \topt:', iAF692.optimize().objective_value)
 print('iAF692_new \topt:', iAF692_.optimize().objective_value)
 
 # %% <write model>
+import gemstool
 cobra.io.save_json_model(iML1515_, 'iML1515_metacyc_updated_biomass.json')
 cobra.io.save_json_model(iYO844_, 'iYO844_metacyc_updated_biomass.json')
 cobra.io.save_json_model(iAF692_, 'iAF692_metacyc_updated_biomass.json')
-# import gemstool
+gemstool.io.gem2txt(iML1515_, 'iML1515_metacyc_updated_biomass.txt')
+gemstool.io.gem2txt(iYO844_, 'iYO844_metacyc_updated_biomass.txt')
+gemstool.io.gem2txt(iAF692_, 'iAF692_metacyc_updated_biomass.txt')
 # gemstool.io.solution2txt(iAF692_.optimize(),iAF692_,'temp.txt')

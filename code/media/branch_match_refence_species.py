@@ -17,7 +17,7 @@ import pandas as pd
 os.chdir('../../data/')
 
 # %% <IO>
-species_table = 'sequences_processing/species_final.txt'
+species_table = 'species.tsv'
 
 reference_species_table = 'media/organisms.tab'
 
@@ -27,7 +27,7 @@ species_df = pd.read_csv(species_table, sep='\t', header=0)
 
 ref_species_df = pd.read_csv(reference_species_table, sep='\t', header=0)
 
-out_put = 'species.tsv'
+out_put = 'temp_species_3.tsv'
 # species_df = species_df.fillna('')
 # ref_species_df = ref_species_df.fillna('')
 
@@ -67,4 +67,8 @@ print('matched strains:', strains & ref_strains)
 species_df.loc[(species_df['taxid'].isin(taxid & ref_taxid)), 'taxid_matched'] = True
 species_df.loc[(species_df['species_taxid'].isin(species_taxid & ref_species_taxid)), 'species_taxid_matched'] = True
 
+ref_species_df_extend['species_experiment'] = ref_species_df_extend['species']
+
+species_df = species_df.merge(ref_species_df_extend[['species_experiment','taxid']],how='left', on=['taxid'])
+species_df = species_df.drop_duplicates()
 species_df.to_csv(out_put, sep='\t', index=False)
