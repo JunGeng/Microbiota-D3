@@ -45,15 +45,15 @@ for index in range(0, len(name_list)):
     name_i = name_list[index]
     print(index, name_i)
 
-    # model_draft = cobra.io.load_matlab_model(input_dir_2 + name_i + '_Metacyc.mat')
-    #
-    # draft_rxn_count = len(model_draft.reactions)
-    # draft_met_count = len(model_draft.metabolites)
-    # draft_gen_count = len(model_draft.genes)
-    #
-    # species_df.loc[species_df['file_name'] == name_i, 'draft_rxn_count'] = draft_rxn_count
-    # species_df.loc[species_df['file_name'] == name_i, 'draft_met_count'] = draft_met_count
-    # species_df.loc[species_df['file_name'] == name_i, 'draft_gen_count'] = draft_gen_count
+    model_draft = cobra.io.load_matlab_model(input_dir_2 + name_i + '_Metacyc.mat')
+
+    draft_rxn_count = len(model_draft.reactions)
+    draft_met_count = len(model_draft.metabolites)
+    draft_gen_count = len(model_draft.genes)
+
+    species_df.loc[species_df['file_name'] == name_i, 'draft_rxn_count'] = draft_rxn_count
+    species_df.loc[species_df['file_name'] == name_i, 'draft_met_count'] = draft_met_count
+    species_df.loc[species_df['file_name'] == name_i, 'draft_gen_count'] = draft_gen_count
 
     model_version_1 = cobra.io.load_json_model(input_dir_1+name_i + '_add_gap.json')
 
@@ -68,6 +68,10 @@ for index in range(0, len(name_list)):
     species_df.loc[species_df['file_name'] == name_i,'version_1_gen_count'] = version_1_gen_count
     species_df.loc[species_df['file_name'] == name_i,'version_1_gap_count'] = version_1_gap_count
     species_df.loc[species_df['file_name'] == name_i,'version_1_growth_rate'] = version_1_growth_rate
+
+species_df.to_csv(species_table, sep='\t',index = False)
+# the rest removed into overview_model.ipynd
+
 
 # import seaborn as sns
 # df = sns.load_dataset('tips')
@@ -94,7 +98,7 @@ for index in range(0, len(name_list)):
 # axs.tick_params(axis='x', which='major', labelsize=14)
 #
 # plt.show()
-
+#
 # fig, axs = plt.subplots(nrows=1, ncols=1, )
 #
 # # plot violin plot
@@ -113,8 +117,8 @@ for index in range(0, len(name_list)):
 #
 # plt.show()
 
-fig, axs = plt.subplots(nrows=1, ncols=1, )
-
+# fig, axs = plt.subplots(nrows=1, ncols=1, )
+#
 # # plot violin plot
 # axs.violinplot(dataset=[species_df.loc[species_df['bofTemplateType'] == 'GramPositive','version_1_gap_count'].values,
 #                         species_df.loc[species_df['bofTemplateType'] == 'GramNegative','version_1_gap_count'].values,
@@ -150,15 +154,20 @@ axs.tick_params(axis='x', which='major', labelsize=14)
 
 plt.show()
 
-a = species_df.loc[((species_df['bofTemplateType'] == 'GramPositive') & (species_df['M2'] != 0)),'version_1_growth_rate']
-b = species_df.loc[((species_df['bofTemplateType'] == 'GramNegative') & (species_df['M2'] != 0)),'version_1_growth_rate']
-c = species_df.loc[((species_df['bofTemplateType'] == 'Archaea') & (species_df['M2'] != 0)),'version_1_growth_rate']
+# a = species_df.loc[((species_df['bofTemplateType'] == 'GramPositive') & (species_df['M2'] != 0)),'version_1_growth_rate']
+# b = species_df.loc[((species_df['bofTemplateType'] == 'GramNegative') & (species_df['M2'] != 0)),'version_1_growth_rate']
+# c = species_df.loc[((species_df['bofTemplateType'] == 'Archaea') & (species_df['M2'] != 0)),'version_1_growth_rate']
 
 
 temp_df = species_df.loc[(~species_df['M2'].isnull()),['organism_name','M2','version_1_growth_rate']]
 temp_df['M2 experiment'] = 1
 temp_df.loc[(temp_df['M2']=='0'),'M2 experiment'] = 0
-temp_df['Model'] = temp_df['M2 experiment']
+
+temp_df['Model'] = temp_df['version_1_growth_rate']
+
+temp_df.loc[(temp_df['version_1_growth_rate']>0.001),'Model'] = 1
+
+# temp_df['Model'] = temp_df['M2 experiment']
 
 temp_df.index = temp_df['organism_name']
 temp_df = temp_df[['M2 experiment','Model']]
