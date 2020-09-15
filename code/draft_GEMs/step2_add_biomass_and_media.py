@@ -24,6 +24,7 @@ os.chdir('../../data/draft_GEMs/')
 # %% <io>
 
 species_table = '../species.tsv'
+species_table = '../species_with_addition.tsv'
 # gram_table = '../initial_data/mostAbundantSpecies.tsv'
 
 biomass_model_list = ['biomass_negative_reactions.json',
@@ -42,8 +43,8 @@ species_df = pd.read_csv(species_table, sep='\t')
 #
 # species_df = species_df.merge(gram_df[['id', 'bofTemplateType']], how='left', left_on=['merge_index'], right_on=['id'])
 # species_df.to_csv(species_table,sep = '\t',index = False)
-species_df = species_df.drop_duplicates(subset=['organism_name'], keep='first')  # NOTE:butyrate_producing_bacterium dup
-species_dic = species_df[['Name_trimmed', 'organism_name', 'bofTemplateType']].set_index('organism_name').T.to_dict(
+species_df = species_df.drop_duplicates(subset=['file_name'], keep='first')  # NOTE:butyrate_producing_bacterium dup
+species_dic = species_df[['Name_trimmed', 'file_name', 'bofTemplateType']].set_index('file_name').T.to_dict(
     'list')
 
 name_list = list(species_dic.keys())
@@ -62,7 +63,7 @@ for index in range(0, len(name_list)):  # range(0, len(name_list)): [16]
     # %% <load draft model i>
     model_path_i = 'draft_from_RAVEN_metacyc23_5/' + name_i + '_add_compartments.json'
     model_i = cobra.io.load_json_model(model_path_i)
-    model_i.id = name_i
+    model_i.id = name_i.replace('addition_','')
 
     # %% <load biomass reactions type: model>
     biomass_n_model = cobra.io.load_json_model('../biomass/' + biomass_model_list[0])
@@ -155,5 +156,5 @@ for index in range(0, len(name_list)):  # range(0, len(name_list)): [16]
 
     # %% <write model>
     cobra.io.save_json_model(model_i, output_file_dir + model_i.id + '.json')
-    cobra.io.save_matlab_model(model_i, output_file_dir + model_i.id + '.mat')
+    # cobra.io.save_matlab_model(model_i, output_file_dir + model_i.id + '.mat')
     gemstool.io.gem2txt(model_i, output_file_dir + model_i.id + '.txt')

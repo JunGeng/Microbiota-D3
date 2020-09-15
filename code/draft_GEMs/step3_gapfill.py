@@ -28,7 +28,7 @@ def get_gaps(model_gap, model_template, obj_rea_id, except_mets={'h2o_c'}):
     result_dic[obj_rea_id][0] = obj_initial
     gap_bool = True
 
-    if obj_initial > 1e-10:  # no gap
+    if obj_initial > 1e-6:  # no gap
         gap_bool = False
         print('no gap')
         return result_dic, all_gaps
@@ -115,7 +115,8 @@ iML1515 = cobra.io.load_json_model('template_GEMs/iML1515_metacyc_updated_biomas
 iYO844 = cobra.io.load_json_model('template_GEMs/iYO844_metacyc_updated_biomass.json')
 iAF692 = cobra.io.load_json_model('template_GEMs/iAF692_metacyc_updated_biomass.json')
 
-species_table = 'species.tsv'
+# species_table = 'species.tsv'
+species_table = 'species_with_addition.tsv'
 species_df = pd.read_csv(species_table, sep='\t')
 name_list = list(species_df['file_name'])
 output_dir = 'draft_GEMs/model_version_1.0/'
@@ -129,7 +130,7 @@ species_dic = species_df[['file_name', 'bofTemplateType', 'M2', 'species_experim
     'list')
 
 # index = name_list.index('Escherichia_coli_O157:H7_str._Sakai') #16
-index = name_list.index('[Eubacterium]_eligens_ATCC_27750')  # 17
+# index = name_list.index('[Eubacterium]_eligens_ATCC_27750')  # 17
 
 for index in range(0, len(name_list)):  # range(0,len(name_list)):
     name_i = name_list[index]
@@ -200,7 +201,7 @@ for index in range(0, len(name_list)):  # range(0,len(name_list)):
     model_i.objective = obj_rea_id
     f = model_i.optimize()
     print(model_i.id, ' BIOMASS_ALL:', model_i.optimize())
-    if f.objective_value < 1e-10:
+    if f.objective_value < 1e-6:
         print('%%%' * 50)
 
     #     model_template.add_reaction(BIOMASS_ALL)

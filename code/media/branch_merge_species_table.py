@@ -44,8 +44,8 @@ new_df = new_df.merge(experiment_db, how='left', left_on='species', right_on='de
 #%% <get file name>
 temp = new_df.loc[new_df['file_name'].isna(), 'organism_name']
 temp = temp.str.replace(' ', '_')
-temp = 'addition' + temp.str.replace('/', '_')
-new_df.loc[new_df['file_name'].isna(), 'experiment_db'] = temp
+temp = 'addition_' + temp.str.replace('/', '_')
+new_df.loc[new_df['file_name'].isna(), 'file_name'] = temp
 
 #%% <get gram_p/n>
 gram_database = pd.read_csv('initial_data/data_from_database/genome_metadata', sep='\t', header=0)

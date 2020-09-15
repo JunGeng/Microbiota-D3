@@ -77,7 +77,8 @@ def _replace_equation(rxn_initial, rxn_new, model):
 # %% <IO>
 os.chdir('../../data/draft_GEMs/draft_from_RAVEN_metacyc23_5/')
 
-species_table = '../../species.tsv'
+# species_table = '../../species.tsv'
+species_table = '../../species_with_addition.tsv'
 species_df = pd.read_csv(species_table, sep='\t')
 # species_df['file_name'] = species_df['organism_name'].str.replace(' ', '_')
 # species_df['file_name'] = species_df['file_name'].str.replace('/', '_')
@@ -91,7 +92,7 @@ rxns_db_set = set([i.id for i in model_db.reactions])
 removed_list = set([])
 replaced_list = set([])
 
-# %% <process>
+# %% <process, add compartments and remove empty reactions>
 
 for index in range(0, len(name_list)):  # len(name_list)
     name_i = name_list[index]

@@ -7,7 +7,7 @@ for seq_index = 1:length(seqs_list)
     species_name = strsplit(seq_name,'_protein.faa');
     species_name = species_name{1};
     model_name = strcat(species_name,'_Metacyc');
-    %if contains(species_name,'.')
+    if contains(species_name,'addition_')
         species_name = strsplit(seq_name,'_protein.faa');
         species_name = species_name{1};
         model_name = strcat(species_name,'_Metacyc');
@@ -23,6 +23,6 @@ for seq_index = 1:length(seqs_list)
         %writeYaml(MetaCycDraftModel_i,strcat(file_name,'.yaml'))
 
         save(strcat(file_name,'.mat'),'MetaCycDraftModel_i')
-    %end
+    end
         
 end
