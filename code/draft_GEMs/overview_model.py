@@ -21,7 +21,8 @@ import seaborn as sns
 os.chdir('../../data/')
 
 # %% <IO>
-species_table = 'species.tsv'
+# species_table = 'species.tsv'
+species_table = 'species_with_addition.tsv'
 species_df = pd.read_csv(species_table, sep='\t')
 name_list = list(species_df['file_name'])
 input_dir_1 = 'draft_GEMs/model_version_1.0/'

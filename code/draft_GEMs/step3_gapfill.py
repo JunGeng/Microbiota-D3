@@ -131,12 +131,17 @@ species_dic = species_df[['file_name', 'bofTemplateType', 'M2', 'species_experim
 
 # index = name_list.index('Escherichia_coli_O157:H7_str._Sakai') #16
 # index = name_list.index('[Eubacterium]_eligens_ATCC_27750')  # 17
-
-for index in range(0, len(name_list)):  # range(0,len(name_list)):
+#%%
+for index in range(140, len(name_list)):  # range(0,len(name_list)):
+    print(index)
     name_i = name_list[index]
-
-    model_i = cobra.io.load_json_model('draft_GEMs/draft_add_biomass_and_media/' + name_i + '.json')
-    # model_i = cobra.io.load_json_model(output_dir + name_i + '_add_gap.json')
+    try:
+        model_i = cobra.io.load_json_model('draft_GEMs/draft_add_biomass_and_media/' + name_i + '.json')
+        # model_i = cobra.io.load_json_model(output_dir + name_i + '_add_gap.json')
+    except:
+        model_i = cobra.io.load_json_model(
+            'draft_GEMs/draft_add_biomass_and_media/' + name_i.replace('addition_', '') + '.json')
+        print(name_i)
     gram = species_dic[name_list[index]][0]
 
     gap_fill_bool = True

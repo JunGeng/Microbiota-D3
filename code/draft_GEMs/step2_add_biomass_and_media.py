@@ -52,7 +52,7 @@ name_list = list(species_dic.keys())
 index = 0  # try one model first
 
 opt_dic = {}
-for index in range(0, len(name_list)):  # range(0, len(name_list)): [16]
+for index in range(119, len(name_list)):  # range(0, len(name_list)): [16]
     print(index)
     name_i = name_list[index].replace(' ', '_')
     name_i = name_i.replace('/', '_')
