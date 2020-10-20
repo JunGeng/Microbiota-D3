@@ -135,7 +135,28 @@ substances_df = pd.DataFrame(columns=sub_columns)
 
 com_columns = ['Constituents', 'Link', ]
 composition_df = pd.DataFrame(columns=com_columns)  # 'Constituents'
-
+media_name_dic = \
+    {
+     'Concentration_dGMM': 'M1',
+     'Concentration_LAB': 'M2',
+     'Concentration_dGMM+LAB': 'M3',
+     'Concentration_dGMM+LAB low M/V': 'M4',
+     'Concentration_dGMM+LAB exclude SCFA': 'M5',
+     'Concentration_dGMM+LAB only monosacharides': 'M7',
+     'Concentration_dGMM+LAB plus Mucin': 'M8',
+     'Concentration_dGMM+LAB only Mucin': 'M9',
+     'Concentration_dGMM+LAB 10% aminoacids': 'M10',
+     'Concentration_dGMM+LAB excluding aromatic AA': 'M11',
+     'Concentration_B.thetaiotaomicron MM': 'M13',
+     'Concentration_C.perfiringens MM': 'M14',
+     'Concentration_E.coli MM1': 'M15A',
+     'Concentration_E.coli MM2': 'M15B',
+     'Concentration_V.parvula defined medium': 'M16',
+     'Concentration_GMM': 'GMM',
+     'Concentration_mGAM': 'mGAM',
+     'Concentration_brain heart infusion': 'BHI++',
+     'Concentration_WCA': 'WCA'}
+media_name_list = []
 for index_i in summary_df.index:
     substances_df_i = pd.read_csv('substances_df_' + str(index_i) + '_.tsv', sep='\t', index_col=0)
     substances_df_i.columns = [i.replace(' ', '') for i in substances_df_i.columns[0:2]] + [i for i in
@@ -144,6 +165,10 @@ for index_i in summary_df.index:
     substances_df_i = substances_df_i.dropna(how='all', axis=1)
     substances_df_i['Substances'] = substances_df_i['Substances'].str.replace(' ', '')
     substances_df_i['Link'] = substances_df_i['Link'].str.replace(' ', '')
+    media_columns = substances_df_i.columns[2]
+    media_columns = media_name_dic[media_columns] + ': ' + media_columns.replace('Concentration_', '')
+    # media_name_list.append(media_columns)
+    substances_df_i[media_columns] = substances_df_i[substances_df_i.columns[2]]
     substances_df = substances_df.merge(substances_df_i, how='outer', on=['Substances', 'Link'])
 
     composition_df_i = pd.read_csv('composition_df_' + str(index_i) + '_.tsv', sep='\t', index_col=0)
@@ -155,6 +180,14 @@ for index_i in summary_df.index:
     composition_df_i = composition_df_i.dropna(how='all', axis=1)
     composition_df_i['Constituents'] = composition_df_i['Constituents'].str.replace(' ', '')
     composition_df_i['Link'] = composition_df_i['Link'].str.replace(' ', '')
+    media_columns = composition_df_i.columns[2]
+    media_columns = media_name_dic[media_columns] + ': ' + media_columns.replace('Concentration_', '')
+    media_name_list.append(media_columns)
+    composition_df_i[media_columns] = composition_df_i[composition_df_i.columns[2]]
+    composition_df_i.loc[composition_df_i['Constituents'] == 'fructose', media_columns] = '5.5 mM'  # (1/180*1000)
+    composition_df_i.loc[composition_df_i['Constituents'] == 'lactose', media_columns] = '2.92 mM'  # (1/180*1000)
+    composition_df_i.loc[composition_df_i['Constituents'] == 'maltose', media_columns] = '2.92 mM'  # (1/180*1000)
+
     composition_df = composition_df.merge(composition_df_i, how='outer', on=['Constituents', 'Link'])
 
 substances_df['metacyc_id'] = substances_df['Link'].str.split('=', expand=True)[2]
@@ -165,10 +198,13 @@ composition_df['metacyc_id'] = composition_df['metacyc_id'].str.replace('%2b', '
 composition_df['class'] = composition_df['Link'].str.split('=', expand=True)[1]
 composition_df['Link'] = host_link + composition_df['Link']
 
-columns = list(composition_df.columns[[0, 1, -1, -2]]) + list(composition_df.columns[2:-2])
+# columns = list(composition_df.columns[[0, 1, -1, -2]]) + list(composition_df.columns[2:-2])
+columns = ['Constituents', 'Link', 'class', 'metacyc_id'] + list(set(media_name_list))
 composition_df = composition_df[columns]
+composition_df = composition_df.sort_values(by=['class', 'Constituents'])
 
-columns = list(substances_df.columns[[0, 1, -1, -2]]) + list(substances_df.columns[2:-2])
+# columns = list(substances_df.columns[[0, 1, -1, -2]]) + list(substances_df.columns[2:-2])
+columns = ['Substances', 'Link', 'class', 'metacyc_id'] + list(set(media_name_list))
 substances_df = substances_df[columns]
 
 substances_df.to_csv('metacyc_growth_media_substances_df.tsv', sep='\t', )
