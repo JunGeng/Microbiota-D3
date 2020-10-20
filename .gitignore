@@ -317,3 +317,4 @@ archive/
 /code/Branchwork_check_draft/
 temp_*
 *_archive
+/data/sequences_processing/protein_sequences/
