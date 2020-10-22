@@ -141,12 +141,13 @@ def check_exchange_transport_rxns_in_model(model, met_id, lower_bound, met_c, me
     exchange_reaction_i.lower_bound = lower_bound
 
 
-def update_media_from_dic(model_, media_i_dic, reste_media=False):
+def update_media_from_dic(model_, media_i_dic, reste_media=False,essential_rxns = ['EX_h2o_e','EX_h_e']):
     model = model_.copy()
     if reste_media:
         exchange_rxns_list = [i.id for i in model.reactions if i.id.startswith('Ex_')]
         transport_rxns_list = [i.id for i in model.reactions if i.id.startswith('TRANS_')]
         # rest media to empty
+        exchange_rxns_list = set(exchange_rxns_list) - set(essential_rxns)
         for rxn_i in exchange_rxns_list:
             model.reactions.get_by_id(rxn_i).lower_bound = 0
             print('media rested')

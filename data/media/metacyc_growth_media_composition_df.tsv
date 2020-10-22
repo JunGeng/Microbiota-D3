@@ -1,98 +1,98 @@
-	Constituents	Link	class	metacyc_id	M10: dGMM+LAB 10% aminoacids	M4: dGMM+LAB low M/V	M9: dGMM+LAB only Mucin	BHI++: brain heart infusion	M3: dGMM+LAB	mGAM: mGAM	M2: LAB	M5: dGMM+LAB exclude SCFA	M8: dGMM+LAB plus Mucin	M13: B.thetaiotaomicron MM	M11: dGMM+LAB excluding aromatic AA	M15A: E.coli MM1	WCA: WCA	M7: dGMM+LAB only monosacharides	GMM: GMM	M15B: E.coli MM2	M16: V.parvula defined medium	M1: dGMM	M14: C.perfiringens MM
-2	D-glucose	https://metacyc.org/META/NEW-IMAGE?type=COMPOUND&object=D-Glucose	COMPOUND&object	D-Glucose	28 mM	28 mM			28 mM	2.8 mM	83.3 mM	28 mM	28 mM	28 mM	28 mM	22 mM	5.6 mM	28 mM	2.2 mM	2.8 mM		2.2 mM	56 mM
-68	fructose	https://metacyc.org/META/NEW-IMAGE?type=COMPOUND&object=Fructose	COMPOUND&object	Fructose	5.5 mM	5.5 mM			5.5 mM			5.5 mM	5.5 mM		5.5 mM			5.5 mM	5.5 mM			5.5 mM	
-95	glutamate	https://metacyc.org/META/NEW-IMAGE?type=COMPOUND&object=Glutamates	COMPOUND&object	Glutamates																	3.4 mM		
-74	lactose	https://metacyc.org/META/NEW-IMAGE?type=COMPOUND&object=CPD-15972	COMPOUND&object	CPD-15972	2.92 mM	2.92 mM			2.92 mM			2.92 mM	2.92 mM		2.92 mM								
-48	maltose	https://metacyc.org/META/NEW-IMAGE?type=COMPOUND&object=MALTOSE	COMPOUND&object	MALTOSE	2.92 mM	2.92 mM			2.92 mM			2.92 mM	2.92 mM		2.92 mM				2.92 mM			2.92 mM	
+	Constituents	Link	class	metacyc_id	M9: dGMM+LAB only Mucin	BHI++: brain heart infusion	M14: C.perfiringens MM	M15A: E.coli MM1	M10: dGMM+LAB 10% aminoacids	M4: dGMM+LAB low M/V	M16: V.parvula defined medium	M13: B.thetaiotaomicron MM	WCA: WCA	GMM: GMM	M2: LAB	M1: dGMM	M3: dGMM+LAB	M5: dGMM+LAB exclude SCFA	M7: dGMM+LAB only monosacharides	mGAM: mGAM	M15B: E.coli MM2	M11: dGMM+LAB excluding aromatic AA	M8: dGMM+LAB plus Mucin
+2	D-glucose	https://metacyc.org/META/NEW-IMAGE?type=COMPOUND&object=D-Glucose	COMPOUND&object	D-Glucose			56 mM	22 mM	28 mM	28 mM		28 mM	5.6 mM	2.2 mM	83.3 mM	2.2 mM	28 mM	28 mM	28 mM	2.8 mM	2.8 mM	28 mM	28 mM
+68	fructose	https://metacyc.org/META/NEW-IMAGE?type=COMPOUND&object=Fructose	COMPOUND&object	Fructose					5.5 mM	5.5 mM				5.5 mM		5.5 mM	5.5 mM	5.5 mM	5.5 mM			5.5 mM	5.5 mM
+95	glutamate	https://metacyc.org/META/NEW-IMAGE?type=COMPOUND&object=Glutamates	COMPOUND&object	Glutamates							3.4 mM												
+74	lactose	https://metacyc.org/META/NEW-IMAGE?type=COMPOUND&object=CPD-15972	COMPOUND&object	CPD-15972					2.92 mM	2.92 mM							2.92 mM	2.92 mM				2.92 mM	2.92 mM
+48	maltose	https://metacyc.org/META/NEW-IMAGE?type=COMPOUND&object=MALTOSE	COMPOUND&object	MALTOSE					2.92 mM	2.92 mM				2.92 mM		2.92 mM	2.92 mM	2.92 mM				2.92 mM	2.92 mM
 87	amucin	https://metacyc.org/META/NEW-IMAGE?type=ENZYME&object=Mucin	ENZYME&object	Mucin																			
-100	(E)-3-penten-2-one	https://metacyc.org/compound?orgid=META&id=CPD-16989	META&id	CPD-16989													5.2 mM						
-64	(R)-lipoate	https://metacyc.org/compound?orgid=META&id=LIPOIC-ACID	META&id	LIPOIC-ACID	5.114 µM	5.114 µM	5.114 µM		5.114 µM		4.9 µM	5.114 µM	5.114 µM		5.114 µM			5.114 µM	240 nM			240 nM	
-43	(R)-pantothenate	https://metacyc.org/compound?orgid=META&id=PANTOTHENATE	META&id	PANTOTHENATE	6.59 µM	200 nM	5.04 µM		5.04 µM		5.04 µM	5.04 µM	5.04 µM		6.59 µM			5.04 µM	200 nM		4.2 µM	200 nM	4.2 µM
-93	(S)-lactate	https://metacyc.org/compound?orgid=META&id=L-LACTATE	META&id	L-LACTATE																	89 mM		
-62	4-aminobenzoate	https://metacyc.org/compound?orgid=META&id=P-AMINO-BENZOATE	META&id	P-AMINO-BENZOATE	370 nM	370 nM	370 nM		370 nM		411 nM	370 nM	370 nM		370 nM			370 nM	370 nM		3.7 µM	370 nM	
-61	Al3+	https://metacyc.org/compound?orgid=META&id=CPD-1484	META&id	CPD-1484	390 nM	390 nM	390 nM		390 nM			390 nM	390 nM		390 nM			390 nM	390 nM			390 nM	
-1	Ca2+	https://metacyc.org/compound?orgid=META&id=CA%2b2	META&id	CA+2	275.39 µM	81.1 µM	274.62 µM		274.62 µM		274.62 µM	274.62 µM	274.62 µM	50.01 mM	275.39 µM	500.1 µM		274.62 µM	81.1 µM	500.1 µM	2.1 µM	81.1 µM	2.1 µM
-55	Co2+	https://metacyc.org/compound?orgid=META&id=CO%2b2	META&id	CO+2	4.3384 µM	4.3384 µM	4.3384 µM		4.3384 µM		938.4 nM	4.3384 µM	4.3384 µM		4.3384 µM	35.205 nM		4.3384 µM	3.4 µM	35.205 nM		3.4 µM	
-60	Cu2+	https://metacyc.org/compound?orgid=META&id=CU%2b2	META&id	CU+2	751.86 nM	401 nM	751.86 nM		751.86 nM		751.86 nM	751.86 nM	751.86 nM		751.86 nM	9.9997 nM		751.86 nM	401 nM	9.9997 nM		401 nM	
-53	EDTA	https://metacyc.org/compound?orgid=META&id=EDTA	META&id	EDTA	42.518 µM	42.518 µM	42.518 µM		42.518 µM		25.29 µM	42.518 µM	42.518 µM		42.518 µM			42.518 µM	17 µM			17 µM	
-13	Fe2+	https://metacyc.org/compound?orgid=META&id=FE%2b2	META&id	FE+2	14.0 µM	14.0 µM	14.0 µM		14.0 µM		14.0 µM	14.0 µM	14.0 µM	1.381 µM	14.0 µM	10 µM		14.0 µM	5.04 µM	10 µM	68 µM	5.04 µM	180 µM
-80	Fe3+	https://metacyc.org/compound?orgid=META&id=FE%2b3	META&id	FE+3	18 µM	18 µM	18 µM		18 µM		18 µM	18 µM	18 µM		18 µM			18 µM					
-41	HCl	https://metacyc.org/compound?orgid=META&id=HCL	META&id	HCL	67.16 µM	42.66 µM	67.16 µM		67.16 µM	1.9 mM	67.16 µM	67.16 µM	67.16 µM		67.16 µM			67.16 µM	170 nM		78.4 µM	170 nM	9.6604 µM
-9	K+	https://metacyc.org/compound?orgid=META&id=K%2b	META&id	K+	174.41 mM	97.247 mM	175.08 mM		174.41 mM	18.4 mM	97.201 mM	174.41 mM	175.08 mM	99.94 µM	174.41 mM	3.1918 mM		174.41 mM	100.0 mM	815.98 µM	8.3 mM	100.0 mM	5.1 mM
-30	L-alanine	https://metacyc.org/compound?orgid=META&id=L-ALPHA-ALANINE	META&id	L-ALPHA-ALANINE	450.0 µM	4.5 mM	4.5 mM		4.5 mM		4.5 mM	4.5 mM	4.5 mM		4.5 mM			4.5 mM					2.81 mM
-19	L-arginine	https://metacyc.org/compound?orgid=META&id=ARG	META&id	ARG	411.0 µM	4.11 mM	4.11 mM		4.11 mM	5.7 mM	4.11 mM	4.11 mM	4.11 mM		4.11 mM		5.7 mM	4.11 mM					14.3 mM
-34	L-ascorbate	https://metacyc.org/compound?orgid=META&id=ASCORBATE	META&id	ASCORBATE	2.9 mM	2.9 mM	2.9 mM		2.9 mM		2.9 mM	2.9 mM	2.9 mM		2.9 mM			2.9 mM					1.43 mM
-73	L-asparagine	https://metacyc.org/compound?orgid=META&id=ASN	META&id	ASN	380 µM	3.8 mM	3.8 mM		3.8 mM		3.8 mM	3.8 mM	3.8 mM		3.8 mM			3.8 mM					
-21	L-aspartate	https://metacyc.org/compound?orgid=META&id=L-ASPARTATE	META&id	L-ASPARTATE	38 µM	380 µM	380 µM		380 µM		380 µM	380 µM	380 µM		380 µM			380 µM			760 µM		7.6 mM
-6	L-cysteine	https://metacyc.org/compound?orgid=META&id=CYS	META&id	CYS	410 µM	4.1 mM	4.1 mM		4.1 mM	1.9 mM	1.7 mM	4.1 mM	4.1 mM	4.1 mM	4.1 mM			4.1 mM	4.1 mM		410 µM	4.1 mM	3.3 mM
-22	L-glutamate	https://metacyc.org/compound?orgid=META&id=GLT	META&id	GLT	410 µM	4.1 mM	4.1 mM		4.1 mM		4.1 mM	4.1 mM	4.1 mM		4.1 mM			4.1 mM					6.8 mM
-72	L-glutamine	https://metacyc.org/compound?orgid=META&id=GLN	META&id	GLN	410 µM	4.1 mM	4.1 mM		4.1 mM		4.1 mM	4.1 mM	4.1 mM		4.1 mM			4.1 mM					
-7	L-histidine	https://metacyc.org/compound?orgid=META&id=HIS	META&id	HIS	200 µM	1.102 mM	1.102 mM		1.102 mM		1.1 mM	1.102 mM	1.102 mM	200 µM	1.102 mM			1.102 mM	200 µM			200 µM	3.2 mM
-25	L-isoleucine	https://metacyc.org/compound?orgid=META&id=ILE	META&id	ILE	183 µM	1.83 mM	1.83 mM		1.83 mM		1.83 mM	1.83 mM	1.83 mM		1.83 mM			1.83 mM					3.8 mM
-26	L-leucine	https://metacyc.org/compound?orgid=META&id=LEU	META&id	LEU	760 µM	7.6 mM	7.6 mM		7.6 mM		7.6 mM	7.6 mM	7.6 mM		7.6 mM			7.6 mM					3.8 mM
-28	L-lysine	https://metacyc.org/compound?orgid=META&id=LYS	META&id	LYS	340.0 µM	3.4 mM	3.4 mM		3.4 mM		3.4 mM	3.4 mM	3.4 mM		3.4 mM			3.4 mM					3.4 mM
-31	L-methionine	https://metacyc.org/compound?orgid=META&id=MET	META&id	MET	83.78 µM	837.8 µM	837.8 µM		837.8 µM		837.8 µM	837.8 µM	837.8 µM		837.8 µM			837.8 µM					2.35 mM
-33	L-phenylalanine	https://metacyc.org/compound?orgid=META&id=PHE	META&id	PHE	240.0 µM	2.4 mM	2.4 mM		2.4 mM		2.4 mM	2.4 mM	2.4 mM					2.4 mM					1.51 mM
-32	L-proline	https://metacyc.org/compound?orgid=META&id=PRO	META&id	PRO	610.0 µM	6.1 mM	6.1 mM		6.1 mM		6.1 mM	6.1 mM	6.1 mM		6.1 mM			6.1 mM					2.17 mM
-27	L-serine	https://metacyc.org/compound?orgid=META&id=SER	META&id	SER	480.0 µM	4.8 mM	4.8 mM		4.8 mM		4.8 mM	4.8 mM	4.8 mM		4.8 mM			4.8 mM			950 µM		3.568 mM
-24	L-threonine	https://metacyc.org/compound?orgid=META&id=THR	META&id	THR	420 µM	4.2 mM	4.2 mM		4.2 mM		4.2 mM	4.2 mM	4.2 mM		4.2 mM			4.2 mM					4.2 mM
-36	L-tryptophan	https://metacyc.org/compound?orgid=META&id=TRP	META&id	TRP	98 µM	980.0 µM	980.0 µM		980.0 µM	980.0 µM	980.0 µM	980.0 µM	980.0 µM					980.0 µM					1.22 mM
-35	L-tyrosine	https://metacyc.org/compound?orgid=META&id=TYR	META&id	TYR	170 µM	1.7 mM	1.7 mM		1.7 mM		1.7 mM	1.7 mM	1.7 mM					1.7 mM			220 µM		1.38 mM
-29	L-valine	https://metacyc.org/compound?orgid=META&id=VAL	META&id	VAL	600 µM	6 mM	6 mM		6 mM		6 mM	6 mM	6 mM		6 mM			6 mM					3.201 mM
-8	Mg2+	https://metacyc.org/compound?orgid=META&id=MG%2b2	META&id	MG+2	124.05 µM	124.05 µM	124.05 µM		124.05 µM		4.0542 µM	124.05 µM	124.05 µM	99.99 µM	124.05 µM	527.99 µM		124.05 µM	120.0 µM	527.99 µM	810 nM	120.0 µM	410 µM
-37	Mn2+	https://metacyc.org/compound?orgid=META&id=MN%2b2	META&id	MN+2	3 µM	3 µM	3 µM		3 µM		651 nM	3 µM	3 µM		3 µM	97.463 nM		3 µM		97.463 nM	59.0 µM		223.7 µM
-70	N-tris(hydroxymethyl)methylglycine	https://metacyc.org/compound?orgid=META&id=CPD0-2399	META&id	CPD0-2399	8.37 mM	8.37 mM	8.37 mM		8.37 mM		8.37 mM	8.37 mM	8.37 mM		8.37 mM	1.2831 mM		8.37 mM		1.2831 mM			
-82	NAD+	https://metacyc.org/compound?orgid=META&id=NAD	META&id	NAD	3 µM	3 µM	3 µM		3 µM			3 µM	3 µM		3 µM			3 µM					
-4	Na+	https://metacyc.org/compound?orgid=META&id=NA%2b	META&id	NA+	56.301 mM	56.301 mM	18.701 mM	121.2 mM	56.301 mM	53.6 mM	51 mM	56.301 mM	18.701 mM	15.1 mM	56.301 mM	49.96 mM	91.2 mM	56.301 mM	6.3009 mM	49.96 mM	89.979 mM	6.3009 mM	48.96 mM
-57	Ni2+	https://metacyc.org/compound?orgid=META&id=NI%2b2	META&id	NI+2															990 nM			990 nM	
-38	Zn2+	https://metacyc.org/compound?orgid=META&id=ZN%2b2	META&id	ZN+2	17 µM	3.5 µM	17 µM		17 µM		17 µM	17 µM	17 µM		17 µM	8.8265 nM		17 µM	3.5 µM	8.8265 nM	17 µM	3.5 µM	170 µM
-50	acetate	https://metacyc.org/compound?orgid=META&id=ACET	META&id	ACET	28.8 µM	28.8 µM	28.8 µM		28.8 µM				28.8 µM		28.8 µM			28.8 µM	28.8 µM			28.8 µM	
-39	adenine	https://metacyc.org/compound?orgid=META&id=ADENINE	META&id	ADENINE	81.4 µM	81.4 µM	81.4 µM		81.4 µM		81.4 µM	81.4 µM	81.4 µM		81.4 µM			81.4 µM					128.8 µM
-14	adenosylcobalamin	https://metacyc.org/compound?orgid=META&id=ADENOSYLCOBALAMIN	META&id	ADENOSYLCOBALAMIN	6.3e-10 M	6.3e-10 M	6.3e-10 M		6.3e-10 M			6.3e-10 M	6.3e-10 M	3.2 nM	6.3e-10 M			6.3e-10 M	6.3e-10 M			6.3e-10 M	
-3	ammonium	https://metacyc.org/compound?orgid=META&id=AMMONIUM	META&id	AMMONIUM	15.101 mM	15.101 mM	15.101 mM		15.101 mM		15.101 mM	15.101 mM	15.101 mM	16.952 mM	15.101 mM	9.497 mM		15.101 mM		380.06 µM	10.536 mM		
-46	biotin	https://metacyc.org/compound?orgid=META&id=BIOTIN	META&id	BIOTIN	24.74 µM	82 nM	24.74 µM		24.74 µM		25 µM	24.74 µM	24.74 µM		24.74 µM			24.74 µM	82 nM			82 nM	21 nM
-56	borate	https://metacyc.org/compound?orgid=META&id=BORATE	META&id	BORATE	12.1 µM	1.6 µM	12.1 µM		12.1 µM		12.1 µM	12.1 µM	12.1 µM		12.1 µM	399.99 nM		12.1 µM	1.6 µM	399.99 nM		1.6 µM	
-52	butanoate	https://metacyc.org/compound?orgid=META&id=BUTYRIC_ACID	META&id	BUTYRIC_ACID	23.0 µM	23.0 µM	23.0 µM		23.0 µM				23.0 µM		23.0 µM			23.0 µM	23.0 µM			23.0 µM	
-94	carbonate	https://metacyc.org/compound?orgid=META&id=CO3	META&id	CO3																	5.2 mM		
-0	chloride	https://metacyc.org/compound?orgid=META&id=CL-	META&id	CL-	52.107 mM	51.725 mM	15.177 mM	86 mM	52.107 mM	51 mM	51.607 mM	52.107 mM	15.177 mM	115.32 mM	52.107 mM	61.513 mM	86 mM	52.107 mM	1.663 mM	52.396 mM		1.663 mM	
-71	citrate	https://metacyc.org/compound?orgid=META&id=CIT	META&id	CIT	7.55 mM	7.55 mM	7.55 mM		7.55 mM		7.55 mM	7.55 mM	7.55 mM		7.55 mM			7.55 mM					
-10	dihydrogenphosphate	https://metacyc.org/compound?orgid=META&id=CPD-16459	META&id	CPD-16459	100.0 mM	22.846 mM	100.0 mM		100.0 mM	18.4 mM	22.8 mM	100.0 mM	100.0 mM	99.94 µM	100.0 mM			100.0 mM	100.0 mM		1.5 mM	100.0 mM	5.1 mM
-67	folate	https://metacyc.org/compound?orgid=META&id=CPD-12826	META&id	CPD-12826	1.27 µM	46 nM	1.27 µM		1.27 µM		1.27 µM	1.27 µM	1.27 µM		1.27 µM			1.27 µM	46 nM			46 nM	
-75	glutathione	https://metacyc.org/compound?orgid=META&id=GLUTATHIONE	META&id	GLUTATHIONE	49 µM	49 µM	49 µM		49 µM		49 µM	49 µM	49 µM		49 µM			49 µM					
-23	glycine	https://metacyc.org/compound?orgid=META&id=GLY	META&id	GLY	400.0 µM	4 mM	4 mM		4 mM		4 mM	4 mM	4 mM		4 mM			4 mM					6.7 mM
-77	guanine	https://metacyc.org/compound?orgid=META&id=GUANINE	META&id	GUANINE	37.1 µM	37.1 µM	37.1 µM		37.1 µM		37.1 µM	37.1 µM	37.1 µM		37.1 µM			37.1 µM					
-12	hematin	https://metacyc.org/compound?orgid=META&id=CPD-11677	META&id	CPD-11677	1.9 µM	1.9 µM	1.9 µM		1.9 µM			1.9 µM	1.9 µM	1.9 µM	1.9 µM			1.9 µM	1.9 µM			1.9 µM	
-83	hemin	https://metacyc.org/compound?orgid=META&id=CPD-11678	META&id	CPD-11678	770 nM	770 nM	770 nM		770 nM	15 µM		770 nM	770 nM		770 nM		7.7 µM	770 nM					
-85	heptamolybdate	https://metacyc.org/compound?orgid=META&id=CPD0-2517	META&id	CPD0-2517	153.74 nM	153.74 nM	153.74 nM		153.74 nM		153.74 nM	153.74 nM	153.74 nM		153.74 nM			153.74 nM					
-47	hydrogencarbonate	https://metacyc.org/compound?orgid=META&id=HCO3	META&id	HCO3	4.8 mM	4.8 mM	4.8 mM		4.8 mM			4.8 mM	4.8 mM		4.8 mM			4.8 mM	4.8 mM			4.8 mM	
-84	iodide	https://metacyc.org/compound?orgid=META&id=CPD-387	META&id	CPD-387	663 nM	663 nM	663 nM		663 nM		663 nM	663 nM	663 nM		663 nM			663 nM					
-58	isovalerate	https://metacyc.org/compound?orgid=META&id=ISOVALERATE	META&id	ISOVALERATE	990 nM	990 nM	990 nM		990 nM				990 nM		990 nM			990 nM	990 nM			990 nM	
-11	menadione	https://metacyc.org/compound?orgid=META&id=CPD-3766	META&id	CPD-3766	5.8 µM	5.8 µM	5.8 µM		5.8 µM			5.8 µM	5.8 µM	5.8 µM	5.8 µM		2.9 nM	5.8 µM	5.8 µM			5.8 µM	
-98	metavanadate	https://metacyc.org/compound?orgid=META&id=CPD-22911	META&id	CPD-22911																	8.2 µM		
-59	molybdate	https://metacyc.org/compound?orgid=META&id=CPD-3	META&id	CPD-3	410.0 nM	410.0 nM	410.0 nM		410.0 nM			410.0 nM	410.0 nM		410.0 nM	323.27 nM		410.0 nM	460 nM	323.27 nM	91 µM	460 nM	
-81	myo-inositol	https://metacyc.org/compound?orgid=META&id=MYO-INOSITOL	META&id	MYO-INOSITOL	11 µM	11 µM	11 µM		11 µM		11 µM	11 µM	11 µM		11 µM			11 µM					
-42	nicotinate	https://metacyc.org/compound?orgid=META&id=NIACINE	META&id	NIACINE	7.3708 µM	410.0 nM	7.3708 µM		7.3708 µM		7.3708 µM	7.3708 µM	7.3708 µM		7.3708 µM			7.3708 µM	410.0 nM		8.2 µM	410.0 nM	8.2 µM
-54	nitrate	https://metacyc.org/compound?orgid=META&id=NITRATE	META&id	NITRATE	6.8 µM	6.8 µM	6.8 µM		6.8 µM			6.8 µM	6.8 µM		6.8 µM			6.8 µM	6.8 µM			6.8 µM	
-76	nitrilotriacetate	https://metacyc.org/compound?orgid=META&id=CPD-10188	META&id	CPD-10188	38.49 µM	38.49 µM	38.49 µM		38.49 µM		38.49 µM	38.49 µM	38.49 µM		38.49 µM			38.49 µM					
-15	phosphate	https://metacyc.org/compound?orgid=META&id=Pi	META&id	Pi	37.2 mM	37.2 mM	37.2 mM	17.6 mM	37.2 mM		37.2 mM	37.2 mM	37.2 mM		37.2 mM	1.3199 mM		37.2 mM		131.99 µM	3.4 mM		20.08 mM
-90	phylloquinone	https://metacyc.org/compound?orgid=META&id=2-METHYL-3-PHYTYL-14-NAPHTHOQUINONE	META&id	2-METHYL-3-PHYTYL-14-NAPHTHOQUINONE						11 µM													
+100	(E)-3-penten-2-one	https://metacyc.org/compound?orgid=META&id=CPD-16989	META&id	CPD-16989									5.2 mM										
+64	(R)-lipoate	https://metacyc.org/compound?orgid=META&id=LIPOIC-ACID	META&id	LIPOIC-ACID	5.114 µM				5.114 µM	5.114 µM				240 nM	4.9 µM	240 nM	5.114 µM	5.114 µM	5.114 µM			5.114 µM	5.114 µM
+43	(R)-pantothenate	https://metacyc.org/compound?orgid=META&id=PANTOTHENATE	META&id	PANTOTHENATE	5.04 µM		4.2 µM		6.59 µM	200 nM	4.2 µM			200 nM	5.04 µM	200 nM	5.04 µM	5.04 µM	5.04 µM			6.59 µM	5.04 µM
+93	(S)-lactate	https://metacyc.org/compound?orgid=META&id=L-LACTATE	META&id	L-LACTATE							89 mM												
+62	4-aminobenzoate	https://metacyc.org/compound?orgid=META&id=P-AMINO-BENZOATE	META&id	P-AMINO-BENZOATE	370 nM				370 nM	370 nM	3.7 µM			370 nM	411 nM	370 nM	370 nM	370 nM	370 nM			370 nM	370 nM
+61	Al3+	https://metacyc.org/compound?orgid=META&id=CPD-1484	META&id	CPD-1484	390 nM				390 nM	390 nM				390 nM		390 nM	390 nM	390 nM	390 nM			390 nM	390 nM
+1	Ca2+	https://metacyc.org/compound?orgid=META&id=CA%2b2	META&id	CA+2	274.62 µM		2.1 µM	500.1 µM	275.39 µM	81.1 µM	2.1 µM	50.01 mM		81.1 µM	274.62 µM	81.1 µM	274.62 µM	274.62 µM	274.62 µM		500.1 µM	275.39 µM	274.62 µM
+55	Co2+	https://metacyc.org/compound?orgid=META&id=CO%2b2	META&id	CO+2	4.3384 µM			35.205 nM	4.3384 µM	4.3384 µM				3.4 µM	938.4 nM	3.4 µM	4.3384 µM	4.3384 µM	4.3384 µM		35.205 nM	4.3384 µM	4.3384 µM
+60	Cu2+	https://metacyc.org/compound?orgid=META&id=CU%2b2	META&id	CU+2	751.86 nM			9.9997 nM	751.86 nM	401 nM				401 nM	751.86 nM	401 nM	751.86 nM	751.86 nM	751.86 nM		9.9997 nM	751.86 nM	751.86 nM
+53	EDTA	https://metacyc.org/compound?orgid=META&id=EDTA	META&id	EDTA	42.518 µM				42.518 µM	42.518 µM				17 µM	25.29 µM	17 µM	42.518 µM	42.518 µM	42.518 µM			42.518 µM	42.518 µM
+13	Fe2+	https://metacyc.org/compound?orgid=META&id=FE%2b2	META&id	FE+2	14.0 µM		180 µM	10 µM	14.0 µM	14.0 µM	68 µM	1.381 µM		5.04 µM	14.0 µM	5.04 µM	14.0 µM	14.0 µM	14.0 µM		10 µM	14.0 µM	14.0 µM
+80	Fe3+	https://metacyc.org/compound?orgid=META&id=FE%2b3	META&id	FE+3	18 µM				18 µM	18 µM					18 µM		18 µM	18 µM	18 µM			18 µM	18 µM
+41	HCl	https://metacyc.org/compound?orgid=META&id=HCL	META&id	HCL	67.16 µM		9.6604 µM		67.16 µM	42.66 µM	78.4 µM			170 nM	67.16 µM	170 nM	67.16 µM	67.16 µM	67.16 µM	1.9 mM		67.16 µM	67.16 µM
+9	K+	https://metacyc.org/compound?orgid=META&id=K%2b	META&id	K+	175.08 mM		5.1 mM	3.1918 mM	174.41 mM	97.247 mM	8.3 mM	99.94 µM		100.0 mM	97.201 mM	100.0 mM	174.41 mM	174.41 mM	174.41 mM	18.4 mM	815.98 µM	174.41 mM	175.08 mM
+30	L-alanine	https://metacyc.org/compound?orgid=META&id=L-ALPHA-ALANINE	META&id	L-ALPHA-ALANINE	4.5 mM		2.81 mM		450.0 µM	4.5 mM					4.5 mM		4.5 mM	4.5 mM	4.5 mM			4.5 mM	4.5 mM
+19	L-arginine	https://metacyc.org/compound?orgid=META&id=ARG	META&id	ARG	4.11 mM		14.3 mM		411.0 µM	4.11 mM			5.7 mM		4.11 mM		4.11 mM	4.11 mM	4.11 mM	5.7 mM		4.11 mM	4.11 mM
+34	L-ascorbate	https://metacyc.org/compound?orgid=META&id=ASCORBATE	META&id	ASCORBATE	2.9 mM		1.43 mM		2.9 mM	2.9 mM					2.9 mM		2.9 mM	2.9 mM	2.9 mM			2.9 mM	2.9 mM
+73	L-asparagine	https://metacyc.org/compound?orgid=META&id=ASN	META&id	ASN	3.8 mM				380 µM	3.8 mM					3.8 mM		3.8 mM	3.8 mM	3.8 mM			3.8 mM	3.8 mM
+21	L-aspartate	https://metacyc.org/compound?orgid=META&id=L-ASPARTATE	META&id	L-ASPARTATE	380 µM		7.6 mM		38 µM	380 µM	760 µM				380 µM		380 µM	380 µM	380 µM			380 µM	380 µM
+6	L-cysteine	https://metacyc.org/compound?orgid=META&id=CYS	META&id	CYS	4.1 mM		3.3 mM		410 µM	4.1 mM	410 µM	4.1 mM		4.1 mM	1.7 mM	4.1 mM	4.1 mM	4.1 mM	4.1 mM	1.9 mM		4.1 mM	4.1 mM
+22	L-glutamate	https://metacyc.org/compound?orgid=META&id=GLT	META&id	GLT	4.1 mM		6.8 mM		410 µM	4.1 mM					4.1 mM		4.1 mM	4.1 mM	4.1 mM			4.1 mM	4.1 mM
+72	L-glutamine	https://metacyc.org/compound?orgid=META&id=GLN	META&id	GLN	4.1 mM				410 µM	4.1 mM					4.1 mM		4.1 mM	4.1 mM	4.1 mM			4.1 mM	4.1 mM
+7	L-histidine	https://metacyc.org/compound?orgid=META&id=HIS	META&id	HIS	1.102 mM		3.2 mM		200 µM	1.102 mM		200 µM		200 µM	1.1 mM	200 µM	1.102 mM	1.102 mM	1.102 mM			1.102 mM	1.102 mM
+25	L-isoleucine	https://metacyc.org/compound?orgid=META&id=ILE	META&id	ILE	1.83 mM		3.8 mM		183 µM	1.83 mM					1.83 mM		1.83 mM	1.83 mM	1.83 mM			1.83 mM	1.83 mM
+26	L-leucine	https://metacyc.org/compound?orgid=META&id=LEU	META&id	LEU	7.6 mM		3.8 mM		760 µM	7.6 mM					7.6 mM		7.6 mM	7.6 mM	7.6 mM			7.6 mM	7.6 mM
+28	L-lysine	https://metacyc.org/compound?orgid=META&id=LYS	META&id	LYS	3.4 mM		3.4 mM		340.0 µM	3.4 mM					3.4 mM		3.4 mM	3.4 mM	3.4 mM			3.4 mM	3.4 mM
+31	L-methionine	https://metacyc.org/compound?orgid=META&id=MET	META&id	MET	837.8 µM		2.35 mM		83.78 µM	837.8 µM					837.8 µM		837.8 µM	837.8 µM	837.8 µM			837.8 µM	837.8 µM
+33	L-phenylalanine	https://metacyc.org/compound?orgid=META&id=PHE	META&id	PHE	2.4 mM		1.51 mM		240.0 µM	2.4 mM					2.4 mM		2.4 mM	2.4 mM	2.4 mM				2.4 mM
+32	L-proline	https://metacyc.org/compound?orgid=META&id=PRO	META&id	PRO	6.1 mM		2.17 mM		610.0 µM	6.1 mM					6.1 mM		6.1 mM	6.1 mM	6.1 mM			6.1 mM	6.1 mM
+27	L-serine	https://metacyc.org/compound?orgid=META&id=SER	META&id	SER	4.8 mM		3.568 mM		480.0 µM	4.8 mM	950 µM				4.8 mM		4.8 mM	4.8 mM	4.8 mM			4.8 mM	4.8 mM
+24	L-threonine	https://metacyc.org/compound?orgid=META&id=THR	META&id	THR	4.2 mM		4.2 mM		420 µM	4.2 mM					4.2 mM		4.2 mM	4.2 mM	4.2 mM			4.2 mM	4.2 mM
+36	L-tryptophan	https://metacyc.org/compound?orgid=META&id=TRP	META&id	TRP	980.0 µM		1.22 mM		98 µM	980.0 µM					980.0 µM		980.0 µM	980.0 µM	980.0 µM	980.0 µM			980.0 µM
+35	L-tyrosine	https://metacyc.org/compound?orgid=META&id=TYR	META&id	TYR	1.7 mM		1.38 mM		170 µM	1.7 mM	220 µM				1.7 mM		1.7 mM	1.7 mM	1.7 mM				1.7 mM
+29	L-valine	https://metacyc.org/compound?orgid=META&id=VAL	META&id	VAL	6 mM		3.201 mM		600 µM	6 mM					6 mM		6 mM	6 mM	6 mM			6 mM	6 mM
+8	Mg2+	https://metacyc.org/compound?orgid=META&id=MG%2b2	META&id	MG+2	124.05 µM		410 µM	527.99 µM	124.05 µM	124.05 µM	810 nM	99.99 µM		120.0 µM	4.0542 µM	120.0 µM	124.05 µM	124.05 µM	124.05 µM		527.99 µM	124.05 µM	124.05 µM
+37	Mn2+	https://metacyc.org/compound?orgid=META&id=MN%2b2	META&id	MN+2	3 µM		223.7 µM	97.463 nM	3 µM	3 µM	59.0 µM				651 nM		3 µM	3 µM	3 µM		97.463 nM	3 µM	3 µM
+70	N-tris(hydroxymethyl)methylglycine	https://metacyc.org/compound?orgid=META&id=CPD0-2399	META&id	CPD0-2399	8.37 mM			1.2831 mM	8.37 mM	8.37 mM					8.37 mM		8.37 mM	8.37 mM	8.37 mM		1.2831 mM	8.37 mM	8.37 mM
+82	NAD+	https://metacyc.org/compound?orgid=META&id=NAD	META&id	NAD	3 µM				3 µM	3 µM							3 µM	3 µM	3 µM			3 µM	3 µM
+4	Na+	https://metacyc.org/compound?orgid=META&id=NA%2b	META&id	NA+	18.701 mM	121.2 mM	48.96 mM	49.96 mM	56.301 mM	56.301 mM	89.979 mM	15.1 mM	91.2 mM	6.3009 mM	51 mM	6.3009 mM	56.301 mM	56.301 mM	56.301 mM	53.6 mM	49.96 mM	56.301 mM	18.701 mM
+57	Ni2+	https://metacyc.org/compound?orgid=META&id=NI%2b2	META&id	NI+2										990 nM		990 nM							
+38	Zn2+	https://metacyc.org/compound?orgid=META&id=ZN%2b2	META&id	ZN+2	17 µM		170 µM	8.8265 nM	17 µM	3.5 µM	17 µM			3.5 µM	17 µM	3.5 µM	17 µM	17 µM	17 µM		8.8265 nM	17 µM	17 µM
+50	acetate	https://metacyc.org/compound?orgid=META&id=ACET	META&id	ACET	28.8 µM				28.8 µM	28.8 µM				28.8 µM		28.8 µM	28.8 µM		28.8 µM			28.8 µM	28.8 µM
+39	adenine	https://metacyc.org/compound?orgid=META&id=ADENINE	META&id	ADENINE	81.4 µM		128.8 µM		81.4 µM	81.4 µM					81.4 µM		81.4 µM	81.4 µM	81.4 µM			81.4 µM	81.4 µM
+14	adenosylcobalamin	https://metacyc.org/compound?orgid=META&id=ADENOSYLCOBALAMIN	META&id	ADENOSYLCOBALAMIN	6.3e-10 M				6.3e-10 M	6.3e-10 M		3.2 nM		6.3e-10 M		6.3e-10 M	6.3e-10 M	6.3e-10 M	6.3e-10 M			6.3e-10 M	6.3e-10 M
+3	ammonium	https://metacyc.org/compound?orgid=META&id=AMMONIUM	META&id	AMMONIUM	15.101 mM			9.497 mM	15.101 mM	15.101 mM	10.536 mM	16.952 mM			15.101 mM		15.101 mM	15.101 mM	15.101 mM		380.06 µM	15.101 mM	15.101 mM
+46	biotin	https://metacyc.org/compound?orgid=META&id=BIOTIN	META&id	BIOTIN	24.74 µM		21 nM		24.74 µM	82 nM				82 nM	25 µM	82 nM	24.74 µM	24.74 µM	24.74 µM			24.74 µM	24.74 µM
+56	borate	https://metacyc.org/compound?orgid=META&id=BORATE	META&id	BORATE	12.1 µM			399.99 nM	12.1 µM	1.6 µM				1.6 µM	12.1 µM	1.6 µM	12.1 µM	12.1 µM	12.1 µM		399.99 nM	12.1 µM	12.1 µM
+52	butanoate	https://metacyc.org/compound?orgid=META&id=BUTYRIC_ACID	META&id	BUTYRIC_ACID	23.0 µM				23.0 µM	23.0 µM				23.0 µM		23.0 µM	23.0 µM		23.0 µM			23.0 µM	23.0 µM
+94	carbonate	https://metacyc.org/compound?orgid=META&id=CO3	META&id	CO3							5.2 mM												
+0	chloride	https://metacyc.org/compound?orgid=META&id=CL-	META&id	CL-	15.177 mM	86 mM		61.513 mM	52.107 mM	51.725 mM		115.32 mM	86 mM	1.663 mM	51.607 mM	1.663 mM	52.107 mM	52.107 mM	52.107 mM	51 mM	52.396 mM	52.107 mM	15.177 mM
+71	citrate	https://metacyc.org/compound?orgid=META&id=CIT	META&id	CIT	7.55 mM				7.55 mM	7.55 mM					7.55 mM		7.55 mM	7.55 mM	7.55 mM			7.55 mM	7.55 mM
+10	dihydrogenphosphate	https://metacyc.org/compound?orgid=META&id=CPD-16459	META&id	CPD-16459	100.0 mM		5.1 mM		100.0 mM	22.846 mM	1.5 mM	99.94 µM		100.0 mM	22.8 mM	100.0 mM	100.0 mM	100.0 mM	100.0 mM	18.4 mM		100.0 mM	100.0 mM
+67	folate	https://metacyc.org/compound?orgid=META&id=CPD-12826	META&id	CPD-12826	1.27 µM				1.27 µM	46 nM				46 nM	1.27 µM	46 nM	1.27 µM	1.27 µM	1.27 µM			1.27 µM	1.27 µM
+75	glutathione	https://metacyc.org/compound?orgid=META&id=GLUTATHIONE	META&id	GLUTATHIONE	49 µM				49 µM	49 µM					49 µM		49 µM	49 µM	49 µM			49 µM	49 µM
+23	glycine	https://metacyc.org/compound?orgid=META&id=GLY	META&id	GLY	4 mM		6.7 mM		400.0 µM	4 mM					4 mM		4 mM	4 mM	4 mM			4 mM	4 mM
+77	guanine	https://metacyc.org/compound?orgid=META&id=GUANINE	META&id	GUANINE	37.1 µM				37.1 µM	37.1 µM					37.1 µM		37.1 µM	37.1 µM	37.1 µM			37.1 µM	37.1 µM
+12	hematin	https://metacyc.org/compound?orgid=META&id=CPD-11677	META&id	CPD-11677	1.9 µM				1.9 µM	1.9 µM		1.9 µM		1.9 µM		1.9 µM	1.9 µM	1.9 µM	1.9 µM			1.9 µM	1.9 µM
+83	hemin	https://metacyc.org/compound?orgid=META&id=CPD-11678	META&id	CPD-11678	770 nM				770 nM	770 nM			7.7 µM				770 nM	770 nM	770 nM	15 µM		770 nM	770 nM
+85	heptamolybdate	https://metacyc.org/compound?orgid=META&id=CPD0-2517	META&id	CPD0-2517	153.74 nM				153.74 nM	153.74 nM					153.74 nM		153.74 nM	153.74 nM	153.74 nM			153.74 nM	153.74 nM
+47	hydrogencarbonate	https://metacyc.org/compound?orgid=META&id=HCO3	META&id	HCO3	4.8 mM				4.8 mM	4.8 mM				4.8 mM		4.8 mM	4.8 mM	4.8 mM	4.8 mM			4.8 mM	4.8 mM
+84	iodide	https://metacyc.org/compound?orgid=META&id=CPD-387	META&id	CPD-387	663 nM				663 nM	663 nM					663 nM		663 nM	663 nM	663 nM			663 nM	663 nM
+58	isovalerate	https://metacyc.org/compound?orgid=META&id=ISOVALERATE	META&id	ISOVALERATE	990 nM				990 nM	990 nM				990 nM		990 nM	990 nM		990 nM			990 nM	990 nM
+11	menadione	https://metacyc.org/compound?orgid=META&id=CPD-3766	META&id	CPD-3766	5.8 µM				5.8 µM	5.8 µM		5.8 µM	2.9 nM	5.8 µM		5.8 µM	5.8 µM	5.8 µM	5.8 µM			5.8 µM	5.8 µM
+98	metavanadate	https://metacyc.org/compound?orgid=META&id=CPD-22911	META&id	CPD-22911							8.2 µM												
+59	molybdate	https://metacyc.org/compound?orgid=META&id=CPD-3	META&id	CPD-3	410.0 nM			323.27 nM	410.0 nM	410.0 nM	91 µM			460 nM		460 nM	410.0 nM	410.0 nM	410.0 nM		323.27 nM	410.0 nM	410.0 nM
+81	myo-inositol	https://metacyc.org/compound?orgid=META&id=MYO-INOSITOL	META&id	MYO-INOSITOL	11 µM				11 µM	11 µM					11 µM		11 µM	11 µM	11 µM			11 µM	11 µM
+42	nicotinate	https://metacyc.org/compound?orgid=META&id=NIACINE	META&id	NIACINE	7.3708 µM		8.2 µM		7.3708 µM	410.0 nM	8.2 µM			410.0 nM	7.3708 µM	410.0 nM	7.3708 µM	7.3708 µM	7.3708 µM			7.3708 µM	7.3708 µM
+54	nitrate	https://metacyc.org/compound?orgid=META&id=NITRATE	META&id	NITRATE	6.8 µM				6.8 µM	6.8 µM				6.8 µM		6.8 µM	6.8 µM	6.8 µM	6.8 µM			6.8 µM	6.8 µM
+76	nitrilotriacetate	https://metacyc.org/compound?orgid=META&id=CPD-10188	META&id	CPD-10188	38.49 µM				38.49 µM	38.49 µM					38.49 µM		38.49 µM	38.49 µM	38.49 µM			38.49 µM	38.49 µM
+15	phosphate	https://metacyc.org/compound?orgid=META&id=Pi	META&id	Pi	37.2 mM	17.6 mM	20.08 mM	1.3199 mM	37.2 mM	37.2 mM	3.4 mM				37.2 mM		37.2 mM	37.2 mM	37.2 mM		131.99 µM	37.2 mM	37.2 mM
+90	phylloquinone	https://metacyc.org/compound?orgid=META&id=2-METHYL-3-PHYTYL-14-NAPHTHOQUINONE	META&id	2-METHYL-3-PHYTYL-14-NAPHTHOQUINONE																11 µM			
 86	potassiumacetate	https://metacyc.org/compound?orgid=META&id=CPD-22893	META&id	CPD-22893																			
-51	propanoate	https://metacyc.org/compound?orgid=META&id=PROPIONATE	META&id	PROPIONATE	27 µM	27 µM	27 µM		27 µM				27 µM		27 µM			27 µM	27 µM			27 µM	
-96	putrescine	https://metacyc.org/compound?orgid=META&id=PUTRESCINE	META&id	PUTRESCINE																	31 µM		
-97	pyridoxal	https://metacyc.org/compound?orgid=META&id=PYRIDOXAL	META&id	PYRIDOXAL																	9.8 µM		
-45	pyridoxamine	https://metacyc.org/compound?orgid=META&id=PYRIDOXAMINE	META&id	PYRIDOXAMINE	21.0 µM	21.0 µM	21.0 µM		21.0 µM		21.0 µM	21.0 µM	21.0 µM		21.0 µM			21.0 µM					3.1802 µM
-79	pyridoxine	https://metacyc.org/compound?orgid=META&id=PYRIDOXINE	META&id	PYRIDOXINE	23.3 µM	490.0 nM	23.3 µM		23.3 µM		23.3 µM	23.3 µM	23.3 µM		23.3 µM			23.3 µM					
-99	pyruvate	https://metacyc.org/compound?orgid=META&id=PYRUVATE	META&id	PYRUVATE													5.2 mM						
-69	resazurin	https://metacyc.org/compound?orgid=META&id=CPD-22877	META&id	CPD-22877	4.4 µM	4.4 µM	4.4 µM		4.4 µM			4.4 µM	4.4 µM		4.4 µM			4.4 µM					
-65	riboflavin	https://metacyc.org/compound?orgid=META&id=RIBOFLAVIN	META&id	RIBOFLAVIN	2.3977 µM	130.0 nM	2.3977 µM		2.3977 µM		2.3977 µM	2.3977 µM	2.3977 µM		2.3977 µM			2.3977 µM	130.0 nM			130.0 nM	
-66	selenite	https://metacyc.org/compound?orgid=META&id=SELENITE	META&id	SELENITE															58 nM			58 nM	
-5	sulfate	https://metacyc.org/compound?orgid=META&id=SULFATE	META&id	SULFATE	155.53 µM	141.68 µM	155.53 µM		155.53 µM		32.403 µM	155.53 µM	155.53 µM	8.4774 mM	155.53 µM	286.02 µM		155.53 µM	129.72 µM	286.02 µM	144.81 µM	129.72 µM	983.7 µM
-44	thiamine	https://metacyc.org/compound?orgid=META&id=THIAMINE	META&id	THIAMINE	1.86 µM	170 nM	1.86 µM		1.86 µM		1.86 µM	1.86 µM	1.86 µM		1.86 µM			1.86 µM	170 nM		6.6 µM	170 nM	3.3 µM
-20	thioglycolate	https://metacyc.org/compound?orgid=META&id=THIOGLYCOLATE	META&id	THIOGLYCOLATE						2.6 mM											880.0 µM		8.8 mM
-63	tungstate	https://metacyc.org/compound?orgid=META&id=TUNGSTATE	META&id	TUNGSTATE	330 nM	330 nM	330 nM		330 nM			330 nM	330 nM		330 nM			330 nM	330 nM			330 nM	
-40	uracil	https://metacyc.org/compound?orgid=META&id=URACIL	META&id	URACIL	205.0 µM	205.0 µM	205.0 µM		205.0 µM		205.0 µM	205.0 µM	205.0 µM		205.0 µM			205.0 µM					89.0 µM
-78	xanthine	https://metacyc.org/compound?orgid=META&id=XANTHINE	META&id	XANTHINE	25 µM	25 µM	25 µM		25 µM		25 µM	25 µM	25 µM		25 µM			25 µM					
-49	β-D-cellobiose	https://metacyc.org/compound?orgid=META&id=CELLOBIOSE	META&id	CELLOBIOSE	2.9 mM	2.9 mM			2.9 mM			2.9 mM	2.9 mM		2.9 mM				2.9 mM			2.9 mM	
+51	propanoate	https://metacyc.org/compound?orgid=META&id=PROPIONATE	META&id	PROPIONATE	27 µM				27 µM	27 µM				27 µM		27 µM	27 µM		27 µM			27 µM	27 µM
+96	putrescine	https://metacyc.org/compound?orgid=META&id=PUTRESCINE	META&id	PUTRESCINE							31 µM												
+97	pyridoxal	https://metacyc.org/compound?orgid=META&id=PYRIDOXAL	META&id	PYRIDOXAL							9.8 µM												
+45	pyridoxamine	https://metacyc.org/compound?orgid=META&id=PYRIDOXAMINE	META&id	PYRIDOXAMINE	21.0 µM		3.1802 µM		21.0 µM	21.0 µM					21.0 µM		21.0 µM	21.0 µM	21.0 µM			21.0 µM	21.0 µM
+79	pyridoxine	https://metacyc.org/compound?orgid=META&id=PYRIDOXINE	META&id	PYRIDOXINE	23.3 µM				23.3 µM	490.0 nM					23.3 µM		23.3 µM	23.3 µM	23.3 µM			23.3 µM	23.3 µM
+99	pyruvate	https://metacyc.org/compound?orgid=META&id=PYRUVATE	META&id	PYRUVATE									5.2 mM										
+69	resazurin	https://metacyc.org/compound?orgid=META&id=CPD-22877	META&id	CPD-22877	4.4 µM				4.4 µM	4.4 µM							4.4 µM	4.4 µM	4.4 µM			4.4 µM	4.4 µM
+65	riboflavin	https://metacyc.org/compound?orgid=META&id=RIBOFLAVIN	META&id	RIBOFLAVIN	2.3977 µM				2.3977 µM	130.0 nM				130.0 nM	2.3977 µM	130.0 nM	2.3977 µM	2.3977 µM	2.3977 µM			2.3977 µM	2.3977 µM
+66	selenite	https://metacyc.org/compound?orgid=META&id=SELENITE	META&id	SELENITE										58 nM		58 nM							
+5	sulfate	https://metacyc.org/compound?orgid=META&id=SULFATE	META&id	SULFATE	155.53 µM		983.7 µM	286.02 µM	155.53 µM	141.68 µM	144.81 µM	8.4774 mM		129.72 µM	32.403 µM	129.72 µM	155.53 µM	155.53 µM	155.53 µM		286.02 µM	155.53 µM	155.53 µM
+44	thiamine	https://metacyc.org/compound?orgid=META&id=THIAMINE	META&id	THIAMINE	1.86 µM		3.3 µM		1.86 µM	170 nM	6.6 µM			170 nM	1.86 µM	170 nM	1.86 µM	1.86 µM	1.86 µM			1.86 µM	1.86 µM
+20	thioglycolate	https://metacyc.org/compound?orgid=META&id=THIOGLYCOLATE	META&id	THIOGLYCOLATE			8.8 mM				880.0 µM									2.6 mM			
+63	tungstate	https://metacyc.org/compound?orgid=META&id=TUNGSTATE	META&id	TUNGSTATE	330 nM				330 nM	330 nM				330 nM		330 nM	330 nM	330 nM	330 nM			330 nM	330 nM
+40	uracil	https://metacyc.org/compound?orgid=META&id=URACIL	META&id	URACIL	205.0 µM		89.0 µM		205.0 µM	205.0 µM					205.0 µM		205.0 µM	205.0 µM	205.0 µM			205.0 µM	205.0 µM
+78	xanthine	https://metacyc.org/compound?orgid=META&id=XANTHINE	META&id	XANTHINE	25 µM				25 µM	25 µM					25 µM		25 µM	25 µM	25 µM			25 µM	25 µM
+49	β-D-cellobiose	https://metacyc.org/compound?orgid=META&id=CELLOBIOSE	META&id	CELLOBIOSE					2.9 mM	2.9 mM				2.9 mM		2.9 mM	2.9 mM	2.9 mM				2.9 mM	2.9 mM
 16	Beefheart(infusionfrom250g)	https://metacyc.org/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX1370-4	Non-Defined-Mixtures&object	MIX1370-4																			
 17	Calfbrains(infusionfrom200g)	https://metacyc.org/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX1370-3	Non-Defined-Mixtures&object	MIX1370-3																			
 91	liverextract	https://metacyc.org/META/NEW-IMAGE?type=Non-Defined-Mixtures&object=MIX-10911	Non-Defined-Mixtures&object	MIX-10911																			
