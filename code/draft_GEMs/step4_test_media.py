@@ -24,7 +24,7 @@ import media
 os.chdir('../../data/')
 
 # %% <IO>
-species_table = 'species.tsv'
+species_table = 'species_with_addition.tsv'
 # species_table = 'temp_species_with_addition_3.tsv'
 species_df = pd.read_csv(species_table, sep='\t')
 name_list = list(species_df['file_name'])
